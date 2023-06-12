@@ -380,6 +380,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="28e65f6d-8f3a-4fcf-8499-99c69349fa2b">
+    <name>РеквизитОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="b5f44dd3-c279-4fea-a796-cca093da2f93">
     <producedTypes>
       <objectType typeId="6a056de7-ab5d-4f46-a977-8c76a3f1a4b3" valueTypeId="8ce20d82-d472-4631-ad7c-fc8c3ef3fba8"/>
