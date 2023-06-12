@@ -624,6 +624,7 @@
   <constants>Constant.ЦентрМониторингаОтветСервиса</constants>
   <constants>Constant.ЧислоПотоковОбновленияИБ</constants>
   <constants>Constant.ЧислоПотоковОбработкиДампов</constants>
+  <constants>Constant.Константа111</constants>
   <commonForms>CommonForm.АнализДампов</commonForms>
   <commonForms>CommonForm.Аутентификация</commonForms>
   <commonForms>CommonForm.ВводПочтовогоАдреса</commonForms>
