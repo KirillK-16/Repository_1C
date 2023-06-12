@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc185e71-6336-475c-971f-3d444b58c706">
+  <producedTypes>
+    <objectType typeId="ee56d8de-8419-4af8-82d9-51cda6a923bc" valueTypeId="cbbd2fe4-71ca-42be-b3e8-1073f59fae75"/>
+    <refType typeId="3f8f834a-1217-4599-9888-b5e74ae3b08d" valueTypeId="e4be84f4-997a-4935-92bd-cc83c540a52f"/>
+    <selectionType typeId="c243da57-5258-4372-9b19-989fde696d4a" valueTypeId="d17cfc3d-69d1-4fc2-8269-863a6fce2be6"/>
+    <listType typeId="b543ff9a-2c63-4c34-9990-616d7824f556" valueTypeId="257301fb-f653-4b1b-aef7-95c5040d6679"/>
+    <managerType typeId="0d3fa88d-b6e3-44cf-9e79-01f4498bc8fc" valueTypeId="b5885c77-000b-4cbc-86fc-45a475099fe1"/>
+  </producedTypes>
+  <name>ТипыЗадачСборДампов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы задач при контроле устойчивости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыЗадачСборДампов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="9e7c0685-8635-4e70-93c4-21594d548a20">
+      <name>КаталогЛоговЗавершившегосяПроцессаПуст</name>
+      <description>Каталог логов завершившегося процесса пуст</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1090393b-073b-4f8f-883c-af1eb8bc3d4a">
+      <name>НеНайденТЖ</name>
+      <description>Не найден технологический журнал для файла дампа</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bedb6f64-11ed-41dc-9fa0-03eaa68db10b">
+      <name>НеУдаляетсяДамп</name>
+      <description>Не удаляется дамп</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fe91d552-7ff0-40c5-9bf5-1c2955258a48">
+      <name>ПустойФайлЛогов</name>
+      <description>Обнаружен пустой файл технологического журнала завершившегося рабочего процесса</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="67532f6e-7ab7-4aac-80c5-31bac6cf79a9">
+      <name>ОшибкаПриОбработкеДампа</name>
+      <description>Ошибка при обработке дампа</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="438cbd00-72b9-48bc-8b2b-a0bff8213b84">
+      <name>СборДамповИсправленныйДампПересмотреть</name>
+      <description>Пересмотреть ошибки по дампу памяти</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4f421f6b-b66b-4022-af04-d71d3355a906">
+      <name>ПроцессЗавершилсяБезДампа</name>
+      <description>Процесс завершился без образования дампа</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7991187a-327e-4b8c-b482-7d6504747a30">
+      <name>СборДамповНовыйДампРассмотреть</name>
+      <description>Рассмотреть ошибки по дампу памяти</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТипыЗадачСборДампов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ТипыЗадачСборДампов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="d64cfffc-3a0c-4da5-881d-568637b907fc">
+    <name>ОповещатьПриКаждомИнциденте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оповещать при каждом инциденте</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2d5cbf4b-9ca7-43d1-9008-fb1eebb73cb6">
+    <name>МинимальныйПериодОповещенияСек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальный период оповещения в секундах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bd6fbe01-5d84-4798-8342-ef0e374c3ef5">
+    <name>ПроверятьПриВыполнении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять при выполнении</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="69f5d39b-e3df-4634-a2f5-9b272788ebe3">
+    <name>ДополнительныйТекстПредупреждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительный текст предупреждения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a4810b96-4a7c-4874-8e0a-e9d48b5d8673">
+    <name>ШаблонПервойРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон первой регистрации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9209e634-1ee8-429f-b635-30b58bf0d1c6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7065474c-710a-4f91-b1b5-5e2fb6b30fb8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

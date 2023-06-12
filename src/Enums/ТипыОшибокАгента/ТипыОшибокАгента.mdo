@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a19217e-8859-4300-8805-637e75215d70">
+  <producedTypes>
+    <refType typeId="73c6a036-3a3f-4e8c-8300-fe00c9e2a913" valueTypeId="c4cfa2c8-b864-46c2-aea4-c06a47a498b8"/>
+    <listType typeId="01374d1c-581f-4fd6-8109-1f9874ab953c" valueTypeId="93f1cfb3-5ccf-435d-913c-bed0fb518a89"/>
+    <managerType typeId="b4a20de0-835a-4057-9750-3d972cb0ec90" valueTypeId="abbaf736-9d46-476a-a1e1-ea46894277c3"/>
+  </producedTypes>
+  <name>ТипыОшибокАгента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ошибок агента</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b60c8fd4-8913-4e72-b832-3d64ed3be1df">
+    <name>ОтсутствуетИдентификаторАгента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствует идентификатор агента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79c8d47f-e075-4de5-90a0-285c011c98b9">
+    <name>НекорректнаяВерсияАгента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Некорректная версия агента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5fd80f6f-7d0a-41fa-9c79-5291ab337b1d">
+    <name>ИмяХостаАгентаНеСоответствуетПолученному</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя хоста агента не соответствует полученному</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

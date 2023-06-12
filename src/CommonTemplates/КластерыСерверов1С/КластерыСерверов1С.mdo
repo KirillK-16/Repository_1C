@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f268e05f-a73d-4b19-a2c4-31066352b65f">
+  <name>КластерыСерверов1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кластеры серверов 1С</value>
+  </synonym>
+  <templateType>HTMLDocument</templateType>
+</mdclass:CommonTemplate>

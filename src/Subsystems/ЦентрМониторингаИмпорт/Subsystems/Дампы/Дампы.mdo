@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da46e675-9a4f-4007-949b-9c53a934decf">
+  <name>Дампы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дампы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ДампыЦентраМониторинга</content>
+  <content>InformationRegister.ЗапрошенныеДампы</content>
+  <content>InformationRegister.ПолученныеДампы</content>
+  <content>InformationRegister.РезультатОтправкиДампа</content>
+  <content>Constant.НастройкиПолученияПолныхДампов</content>
+  <content>ScheduledJob.ЦентрМониторингаПолучениеДампов</content>
+  <parentSubsystem>Subsystem.ЦентрМониторингаИмпорт</parentSubsystem>
+</mdclass:Subsystem>

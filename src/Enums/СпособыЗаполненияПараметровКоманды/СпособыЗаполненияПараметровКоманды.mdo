@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a59de756-110e-4a05-9976-9570f318bda6">
+  <producedTypes>
+    <refType typeId="43d0af22-1c74-4675-ab4a-a6c3717b1ec7" valueTypeId="64188510-5712-4ee4-943a-05442a65b116"/>
+    <listType typeId="5c7a326b-726b-4ab7-82c6-19b95f7e4529" valueTypeId="cffed5af-0cdf-49b1-9835-6d6b0a888802"/>
+    <managerType typeId="d633a59d-e09a-42f0-b669-0c37a7fa6c1f" valueTypeId="4a992725-de88-4090-b1d6-8e9158139d7a"/>
+  </producedTypes>
+  <name>СпособыЗаполненияПараметровКоманды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы заполнения параметров команды</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="82233cea-e226-4a23-94ab-045ebd113ecd">
+    <name>РучнойВвод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручной ввод</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cfc7fc8f-1846-497f-a4da-98f99e8bd27a">
+    <name>ИзОбъектаМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Из объекта метаданных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8bd11251-ae48-4d50-9f0c-3fb3f58cae9b">
+    <name>ИзКонфиденциальногоХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Из конфиденциального хранилища</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd99423c-fe46-46f1-b46d-20b883a7b1d1">
+    <name>ПустаяСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>&lt; пустая строка ></value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

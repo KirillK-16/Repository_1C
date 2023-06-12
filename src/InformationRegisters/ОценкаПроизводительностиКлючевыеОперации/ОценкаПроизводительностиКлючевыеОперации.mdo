@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="460cb5a6-07e1-41e3-8449-7d1deeb2620f">
+  <producedTypes>
+    <selectionType typeId="6b9780a3-f98d-423f-aff5-5ca19d5dcec2" valueTypeId="f5aa5ba9-14b5-4316-aada-4e8957e8edd2"/>
+    <listType typeId="7d15e16f-6286-46a2-9812-d9cdc6e8a39c" valueTypeId="f8754afe-e5b9-4e2b-8745-191b6bed7d08"/>
+    <managerType typeId="3c480fdf-dfd8-425d-b30b-fde5d713f5f5" valueTypeId="dda47e72-c565-463c-9d5b-3cfb7ff7bd9b"/>
+    <recordSetType typeId="5a8c7b7e-fe7e-4389-adb6-29efe9a92e13" valueTypeId="a31628a8-7fd7-41f7-a21f-fc70da9f72cb"/>
+    <recordKeyType typeId="7e68b2f1-4e09-43f1-8f71-d41f19620d77" valueTypeId="7ab3a4ef-8a76-43cf-a7e2-a250bb10e572"/>
+    <recordType typeId="bd945c99-17f4-4dc1-9521-13b3637a44d3" valueTypeId="059511b3-791d-4234-b505-e43018722224"/>
+    <recordManagerType typeId="c89f137a-7f3c-41e8-a737-b303fb891243" valueTypeId="0695fb2b-ce1b-41ee-920c-806897d78f7e"/>
+  </producedTypes>
+  <name>ОценкаПроизводительностиКлючевыеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка производительности: ключевые операции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ОценкаПроизводительностиКлючевыеОперации.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ОценкаПроизводительностиКлючевыеОперации.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="328e3548-50de-4d03-9866-7db76cb31d54">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="8d8dfc31-f40c-4ff8-87c1-54c5483de41f">
+    <name>ЦелевоеВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Целевое время</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6c56ff6e-a13d-412e-bab0-d3ff0f0e7823">
+    <name>МинимальноДопустимыйУровень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимально допустимый уровень</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6aa65b8c-59e3-4351-a9d9-3abb78aee520">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="bc4fd8a6-871c-418a-83be-c5b976765b9b">
+    <name>ПриоритетВИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет в информационной базе</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6fa37814-ad8e-461a-a9c6-aa9b89b3b71d">
+    <name>ЦелевоеВремяВИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Целевое время в информационной базе</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="c92fe64b-57c5-4fca-b488-0e12513dea42">
+    <name>ВыполненаСОшибкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена с ошибкой</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8d0d4e72-da65-4957-bf62-a8575a7d63f0">
+    <name>ПомеченаНаУдаление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помечена на удаление</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="02fa7a2d-5660-439b-b483-42b23707d157">
+    <name>УникальныйИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="6b886050-a363-4ad2-97e7-2358b06f69c7">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="5b81e6b4-7150-4ca4-924b-5ff9349865d0">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="137a09df-2f9b-406b-afe6-6564a9f5764c">
+    <name>ФормаВыбораИмяКлючевойОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор имени ключевой операции</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bea45771-2fb9-4ac0-8177-ef84f991a56d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2c294716-11c3-4b16-aeed-c972d7095419">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="18fc8604-69dd-4b81-b48f-1998a08a6ca4">
+    <name>ФормаСпискаВнутренниеЗамеры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка внутренние замеры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ef9e6554-aeea-40a4-8154-2b1da6850d65">
+    <name>ФормаЗаписиВнутренниеЗамеры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи внутренние замеры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="92f09666-2e23-4c35-87a0-ecda9459766b">
+    <name>ФормаВыбораИменКлючевыхОперацийИнформационныхБаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора имен ключевых операций информационных баз</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="946f8481-90da-4eac-b7d1-b63bab517363">
+    <name>ВнутренниеЗамерыПроизводительностиОткрыть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренние замеры производительности</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

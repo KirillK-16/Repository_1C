@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a786b6c-7007-4981-86d9-466097448cc8">
+  <producedTypes>
+    <selectionType typeId="52c317db-a2ea-4c84-a0e0-7a7c389de44a" valueTypeId="9bfe106c-98ca-44c2-a96b-3072dde521ec"/>
+    <listType typeId="95cf4dab-e741-4788-996e-9b50b78956c7" valueTypeId="503c2f01-23d8-442a-97b8-4c06f818c92d"/>
+    <managerType typeId="83e0bdec-6ead-4966-84bc-7a3c62828949" valueTypeId="c31248e9-7324-44bc-9e8e-71d2e0a82d6a"/>
+    <recordSetType typeId="23a93d77-6763-457a-b191-07571605dc9d" valueTypeId="7b554c00-81bf-400a-8db2-8b439f4b59b2"/>
+    <recordKeyType typeId="1bbfdd22-cc76-43c4-af96-30b1e456de25" valueTypeId="ef8a0d36-1657-4f28-84a3-3800a87253b2"/>
+    <recordType typeId="c8ad97ee-70e1-4479-878d-633c388ef656" valueTypeId="864fd99f-0e31-45ea-b774-c22ec5e03a5d"/>
+    <recordManagerType typeId="a2338379-e614-40ba-994d-48bdcd4d95a8" valueTypeId="e9192b42-3b58-4b66-831c-f765aef94f7e"/>
+  </producedTypes>
+  <name>ПланЗапускаСценариевАвтоматизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>План запуска сценариев автоматизации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f173274c-6bc6-4228-83e4-c643e5095c24">
+    <name>ЭкземплярРодитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экземпляр родитель</value>
+    </synonym>
+    <comment>Если сценарий выполняется многократно по расписанию, то для этого каждый раз создаются новые экземпляры. Но привязка к изначальному сохраняется в данном реквизите</comment>
+    <type>
+      <types>CatalogRef.ЭкземплярыСценариевАвтоматизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6dcd8236-a7c3-4a69-8b8c-cd7cb7fa3f72">
+    <name>Начало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="88d71385-1873-4325-b93b-563e68ea04eb">
+    <name>Окончание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7e4ffdc7-a5ad-4de7-bb96-3541c694a58e">
+    <name>ДатаЗамещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата замещения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="232f1ea7-d85b-4a4d-baf3-5aefde4d9f7a">
+    <name>ВыполняетсяПоРасписанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняется по расписанию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2c31f431-1ef3-411a-9a11-78d63ec87098">
+    <name>Удаленный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаленный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="40f502bc-3288-479f-9f18-78abc3d7c83f">
+    <name>Расписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расписание</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="52fd1a73-56f5-458d-8059-1ef2b1587e59">
+    <name>ЭкземплярСценария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экземпляр сценария</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭкземплярыСценариевАвтоматизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4753220-c339-483f-b3fe-856055e7a902">
+  <producedTypes>
+    <refType typeId="f567be54-4a16-4ea4-8d7b-3dc688709610" valueTypeId="9edc5725-c1fd-4eaf-8596-e61264b5fe22"/>
+    <listType typeId="7749ca35-9752-4400-83d1-eaeb1f7d9e16" valueTypeId="73abb913-2d7e-4c9d-b115-49fb7f5d49a7"/>
+    <managerType typeId="eac694b3-ac6a-4bef-8ccf-a62d6e382d10" valueTypeId="76fb904b-ab99-46e7-b701-52417bd439d7"/>
+  </producedTypes>
+  <name>ТипыГруппировокЕдиницАвтоматизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы группировок единиц автоматизации</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f7fbaf87-df8c-4d86-a8f2-cf8501df4d30">
+    <name>Нода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="74463479-3c5f-4759-bf88-2c96ae83e385">
+    <name>Кластер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кластер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5491cf5-0d4c-4cd6-9741-7431c93884b6">
+    <name>Нагрузчики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нагрузчики</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa0a97ae-64d3-4e39-9210-e7f6ca7894a0">
+    <name>Сервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

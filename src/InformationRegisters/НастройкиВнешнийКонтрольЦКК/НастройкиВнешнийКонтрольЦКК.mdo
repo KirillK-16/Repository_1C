@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb9fcc01-cc52-488c-af4f-cb8af33cb95e">
+  <producedTypes>
+    <selectionType typeId="ca500fcd-5a73-40e3-b83a-ca40ba9e9a14" valueTypeId="77931700-d316-49ee-bf81-16ac163c2cc7"/>
+    <listType typeId="2923fd0e-532e-4779-864d-c5864de22825" valueTypeId="a2ed8a93-8b27-4341-92e3-708dabff4b2e"/>
+    <managerType typeId="d13347a8-e24b-409c-8b55-01a3fe9ea503" valueTypeId="22c603c6-b24f-4525-a72a-a51180f50173"/>
+    <recordSetType typeId="fbe055cb-8ab7-48b4-920c-6b5af767ee07" valueTypeId="5d85964e-fbd3-481a-8975-45f0bb96ba41"/>
+    <recordKeyType typeId="1fbe5764-e6a0-4d5d-a397-0975d730a981" valueTypeId="866068b0-b657-4052-87c4-9406411760ec"/>
+    <recordType typeId="a289be49-72d8-4ca9-af14-0f73722a6711" valueTypeId="48bc79fa-b421-4af0-b19f-63c5dcd868dd"/>
+    <recordManagerType typeId="cf369725-c503-46cd-9a6b-cf32850c120e" valueTypeId="83fc2a8a-6de6-448a-a9be-2c5434084f4e"/>
+  </producedTypes>
+  <name>НастройкиВнешнийКонтрольЦКК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки внешнего контроля ЦКК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c7189759-4025-4bc4-b205-a8a0a1ae457b">
+    <name>МаксимальнаяДатаПрочитанныхПисемСкрыто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущая граница дат прочитанных записей журнала регистрации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9ed18f60-e4df-4d2b-baf7-60b5f3fc9fda">
+    <name>КонтрольнаяПроцедура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная процедура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольныеПроцедуры</types>
+      <types>CatalogRef.ВидыКонтрольныхПроцедур</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

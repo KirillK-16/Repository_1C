@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a9580ef-4911-47cd-8645-37a505825d3b">
+  <name>АнализВызововКластера1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ вызовов кластера 1С</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>BusinessProcess.АнализВызововКластера1С</content>
+  <content>CommonModule.АнализВызововКластера1ССервер</content>
+  <content>Catalog.ТипыИсполнителейАнализВызововКластера1С</content>
+  <content>InformationRegister.МетодыSCALL</content>
+  <content>DataProcessor.АнализВызововКластера1С</content>
+  <content>InformationRegister.НастройкиАнализВызововКластера1С</content>
+  <content>InformationRegister.ТехнологическийЖурнал</content>
+  <content>Enum.СобытияТЖ</content>
+  <content>Catalog.ТипыЗадачАнализВызововКластера1С</content>
+</mdclass:Subsystem>

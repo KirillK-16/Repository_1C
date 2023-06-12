@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b56086b-277c-4af7-aedf-c0164f0ca1fe">
+  <producedTypes>
+    <refType typeId="ec82d58a-2552-460f-ba06-51920cd5b8ef" valueTypeId="8fde2718-4142-4aac-9b5b-9d0fac642a7e"/>
+    <listType typeId="8a0ec404-7506-4704-8b77-8bcf20d0659b" valueTypeId="12d97473-74d4-418d-823e-469d3c09be35"/>
+    <managerType typeId="8a5acf9b-b25d-4645-8afc-b1f07e8fa656" valueTypeId="a3c24098-d4f8-4e96-9c65-1c0d33eb172f"/>
+  </producedTypes>
+  <name>МеханизмыПроверкиПодключения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Механизмы проверки подключения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1513108a-6352-41de-bca9-4ac99c25fd08">
+    <name>COMСоединитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>COM-соединитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7a53f3c-603f-4e7d-8d24-c8dbbb7f9181">
+    <name>WEBСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>WEB сервис</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

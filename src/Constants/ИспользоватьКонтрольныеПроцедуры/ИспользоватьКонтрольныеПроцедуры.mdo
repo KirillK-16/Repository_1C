@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="232efa5a-1c9e-4ca0-a7f2-4a2efa5978a4">
+  <producedTypes>
+    <managerType typeId="125bb00a-f500-42b3-9cc0-e558cb22dc16" valueTypeId="dbd7cf0a-5611-4719-831e-6b36ea1efef5"/>
+    <valueManagerType typeId="28e0b6d0-f4f5-4308-8f02-2ad9939ca46f" valueTypeId="303c8929-0b31-4669-957d-d6db47ea3b7f"/>
+    <valueKeyType typeId="128df442-0b9f-5d42-8d94-532878cea2e4" valueTypeId="5d268453-65c4-5019-8b3f-e9cebb4d5724"/>
+  </producedTypes>
+  <name>ИспользоватьКонтрольныеПроцедуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать контрольные процедуры</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

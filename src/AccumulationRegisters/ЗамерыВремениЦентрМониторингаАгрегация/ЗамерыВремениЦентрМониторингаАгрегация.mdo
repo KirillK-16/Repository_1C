@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aggregates="http://g5.1c.ru/v8/dt/aggregates" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f54c65d3-2ad0-4516-bba3-2f2ddb1d4293">
+  <producedTypes>
+    <selectionType typeId="b5d954e6-35cc-485b-bda1-5f882068e922" valueTypeId="f7fb7f0b-3d35-4ba8-b486-5ce4d86c62b1"/>
+    <listType typeId="940a2d43-fa8e-420d-8805-51d3ef882288" valueTypeId="4d9e982d-b8bd-4bde-9af4-35e268ac5eb6"/>
+    <managerType typeId="96ff2ceb-08be-4c61-9258-269ecce4c8e8" valueTypeId="110a3cfb-9954-4648-95c4-898bff622bbf"/>
+    <recordSetType typeId="fe8b8bf2-ddd5-4466-b9ef-91155eb8361f" valueTypeId="fa389580-0e97-4905-a9dc-40eec36cbe8b"/>
+    <recordKeyType typeId="6d1c8e98-dd81-4169-9e77-d543d4aa416d" valueTypeId="4d2f2482-99dc-4519-8197-57ef9fdc2a2d"/>
+    <recordType typeId="2d700011-2228-4493-8fcb-9215cf3c17c8" valueTypeId="e0161ab6-fafd-4c47-adeb-86929084bcfd"/>
+  </producedTypes>
+  <name>ЗамерыВремениЦентрМониторингаАгрегация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замеры времени центр мониторинга агрегация</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <aggregates xsi:type="aggregates:AccumulationRegisterAggregates">
+    <aggregates id="4c6c9bdb-f2e1-412e-9df5-3761c9843718">
+      <periodicity>Day</periodicity>
+      <dimensions>AccumulationRegister.ЗамерыВремениЦентрМониторингаАгрегация.Dimension.Конфигурация</dimensions>
+      <dimensions>AccumulationRegister.ЗамерыВремениЦентрМониторингаАгрегация.Dimension.РежимРаботыКонфигурации</dimensions>
+      <dimensions>AccumulationRegister.ЗамерыВремениЦентрМониторингаАгрегация.Dimension.ВерсияКонфигурации</dimensions>
+      <dimensions>AccumulationRegister.ЗамерыВремениЦентрМониторингаАгрегация.Dimension.ВерсияПлатформы</dimensions>
+      <dimensions>AccumulationRegister.ЗамерыВремениЦентрМониторингаАгрегация.Dimension.КлючеваяОперация</dimensions>
+      <dimensions>AccumulationRegister.ЗамерыВремениЦентрМониторингаАгрегация.Dimension.ВремяВыполнения</dimensions>
+    </aggregates>
+    <aggregates id="53f0cda8-34f3-4e97-9663-5f84474a8b45">
+      <periodicity>Month</periodicity>
+      <dimensions>AccumulationRegister.ЗамерыВремениЦентрМониторингаАгрегация.Dimension.Конфигурация</dimensions>
+      <dimensions>AccumulationRegister.ЗамерыВремениЦентрМониторингаАгрегация.Dimension.РежимРаботыКонфигурации</dimensions>
+      <dimensions>AccumulationRegister.ЗамерыВремениЦентрМониторингаАгрегация.Dimension.ВерсияКонфигурации</dimensions>
+      <dimensions>AccumulationRegister.ЗамерыВремениЦентрМониторингаАгрегация.Dimension.ВерсияПлатформы</dimensions>
+      <dimensions>AccumulationRegister.ЗамерыВремениЦентрМониторингаАгрегация.Dimension.КлючеваяОперация</dimensions>
+      <dimensions>AccumulationRegister.ЗамерыВремениЦентрМониторингаАгрегация.Dimension.ВремяВыполнения</dimensions>
+    </aggregates>
+  </aggregates>
+  <resources uuid="7261e2d9-eb30-4956-8eda-8e25441f1ee9">
+    <name>КоличествоОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество операций</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="04b9804d-45cf-43fc-868f-3a01f94dfe6c">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="acbf51e8-075d-4621-953e-f9525c801bff">
+    <name>РежимРаботыКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим работы конфигурации</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РежимРаботыКонфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="06e3b156-861c-47d9-9c71-26b5971288c7">
+    <name>ВерсияКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия конфигурации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВерсииКонфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6d19a59d-5acc-4ca1-bda4-48e759bdb2ad">
+    <name>ВерсияПлатформы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия платформы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВерсииПлатформыЦентрМониторинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="76e0645f-6cfa-45fb-b8ae-d1abcf31973d">
+    <name>КлючеваяОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевая операция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлючевыеОперацииЦентрМониторинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="481c80be-55f1-4663-9728-1ba355a0892c">
+    <name>ВремяВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время выполнения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:AccumulationRegister>

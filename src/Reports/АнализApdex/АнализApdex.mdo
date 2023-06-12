@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91c080b0-a381-471c-b5ed-f57802b7ee98">
+  <producedTypes>
+    <objectType typeId="244d3791-a0f0-4bb0-a955-c8e3de6a3289" valueTypeId="38e60ac6-7c85-4399-b57a-337750a878ff"/>
+    <managerType typeId="27cf3f7a-e955-4f5d-a85e-5b06e48f73d6" valueTypeId="cd7ac657-9ae7-46bc-b185-5ea54455e6a6"/>
+  </producedTypes>
+  <name>АнализApdex</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ apdex</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализApdex.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="d1b17f99-7178-4272-99e3-833f79553989">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="e13f0042-195e-4c59-8ea1-ddb2eb19dc09">
+    <name>ОткрытьОтчетАнализApdex</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ Apdex</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

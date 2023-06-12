@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1569f82f-dcdc-44d6-8fe3-4a2783b4c7cd">
+  <name>СборДамповФайлыЛоговНеНайдены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проблема при контроле дампов: каталог с логами процесса rphost пуст</value>
+  </synonym>
+  <templateType>HTMLDocument</templateType>
+</mdclass:CommonTemplate>

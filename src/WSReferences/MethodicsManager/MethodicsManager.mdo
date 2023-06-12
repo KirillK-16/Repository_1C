@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WSReference xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="257141ad-0682-41b1-bcd4-186bc0326337">
+  <producedTypes>
+    <managerType typeId="ed5b8071-e551-402d-a3d7-06489d6d59d6" valueTypeId="31085d83-ff77-4d37-a0e8-e78e574b14f2"/>
+  </producedTypes>
+  <name>MethodicsManager</name>
+  <synonym>
+    <key>ru</key>
+    <value>Methodics manager</value>
+  </synonym>
+  <locationURL>file:///C:/MethodicsManager.xml</locationURL>
+</mdclass:WSReference>

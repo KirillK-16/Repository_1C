@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c35e83d-759d-4e55-ac48-96a854d4d771">
+  <producedTypes>
+    <managerType typeId="0a23e27a-51e1-4ef4-a481-710b7ec75553" valueTypeId="1ac8943b-8db6-42f8-8bd9-d729ba227a9e"/>
+    <valueManagerType typeId="df69ae02-0c32-458a-9848-a2a3b1a16163" valueTypeId="c07f3560-fbba-4aa3-adb4-271dc26227a3"/>
+    <valueKeyType typeId="3cd4ac81-97ac-5916-8d8e-33b1ff0cb3b6" valueTypeId="29323b71-0fda-59f8-a385-1a832b6c6170"/>
+  </producedTypes>
+  <name>ОповещатьОЗависшихСеансах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещать о зависших сеансах</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

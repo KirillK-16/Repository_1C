@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0723cb9-e8d2-481d-9a5f-5d63afc5b7bc">
+  <name>Methodics</name>
+  <synonym>
+    <key>ru</key>
+    <value>Methodics</value>
+  </synonym>
+  <namespace>http://v8.1c.ru/methodics</namespace>
+</mdclass:XDTOPackage>

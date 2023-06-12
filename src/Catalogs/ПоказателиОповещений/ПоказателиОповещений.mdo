@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe3a4279-2500-4450-893c-aca72e231d65">
+  <producedTypes>
+    <objectType typeId="39a44453-3fa3-44b6-bb1b-2475d990458c" valueTypeId="2a8e8239-b006-47e8-9800-c65b18c97280"/>
+    <refType typeId="b39ef708-17f5-4d7f-ab9d-001b7405564f" valueTypeId="854ad59f-11bc-4bc0-8c00-bee38e08c1e9"/>
+    <selectionType typeId="10ce7248-e120-4e1c-9c5e-237855bc5155" valueTypeId="5fd95081-b68a-47ff-81f2-dee3b1082348"/>
+    <listType typeId="1462e682-a947-4ff0-913b-16a16f35e511" valueTypeId="d0130c1c-563a-4ebe-ac3b-748865e7e29b"/>
+    <managerType typeId="2ba651a5-5f33-43c1-bb54-4a35e9f62e84" valueTypeId="e51700a9-ce3a-44ea-a787-3e28c047cde4"/>
+  </producedTypes>
+  <name>ПоказателиОповещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели оповещений</value>
+  </synonym>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Оповещения</owners>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПоказателиОповещений.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="c95e91ce-c02e-408c-8500-f451c2bbff8b">
+    <name>Функция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функция</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ФункцииОповещений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d9cb1840-af04-4a6f-af79-ccac63c16d14">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЧислоНовыхОбъектов</types>
+      <types>CatalogRef.ЧислоПаденийРабочихПроцессов</types>
+      <types>CatalogRef.ЧислоСеансовПользователей</types>
+      <types>CatalogRef.ИспользованиеОперативнойПамятиПроцессамиКластера</types>
+      <types>CatalogRef.ПоказателиAPDEX</types>
+      <types>CatalogRef.СкоростьРазбораПроблем</types>
+      <types>CatalogRef.ТекущееЧислоВызововСервера</types>
+      <types>CatalogRef.ЧислоИсключенийПоТехнологическомуЖурналу</types>
+      <types>CatalogRef.ОценкаПользователей</types>
+      <types>CatalogRef.ПроцентДоступностиСервисаВсеБазы</types>
+      <types>CatalogRef.СформированоОтчетов</types>
+      <types>CatalogRef.ПоказателиСкоростиВыполненияТипичныхОпераций</types>
+      <types>CatalogRef.ЧислоНерешенныхПроблем</types>
+      <types>CatalogRef.ПроцентДоступностиСервисаВсеРесурсы</types>
+      <types>CatalogRef.ПоказателиСчетчиков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6df98ee3-2860-425d-b31b-e834d6a7496c">
+    <name>ИнтервалРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал расчета</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c2924496-d782-4e3f-b7ef-9ff298df896b">
+    <name>ЕдиницаВремениИнтервалаРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица времени интервала расчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЕдиницыВремени</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5f4ebc7-3d74-4240-b9e9-7ae13766a344">
+    <name>СравниватьСПрошлым</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сравнивать с прошлым</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="80aed39a-7fc4-4032-83c2-b9496d538468">
+    <name>СмещениеБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смещение базы</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВариантыСмещенияБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d096795e-f39b-46c6-b293-93d5e628c536">
+    <name>ИнтервалБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал базы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="be81ab3c-5b15-4619-be78-7ed2e0b42fdc">
+    <name>ЕдиницаВремениИнтервалаБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица времени интервала базы</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЕдиницыВремени</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c58b1f39-dc3a-4871-aa2d-02b7c5bab5a4">
+    <name>ВидСравнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид сравнения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыСравненияПоказателейОповещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="09c780fc-8943-44da-b029-5dcbe9397d4a">
+    <name>Порог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порог</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4f3cfb70-1c02-4401-9146-a165d1ab8a5a">
+    <name>ПорогВПроцентах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порог в процентах</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="311e1e01-04d4-4c77-a88b-1b800f21e081">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

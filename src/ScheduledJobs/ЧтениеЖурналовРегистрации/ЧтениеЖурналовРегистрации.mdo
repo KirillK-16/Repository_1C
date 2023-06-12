@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8489dc5a-2987-4e93-b8fb-fa04d3ea8d88">
+  <name>ЧтениеЖурналовРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение журналов регистрации</value>
+  </synonym>
+  <methodName>CommonModule.МониторингСервер.ЧтениеЖурналовРегистрацииСВыгрузкойВФайл</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

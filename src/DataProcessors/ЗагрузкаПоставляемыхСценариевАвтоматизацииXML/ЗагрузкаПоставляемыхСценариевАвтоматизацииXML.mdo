@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2aa0b317-448a-4080-aeab-3b192bef33b0">
+  <producedTypes>
+    <objectType typeId="6547cf80-579f-4708-ad91-7490cea36044" valueTypeId="2cf7b670-cb6d-44d9-b24b-860cb53444d0"/>
+    <managerType typeId="1e89df43-108c-4afd-9218-b1b699fda9a3" valueTypeId="aa52d141-170d-47a4-b9e8-b18539cae007"/>
+  </producedTypes>
+  <name>ЗагрузкаПоставляемыхСценариевАвтоматизацииXML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка поставляемых сценариев автоматизации XML</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаПоставляемыхСценариевАвтоматизацииXML.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="badcf9c0-fc59-43cc-972c-d5271f20edb4">
+    <name>ПриЗагрузкеИспользоватьРежимОбменДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>При загрузке использовать режим обмена данными</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="645d4d20-42b8-47bd-9fa4-88c3c6c45881">
+    <name>ПродолжитьЗагрузкуВСлучаеВозникновенияОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжить загрузку в случае возникновения ошибки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="944a19e1-1eeb-4901-9511-26e9ee8581e2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="a0ad723d-4f8b-4989-bee9-3b452765fe7f">
+    <name>ЗагрузкаПоставляемыхСценариевАвтоматизацииXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка поставляемых сценариев автоматизации XML</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

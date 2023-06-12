@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6762771d-1508-4b04-a3bc-9baf232384e1">
+  <name>КонтрольЧислаИсключений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль числа исключений по технологическому журналу</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.КонтрольЧислаИсключенийСервер</content>
+  <content>Catalog.ТипыИсполнителейКонтрольЧислаИсключений</content>
+  <content>Enum.ВажностьСобытия</content>
+  <content>InformationRegister.ТехнологическийЖурнал</content>
+  <content>Catalog.ФайлыЖурнала</content>
+  <content>CommonModule.ИмпортТехжурнала</content>
+  <content>Enum.ВидыКритериев</content>
+  <content>Enum.КатегорииСобытий</content>
+  <content>Constant.ДлительностьХраненияФайловТЖ</content>
+  <content>Enum.ВидыБлокировок</content>
+  <content>InformationRegister.НастройкиКонтрольЧислаИсключений</content>
+  <content>Enum.СобытияТЖ</content>
+  <content>CommonTemplate.КонтрольЧислаИсключений</content>
+</mdclass:Subsystem>

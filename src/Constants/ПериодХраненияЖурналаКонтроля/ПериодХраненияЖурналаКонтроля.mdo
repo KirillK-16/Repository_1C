@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed12f3a4-b0f9-4e60-89c1-d594f2cb2362">
+  <producedTypes>
+    <managerType typeId="2a64e517-e9ba-4031-af14-1e120364093d" valueTypeId="a7a16778-f49f-401d-abbd-0be2d20d10b8"/>
+    <valueManagerType typeId="f44f3a50-7d48-47e6-8db1-a5ba25fab6cc" valueTypeId="437e2422-cf20-4b96-805d-2dcbef5449b5"/>
+    <valueKeyType typeId="d17a27cc-1390-5e8c-938f-571b65300ff5" valueTypeId="1cedd74e-cf09-5ce9-9637-1c13d2f91b0c"/>
+  </producedTypes>
+  <name>ПериодХраненияЖурналаКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период хранения журнала контроля</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Период хранения в днях данных регистра сведений &quot;Журнал контроля&quot;. Если равен нулю, то удаление данных не выполняется.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62b7b074-1129-4d49-a6db-2e58b4d1471f">
+  <producedTypes>
+    <refType typeId="0b2f56d2-5c6b-46e6-9a54-856af54fe384" valueTypeId="a10f0d14-c108-4f17-8dba-71856768350f"/>
+    <listType typeId="eeaceaca-653e-4577-b40e-2225dc50fa68" valueTypeId="a243f9e7-cdee-44d9-b897-ac3b42e46157"/>
+    <managerType typeId="ee0cfd41-386f-4609-9bb2-703009d26006" valueTypeId="f11fa4e9-9b9c-4e62-bbd5-c0ad37f23fb9"/>
+  </producedTypes>
+  <name>Процессы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="13e79482-9e61-4bb6-89f4-13cac31e6b93">
+    <name>ТонкийКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тонкий клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ea4788e-f8ab-41c8-9e63-6dda95abd823">
+    <name>ТолстыйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Толстый клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4b4626c-1176-400c-80f3-bb3e9f14f908">
+    <name>Агент</name>
+    <synonym>
+      <key>ru</key>
+      <value>ragent</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46bdfa1d-8f46-41a2-8281-30baa2112afb">
+    <name>Менеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>rmngr</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7b36b759-53aa-41e3-ad0a-de3bdc55ffa7">
+    <name>РабочийПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>rphost</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="791d5f05-5338-499f-8f25-b96a6e64739b">
+    <name>WindowsErrorReporting</name>
+    <synonym>
+      <key>ru</key>
+      <value>Windows error reporting</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86f82f6d-dc93-4d19-ab78-1b11e4c8d9a9">
+    <name>Apache</name>
+    <synonym>
+      <key>ru</key>
+      <value>Apache</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bbf2df70-dc1b-4253-92ca-986916c2263a">
+    <name>IIS</name>
+    <synonym>
+      <key>ru</key>
+      <value>IIS</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="af2ea4b7-808b-4c37-9a55-46119388f741">
+    <name>МенеджерWER</name>
+    <synonym>
+      <key>ru</key>
+      <value>rmgr_wer</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4fda4bd5-db94-4c46-990d-71fb82946664">
+    <name>РабочийПроцессWER</name>
+    <synonym>
+      <key>ru</key>
+      <value>rphost_wer</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3d3d1a7-e3a6-4cf3-bbab-eea96215fdbe">
+    <name>АгентWER</name>
+    <synonym>
+      <key>ru</key>
+      <value>ragent_wer</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3693b787-ada6-441e-9b6b-bcb5a5d89a91">
+    <name>RAS</name>
+    <synonym>
+      <key>ru</key>
+      <value>RAS</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1fa6a2f6-f1b2-47ea-be97-be8457b68dc5">
+    <name>RAC</name>
+    <synonym>
+      <key>ru</key>
+      <value>RAC</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="30a4d7af-60e1-4e7a-a35a-f61b3238f018">
+    <name>OutageWER</name>
+    <synonym>
+      <key>ru</key>
+      <value>Outage WER</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

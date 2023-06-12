@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3cfaacc-44d0-455e-842f-df7aa8b807cb">
+  <producedTypes>
+    <selectionType typeId="9172fe95-96dc-435c-af0c-d14f5c2c0830" valueTypeId="7ce5bc70-cdd5-4adc-99bf-4fb8865c2c9f"/>
+    <listType typeId="cefc017f-e80f-409e-919b-c174207f97d9" valueTypeId="d8682efc-3f94-49a1-9141-bf799781610d"/>
+    <managerType typeId="a29283f8-6ace-49fb-bdf3-8e18de4ad01a" valueTypeId="37571492-16a7-4750-9cc6-edeb4a2ae71f"/>
+    <recordSetType typeId="d7910c1c-484f-4de4-b0b0-2fd5920f3799" valueTypeId="a06f1e33-7730-48b8-9557-3d012ed4cc23"/>
+    <recordKeyType typeId="aeefe234-c721-454f-9ade-14d5be53e477" valueTypeId="b24a924a-c597-4285-b13e-80d4cad15363"/>
+    <recordType typeId="d233500a-0b17-4b31-9a62-1e710f8feb97" valueTypeId="1b72857b-a4b9-4f70-beef-f2802421c258"/>
+    <recordManagerType typeId="c54691c0-0494-4ba6-8358-146155dd7e19" valueTypeId="4ef2168f-82b6-4adc-b4f5-72bd9f32cefd"/>
+  </producedTypes>
+  <name>ГруппыСчетчиковФормаСпискаЕстьКонтрольПодчиненных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы счетчиков форма списка есть контроль подчиненных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fcfc78ac-ac42-477b-a421-89d74aec0857">
+    <name>ЕстьКонтрольПодчиненных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть контроль подчиненных</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="529c4b11-6200-4975-ada2-08939f589823">
+    <name>Счетчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счетчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыСчетчиков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="975429a4-e786-4926-870a-5ded622e09af">
+    <name>УникальныйИдентификаторФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор формы</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63e6f850-164b-4c8f-8c13-36d0a0ea1a03">
+  <name>УдалитьAgentQMC</name>
+  <synonym>
+    <key>ru</key>
+    <value>(удалить) Agent QMC</value>
+  </synonym>
+  <rootURL>AgentQMC</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="6b56b7e9-29f3-4af1-9e8f-4d5a910627b7">
+    <name>Handshake</name>
+    <synonym>
+      <key>ru</key>
+      <value>Handshake</value>
+    </synonym>
+    <template>/Handshake</template>
+    <methods uuid="b9fa946e-f3d9-452b-bf06-27b4441c22b8">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>HandshakePOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="f097d22a-31f6-4c82-8184-38acef2bb478">
+    <name>InputData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Input data</value>
+    </synonym>
+    <template>/InputData</template>
+    <methods uuid="a1253fe5-c056-48b7-bc26-b93b39ff7908">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>InputDataPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

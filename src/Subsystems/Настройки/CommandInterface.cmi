@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Catalog.ВидыКонтрольныхПроцедур.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonForm.ФормаКонстантСтатистика.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.ВидыКонтрольныхПроцедур.StandardCommand.OpenList</commands>
+      <commands>Enum.СостоянияВариантаДампа.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+  <subsystemsOrder>
+    <subsystems>Subsystem.Настройки.Subsystem.НастройкиОбщие</subsystems>
+    <subsystems>Subsystem.Настройки.Subsystem.НастройкиОповещения</subsystems>
+    <subsystems>Subsystem.Настройки.Subsystem.СервисныеОбработки</subsystems>
+    <subsystems>Subsystem.Настройки.Subsystem.Доступ</subsystems>
+    <subsystems>Subsystem.Настройки.Subsystem.ТестированиеСервисов</subsystems>
+    <subsystems>Subsystem.Настройки.Subsystem.НастройкиТехнологическихЖурналов</subsystems>
+    <subsystems>Subsystem.Настройки.Subsystem.НастройкиПрочее</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a80a48d-f21f-4877-9859-5cd6f0c44c3a">
+  <name>АвтоматизацияОграниченныеПрава</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматизация ограниченные права</value>
+  </synonym>
+</mdclass:Role>

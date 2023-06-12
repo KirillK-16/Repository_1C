@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba0c3699-4a7a-40df-955a-489cba6b5288">
+  <producedTypes>
+    <objectType typeId="90ccc690-6ab8-4943-a351-c6de1cd889a9" valueTypeId="f29c9f45-faf2-486a-8cf9-a2aa690d54ce"/>
+    <managerType typeId="5243c86d-3e14-48f2-9c2b-4d1198d9c702" valueTypeId="fd953592-96e2-418b-a73d-c9d53aafe505"/>
+  </producedTypes>
+  <name>СтатистикаПоОборудованию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика по оборудованию</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СтатистикаПоОборудованию.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="714d9474-9024-4698-b6d9-f252278389c2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="fdfe9286-5a97-4a01-8a49-4cb6b093b776">
+    <name>СтатистикаПоОборудованию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статистика по оборудованию</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

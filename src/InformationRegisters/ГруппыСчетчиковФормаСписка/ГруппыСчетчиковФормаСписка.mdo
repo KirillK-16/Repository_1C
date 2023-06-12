@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="688cc69c-2306-4319-b64a-eac87222a851">
+  <producedTypes>
+    <selectionType typeId="2cf366ea-154d-47e5-9fb3-2c6deb25e04b" valueTypeId="17404fea-7d19-4acb-8567-245da2472532"/>
+    <listType typeId="aa7cac2e-1e14-4bb3-b041-ac5c36bf7dd1" valueTypeId="7583f8ce-95a2-41f5-8e44-4c209a9407a3"/>
+    <managerType typeId="304d4909-8e97-4ed6-a33f-aa553c5c8d96" valueTypeId="0dc83ea7-ac1d-43e8-b6f8-659c40c139c1"/>
+    <recordSetType typeId="383f2dce-505d-40f2-9dc7-1028880619ba" valueTypeId="d91d68ac-fdb1-4380-afc4-b115b3f9b38f"/>
+    <recordKeyType typeId="e048bebe-f48b-482a-b66b-844bba4802b1" valueTypeId="96e9cb56-1599-4f7f-a6ac-4e0ada6c20bc"/>
+    <recordType typeId="01f57b30-ac72-429b-948f-0f0bd66ef71b" valueTypeId="a4d00ff0-f1d2-414a-836f-976f955675d6"/>
+    <recordManagerType typeId="ee3d9679-03e6-4242-a688-3fb025e0e4d1" valueTypeId="9b74b3d1-6806-42d0-999a-b65ced797ceb"/>
+  </producedTypes>
+  <name>ГруппыСчетчиковФормаСписка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы счетчиков форма списка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cb5158aa-7680-499d-a765-4f9d4c965af5">
+    <name>ДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e48872a3-c7a6-4f27-8fe5-d5534f06ed62">
+    <name>Счетчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счетчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыСчетчиков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="532e6384-0ef6-4556-ad9f-0aec7893a480">
+    <name>УникальныйИдентификаторФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор формы</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d4e1d76-bf35-4ee6-9902-bba8093a8445">
+  <name>СборДампов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сбор дампов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.НастройкиСборДампов</content>
+  <content>Catalog.ТипыИсполнителейСборДампов</content>
+  <content>Constant.FTPКаталогВыгрузкиДампов</content>
+  <content>CommonTemplate.СборДампов</content>
+  <content>CommonTemplate.СборДамповРазобратьДамп</content>
+  <content>Catalog.ТипыЗадачСборДампов</content>
+  <content>CommonModule.СборДамповКонстантыСервер</content>
+  <content>CommonModule.СборДамповСервер</content>
+  <content>CommonModule.ВерсияПлатформыСервер</content>
+  <content>InformationRegister.ФайлыДампов</content>
+  <content>Catalog.ВерсииПлатформы</content>
+  <content>Constant.КритическийСрокХраненияДампаМин</content>
+  <content>Constant.ЧислоПотоковОбработкиДампов</content>
+  <content>CommonTemplate.СборДамповНайденФайлБывшийВОбработке</content>
+  <content>Constant.ПериодОбработкиДамповСек</content>
+  <content>Catalog.ЧислоНерешенныхПроблем</content>
+  <content>InformationRegister.ЧислоПроблемПлатформы</content>
+  <content>InformationRegister.КоличествоДампов</content>
+  <content>InformationRegister.РазмещениеТехнологическогоЖурнала</content>
+  <content>InformationRegister.ВременнойГоризонтПросмотраДампов</content>
+  <content>CommonTemplate.СборДамповФайлыЛоговНеНайдены</content>
+  <content>CommonTemplate.СборДамповФайлыЛоговПустой</content>
+  <content>CommonTemplate.СборДамповНетДампа</content>
+  <content>Catalog.СкоростьРазбораПроблем</content>
+  <content>CommonTemplate.СборДамповНеНайденТЖ</content>
+  <content>Enum.ТипыПаденияРабочегоПроцесса</content>
+  <content>CommonForm.ФормаВыбораДетализацииДампов</content>
+</mdclass:Subsystem>

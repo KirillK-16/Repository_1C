@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6824b96d-5614-455c-b3fe-5180dd97a1d6">
+  <name>АнализПроизводительностиИмпортаДанныхЦентраМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ производительности импорта данных</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

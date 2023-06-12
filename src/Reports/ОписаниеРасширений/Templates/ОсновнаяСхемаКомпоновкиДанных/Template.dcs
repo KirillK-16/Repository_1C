@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Синоним</dataPath>
+			<field>Синоним</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Конфигурация</dataPath>
+			<field>Конфигурация</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИнформационнаяБаза</dataPath>
+			<field>ИнформационнаяБаза</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияПлатформы</dataPath>
+			<field>ВерсияПлатформы</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗащитаОтОпасныхДействий</dataPath>
+			<field>ЗащитаОтОпасныхДействий</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияКонфигурации</dataPath>
+			<field>ВерсияКонфигурации</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<inputParameters>
+				<dcscor:item>
+					<dcscor:parameter>СвязиПараметровВыбора</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:ChoiceParameterLinks">
+						<dcscor:item>
+							<dcscor:choiceParameter>Отбор.Владелец</dcscor:choiceParameter>
+							<dcscor:value>Конфигурация</dcscor:value>
+							<dcscor:mode xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise" xsi:type="d8p1:LinkedValueChangeMode">Clear</dcscor:mode>
+						</dcscor:item>
+					</dcscor:value>
+				</dcscor:item>
+			</inputParameters>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоИБ</dataPath>
+			<field>КоличествоИБ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество ИБ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>БезопасныйРежим</dataPath>
+			<field>БезопасныйРежим</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Назначение</dataPath>
+			<field>Назначение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИмяРасширения</dataPath>
+			<field>ИмяРасширения</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияРасширения</dataPath>
+			<field>ВерсияРасширения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Версия расширения</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ИнформацияСрезПоследних.Конфигурация КАК Конфигурация,
+	ИнформацияСрезПоследних.ВерсияКонфигурации КАК ВерсияКонфигурации,
+	ИнформацияСрезПоследних.ВерсияПлатформы КАК ВерсияПлатформы,
+	ОписаниеРасширений.ИнформационнаяБаза КАК ИнформационнаяБаза,
+	ОписаниеРасширений.ИмяРасширения КАК ИмяРасширения,
+	ОписаниеРасширений.Версия КАК ВерсияРасширения,
+	ОписаниеРасширений.Назначение КАК Назначение,
+	ОписаниеРасширений.Синоним КАК Синоним,
+	ОписаниеРасширений.БезопасныйРежим КАК БезопасныйРежим,
+	ОписаниеРасширений.ЗащитаОтОпасныхДействий КАК ЗащитаОтОпасныхДействий,
+	1 КАК КоличествоИБ
+{ВЫБРАТЬ
+	Конфигурация.*,
+	ВерсияКонфигурации.*,
+	ВерсияПлатформы.*,
+	ИнформационнаяБаза.*,
+	ИмяРасширения,
+	ВерсияРасширения,
+	Назначение,
+	Синоним,
+	БезопасныйРежим,
+	ЗащитаОтОпасныхДействий,
+	КоличествоИБ}
+ИЗ
+	РегистрСведений.ОписаниеРасширений КАК ОписаниеРасширений
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ИнформацияСрезПоследних КАК ИнформацияСрезПоследних
+		ПО ОписаниеРасширений.ИнформационнаяБаза = ИнформацияСрезПоследних.ИнформационнаяБаза
+{ГДЕ
+	ИнформацияСрезПоследних.Конфигурация.*,
+	ИнформацияСрезПоследних.ВерсияКонфигурации.*,
+	ИнформацияСрезПоследних.ВерсияПлатформы.*,
+	ОписаниеРасширений.ИнформационнаяБаза.*,
+	ОписаниеРасширений.ИмяРасширения,
+	ОписаниеРасширений.Версия КАК ВерсияРасширения,
+	ОписаниеРасширений.Назначение,
+	ОписаниеРасширений.Синоним,
+	ОписаниеРасширений.БезопасныйРежим,
+	ОписаниеРасширений.ЗащитаОтОпасныхДействий,
+	(1) КАК КоличествоИБ}</query>
+	</dataSet>
+	<totalField>
+		<dataPath>КоличествоИБ</dataPath>
+		<expression>Сумма(КоличествоИБ)</expression>
+	</totalField>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Конфигурация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИмяРасширения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Синоним</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоИБ</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:userSettingID>131ae586-c739-401d-affe-9423e226c8b1</dcsset:userSettingID>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Конфигурация</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ИмяРасширения</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ВерсияРасширения</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+			<dcsset:itemsUserSettingID>c91ef845-3c5b-49d2-b517-9fa116814cac</dcsset:itemsUserSettingID>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

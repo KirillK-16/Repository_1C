@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Кластер</dataPath>
+			<field>Кластер</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.ОбъектыКонтроля</v8:Type>
+			</valueType>
+			<inputParameters>
+				<dcscor:item>
+					<dcscor:parameter>ПараметрыВыбора</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:ChoiceParameters">
+						<dcscor:item>
+							<dcscor:choiceParameter>Отбор.Владелец</dcscor:choiceParameter>
+							<dcscor:value xsi:type="dcscor:DesignTimeValue">Справочник.ВидыОбъектовКонтроля.КластерСерверов1С</dcscor:value>
+						</dcscor:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item>
+					<dcscor:parameter>ФормаВыбора</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Справочник.ОбъектыКонтроля.Форма.ФормаВыбораФормаВыбораКластераПоВсем</dcscor:value>
+				</dcscor:item>
+			</inputParameters>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сервер</dataPath>
+			<field>Сервер</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МаксВремя</dataPath>
+			<field>МаксВремя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время завершения</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ДФ='дд.ММ.гг ЧЧ:мм:сс'</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭтоТекущийПроцесс</dataPath>
+			<field>ЭтоТекущийПроцесс</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Это текущий процесс</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Память</dataPath>
+			<field>Память</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Память, Mb</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сеанс</dataPath>
+			<field>Сеанс</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество сеансов в момент завершения</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Процесс</dataPath>
+			<field>Процесс</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процесс</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МинВремя</dataPath>
+			<field>МинВремя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время начала</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ДФ='дд.ММ.гг ЧЧ:мм:сс'</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	МониторингСеансов.Кластер КАК Кластер,
+	МониторингСеансов.Сервер КАК Сервер,
+	МониторингСеансов.Процесс КАК Процесс,
+	МониторингСеансов.Время КАК Время,
+	МониторингСеансов.Сеанс
+ПОМЕСТИТЬ СобытияЗаПериод_Сеансы
+ИЗ
+	РегистрСведений.МониторингСеансов КАК МониторингСеансов
+ГДЕ
+	МониторингСеансов.Время МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+
+ИНДЕКСИРОВАТЬ ПО
+	Время,
+	Кластер,
+	Сервер,
+	Процесс
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СобытияЗаПериод.Кластер КАК Кластер,
+	СобытияЗаПериод.Сервер КАК Сервер,
+	СобытияЗаПериод.Процесс КАК Процесс,
+	МАКСИМУМ(СобытияЗаПериод.Время) КАК Время,
+	Минимум(СобытияЗаПериод.Время) КАК ВремяМин
+ПОМЕСТИТЬ МаксДатаЗаПериод_Сеансы
+ИЗ
+	СобытияЗаПериод_Сеансы КАК СобытияЗаПериод
+
+СГРУППИРОВАТЬ ПО
+	СобытияЗаПериод.Кластер,
+	СобытияЗаПериод.Сервер,
+	СобытияЗаПериод.Процесс
+
+ИНДЕКСИРОВАТЬ ПО
+	Время,
+	Кластер,
+	Сервер,
+	Процесс
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	МаксДатаЗаПериод_Сеансы.Кластер КАК Кластер,
+	МаксДатаЗаПериод_Сеансы.Сервер КАК Сервер,
+	МаксДатаЗаПериод_Сеансы.Процесс КАК Процесс,
+	МаксДатаЗаПериод_Сеансы.Время,
+	МаксДатаЗаПериод_Сеансы.ВремяМин,
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ СобытияЗаПериод_Сеансы.Сеанс) КАК Сеанс
+ПОМЕСТИТЬ КоличествоСеансовВМоментЗавершения
+ИЗ
+	МаксДатаЗаПериод_Сеансы КАК МаксДатаЗаПериод_Сеансы
+		ЛЕВОЕ СОЕДИНЕНИЕ СобытияЗаПериод_Сеансы КАК СобытияЗаПериод_Сеансы
+		ПО МаксДатаЗаПериод_Сеансы.Время = СобытияЗаПериод_Сеансы.Время
+			И МаксДатаЗаПериод_Сеансы.Кластер = СобытияЗаПериод_Сеансы.Кластер
+			И МаксДатаЗаПериод_Сеансы.Сервер = СобытияЗаПериод_Сеансы.Сервер
+			И МаксДатаЗаПериод_Сеансы.Процесс = СобытияЗаПериод_Сеансы.Процесс
+
+СГРУППИРОВАТЬ ПО
+	МаксДатаЗаПериод_Сеансы.Кластер,
+	МаксДатаЗаПериод_Сеансы.Сервер,
+	МаксДатаЗаПериод_Сеансы.Процесс,
+	МаксДатаЗаПериод_Сеансы.ВремяМин,
+	МаксДатаЗаПериод_Сеансы.Время
+
+ИНДЕКСИРОВАТЬ ПО
+	Кластер,
+	Сервер,
+	Процесс
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	МониторингСеансов.Кластер,
+	МониторингСеансов.Сервер,
+	МониторингСеансов.Процесс,
+	КОЛИЧЕСТВО(МониторингСеансов.Сеанс) КАК Сеанс
+ИЗ
+	РегистрСведений.МониторингСеансов КАК МониторингСеансов
+ГДЕ
+	МониторингСеансов.Время МЕЖДУ НАЧАЛОПЕРИОДА(&amp;НачалоПериода, ДЕНЬ) И КОНЕЦПЕРИОДА(&amp;КонецПериода, ДЕНЬ)
+
+СГРУППИРОВАТЬ ПО
+	МониторингСеансов.Кластер,
+	МониторингСеансов.Сервер,
+	МониторингСеансов.Процесс
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	МониторингПроцессов.Время,
+	МониторингПроцессов.Кластер КАК Кластер,
+	МониторингПроцессов.Сервер КАК Сервер,
+	МониторингПроцессов.Процесс КАК Процесс,
+	МониторингПроцессов.Память / 1000 КАК Память
+ПОМЕСТИТЬ ВТСобытияЗаПериод
+ИЗ
+	РегистрСведений.МониторингПроцессов КАК МониторингПроцессов
+ГДЕ
+	МониторингПроцессов.Время МЕЖДУ НАЧАЛОПЕРИОДА(&amp;НачалоПериода, ДЕНЬ) И КОНЕЦПЕРИОДА(&amp;КонецПериода, ДЕНЬ)
+
+ИНДЕКСИРОВАТЬ ПО
+	Кластер,
+	Сервер,
+	Процесс
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	МАКСИМУМ(ВТСобытияЗаПериод.Время) КАК МаксВремя,
+	Минимум(ВТСобытияЗаПериод.Время) КАК МинВремя,
+	ВТСобытияЗаПериод.Кластер КАК Кластер,
+	ВТСобытияЗаПериод.Сервер КАК Сервер,
+	ВТСобытияЗаПериод.Процесс КАК Процесс
+ПОМЕСТИТЬ МаксимальнаяДатаЗаДеньПроцесс
+ИЗ
+	ВТСобытияЗаПериод КАК ВТСобытияЗаПериод
+
+СГРУППИРОВАТЬ ПО
+	ВТСобытияЗаПериод.Кластер,
+	ВТСобытияЗаПериод.Сервер,
+	ВТСобытияЗаПериод.Процесс
+
+ИНДЕКСИРОВАТЬ ПО
+	Кластер,
+	Сервер,
+	Процесс
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	МАКСИМУМ(ВТСобытияЗаДень.Время) КАК МаксВремя,
+	ВТСобытияЗаДень.Кластер КАК Кластер,
+	ВТСобытияЗаДень.Сервер КАК Сервер
+ПОМЕСТИТЬ МаксимальнаяДатаЗаДень
+ИЗ
+	ВТСобытияЗаПериод КАК ВТСобытияЗаДень
+
+СГРУППИРОВАТЬ ПО
+	ВТСобытияЗаДень.Кластер,
+	ВТСобытияЗаДень.Сервер
+
+ИНДЕКСИРОВАТЬ ПО
+	Кластер,
+	Сервер
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	МаксимальнаяДатаЗаДеньПроцесс.МинВремя,
+	МаксимальнаяДатаЗаДеньПроцесс.МаксВремя,
+	МаксимальнаяДатаЗаДеньПроцесс.Кластер,
+	МаксимальнаяДатаЗаДеньПроцесс.Сервер,
+	МаксимальнаяДатаЗаДеньПроцесс.Процесс,
+	ВЫБОР
+		КОГДА НЕ МаксимальнаяДатаЗаДень.МаксВремя ЕСТЬ NULL 
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК ЭтоТекущийПроцесс,
+	ВТСобытияЗаДень.Память,
+	КоличествоСеансовВМоментЗавершения.Сеанс
+ИЗ
+	МаксимальнаяДатаЗаДеньПроцесс КАК МаксимальнаяДатаЗаДеньПроцесс
+		ЛЕВОЕ СОЕДИНЕНИЕ МаксимальнаяДатаЗаДень КАК МаксимальнаяДатаЗаДень
+		ПО МаксимальнаяДатаЗаДеньПроцесс.Кластер = МаксимальнаяДатаЗаДень.Кластер
+			И МаксимальнаяДатаЗаДеньПроцесс.Сервер = МаксимальнаяДатаЗаДень.Сервер
+			И (МаксимальнаяДатаЗаДеньПроцесс.МаксВремя МЕЖДУ ДОБАВИТЬКДАТЕ(МаксимальнаяДатаЗаДень.МаксВремя, СЕКУНДА, -5) И ДОБАВИТЬКДАТЕ(МаксимальнаяДатаЗаДень.МаксВремя, СЕКУНДА, 5))
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТСобытияЗаПериод КАК ВТСобытияЗаДень
+		ПО МаксимальнаяДатаЗаДеньПроцесс.Сервер = ВТСобытияЗаДень.Сервер
+			И МаксимальнаяДатаЗаДеньПроцесс.Процесс = ВТСобытияЗаДень.Процесс
+			И МаксимальнаяДатаЗаДеньПроцесс.МаксВремя = ВТСобытияЗаДень.Время
+			И МаксимальнаяДатаЗаДеньПроцесс.Кластер = ВТСобытияЗаДень.Кластер
+		ЛЕВОЕ СОЕДИНЕНИЕ КоличествоСеансовВМоментЗавершения КАК КоличествоСеансовВМоментЗавершения
+		ПО МаксимальнаяДатаЗаДеньПроцесс.Кластер = КоличествоСеансовВМоментЗавершения.Кластер
+			И МаксимальнаяДатаЗаДеньПроцесс.Сервер = КоличествоСеансовВМоментЗавершения.Сервер
+			И МаксимальнаяДатаЗаДеньПроцесс.Процесс = КоличествоСеансовВМоментЗавершения.Процесс
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;ТолькоТекущиеПроцессы
+				ТОГДА НЕ МаксимальнаяДатаЗаДень.МаксВремя ЕСТЬ NULL 
+			ИНАЧЕ ИСТИНА
+		КОНЕЦ</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>процесс_расширенный</dataPath>
+		<expression>"rphost_"+Строка(Формат(Процесс,"ЧДЦ=; ЧГ=0"))</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Процесс (Pid)</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<totalField>
+		<dataPath>процесс_расширенный</dataPath>
+		<expression>Количество(процесс_расширенный)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Процесс</dataPath>
+		<expression>Количество(Процесс)</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<parameter>
+		<name>ТолькоТекущиеПроцессы</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Только текущие процессы</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+		<availableAsField>false</availableAsField>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+		<availableAsField>false</availableAsField>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+		<availableAsField>false</availableAsField>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МинВремя</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МаксВремя</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Сервер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Кластер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Память</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Сеанс</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>процесс_расширенный</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:userSettingID>58d22ece-0ae0-44bb-94c8-2d31fff29d0b</dcsset:userSettingID>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>8d1d1107-41f3-41b4-9183-dec47d1ba848</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ТолькоТекущиеПроцессы</dcscor:parameter>
+					<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					<dcsset:userSettingID>ea5811d1-7714-4c60-8227-e2c28d1da8be</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>КонецПериода</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>ea2372e5-fa8b-4cdc-a161-61c773257d72</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>НачалоПериода</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>4f6743d5-444a-4a98-9cb4-b3881e3f59e5</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Процесс</dcsset:field>
+					<dcsset:orderType>Desc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>МаксВремя</dcsset:field>
+					<dcsset:orderType>Desc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>Процесс</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>МаксВремя</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Память</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>процесс_расширенный</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>МинВремя</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Сеанс</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ЭтоТекущийПроцесс</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Шрифт</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>Память</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Процесс</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>процесс_расширенный</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Кластер</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:Field">Кластер</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=; ЧГ=0</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>процесс_расширенный</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:HorizontalAlign">Right</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>МаксВремя</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ЭтоТекущийПроцесс</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выполняется</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Кластер</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemField">
+						<dcsset:field>Кластер</dcsset:field>
+						<dcsset:orderType>Asc</dcsset:orderType>
+					</dcsset:item>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Сервер</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Сервер</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemField">
+								<dcsset:field>МаксВремя</dcsset:field>
+								<dcsset:orderType>Desc</dcsset:orderType>
+							</dcsset:item>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

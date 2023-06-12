@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf7fadf9-0d47-42f1-b8bf-5202599c24bb">
+  <name>ВнешнийКонтрольЦККНеизвестнаяОшибка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешний контроль ЦКК, неизвестная ошибка</value>
+  </synonym>
+  <templateType>HTMLDocument</templateType>
+</mdclass:CommonTemplate>

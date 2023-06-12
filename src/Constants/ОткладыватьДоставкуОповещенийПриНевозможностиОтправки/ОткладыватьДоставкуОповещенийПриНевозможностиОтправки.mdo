@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c58629e-7ead-4049-8c28-fd7571cdfdac">
+  <producedTypes>
+    <managerType typeId="1a2cc546-e427-4ab4-8e1e-ca44fef70a85" valueTypeId="8dd0911b-bdb6-4f26-96a4-a4f275269ad4"/>
+    <valueManagerType typeId="0e89229b-f044-4e96-8438-0c9a6d2220c2" valueTypeId="7ba33bb4-9981-49c6-95ab-c66acc7542dc"/>
+    <valueKeyType typeId="66d73bb9-1bbe-5001-a559-ea47fdbdc8dd" valueTypeId="6e2ddf66-5db8-5819-9414-3bc745de4ff0"/>
+  </producedTypes>
+  <name>ОткладыватьДоставкуОповещенийПриНевозможностиОтправки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Откладывать доставку оповещений при невозможности отправки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8653988-17cb-45c2-b85f-6a7d08e70049">
+  <producedTypes>
+    <selectionType typeId="0f241db1-62af-440a-b608-97c701e97739" valueTypeId="290d4b5c-c558-49f9-9845-72c73404083a"/>
+    <listType typeId="7a0ecba7-597a-4ac7-8624-8a0ce1139990" valueTypeId="b1c91f64-83b2-40e7-be17-ab8aeafc52a2"/>
+    <managerType typeId="6b9e8d5e-6762-41b0-9e29-6bb0138094c4" valueTypeId="baa0f78c-1a5e-4e87-a61e-a92509088225"/>
+    <recordSetType typeId="327d1872-40b8-464a-9005-11646cdd7432" valueTypeId="71e5eb56-dae1-476f-be5d-2ec4962ee1a6"/>
+    <recordKeyType typeId="cac4d956-1804-4bcc-b223-fd416eee4511" valueTypeId="6443b29e-b8c9-4fcb-8f61-1c7513d1b28c"/>
+    <recordType typeId="923a25dd-e31d-4e4d-a92d-8269c156ebc9" valueTypeId="49ee5a9a-7b24-458b-bebd-18c738d14d21"/>
+    <recordManagerType typeId="062efece-b5a9-4c8b-aea6-f110ca26f6bd" valueTypeId="5065b7aa-3118-4a45-8cec-7bae5a3acdcc"/>
+  </producedTypes>
+  <name>КонтрольПодключенийТекущееСостояние</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль подключений текущее состояние</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.КонтрольПодключенийТекущееСостояние.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="510d86b3-a8be-4c8a-8ffd-b2a50a7c8392">
+    <name>РезультатПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат подключения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="28cd4e99-e4e2-4ba7-bdc4-284f1a11fb4d">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="68b15b71-78f0-4d83-9b4b-88146c718ac0">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e938dea7-a9f6-4190-a487-8ff1b4de8bd6">
+    <name>ТекущийПроцентДоступности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий процент доступности</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="89328a2d-553f-4427-bcb7-abc869a190f6">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Публикации</types>
+      <types>CatalogRef.Оборудование</types>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ccb066e6-f02e-4f0a-b5e8-a5f8b1b4fac8">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольныеПроцедуры</types>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+      <types>CatalogRef.АгентыКИП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="a8326637-5e2c-413c-8749-f46289d1fe3c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf26f930-3b7c-46bb-bfe6-64b6a271edaf">
+  <name>ИнтеграцияССППР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция ССППР</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ИнтеграцияССППР</content>
+  <content>CommonModule.ИнтеграцияССППРПовтИсп</content>
+</mdclass:Subsystem>

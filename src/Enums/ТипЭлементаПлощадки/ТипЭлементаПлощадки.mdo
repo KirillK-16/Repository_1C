@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fd1ef38-2fdb-4966-ad82-fcbb85e2b7f0">
+  <producedTypes>
+    <refType typeId="f2626b1c-5b98-45a6-a374-517916128d38" valueTypeId="39d8001c-1aa7-4e52-a8e0-53cc799e4ddf"/>
+    <listType typeId="68d65d0f-becc-40ea-acd4-9e996bf1c88d" valueTypeId="044dd541-4820-4ac2-aebf-f20f8cc7faa4"/>
+    <managerType typeId="5ec2edfb-675b-4635-b7e9-287947bcf111" valueTypeId="d0df4fea-8c9b-46bc-8090-7d519d9c41be"/>
+  </producedTypes>
+  <name>ТипЭлементаПлощадки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип элемента площадки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f66871ea-1dcc-4480-9d3b-0774b609f4e9">
+    <name>Площадка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c228c1e-d816-423d-b26e-d25b6701e81c">
+    <name>ГруппаОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Оборудование&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="01b6d252-a9eb-4716-b78e-d3cfcffacc7f">
+    <name>ГруппаКластеры1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Кластеры 1С&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e58bec4-3fa1-429b-b225-8003ca4df734">
+    <name>ГруппаИнформационныеБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Информационные базы&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="160d92ec-1b5f-4bbc-860e-6afb547d4e32">
+    <name>ГруппаРабочиеСерверы1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Рабочие серверы 1С&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="52849eab-b046-4746-b48e-8ef67b783064">
+    <name>ГруппаБазовыеКонтрольныеПроцедуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Контрольные процедуры базовые&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8fb1e833-f7cd-4e85-bbcd-350f2c2240e0">
+    <name>ГруппаПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Публикации&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aad0a4ae-140c-470b-a27a-7db12454f377">
+    <name>ГруппаСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа СУБД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="42a51d75-7d18-4b8f-8f32-7748b4b10ba5">
+    <name>ГруппаВебСерверы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Веб-серверы&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eef5b797-c380-4f3a-9c86-236bd967c519">
+    <name>ГруппаТерминальныеСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Терминальные сервера&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4050490b-7d3a-49c8-8dec-dca466445c52">
+    <name>ГруппаШлюзы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Шлюзы&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b69bfc2-c73e-4ae7-a89e-05dac1978132">
+    <name>ГруппаВиртуальныеМашины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Виртуальные машины&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4a4cb753-7356-4830-b21f-b2b9509c25ee">
+    <name>ГруппаРасширенныеКонтрольныеПроцедуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Контрольные процедуры расширенные&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e058ffd8-3b02-4ec9-b568-9bcb21e94e5c">
+    <name>ГруппаИнформационныеБазыКластера1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Информационные базы кластера 1С&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4362154-ffab-49c9-8bf4-423b2cb117c4">
+    <name>ГруппаРабочиеСерверыКластера1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Рабочие серверы кластера 1С&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7fe6734-22c6-4b7f-a02a-59ab5b658a2c">
+    <name>MSSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>MS SQL</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a474be03-bcdd-47c4-a546-756d5c15a53f">
+    <name>PostgreSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>PostgreSQL</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b065703c-713c-4dae-bb72-9779a1d01baa">
+    <name>VMware</name>
+    <synonym>
+      <key>ru</key>
+      <value>VMware</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a74251a-b79a-4fd5-b96a-91b786dc84b4">
+    <name>АнализВызововКластера1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ вызовов кластера 1С</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f6429119-d3ae-4626-97bc-8b47ee50ca3a">
+    <name>ВебСерверApache</name>
+    <synonym>
+      <key>ru</key>
+      <value>Apache</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4c07e39a-3554-4211-908d-7137fe8a4564">
+    <name>ВебСерверIIS</name>
+    <synonym>
+      <key>ru</key>
+      <value>IIS</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1bf058aa-df5d-4269-a13f-b5edd02c7c62">
+    <name>ГруппаАнализВызововКластера1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Анализ вызовов кластера 1С&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c1bf504-26d6-43b0-b147-dc9474ba7ab0">
+    <name>ГруппаКонтрольНагрузочныхТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Контроль нагрузочных тестов&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6db0769b-2259-4b7f-90f2-bd644836d64a">
+    <name>ГруппаКонтрольПодключений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Контроль подключений&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d35e9966-2e27-4e17-8897-0126efb4e874">
+    <name>ГруппаКонтрольПотребленияПамяти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Мониторинг кластера&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7be01f83-a08b-4d32-8e6d-61316b024563">
+    <name>ГруппаКонтрольПроизводительности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Контроль прозводительности&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b576d2d1-b675-4919-9f58-befbf07319e6">
+    <name>ГруппаКонтрольРегламентныхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Контроль регламентных заданий&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3bf6300-48ab-4294-8708-2be470259c83">
+    <name>ГруппаКонтрольУстойчивости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Контроль устойчивости&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a59e1f79-91c0-4fd9-b966-d32f0aaac9c5">
+    <name>ГруппаМониторингСистемныхОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Мониторинг системых ошибок&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3898408-f740-41be-a0ea-74d064a663f0">
+    <name>ГруппаОценкаПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа &quot;Оценка пользователей&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba7e778e-735a-40d8-9480-5790cfcb60d8">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84c8fc60-2630-45ec-bf04-1df0d3f4c43a">
+    <name>Кластер1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кластер 1С</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b406f7c3-f0ce-4e68-8cf8-64759e6cbd1d">
+    <name>КонтрольНагрузочныхТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль нагрузочных тестов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5a21cc7-b8e0-4840-81c8-0c0a40d3af5e">
+    <name>КонтрольПодключений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль подключений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fb18cbb6-20e3-48f2-88f5-a646a0c92694">
+    <name>КонтрольПотребленияПамяти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мониторинг кластера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7ae70152-7883-4909-ab1b-5d6adaeac686">
+    <name>КонтрольПроизводительности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль производительности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2a1b008-6e1b-495b-9ea6-d98ff13b4830">
+    <name>КонтрольРегламентныхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль регламентных заданий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d442ead-0b67-418c-9bf5-a84dec41a1fa">
+    <name>КонтрольУстойчивости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль устойчивости</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="30476132-2342-49cc-9162-7618246a3741">
+    <name>МониторингСистемныхОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мониторинг системных ошибок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d693dea-c962-4807-b9f6-ee99cb37c2d0">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="499fedfc-f672-436e-b815-d8ae215d7125">
+    <name>ОценкаПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка пользователей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9911fa28-dcb9-4b3e-bc05-30b833595ffc">
+    <name>Публикация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Публикация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7afd26c5-ecfe-47bb-8140-26b17f16fba4">
+    <name>РабочийСервер1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование размещения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5218b3c7-9d3c-48a6-836f-e13b10bd55c2">
+    <name>РабочийСерверКластера1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий сервер кластера 1С</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d8c76e2-bc49-47ae-a39a-fe2292a3ac1c">
+    <name>ТерминальныйСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Терминальный сервер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="afe31802-1890-40a9-b2ad-8d0e317c66af">
+    <name>Шлюз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шлюз</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9bc0cfc3-4bea-40eb-8519-eb0eddaab11c">
+    <name>Корзина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корзина</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

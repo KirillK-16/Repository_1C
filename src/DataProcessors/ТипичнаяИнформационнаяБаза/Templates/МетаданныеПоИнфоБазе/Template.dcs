@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Период</dataPath>
+			<field>Период</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектМетаданных</dataPath>
+			<field>ОбъектМетаданных</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект метаданных</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	НАЧАЛОПЕРИОДА(ОперацииСтатистикиКонфигурацииИстория.Период, ДЕНЬ) КАК Период,
+	ОперацииСтатистикиКонфигурацииИстория.ОперацияСтатистикиКонфигурации КАК ОбъектМетаданных,
+	ОперацииСтатистикиКонфигурацииИстория.Значение КАК Количество,
+	ПрофилиОбъектовМетаданныхКонфигурации.Ссылка КАК Ссылка
+ПОМЕСТИТЬ МетаданныеПрофиля
+{ВЫБРАТЬ
+	Период,
+	ОбъектМетаданных.*,
+	Количество}
+ИЗ
+	РегистрСведений.ОперацииСтатистикиКонфигурацииИстория КАК ОперацииСтатистикиКонфигурацииИстория
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ИнформацияСрезПоследних КАК ИнформацияСрезПоследних
+			ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.ПрофилиОбъектовМетаданных.Конфигурации КАК ПрофилиОбъектовМетаданныхКонфигурации
+			ПО ИнформацияСрезПоследних.Конфигурация = ПрофилиОбъектовМетаданныхКонфигурации.Конфигурация
+		ПО ОперацииСтатистикиКонфигурацииИстория.ИнформационнаяБаза = ИнформацияСрезПоследних.ИнформационнаяБаза
+ГДЕ
+	ОперацииСтатистикиКонфигурацииИстория.ИнформационнаяБаза = &amp;ИнформационнаяБаза
+{ГДЕ
+	(ОперацииСтатистикиКонфигурацииИстория.Период &gt;= &amp;НачалоПериода),
+	(ОперацииСтатистикиКонфигурацииИстория.Период &lt;= &amp;КонецПериода),
+	ОперацииСтатистикиКонфигурацииИстория.ОперацияСтатистикиКонфигурации.* КАК ОбъектМетаданных,
+	ОперацииСтатистикиКонфигурацииИстория.Значение КАК Количество}
+
+ИНДЕКСИРОВАТЬ ПО
+	ОбъектМетаданных,
+	Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	МетаданныеПрофиля.Период КАК Период,
+	МетаданныеПрофиля.ОбъектМетаданных КАК ОбъектМетаданных,
+	МетаданныеПрофиля.Количество КАК Количество
+{ВЫБРАТЬ
+	Период,
+	ОбъектМетаданных.*,
+	Количество}
+ИЗ
+	МетаданныеПрофиля КАК МетаданныеПрофиля
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.ПрофилиОбъектовМетаданных.ОбъектыМетаданных КАК ПрофилиОбъектовМетаданныхОбъектыМетаданных
+		ПО МетаданныеПрофиля.ОбъектМетаданных = ПрофилиОбъектовМетаданныхОбъектыМетаданных.ОбъектМетаданных
+			И МетаданныеПрофиля.Ссылка = ПрофилиОбъектовМетаданныхОбъектыМетаданных.Ссылка
+{ГДЕ
+	МетаданныеПрофиля.ОбъектМетаданных.*,
+	МетаданныеПрофиля.Количество}</query>
+	</dataSet>
+	<totalField>
+		<dataPath>Количество</dataPath>
+		<expression>Сумма(Количество)</expression>
+	</totalField>
+	<parameter>
+		<name>ИнформационнаяБаза</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Информационная база</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ИнформационныеБазы</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОбъектМетаданных</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Период</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Количество</dcsset:field>
+				</dcsset:item>
+				<dcsset:userSettingID>808a8a6c-7aea-4269-8497-9593d2b2ebca</dcsset:userSettingID>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:userSettingID>9764addd-116d-4bf7-bd24-8f8ddbfac4fb</dcsset:userSettingID>
+			</dcsset:filter>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ОбъектМетаданных.НаименованиеПолное</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Период</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:userSettingID>ac721eba-3ec0-45d6-acef-f39f5773084f</dcsset:userSettingID>
+			</dcsset:order>
+			<dcsset:conditionalAppearance>
+				<dcsset:userSettingID>c32f99eb-1295-4abe-b278-3833bd861c66</dcsset:userSettingID>
+			</dcsset:conditionalAppearance>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:column>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Период</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:column>
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ОбъектМетаданных</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:row>
+			</dcsset:item>
+			<dcsset:itemsUserSettingID>9f7d5256-69ae-44ae-a5b8-cfcd2bfdd036</dcsset:itemsUserSettingID>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2a5d770-ae3f-4870-82cb-4bc66d499697">
+  <producedTypes>
+    <selectionType typeId="44e6445a-5d8c-4b44-8193-fe3b88954853" valueTypeId="7681f9cc-8e12-4689-9eb3-7c6ae5284aad"/>
+    <listType typeId="c6b14b61-7c83-46bc-b724-7b0ee8ca423b" valueTypeId="ac24e95f-1c90-4b4d-b83a-d3a4b0b44566"/>
+    <managerType typeId="52f39b4a-2b6e-416c-bc61-89d876f7d2f2" valueTypeId="850ac58d-b8ca-43c0-b6c5-856dbabf770d"/>
+    <recordSetType typeId="b1dad300-6018-4a91-acd9-534a0eb52322" valueTypeId="17b9a30e-c26b-45a7-80f9-d3b60ea2d0d0"/>
+    <recordKeyType typeId="92c14078-2e83-4ecc-be7f-806594f1e961" valueTypeId="acd32cdd-7f90-40e3-b45f-72de8ed43f94"/>
+    <recordType typeId="a73d585c-4039-4e38-b7e7-0e189821b44b" valueTypeId="c2c7dd45-5fe2-4abe-a7b0-2655628b0bb7"/>
+    <recordManagerType typeId="c769dfe7-ea33-45f6-bdd4-7bae41cd139c" valueTypeId="432c5145-7192-4379-85a7-4bbae8e48252"/>
+  </producedTypes>
+  <name>ОборудованиеПроцессоры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудование процессоры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d433ac6c-dd1d-44e5-ae1b-4e5420fa68ac">
+    <name>КоличествоЯдер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество ядер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cbd88aab-6e1c-47ca-a9cb-f09c7ba28c4f">
+    <name>Частота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частота, МГц</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="9d8eedb9-c5cf-4d46-8583-e14c36f2175a">
+    <name>ДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи, UTC</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="e0db801e-0dc0-4193-999c-b6c612aecec0">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Оборудование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+  </dimensions>
+  <dimensions uuid="ed7ca6fd-a543-4714-8483-3e3ad4e52683">
+    <name>Процессор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процессор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c175ff1-a86e-4e0d-9148-65f29ef9c708">
+  <producedTypes>
+    <objectType typeId="c4d2d6b7-add4-4005-9a27-2dc55f2cc57a" valueTypeId="9f3a617d-9124-4b80-971a-cd32c3f099fa"/>
+    <managerType typeId="bab6d1fa-9cce-4233-9f33-c7d001095995" valueTypeId="7a4626d1-2eff-42ab-9c72-4dac964a13bd"/>
+  </producedTypes>
+  <name>ОшибкиБлокировокПоТехнологическомуЖурналу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки блокировок по технологическому журналу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОшибкиБлокировокПоТехнологическомуЖурналу.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="c9499b3a-6d29-472a-82ba-b585a7143e74">
+    <name>Кластер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кластер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c70382c4-64e4-435f-88d8-6037c3f21c78">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e12fa489-419c-490a-98db-19d0f279c992">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e910a56c-0033-4d21-82bc-407114a909a7">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6d023578-7dea-45ca-b221-f0fc4aaeedc6">
+    <name>ВидБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид блокировки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыБлокировок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f8171cd3-96d2-43e2-82c7-3969cf9882a7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="6b2e2f6a-6fcb-48e3-aed0-a4fa490f2d20">
+    <name>ОткрытьОшибкиБлокировокПоТехнологическомуЖурналу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки блокировок по технологическому журналу</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

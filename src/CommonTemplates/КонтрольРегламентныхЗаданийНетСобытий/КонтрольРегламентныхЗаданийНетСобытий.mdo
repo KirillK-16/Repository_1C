@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bb72793-83a4-4cb1-9dfd-4bd604ca6bdd">
+  <name>КонтрольРегламентныхЗаданийНетСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль регламентных заданий</value>
+  </synonym>
+  <templateType>HTMLDocument</templateType>
+</mdclass:CommonTemplate>

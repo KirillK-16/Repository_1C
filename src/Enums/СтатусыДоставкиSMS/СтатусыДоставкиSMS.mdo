@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fa0d730-b84e-4ce9-94ed-f64befcaaf32">
+  <producedTypes>
+    <refType typeId="721be1a3-539b-44ef-807b-7cd5a377dd63" valueTypeId="80fe21c2-630c-4454-bf20-4c815f3763d3"/>
+    <listType typeId="c5977ae1-51f7-4428-99f5-c38dfc8fa23f" valueTypeId="62b53ba6-fb59-4dd8-ba0e-cefffdcf6b00"/>
+    <managerType typeId="4a0b85b3-07aa-4930-8ab3-66858580e941" valueTypeId="a6db764c-6f0e-428a-a7e4-a42f90a14b68"/>
+  </producedTypes>
+  <name>СтатусыДоставкиSMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы доставки SMS</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2d5299f3-fc3c-42c4-a9da-aea004d233f8">
+    <name>Новое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc773ee4-70c9-4fdb-aaeb-8a3994e1590b">
+    <name>Отправляется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправляется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fb909592-d67e-4b2b-94bf-277d393babec">
+    <name>Отправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d9d0e51-3bb1-4604-a09e-bbdfe5bb9516">
+    <name>НеОтправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не отправлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e273d881-4f24-47b8-96cf-1918e56e56f4">
+    <name>Доставлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1328ed4f-4021-4f29-95e0-d4f416bfecc2">
+    <name>НеДоставлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не доставлено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

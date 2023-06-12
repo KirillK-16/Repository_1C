@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cae1bbe-6c8e-48f3-868b-25de32ca572a">
+  <producedTypes>
+    <managerType typeId="58dcdac0-c2df-436c-904c-9add3d0a3b20" valueTypeId="4101d31a-87ec-4ef2-b421-8d17cf042ee3"/>
+    <valueManagerType typeId="2420fbe1-6fef-4a55-8d46-89dbf6631041" valueTypeId="e0bb08c5-b30e-4b87-961f-c1a79bc078fc"/>
+    <valueKeyType typeId="bebf67c5-6ab1-51d7-9412-2adad508be49" valueTypeId="998a8125-d265-523d-9603-c86d01187478"/>
+  </producedTypes>
+  <name>ПериодЗаписиВнутреннихЗамеровКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период записи внутренних замеров клиента</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:StringValue">
+    <value>30</value>
+  </minValue>
+  <maxValue xsi:type="core:StringValue">
+    <value>99999</value>
+  </maxValue>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

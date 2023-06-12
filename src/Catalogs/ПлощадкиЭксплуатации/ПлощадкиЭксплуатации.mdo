@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a23cfc2a-ae5f-4739-8915-000dde385211">
+  <producedTypes>
+    <objectType typeId="42ef7664-dc64-4f8f-88cb-c55e70106556" valueTypeId="681c1cb4-846d-49a8-a678-797d0dc2e023"/>
+    <refType typeId="a5acff44-72cd-454f-bf24-bb64f9d10350" valueTypeId="c54b2c94-2e44-4d08-910d-9da3df620f39"/>
+    <selectionType typeId="1475dda9-0061-41f7-b946-37be0dba35af" valueTypeId="303c6bc8-01ec-4065-a8c3-a5fe0279137a"/>
+    <listType typeId="9cf77074-fa2a-483e-bc47-1c267b646a2f" valueTypeId="70cd0a87-56e7-4d4a-9920-0b6225fd51e1"/>
+    <managerType typeId="16454d14-36f4-403a-954f-9b8e3b62735b" valueTypeId="e1437fec-e85d-446f-b858-9db0f374ffd9"/>
+  </producedTypes>
+  <name>ПлощадкиЭксплуатации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Площадки эксплуатации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПлощадкиЭксплуатации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockFields>Catalog.ПлощадкиЭксплуатации.StandardAttribute.Description</dataLockFields>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПлощадкиЭксплуатации.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПлощадкиЭксплуатации.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="f368774f-e705-4417-891c-d4cf55ae758e">
+    <name>ЕдиницаКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица контроля</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольныеПроцедуры</types>
+      <types>CatalogRef.Публикации</types>
+      <types>CatalogRef.Оборудование</types>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a4b97477-b1e2-46e0-b3cf-8aa4c2c1701a">
+    <name>ТипЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип элемента</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипЭлементаПлощадки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5c46073a-2626-43cc-a602-ad282ad3f352">
+    <name>Скрыть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрыть</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5023778-fa32-4df6-9913-e0b37efeb935">
+    <name>Площадка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПлощадкиЭксплуатации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1b606f8e-315b-4de2-8a76-23214a35f928">
+    <name>ФормаВыбораОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора оборудования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f091aebf-be68-4bbb-9ac0-8d3dca0a41a3">
+    <name>ФормаВыбораПлощадки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора площадки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="052e84cc-ed13-4050-81b0-e877c8a38e8d">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="154cc429-28fe-4fca-9d40-0d6d14acbaaf">
+    <name>ФормаГруппыАнализВызововКластера1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы анализ вызовов кластера1 С</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f7bbff37-fb66-430e-ab99-af8f379238ba">
+    <name>ФормаГруппыКластера1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы кластера 1С</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d2dda773-7455-45d4-b610-d6bf6b941b4e">
+    <name>ФормаГруппыКонтрольПодключений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы контроль подключений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="57045c4a-743d-4390-ba6e-ba19ce43e0f4">
+    <name>ФормаГруппыКонтрольПотребленияПамяти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы контроль потребления памяти</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8a146345-5789-4e8a-8a61-04a7e762fb67">
+    <name>ФормаГруппыКонтрольПроизводительности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы контроль производительности</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="407b653c-07b7-4534-b5ab-fefee6d9cafe">
+    <name>ФормаГруппыКонтрольРегламентныхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы контроль регламентных заданий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="adf572ad-091d-4f0b-b72d-63b420606d53">
+    <name>ФормаГруппыКонтрольУстойчивости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы контроль устойчивости</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="55e2a41c-afcc-431b-bd53-31915d9922eb">
+    <name>ФормаГруппыМониторингСистемныхОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы мониторинг системных ошибок</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="40c13755-2cf7-4c1b-8fbd-0dbfc0859436">
+    <name>ФормаГруппыОборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы оборудование</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a8bbdaf8-bbf0-404e-bc13-337a9659f2c1">
+    <name>ФормаГруппыПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы публикации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8ecf4e67-9002-4e37-89ce-f3079247996c">
+    <name>ФормаГруппыРабочийСервер1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы рабочий сервер 1С</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2cf44006-ee8c-46f0-940e-96c8ec714de6">
+    <name>ФормаЕдиницаМасштабирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма единица масштабирования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="daf2b9a4-8070-4271-ad89-56b01f175b71">
+    <name>ФормаИзменитьНесколькоКластеры1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма изменить несколько кластеры1 С</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="04089d40-c72d-46df-87f1-93b910cf9faf">
+    <name>ФормаИзменитьНесколькоКонтрольПодключений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма изменить несколько контроль подключений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d0194839-2439-43ab-9a0b-a73dbf8633da">
+    <name>ФормаИзменитьНесколькоКонтрольПотребленияПамяти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма изменить несколько контроль потребления памяти</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="38242108-afab-4747-b281-93609a5a8bf9">
+    <name>ФормаИзменитьНесколькоКонтрольПроизводительности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма изменить несколько контроль производительности</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ebf7ed20-35e2-47a7-885a-305f41047bb0">
+    <name>ФормаИзменитьНесколькоКонтрольРегламентныхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма изменить несколько контроль регламентных заданий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="601d97e8-5d63-4294-b7c7-470fb2694056">
+    <name>ФормаИзменитьНесколькоКонтрольУстойчивости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма изменить несколько контроль устойчивости</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b903f3d8-047d-42b0-9889-8fdf767dd6c6">
+    <name>ФормаИзменитьНесколькоОборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма изменить несколько оборудование</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7bffdcbe-e307-446e-8f2e-5389a4f26af1">
+    <name>ФормаИзменитьНесколькоПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма изменить несколько публикации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ce8d6afc-2946-43f3-b151-9cea4bfd1c4f">
+    <name>ФормаИзменитьНесколькоРабочиеСерверы1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма изменить несколько рабочие серверы1 С</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7c0efcc6-9874-46c6-b114-f24bd7531185">
+    <name>ФормаОтбораОборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отбора оборудование</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9b0b1d16-6f16-46a3-8782-d18fc2273f84">
+    <name>ФормаОтбораПлощадки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отбора площадки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cfe505b3-0011-4bfe-a5dc-f3fc182a6451">
+    <name>ФормаПакетныйВводОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма пакетный ввод оборудования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="03990945-a3c4-437d-879a-a548b5b98119">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="be37ebdd-a9b8-4059-9a7b-28da5be8b1f5">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="90305576-fe4d-4084-8883-ef78ebb1aea4">
+    <name>ФормаКонтрольПараметровКластеры1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма контроль параметров кластеры1 С</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="256cf2d8-a0bf-4ef3-b6da-c229fe1de519">
+    <name>ФормаКонтрольПараметровРабочиеСерверы1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма контроль параметров рабочие серверы 1С</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b03ed5d3-b0c4-446c-9e1a-a82eddf3e74c">
+    <name>ФормаКонтрольПараметровИнформационныеБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма контроль параметров информационные базы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

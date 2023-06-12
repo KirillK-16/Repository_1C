@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="533e2c11-8590-4a8f-a16d-e5f5dae11ce1">
+  <name>КонтрольРегламентныхЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль регламентных заданий</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>BusinessProcess.КонтрольРегламентныхЗаданий</content>
+  <content>InformationRegister.НастройкиКонтрольРегламентныхЗаданий</content>
+  <content>Catalog.ТипыИсполнителейКонтрольРегламентныхЗаданий</content>
+  <content>CommonTemplate.КонтрольРегламентныхЗаданий</content>
+  <content>CommonTemplate.КонтрольРегламентныхЗаданийТаймаут</content>
+  <content>CommonTemplate.КонтрольРегламентныхЗаданийОшибка</content>
+  <content>CommonTemplate.КонтрольРегламентныхЗаданийНетСобытий</content>
+  <content>CommonTemplate.КонтрольРегламентныхЗаданийНеизвестнаяОшибка</content>
+  <content>Catalog.ТипыЗадачКонтрольРегламентныхЗаданий</content>
+  <content>CommonModule.КонтрольРегламентныхЗаданийСервер</content>
+</mdclass:Subsystem>

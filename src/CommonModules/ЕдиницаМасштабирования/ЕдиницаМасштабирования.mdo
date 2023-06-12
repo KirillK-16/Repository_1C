@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="335a8d7e-0d33-43f6-aa85-41e640f3ef3d">
+  <name>ЕдиницаМасштабирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единица масштабирования</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

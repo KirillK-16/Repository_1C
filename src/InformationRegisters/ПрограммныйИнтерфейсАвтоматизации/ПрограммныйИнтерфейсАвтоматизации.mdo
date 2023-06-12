@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de594e0f-19a9-4301-b53d-c68fe66ae4ba">
+  <producedTypes>
+    <selectionType typeId="91715e0e-6305-4bff-8d66-536cfc647741" valueTypeId="22e89f12-5a65-4463-a0ad-c8aabd76ba39"/>
+    <listType typeId="0c4c9de3-50a9-4b90-82e0-28f298eda844" valueTypeId="34cf69d3-54ab-421f-ab08-c199b0a68f12"/>
+    <managerType typeId="61db1ab3-ec91-41de-a852-34defd846fe3" valueTypeId="a797a377-6be0-4d26-8aba-2e45664bf66f"/>
+    <recordSetType typeId="1e5aabe3-264b-48e8-bad8-860a0adb4c07" valueTypeId="a09910d4-dee2-4d51-942e-2536a127600a"/>
+    <recordKeyType typeId="357836c6-f801-43b2-b3a9-22b953e6b9aa" valueTypeId="a71f7a79-9a41-4f40-9f0c-519ee5234b47"/>
+    <recordType typeId="62103300-e8cb-4470-8b61-9bb2aecc0631" valueTypeId="0dbc8ea8-28d9-45f1-89a8-63427be7958e"/>
+    <recordManagerType typeId="6f66a334-f83d-41f3-866a-e02c1fdfc1ef" valueTypeId="2ecb27e8-1614-4e61-b99a-0ebdfbc0a585"/>
+  </producedTypes>
+  <name>ПрограммныйИнтерфейсАвтоматизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Программный интерфейс автоматизации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="49f04e89-0923-4850-a0be-7352254d579f">
+    <name>КомандаДляАгента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда для Агента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="59765212-8e71-4da2-80ed-7193384ea98a">
+    <name>ВерсияПоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия поставки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <mask>@@@.@@@.@@@.@@@</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="14fc8b6e-812c-4d5f-ba58-32e6bb6a22ea">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КомандыАвтоматизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

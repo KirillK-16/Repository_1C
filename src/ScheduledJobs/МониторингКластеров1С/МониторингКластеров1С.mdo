@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a995b7bb-09e0-44bc-b9a7-84c5210f280e">
+  <name>МониторингКластеров1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мониторинг кластеров 1С</value>
+  </synonym>
+  <methodName>CommonModule.КонтрольПамятиСервер.МониторингКластеров1С</methodName>
+  <description>Мониторинг кластеров 1С</description>
+  <key>37d12e76-188f-4016-a585-db23da6323fc</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

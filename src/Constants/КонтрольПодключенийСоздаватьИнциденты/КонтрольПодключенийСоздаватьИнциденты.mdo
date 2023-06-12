@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8febee7f-0503-421b-bc91-9e7f0d73fe13">
+  <producedTypes>
+    <managerType typeId="1142c1a0-d3fc-432c-b0d9-2adc6e6f5f32" valueTypeId="5520131b-650d-45e7-8c6e-59e8a2632817"/>
+    <valueManagerType typeId="672f7c78-1249-48c3-a5d0-1dfb7667daa0" valueTypeId="dbf7e986-c0bb-4622-bdfb-8ac3a89c43ad"/>
+    <valueKeyType typeId="7ab085f5-7243-5e90-9227-9dd190c37ecf" valueTypeId="4e281086-d916-53f4-95fa-d4e51265f1da"/>
+  </producedTypes>
+  <name>КонтрольПодключенийСоздаватьИнциденты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль подключений создавать инциденты</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

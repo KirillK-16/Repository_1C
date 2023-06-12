@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c25a54bd-da41-4211-aa21-f63503c0884d">
+  <producedTypes>
+    <selectionType typeId="246e5053-c364-4c65-979a-728224f5bc30" valueTypeId="d6684ba6-1ce4-43be-9318-a9b2fc9339e7"/>
+    <listType typeId="3fe02d6c-0dd4-4894-9838-43482f60907a" valueTypeId="e2f901ab-dfe3-43ea-bfc6-998c8b1824d5"/>
+    <managerType typeId="78414a74-fe91-47b8-93a4-5f4f2045e9c7" valueTypeId="14adb698-91e0-41f4-bdad-661352591e57"/>
+    <recordSetType typeId="82d8e682-0939-40ce-beec-8874e29421ee" valueTypeId="dde040d0-742a-43a3-b6b4-22d371b3d68c"/>
+    <recordKeyType typeId="822849ef-5e11-4cc5-ab4a-fa12d937c264" valueTypeId="17abc009-8dcc-4955-b308-8efd11d2a3cd"/>
+    <recordType typeId="497a3e92-3830-4c06-ab42-70cf675fd81a" valueTypeId="2e8fa162-4925-46c3-b914-6c98e19d873a"/>
+    <recordManagerType typeId="ee93b150-0d08-4121-8805-bb5d3e58c799" valueTypeId="bdc4d5c4-94f9-4ceb-97a8-9e082a92af5c"/>
+  </producedTypes>
+  <name>ОформлениеЗадачАвтоматизацииВКалендаре</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оформление задач автоматизации в календаре</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0cd0263d-450d-480b-b904-63e743e2fcbd">
+    <name>ЦветФона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет фона</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3ac797e5-f700-4391-a89b-e69e1eb1e77b">
+    <name>Сценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СценарииАвтоматизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

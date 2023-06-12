@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14ede35e-36b4-436f-aaee-103c76b69e8a">
+  <producedTypes>
+    <selectionType typeId="a9933cf9-cf12-445a-bedf-dff8c3fe3b5e" valueTypeId="1dbf618d-3a9b-4d0f-9315-9373f74045be"/>
+    <listType typeId="e8e02983-972d-43e2-a946-ba765e786c1e" valueTypeId="758836e1-0137-4bbd-8565-110ceb1087aa"/>
+    <managerType typeId="dbcc5cee-05d0-41b2-a70a-c00381a795f2" valueTypeId="2ff9ba57-1e89-43af-8ebe-13aea3e4eb40"/>
+    <recordSetType typeId="c1796979-156b-47b1-addf-26587cc8ff5a" valueTypeId="df3708eb-07d7-490f-98ec-423415082df8"/>
+    <recordKeyType typeId="52cddb09-154b-4c96-9c4f-325db0397c1a" valueTypeId="25b10b9f-d97b-4db8-ad38-13616fe2abcf"/>
+    <recordType typeId="e0e38751-cee3-4844-a553-f85044af157e" valueTypeId="8955249f-04bc-4103-b362-b61858b6abf3"/>
+    <recordManagerType typeId="6ceac5a9-ec41-4f64-b8a1-f411fdeaf1ff" valueTypeId="4b58e357-694d-4eda-88ba-dbb3a11e5f84"/>
+  </producedTypes>
+  <name>ВременаРегламентныхЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Времена регламентных заданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2a7d5318-8618-418f-8c0d-a7c483d6652a">
+    <name>ТаймаутВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таймаут выполнения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="f850ef57-3e37-44ef-9bf5-01dcbb1e165c">
+    <name>ИмяМетодаРегламентногоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя метода регламентного задания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="69f0e96c-d409-495e-9fc1-f2e253535e3e">
+    <name>КонтрольнаяПроцедура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная процедура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольныеПроцедуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8d4de84a-ff54-464c-961d-7e5d916e2e85">
+    <name>НомерСеансаФоновогоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер сеанса фонового задания</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dd078f3f-8bab-4c04-87d8-2b627e932abc">
+    <name>ОбластьДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область данных</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

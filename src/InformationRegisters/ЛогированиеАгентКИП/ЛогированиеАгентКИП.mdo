@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7af978f7-436a-44de-9ea9-8df70351481b">
+  <producedTypes>
+    <selectionType typeId="09e7a7c8-af1d-47e3-8b39-30f01a78c47b" valueTypeId="f76f1242-a7c4-4fee-8ac0-30c578677eaf"/>
+    <listType typeId="073a8661-a4b3-4dd4-9952-362a2c3090dc" valueTypeId="6c081112-fb7c-4313-bef7-5c9439fc764b"/>
+    <managerType typeId="9d6f53c2-f290-4989-bc59-e21e36f1a950" valueTypeId="35de3cdd-c806-4cb4-b8d1-d4cef71b70d0"/>
+    <recordSetType typeId="f6cd2e98-5f3a-4ac4-a195-3a0e4f645d31" valueTypeId="b0f6faf5-a5c6-45fc-a590-46d309857008"/>
+    <recordKeyType typeId="692a2152-4559-4db4-8ef2-694299cf591f" valueTypeId="b3975ed8-27c3-4b12-8fb3-bbbabb0d3d3a"/>
+    <recordType typeId="6802db8d-4cb7-464b-a349-b677da39fe95" valueTypeId="6b9ba8f4-cafa-4bcf-bc60-22ca957898f5"/>
+    <recordManagerType typeId="63419c75-85d8-4f29-9d4d-0453c355079f" valueTypeId="56c4b7df-5824-4f47-b48e-cc8d609d530b"/>
+  </producedTypes>
+  <name>ЛогированиеАгентКИП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логирование агент КИП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ЛогированиеАгентКИП.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="c084c178-d03c-446e-ab86-12c7a8803d6e">
+    <name>Направление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="cce8c498-4cce-48da-aa70-279319b30526">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="23c24eb7-5b38-45d0-87bc-dbcbd91ca5a9">
+    <name>АгентКИП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агент КИП</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АгентыКИП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="0c5867a2-7890-4ddf-8f00-bd330191f4f1">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="753c1df0-1ffe-4191-9692-4311e7bd22b1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

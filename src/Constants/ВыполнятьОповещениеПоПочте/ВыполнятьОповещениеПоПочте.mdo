@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98615265-7926-4476-b93a-7c53e7d3d739">
+  <producedTypes>
+    <managerType typeId="f9673dfb-648f-41d2-8c89-b311f6eef242" valueTypeId="84d62850-9cdb-46dd-95c9-1f8d869c67fa"/>
+    <valueManagerType typeId="bea3cca5-7b9a-4137-92c5-2948894262ea" valueTypeId="f67f9bcc-d84a-42b4-87ca-017d505acd13"/>
+    <valueKeyType typeId="c6625ea3-6780-5e9b-b7da-12d2f0ff1463" valueTypeId="f772766f-69a3-5453-ae28-c5bed2360272"/>
+  </producedTypes>
+  <name>ВыполнятьОповещениеПоПочте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнять оповещение по электронной почте</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

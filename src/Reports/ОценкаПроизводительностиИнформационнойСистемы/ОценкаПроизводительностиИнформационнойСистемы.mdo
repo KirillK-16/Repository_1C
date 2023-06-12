@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86c7d6d5-51f9-4230-a22f-364423719a87">
+  <producedTypes>
+    <objectType typeId="f8b721ec-27c1-42e3-91c6-028ee8f1dec4" valueTypeId="4483384f-3e4d-4b49-99e5-afd0c9444121"/>
+    <managerType typeId="3bed31ab-d71c-440e-ac72-fd9f854ae5e9" valueTypeId="d6cf40ca-b7d5-42b7-b6bc-5cc5c0f0ce97"/>
+  </producedTypes>
+  <name>ОценкаПроизводительностиИнформационнойСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка по базе</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОценкаПроизводительностиИнформационнойСистемы.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="61fda26b-4389-401c-b1c6-6d27a1672259">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="7c664c5c-c7c3-4ac7-a2b1-d1145f06217f">
+    <name>ОткрытьОценкуПроизводительностиИнформационнойСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка по базе</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

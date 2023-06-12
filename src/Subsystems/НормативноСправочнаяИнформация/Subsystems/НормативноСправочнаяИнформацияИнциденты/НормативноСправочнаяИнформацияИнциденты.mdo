@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="167f243c-5b19-4457-a6ef-85874f0fac00">
+  <name>НормативноСправочнаяИнформацияИнциденты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инциденты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Инциденты</content>
+  <content>Catalog.ТипыИнцидентов</content>
+  <content>InformationRegister.Инциденты</content>
+  <parentSubsystem>Subsystem.НормативноСправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

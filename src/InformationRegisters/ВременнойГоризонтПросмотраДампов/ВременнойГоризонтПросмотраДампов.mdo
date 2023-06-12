@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55163d8a-0094-4f42-9fb3-452bcf0000a7">
+  <producedTypes>
+    <selectionType typeId="ff83eeb6-970b-4699-83b4-9d02336ed55c" valueTypeId="c689fb5c-084f-4795-b3d5-6a6ec0367401"/>
+    <listType typeId="b01d7e11-ae4a-4bf9-bf2c-eacb79c14ffd" valueTypeId="2fbd852e-1c7b-4c3c-94bc-a2b4430a721f"/>
+    <managerType typeId="cc71ce96-58fc-4cd3-8dc9-eb8c24c7c212" valueTypeId="5265f297-7700-49ea-82f7-9075d8e3b469"/>
+    <recordSetType typeId="887a136f-6e23-44e3-a367-91d06d51bf96" valueTypeId="47b1c2d0-40ff-4d44-8fb5-81fe7498e6e7"/>
+    <recordKeyType typeId="3f7477f0-58aa-4a7f-926d-a1dd6a7d7d86" valueTypeId="5ec6bda5-7822-47be-bcc7-df7281479332"/>
+    <recordType typeId="b8bff41f-63b8-49a4-8706-62de89562da4" valueTypeId="55559b45-ba46-4cfe-b84d-ea2106d5ea81"/>
+    <recordManagerType typeId="fc75f9f2-c97d-41af-98f0-032914f90b02" valueTypeId="e6cf3318-89b8-4569-b29e-4f30862279a1"/>
+  </producedTypes>
+  <name>ВременнойГоризонтПросмотраДампов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Временной горизонт просмотра дампов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="799ddfad-054f-4a65-b8dc-b68a672a7e56">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7519bb57-12d9-40b2-85fc-4062fdcba8ed">
+    <name>КонтрольнаяПроцедура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная процедура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольныеПроцедуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

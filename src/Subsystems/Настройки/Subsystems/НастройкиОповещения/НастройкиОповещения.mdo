@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed1d15d5-bd09-4242-8446-8333a9aaa44e">
+  <name>НастройкиОповещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Оповещения</content>
+  <content>Catalog.ОповещенияОперативные</content>
+  <content>CommonForm.НастройкиСкайпБота</content>
+  <content>CommonCommand.ОткрытьНастройкиСкайпБота</content>
+  <content>CommonCommand.ФормаКонстантОповещения</content>
+  <parentSubsystem>Subsystem.Настройки</parentSubsystem>
+</mdclass:Subsystem>

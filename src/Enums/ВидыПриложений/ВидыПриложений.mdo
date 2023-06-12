@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cddca0be-4b84-4b89-bd59-50cde8701c66">
+  <producedTypes>
+    <refType typeId="a4d0ff87-15f3-44b7-be70-57d28f4bf1b9" valueTypeId="76b2eed4-9b8e-40de-8efd-64be4cca1178"/>
+    <listType typeId="917c4645-d89a-4ed7-a531-17c2682a8208" valueTypeId="d45291f0-9654-4d24-9670-6c0c8f09dba1"/>
+    <managerType typeId="09f50489-68dd-44dd-9c97-67b0dd5ef8d7" valueTypeId="e8b6486a-dcb7-4240-ad82-cd1074f6c370"/>
+  </producedTypes>
+  <name>ВидыПриложений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды приложений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="395c514f-3b13-46f0-9697-86eab20471eb">
+    <name>_1CV8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Толстый клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b183187-4c5a-471c-be4e-33fb7ee0eae7">
+    <name>_1CV8C</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тонкий клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="171af776-6a69-44ec-9d12-8a6f585ed6f4">
+    <name>_WebClient</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веб клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd647b07-2883-4193-b3f3-4fe84427b8f0">
+    <name>_WebApp</name>
+    <synonym>
+      <key>ru</key>
+      <value>Web app</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="086c1b40-a1bb-4eca-bde2-a22c87986c2b">
+    <name>_Designer</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигуратор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b7781fd8-07c3-4220-8157-97d3a9bd1ed6">
+    <name>_Config</name>
+    <synonym>
+      <key>ru</key>
+      <value>Config</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b9b09b0-d6ac-4fb5-baad-039fbfc4384e">
+    <name>_COMConnection</name>
+    <synonym>
+      <key>ru</key>
+      <value>COM-Соединение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f31a707a-b2f5-471c-9870-a4dff0fc9724">
+    <name>_WSConnection</name>
+    <synonym>
+      <key>ru</key>
+      <value>WS-Соединение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="299c8676-fdaf-4a3f-8f09-82a6a56c5f70">
+    <name>_ODataConnection</name>
+    <synonym>
+      <key>ru</key>
+      <value>OData connection</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad4ba49f-4197-4bbd-8187-e516931c09a0">
+    <name>_HTTPServiceConnection</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTTP-Сервис</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f47459eb-8564-4e86-adb0-dec9132a5440">
+    <name>_BackgroundJob</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фоновое задание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8bf02226-2f20-4831-81cf-9eadb371f543">
+    <name>_SrvrConsole</name>
+    <synonym>
+      <key>ru</key>
+      <value>Консоль кластера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23fbec01-b952-4652-af15-22ffd45ae5b1">
+    <name>_COMConsole</name>
+    <synonym>
+      <key>ru</key>
+      <value>COM-Соединение административное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e1ff27e7-9bf4-4c4d-be9b-47958467758a">
+    <name>_JobScheduler</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планировщик заданий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06c71a56-e752-42ea-a76f-2a6297e4b8f8">
+    <name>_Debugger</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отладчик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fae6801d-d76a-4a45-a9ac-57277c32ffad">
+    <name>_WebServerExtension</name>
+    <synonym>
+      <key>ru</key>
+      <value>Web server extension</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0a994582-c5ff-4a0c-b8e6-bfacbed4dc6c">
+    <name>_SystemBackgroundJob</name>
+    <synonym>
+      <key>ru</key>
+      <value>Системное фоновое задание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f14378ae-e768-4a80-81db-44c9bf7c5c09">
+    <name>OpenIDProvider</name>
+    <synonym>
+      <key>ru</key>
+      <value>Open ID Provider</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69ba353e-1385-43fa-983c-25ef46451bc6">
+    <name>_RAS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер администрирования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3864d299-a960-4bd9-8e24-7a19715783a2">
+    <name>_ImplAppID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Impl app ID</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e1d0ba3-658d-46dc-ba10-514d26724c13">
+    <name>_CrServer</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cr server</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce934ce8-a022-4618-9af5-08ffe12541c9">
+    <name>_MobileClient</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mobile client</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f09bf73-e3fa-41ca-9be9-6644d8445376">
+    <name>_Unknown</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неизвестное приложение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

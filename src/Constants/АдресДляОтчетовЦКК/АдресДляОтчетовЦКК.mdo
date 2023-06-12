@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5a61457-6163-49b5-b282-f0a350839b87">
+  <producedTypes>
+    <managerType typeId="17f1b30c-dd68-4c7b-b99e-3eb263dbc460" valueTypeId="45ac8ea1-e0d2-4d8e-8fa8-613dd287257f"/>
+    <valueManagerType typeId="10db209f-c482-43ed-bcc4-b6e9576a9e49" valueTypeId="aaf4d518-54da-4c4b-b07a-5850957e7bf7"/>
+    <valueKeyType typeId="209858c6-f24e-5797-a87e-de4a99f47850" valueTypeId="56d61d39-c31b-5768-beec-b320b419edce"/>
+  </producedTypes>
+  <name>АдресДляОтчетовЦКК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес электронного почтового ящика для отправки отчетов о деятельности ЦКК</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>128</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Адрес электронной почты в формате пользователь@сервер для отправки отчётов</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

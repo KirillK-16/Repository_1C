@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24f035e7-dd77-4b74-8c92-b920bc9eb021">
+  <producedTypes>
+    <selectionType typeId="fff42c4f-86cd-422e-8920-daeae2eee1da" valueTypeId="a24315cf-3366-4223-84b3-55a6f865b772"/>
+    <listType typeId="35a509cc-2c7e-4d41-b99f-a5d2bfbf1163" valueTypeId="236aab35-eeb3-436b-b9ec-77f5d3d92774"/>
+    <managerType typeId="540022c4-3095-4052-bf94-5fe1052c610a" valueTypeId="e0be4970-3c4a-491f-9c35-37509aa697d0"/>
+    <recordSetType typeId="d3b9dd92-0f0b-493a-a29f-af0a04a9fc0f" valueTypeId="d62180c4-4c8d-43b9-b418-99cf9c24ec6b"/>
+    <recordKeyType typeId="f3b8153b-b90c-4dcb-88e1-5b0707ee3b49" valueTypeId="540918f9-7da0-4376-8811-ad2c4a513d41"/>
+    <recordType typeId="ff5bceca-56f4-4daf-8617-e6ccc9924875" valueTypeId="094c9337-4ed1-4b75-b779-a7a50b7ee81e"/>
+    <recordManagerType typeId="d4140843-ca93-496b-953e-7dc61cd46df3" valueTypeId="76ea12ee-2f7b-45a2-a3d3-c564e6b682d4"/>
+  </producedTypes>
+  <name>НовыеПроблемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новые проблемы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0ac96232-2ac3-4258-8c36-7b6a8c4e2ec7">
+    <name>Решена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Решена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c5b66c3a-6980-4a65-b13c-26d2ead3f85a">
+    <name>ВариантДампа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант дампа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВариантыДампов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

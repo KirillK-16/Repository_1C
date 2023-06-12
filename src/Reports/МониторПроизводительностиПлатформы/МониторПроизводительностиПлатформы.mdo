@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6f49f78-08f4-423a-84d1-8b46166099a2">
+  <producedTypes>
+    <objectType typeId="00164364-b879-4bef-86ca-9cad296fe397" valueTypeId="e2de87d2-be8f-4def-913b-25fbfe565940"/>
+    <managerType typeId="350ff0ab-64e0-4ac5-b25e-220298166496" valueTypeId="e151bea4-cf30-4861-8fd3-213e95f67ce1"/>
+  </producedTypes>
+  <name>МониторПроизводительностиПлатформы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор производительности платформы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.МониторПроизводительностиПлатформы.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="efb7cced-f8d5-4fbd-99ad-fbedd7b2f2af">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f187c88b-5960-45be-8f13-b165b1d92333">
+    <name>ПрофильКлючевыхОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль ключевых операций</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрофилиКлючевыхОпераций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f98204a1-6194-4511-a4a9-e8ac4a469d60">
+    <name>ТолькоКлючевыеОперацииПрофиля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только ключевые операции профиля</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="980f19b2-9d46-4709-9973-454a0c8a8df5">
+    <name>ИспользоватьБазовоеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать базовое значение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="291f9b21-0acf-45e9-abc6-dda40c1e68e0">
+    <name>МинимальноеКоличествоБазДляРаспределения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальное количество баз для распределения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="167fe5f8-c6dd-4e5c-9ea8-ed0d30c8411e">
+    <name>ТипАнализа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип анализа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e8ae9a71-99d8-450d-9139-cb4c8109ca87">
+    <name>ТолькоРелизныеПлатформы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только релизные платформы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="085ac419-af55-4a2a-9fd7-ba78c1b59efc">
+    <name>ТолькоРелизныеВерсииКонфигураций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только релизные версии конфигураций</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1ad4ce9e-47aa-452e-a3d3-cc50dc610a4b">
+    <name>СтатусыИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статусы информационной базы</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="6bf63dfa-8ccb-41d8-9403-3974d8ea9736">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7f8edc65-a93f-40b0-a656-1c4042aee6bc">
+    <name>ФормаНастройкиОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

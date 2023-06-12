@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="385e7fd3-2f7c-4cf9-a559-b05cfdaa5c93">
+  <producedTypes>
+    <managerType typeId="eeff44c7-ee2c-401e-8abf-975e9f261006" valueTypeId="e6e6c333-1b88-4190-a51a-7bbb8862e22c"/>
+    <valueManagerType typeId="98bafaee-8999-4c95-9ec6-90446f8cbb4d" valueTypeId="4b9f69f3-3f5b-4df6-b5b9-e09441f00af7"/>
+    <valueKeyType typeId="8e320654-ecd0-4126-bff2-192b90b62e9d" valueTypeId="cf31d0b4-851d-43d1-ba02-fc60eb7c180f"/>
+  </producedTypes>
+  <name>ГлубинаХраненияБуфераОперацийБизнесСтатистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Глубина хранения буфера операций бизнес статистики, дней</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

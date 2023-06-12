@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb12036d-1de5-46a1-b0ee-1b432851e667">
+  <producedTypes>
+    <managerType typeId="60b9d2c8-f1e2-4584-b490-faaa942b6aec" valueTypeId="8669890f-db40-407a-8047-0a14dcca1398"/>
+    <valueManagerType typeId="4cef7481-0670-498b-aca4-96373c60403d" valueTypeId="50f5c903-c3a1-4988-ae5c-f6985df4cbbb"/>
+    <valueKeyType typeId="78c5b692-45d4-578c-a0de-51ac9de52bc2" valueTypeId="8cb2b5c7-b5ca-5dff-b70b-306852e20bf3"/>
+  </producedTypes>
+  <name>ПоказатьФормуПослеОбновления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показать форму после обновления</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

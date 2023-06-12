@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15d95ced-efa2-4faf-9e79-304a2426b871">
+  <producedTypes>
+    <selectionType typeId="23776bd9-7997-4a28-bd4d-f08c34cda146" valueTypeId="927a724a-bdb6-46b2-b34b-4b0a65e64d26"/>
+    <listType typeId="5d130283-57be-4642-854c-4d97e1142cb6" valueTypeId="7a2b1729-ddfd-43b0-a67d-6918d17d6390"/>
+    <managerType typeId="dc776917-66b3-46d0-b020-40bf2d4e49da" valueTypeId="48ca529c-34cb-4244-863a-fdd8afd4c9ba"/>
+    <recordSetType typeId="a4635612-ae74-4194-a4a6-b0b44135194d" valueTypeId="09c5282f-1ae6-4c62-b717-d8a506a7e90c"/>
+    <recordKeyType typeId="442eafa4-01be-47d5-ae56-2095486c0bca" valueTypeId="fd5dc742-5730-4ef9-b08a-1eb6d36dd6a4"/>
+    <recordType typeId="4b4e1090-2453-493c-b133-2b6673998c02" valueTypeId="896e228b-b26a-4e8a-912a-48213985cfcb"/>
+    <recordManagerType typeId="ef12ad29-80b7-40e8-8c38-bbbcd7326119" valueTypeId="7a58b8b1-0d52-4b61-9c31-733abb62a9e3"/>
+  </producedTypes>
+  <name>НастройкиРасчетаПроизводительностиПлатформы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки расчета производительности платформы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НастройкиРасчетаПроизводительностиПлатформы.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9d826b13-0a87-474b-87fe-a3a26d4200f4">
+    <name>РассчитанПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассчитан по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="575418d3-0a85-4578-9c23-05cb56e57f43">
+    <name>ГлубинаРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глубина расчета, в днях</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="50b10887-b9ff-4aee-b607-609e9513065d">
+    <name>ПрофильКлючевыхОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль ключевых операций</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрофилиКлючевыхОпераций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a4067600-d6e3-4cf7-b374-888f5b71e442">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

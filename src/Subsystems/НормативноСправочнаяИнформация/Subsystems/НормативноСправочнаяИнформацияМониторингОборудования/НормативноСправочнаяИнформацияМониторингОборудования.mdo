@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa6bb330-93a1-4265-8ffc-9da5b3c16f83">
+  <name>НормативноСправочнаяИнформацияМониторингОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мониторинг оборудования</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СчетчикиПроизводительности</content>
+  <content>Catalog.АгентыКИП</content>
+  <content>Catalog.Оборудование</content>
+  <content>Catalog.РолиОборудования</content>
+  <content>InformationRegister.ТекущиеЗначенияПроизводительности</content>
+  <content>Catalog.Лицензии</content>
+  <parentSubsystem>Subsystem.НормативноСправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

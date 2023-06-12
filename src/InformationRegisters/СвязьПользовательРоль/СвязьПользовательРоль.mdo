@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a25c344c-08a0-47fb-9978-2427481b7c6d">
+  <producedTypes>
+    <selectionType typeId="c6cfd28b-269a-4ba1-a2d7-151d69b13489" valueTypeId="2340b382-f0a7-490c-adcb-45e1da8e647c"/>
+    <listType typeId="0d0ef343-370b-4844-afe6-9005b632b6ae" valueTypeId="0f58c65f-3f57-45a4-9386-38864f784055"/>
+    <managerType typeId="df03e209-b509-4a80-9b57-5919ec846b00" valueTypeId="f23961e5-8889-42d0-a10b-e3bf53aa6544"/>
+    <recordSetType typeId="aaf4094a-7e21-45a9-87ab-2df26e66497a" valueTypeId="58246daa-9fc8-4fc0-b923-34e0bdf8406f"/>
+    <recordKeyType typeId="411e7d49-490b-43f9-bb64-17bce0e7ed54" valueTypeId="f00d3edd-e1f9-4d71-956a-cdce739574e7"/>
+    <recordType typeId="2dfa653d-9d43-4587-b0cf-8e8fcef7d12d" valueTypeId="0215bfde-7870-460e-8f23-a0f3e671f1db"/>
+    <recordManagerType typeId="5fbc4e57-6632-44ab-b529-5b23f9f9b3a1" valueTypeId="c7f5fb13-fcfd-40f4-b854-aa4e3d03e06c"/>
+  </producedTypes>
+  <name>СвязьПользовательРоль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связь &quot;Многие Ко Многим&quot; для пользователей и исполнительских ролей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="264ba393-5333-407e-b63a-ef944745db75">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="48df3340-127f-475a-96eb-bef4747a3568">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РолиПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

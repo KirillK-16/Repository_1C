@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41d73daa-dda7-4a9a-b720-316a263c5c16">
+  <producedTypes>
+    <selectionType typeId="0cf2a1d9-72f2-48a1-9b06-6b5f64ec77e6" valueTypeId="0035528c-6325-45af-bbef-3654f39baa3f"/>
+    <listType typeId="72a96289-eeff-40a4-b7a5-cac554d5e087" valueTypeId="487b810f-b29d-4d9e-b170-020931ec6651"/>
+    <managerType typeId="39a04e5f-8cc7-4f73-bc5e-5f66f353bd6a" valueTypeId="5353898a-e3da-4415-861d-50785dfb1343"/>
+    <recordSetType typeId="9809137e-bcf6-442f-ba83-172419c16027" valueTypeId="9d50d502-1f54-4d53-aaa7-7b311f58dce6"/>
+    <recordKeyType typeId="35f8c2e7-01ba-473a-8b38-6a68bf9ad684" valueTypeId="095d7d52-005d-478c-b4cb-5400fe4f2988"/>
+    <recordType typeId="8eb79680-0030-4ff9-9c0e-f45181ae2aa4" valueTypeId="94fb5996-f421-471b-ab69-1dbd98566d9f"/>
+    <recordManagerType typeId="873c292e-60b3-4bb4-b426-46f6f99994fe" valueTypeId="39c3fb26-da5e-459c-b66d-9668c67a7baa"/>
+  </producedTypes>
+  <name>РезультатАнализаИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результат анализа информационных баз</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.РезультатАнализаИнформационныхБаз.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.РезультатАнализаИнформационныхБаз.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f8312e8f-d99b-44e6-893d-e7974f4a35af">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыИнформационнойБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="658d9f7a-ba65-4f88-9072-9c3b539bb224">
+    <name>ОписаниеАнализа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание анализа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="fa525d36-88ea-42e8-a086-b0d268703e16">
+    <name>ДатаПроведенияАнализа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата проведения анализа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8331f008-5bac-4f08-bd16-c4c52681c8a9">
+    <name>НеИзменятьСтатус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не изменять статус</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="4f9ac189-6a23-43fc-8519-0b5c74eb3ab8">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8d05925c-1605-49f6-95a0-d84b05febd6d">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6c19648c-dc42-4500-9f53-6ba31919e44e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="cae8f70b-36e7-4c35-a7d2-c896abc4cc6f">
+    <name>ОткрытьРезультатАнализа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыть результат анализа</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

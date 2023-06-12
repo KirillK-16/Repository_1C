@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b41a1c6-c587-4b3b-92fe-3ed6d059addd">
+  <name>ИнформационныеПанели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информационные панели</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.Мониторинг</content>
+  <content>CommonCommand.ОткрытьОкноМониторинга</content>
+  <content>CommonCommand.НастройкиМониторинга</content>
+  <content>CommonCommand.СписокДоступностиРесурсов</content>
+  <content>Report.ДоступностьИнформационныхБаз</content>
+  <content>Report.ДоступностьПубликацииРесурсов</content>
+  <content>DataProcessor.МониторДампов</content>
+  <parentSubsystem>Subsystem.Мониторинг</parentSubsystem>
+</mdclass:Subsystem>

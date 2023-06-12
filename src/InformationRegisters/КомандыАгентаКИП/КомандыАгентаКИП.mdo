@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="416d31b1-a60c-4959-a168-10b0ac3fcd10">
+  <producedTypes>
+    <selectionType typeId="1c9cc43a-3ef2-4a08-90b9-0d52ebe095fa" valueTypeId="fab7196a-27a5-4abe-a234-a1bdc17b68e8"/>
+    <listType typeId="4a8cd2dc-6133-4905-b9ac-7b85f51d9451" valueTypeId="0d8bf480-0947-42b4-88f6-e14f64035948"/>
+    <managerType typeId="f1911c75-a866-4ee1-b4b5-abf5ddb1d926" valueTypeId="373b05c1-342e-4893-99c8-0aeb2ad7f4ba"/>
+    <recordSetType typeId="a906fec6-a940-4620-84af-33cd0b950386" valueTypeId="921c1d7d-9e71-4862-b033-18904cc66873"/>
+    <recordKeyType typeId="94a016ab-4b7f-44d8-9098-b84c7fc2d77e" valueTypeId="dd6b5017-18da-4a03-8067-85c7eca5d6ed"/>
+    <recordType typeId="1a2cb246-9eb3-4580-ae1b-335835365660" valueTypeId="3fe07022-1210-4544-bd5f-24e2bd8a5007"/>
+    <recordManagerType typeId="026b8589-66db-45bf-9072-d290a1252abf" valueTypeId="0a3d0285-891f-4abc-9965-b2b86d02100d"/>
+  </producedTypes>
+  <name>КомандыАгентаКИП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды агента КИП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.КомандыАгентаКИП.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="56699299-b472-474e-b32c-9c9aa82c0c96">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="5d4fdef2-5742-4e24-a3f3-394eb513a96c">
+    <name>РезультатВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат выполнения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="45ac7de1-6706-46eb-ad26-7f96dcb2a81e">
+    <name>АгентКИП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агент КИП</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АгентыКИП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="729df617-0fd0-4de4-9b39-801bcb6f3f8c">
+    <name>ТипКоманды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип команды</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыКомандАгентаКИП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="2a30f844-96da-4000-a16e-5464a9194145">
+    <name>СтатусКоманды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус команды</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыКомандАгентаКИП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="cce427b5-9550-4343-89a6-6f45eb5ebac0">
+    <name>УникальныйИдентификаторЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор записи</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="216b9cf1-f17b-4320-be35-8804772063d2">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

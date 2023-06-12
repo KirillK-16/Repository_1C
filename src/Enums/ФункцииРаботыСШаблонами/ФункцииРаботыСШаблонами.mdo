@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="887425f7-893d-4d7d-925c-c1e7c40656a2">
+  <producedTypes>
+    <refType typeId="ce326f94-f5ad-42ed-a1a4-e1d8fc27f450" valueTypeId="3d02d568-3a42-4f76-9634-7dc466e7ba19"/>
+    <listType typeId="6bdba47c-b70b-4757-9014-10982cd58cf3" valueTypeId="2a5c79d0-de70-437a-809c-8051c5553e13"/>
+    <managerType typeId="a625d7e8-3ed0-4f92-b21c-be0f73ba2978" valueTypeId="2f371e55-20df-41d6-b5f5-463ba88d3d02"/>
+  </producedTypes>
+  <name>ФункцииРаботыСШаблонами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функции работы с шаблонами</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ed8a8c85-aa03-4001-a6f6-1eae3e785003">
+    <name>ТекущаяДатаСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТекущаяДатаСеанса()</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e189d7c4-e420-4969-b46f-05eab54f2575">
+    <name>НачалоЧаса</name>
+    <synonym>
+      <key>ru</key>
+      <value>НачалоЧаса(&lt;Значение>)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58a60189-bee0-41c6-a04e-14f88cca1252">
+    <name>КонецЧаса</name>
+    <synonym>
+      <key>ru</key>
+      <value>КонецЧаса(&lt;Значение>)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="813487a7-a293-4a5d-b16a-b86e15a2c4d1">
+    <name>НачалоДня</name>
+    <synonym>
+      <key>ru</key>
+      <value>НачалоДня(&lt;Значение>)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="283f2153-8f6d-4ca3-8f93-5b636a16f6c7">
+    <name>КонецДня</name>
+    <synonym>
+      <key>ru</key>
+      <value>КонецДня(&lt;Значение>)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8171cbd7-846b-4565-9cd3-cdc3dee6ae37">
+    <name>ФорматированнаяДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат(&lt;Дата>, &quot;ДФ=&lt;ФорматнаяСтрока>&quot;)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="181f19df-88c7-419b-ba5c-7c5055725795">
+  <producedTypes>
+    <managerType typeId="ec2d03b0-fc38-4856-b651-ab245dfa1b5f" valueTypeId="8c71d42b-4495-40e7-a194-ac4ea3b9fdce"/>
+    <valueManagerType typeId="be5ae104-b706-43b5-b547-7a4fb3bf2ecb" valueTypeId="1f6a3c24-ef32-4a85-a6e6-2ffb532135b1"/>
+    <valueKeyType typeId="d2e2d414-6bb7-5590-9209-5052ecedca61" valueTypeId="bf134801-08e1-5bba-ade8-94a278b7f5cc"/>
+  </producedTypes>
+  <name>ПарольПочта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пароль для доступа к почтовому ящику</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <passwordMode>true</passwordMode>
+  <toolTip>
+    <key>ru</key>
+    <value>Пароль для доступа на SMTP/POP3 сервер</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

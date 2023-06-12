@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f7af974-fa25-464f-a689-62e46d1b43cf">
+  <producedTypes>
+    <managerType typeId="d8f04b44-be81-4eac-a877-6ba7ae8e088d" valueTypeId="cf7246cd-ccad-4650-a84a-9180f08283a9"/>
+    <valueManagerType typeId="60e65d8c-9af7-4990-b302-7a0b8d1cc28d" valueTypeId="5cacfe72-fc22-4fab-a467-9f83d301b1c3"/>
+    <valueKeyType typeId="4e77f80f-44be-560a-a7e1-84396f3bc1d4" valueTypeId="e7a74fd9-8cf2-5e02-ba96-6781c1e5f2b8"/>
+  </producedTypes>
+  <name>ПериодПересчетаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период пересчета данных</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

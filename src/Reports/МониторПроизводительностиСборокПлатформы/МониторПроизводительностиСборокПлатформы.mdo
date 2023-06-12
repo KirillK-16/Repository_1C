@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f70ebde-7704-4491-9edd-2b5038a2565a">
+  <producedTypes>
+    <objectType typeId="d0f0a5fc-0baa-4458-9aa8-89c87988d2ac" valueTypeId="99a9d4c0-b1db-45ba-b2d3-987e9cb65e3d"/>
+    <managerType typeId="f3d3c6e7-1542-4135-95e6-79ab26632761" valueTypeId="40ee93f5-9265-4cb7-82ef-d89b4537b1e1"/>
+  </producedTypes>
+  <name>МониторПроизводительностиСборокПлатформы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор производительности сборок платформы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.МониторПроизводительностиСборокПлатформы.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="85cd3c94-b759-498b-97bb-98c168522901">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7e786c96-dabf-4831-9900-fc2a68da7e2c">
+    <name>ПрофилиКлючевыхОперацийXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профили ключевых операций XML</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="97d88b5d-3da9-47c8-9ade-c4b7cdd8416e">
+    <name>ТипАнализа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип анализа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5f1e49b1-ddb9-4fba-871b-06883a92c26d">
+    <name>ИспользоватьБазовоеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать базовое значение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="4e7789b8-0777-4cd2-a1ca-996d7c17c744">
+    <producedTypes>
+      <objectType typeId="70a9cc68-b6e7-4441-a04c-465d1a4f819d" valueTypeId="bd3d3904-868c-42de-8077-7f2deaaea464"/>
+      <rowType typeId="ca5b80b6-0e66-4804-87c7-14a0d6ab6dd6" valueTypeId="4c4326de-feb6-4533-9b13-080bcaee54eb"/>
+    </producedTypes>
+    <name>ПрофилиКлючевыхОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профили ключевых операций</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1196b7b1-ffe8-4e0f-baf5-da2bc927131e">
+      <name>Профиль</name>
+      <synonym>
+        <key>ru</key>
+        <value>Профиль</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПрофилиКлючевыхОпераций</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="8c3c8a55-42d5-43d4-99da-93344ed9a969">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f34df8fa-3cc2-45f3-9501-62ea98e4e9e6">
+    <name>ФормаНастройкиОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

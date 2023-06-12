@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c683671-c8c8-4480-a7c8-a91995b39701">
+  <name>КонвертацияРегистраСведенийМониторингПроцессов_2_0_19_33</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конвертация регистра сведений мониторинг процессов 2 0 19 33</value>
+  </synonym>
+  <methodName>CommonModule.Общий.КонвертироватьРегистрСведенийМониторингПроцессов_2_0_19_33</methodName>
+  <description>Конвертация регистра сведений мониторинг процессов 2.0.19.33</description>
+  <key>47d0fbd6-a278-4a7d-b4ce-7c226ba4f3b5</key>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

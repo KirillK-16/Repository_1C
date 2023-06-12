@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ccfaa13-b994-4ef7-aec4-f8ff88774d98">
+  <producedTypes>
+    <selectionType typeId="42421dca-9236-418e-86d0-83185a7f397e" valueTypeId="e22b03ae-e4d3-4194-8739-4b0675faed93"/>
+    <listType typeId="48225d36-1b7f-4f1d-ab4c-e6f88ef5155e" valueTypeId="30ffdf6e-5f37-45ba-9150-16e8ce5c59c1"/>
+    <managerType typeId="2d62bbb4-7bf8-4074-a9b3-16b0a78cc156" valueTypeId="2753839a-22de-4f3a-969b-f8ef89d3d190"/>
+    <recordSetType typeId="ab300f2f-71f5-4f64-abe1-e233ca01ffc7" valueTypeId="e5190bab-c151-40c6-9c3e-5bb8aeee8640"/>
+    <recordKeyType typeId="ea4867bc-ee7c-4c42-85fa-be66c9083d29" valueTypeId="313d1628-28cc-4c5c-8e9c-ba2b083f584a"/>
+    <recordType typeId="5eeeb818-3bdb-4313-a781-dd8ddbb1c749" valueTypeId="df9d7958-1220-4130-8159-35c419f70a2f"/>
+    <recordManagerType typeId="aa100fd1-e37c-47ca-a7e9-cb4ee6d1cf7a" valueTypeId="3b855a0b-d660-41c3-bc3c-2b630e75d9a7"/>
+  </producedTypes>
+  <name>ПараметрыЦКК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры ЦКК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</value>
+  </explanation>
+  <dimensions uuid="034c5bf5-8476-4520-b18c-d3736354247a">
+    <name>ОбъектКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект контроля</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыОбъектовКонтроля</types>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

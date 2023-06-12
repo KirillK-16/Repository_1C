@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23da9c39-b763-41ff-8274-62692f606359">
+  <producedTypes>
+    <managerType typeId="6a461b37-c634-4ca4-8173-4ff43387624c" valueTypeId="5f35c183-657d-4569-9c8d-2c92f0ee3158"/>
+    <valueManagerType typeId="d4be8043-0571-4a42-a056-a90e5d40e0ca" valueTypeId="bc3dbd8f-f13f-4645-8642-f0cefcb6f866"/>
+    <valueKeyType typeId="d29e0390-e5f1-5548-b5d2-fbe7442081a3" valueTypeId="4218405b-63cf-5619-ab89-7063a5240be4"/>
+  </producedTypes>
+  <name>ПортPOP3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порт POP3</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияОС</dataPath>
+			<field>ВерсияОС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Версия ОС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипПроцессора</dataPath>
+			<field>ТипПроцессора</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип процессора</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Порядок</dataPath>
+			<field>Порядок</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Порядок</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОперативнаяПамять</dataPath>
+			<field>ОперативнаяПамять</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оперативная память</v8:content>
+				</v8:item>
+			</title>
+			<presentationExpression>ВЫБОР ОперативнаяПамять
+    КОГДА 0 ТОГДА "Прочие"
+    ИНАЧЕ "RAM " + Строка(ОперативнаяПамять - &amp;ДискретизацияОперативнойПамяти/1024) + " - " + Строка(ОперативнаяПамять) + " Gb"
+КОНЕЦ</presentationExpression>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Статус</dataPath>
+			<field>Статус</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипПлатформы</dataPath>
+			<field>ТипПлатформы</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип платформы</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ЕСТЬNULL(СтатусИнформационнойБазы.Статус, ЗНАЧЕНИЕ(Перечисление.СтатусыИнформационнойБазы.СтатусНеустановлен)) КАК Статус,
+	ИнформацияСрезПоследних.ВерсияОС КАК ВерсияОС,
+	ИнформацияСрезПоследних.ТипПроцессора КАК ТипПроцессора,
+	ИнформацияСрезПоследних.ТипПлатформы КАК ТипПлатформы,
+	((ВЫРАЗИТЬ(ИнформацияСрезПоследних.ОперативнаяПамять / &amp;ДискретизацияОперативнойПамяти - 0.5 КАК ЧИСЛО(15, 0))) * &amp;ДискретизацияОперативнойПамяти + &amp;ДискретизацияОперативнойПамяти) / 1024 КАК ОперативнаяПамять,
+	1 КАК Количество
+ПОМЕСТИТЬ ИсходныеДанные
+ИЗ
+	РегистрСведений.ИнформацияСрезПоследних КАК ИнформацияСрезПоследних
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.ВерсииОС КАК СпрВерсииОС
+		ПО (СпрВерсииОС.Ссылка = ИнформацияСрезПоследних.ВерсияОС)
+			И (СпрВерсииОС.Наименование &lt;&gt; "Нет данных")
+			И ИнформацияСрезПоследних.Конфигурация = &amp;Конфигурация
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СтатусИнформационнойБазы КАК СтатусИнформационнойБазы
+		ПО (ИнформацияСрезПоследних.ИнформационнаяБаза = СтатусИнформационнойБазы.ИнформационнаяБаза)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ИсходныеДанные.ВерсияОС КАК ВерсияОС,
+	СУММА(ИсходныеДанные.Количество) КАК Количество
+ПОМЕСТИТЬ ВерсииОС
+ИЗ
+	ИсходныеДанные КАК ИсходныеДанные
+
+СГРУППИРОВАТЬ ПО
+	ИсходныеДанные.ВерсияОС
+
+ИНДЕКСИРОВАТЬ ПО
+	ВерсияОС,
+	Количество
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ ПЕРВЫЕ 10
+	ВерсииОС.ВерсияОС КАК ВерсияОС,
+	ВерсииОС.Количество КАК Количество,
+	0 КАК Порядок
+ПОМЕСТИТЬ ВерсииОСТОП
+ИЗ
+	ВерсииОС КАК ВерсииОС
+
+УПОРЯДОЧИТЬ ПО
+	ВерсииОС.Количество УБЫВ
+
+ИНДЕКСИРОВАТЬ ПО
+	ВерсияОС,
+	Количество,
+	Порядок
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ИсходныеДанные.ТипПроцессора КАК ТипПроцессора,
+	СУММА(ИсходныеДанные.Количество) КАК Количество
+ПОМЕСТИТЬ ТипыПроцессоров
+ИЗ
+	ИсходныеДанные КАК ИсходныеДанные
+
+СГРУППИРОВАТЬ ПО
+	ИсходныеДанные.ТипПроцессора
+
+ИНДЕКСИРОВАТЬ ПО
+	ТипПроцессора,
+	Количество
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ ПЕРВЫЕ 10
+	ТипыПроцессоров.ТипПроцессора КАК ТипПроцессора,
+	ТипыПроцессоров.Количество КАК Количество,
+	2 КАК Порядок
+ПОМЕСТИТЬ ТипыПроцессоровТОП
+ИЗ
+	ТипыПроцессоров КАК ТипыПроцессоров
+
+УПОРЯДОЧИТЬ ПО
+	ТипыПроцессоров.Количество УБЫВ
+
+ИНДЕКСИРОВАТЬ ПО
+	ТипПроцессора,
+	Количество,
+	Порядок
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ИсходныеДанные.ОперативнаяПамять КАК ОперативнаяПамять,
+	СУММА(ИсходныеДанные.Количество) КАК Количество
+ПОМЕСТИТЬ ОперативнаяПамятьДанные
+ИЗ
+	ИсходныеДанные КАК ИсходныеДанные
+
+СГРУППИРОВАТЬ ПО
+	ИсходныеДанные.ОперативнаяПамять
+
+ИНДЕКСИРОВАТЬ ПО
+	ОперативнаяПамять,
+	Количество
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ ПЕРВЫЕ 10
+	ОперативнаяПамятьДанные.ОперативнаяПамять КАК ОперативнаяПамять,
+	ОперативнаяПамятьДанные.Количество КАК Количество,
+	4 КАК Порядок
+ПОМЕСТИТЬ ОперативнаяПамятьТОП
+ИЗ
+	ОперативнаяПамятьДанные КАК ОперативнаяПамятьДанные
+
+УПОРЯДОЧИТЬ ПО
+	ОперативнаяПамятьДанные.Количество УБЫВ
+
+ИНДЕКСИРОВАТЬ ПО
+	ОперативнаяПамять,
+	Количество,
+	Порядок
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЕСТЬNULL(ВерсииОСТОП.ВерсияОС.Наименование, "Прочие") КАК ВерсияОС,
+	"" КАК ТипПроцессора,
+	"" КАК ОперативнаяПамять,
+	"" КАК ТипПлатформы,
+	"" КАК Статус,
+	СУММА(ВерсииОС.Количество) КАК Количество,
+	ЕСТЬNULL(ВерсииОСТОП.Порядок, 1) КАК Порядок
+ИЗ
+	ВерсииОС КАК ВерсииОС
+		ЛЕВОЕ СОЕДИНЕНИЕ ВерсииОСТОП КАК ВерсииОСТОП
+		ПО ВерсииОС.ВерсияОС = ВерсииОСТОП.ВерсияОС
+
+СГРУППИРОВАТЬ ПО
+	ЕСТЬNULL(ВерсииОСТОП.Порядок, 1),
+	ЕСТЬNULL(ВерсииОСТОП.ВерсияОС.Наименование, "Прочие")
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"",
+	ЕСТЬNULL(ТипыПроцессоровТОП.ТипПроцессора.Наименование, "Прочие"),
+	"",
+	"",
+	"",
+	СУММА(ТипыПроцессоров.Количество),
+	ЕСТЬNULL(ТипыПроцессоровТОП.Порядок, 3)
+ИЗ
+	ТипыПроцессоров КАК ТипыПроцессоров
+		ЛЕВОЕ СОЕДИНЕНИЕ ТипыПроцессоровТОП КАК ТипыПроцессоровТОП
+		ПО ТипыПроцессоров.ТипПроцессора = ТипыПроцессоровТОП.ТипПроцессора
+
+СГРУППИРОВАТЬ ПО
+	ЕСТЬNULL(ТипыПроцессоровТОП.Порядок, 3),
+	ЕСТЬNULL(ТипыПроцессоровТОП.ТипПроцессора.Наименование, "Прочие")
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"",
+	"",
+	ЕСТЬNULL(ОперативнаяПамятьТОП.ОперативнаяПамять, 0),
+	"",
+	"",
+	СУММА(ОперативнаяПамятьДанные.Количество),
+	ЕСТЬNULL(ОперативнаяПамятьТОП.Порядок, 5)
+ИЗ
+	ОперативнаяПамятьДанные КАК ОперативнаяПамятьДанные
+		ЛЕВОЕ СОЕДИНЕНИЕ ОперативнаяПамятьТОП КАК ОперативнаяПамятьТОП
+		ПО ОперативнаяПамятьДанные.ОперативнаяПамять = ОперативнаяПамятьТОП.ОперативнаяПамять
+
+СГРУППИРОВАТЬ ПО
+	ЕСТЬNULL(ОперативнаяПамятьТОП.Порядок, 5),
+	ЕСТЬNULL(ОперативнаяПамятьТОП.ОперативнаяПамять, 0)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"",
+	"",
+	"",
+	ИсходныеДанные.Статус,
+	"",
+	СУММА(ИсходныеДанные.Количество),
+	6
+ИЗ
+	ИсходныеДанные КАК ИсходныеДанные
+
+СГРУППИРОВАТЬ ПО
+	ИсходныеДанные.Статус
+	
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"",
+	"",
+	"",
+	"",
+	ИсходныеДанные.ТипПлатформы,
+	СУММА(ИсходныеДанные.Количество),
+	7
+ИЗ
+	ИсходныеДанные КАК ИсходныеДанные
+
+СГРУППИРОВАТЬ ПО
+	ИсходныеДанные.ТипПлатформы
+
+УПОРЯДОЧИТЬ ПО
+	Порядок,
+	Количество УБЫВ</query>
+	</dataSet>
+	<totalField>
+		<dataPath>Количество</dataPath>
+		<expression>Сумма(Количество)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Порядок</dataPath>
+		<expression>Порядок</expression>
+	</totalField>
+	<parameter>
+		<name>ДискретизацияОперативнойПамяти</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дискретизация оперативной памяти</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">2048</value>
+		<useRestriction>true</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>Конфигурация</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конфигурация</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Конфигурации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипПроцессора</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВерсияОС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОперативнаяПамять</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипПлатформы</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Статус</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Количество</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Количество.ПроцентВГруппе</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ВерсияОС</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ВерсияОС</dcsset:left>
+						<dcsset:comparisonType>Filled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemField">
+						<dcsset:field>Порядок</dcsset:field>
+						<dcsset:orderType>Asc</dcsset:orderType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:OrderItemField">
+						<dcsset:field>Количество</dcsset:field>
+						<dcsset:orderType>Desc</dcsset:orderType>
+					</dcsset:item>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ТипПроцессора</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ТипПроцессора</dcsset:left>
+						<dcsset:comparisonType>Filled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemField">
+						<dcsset:field>Порядок</dcsset:field>
+						<dcsset:orderType>Asc</dcsset:orderType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:OrderItemField">
+						<dcsset:field>Количество</dcsset:field>
+						<dcsset:orderType>Desc</dcsset:orderType>
+					</dcsset:item>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОперативнаяПамять</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ОперативнаяПамять</dcsset:left>
+						<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:string"/>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemField">
+						<dcsset:field>Порядок</dcsset:field>
+						<dcsset:orderType>Asc</dcsset:orderType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:OrderItemField">
+						<dcsset:field>Количество</dcsset:field>
+						<dcsset:orderType>Desc</dcsset:orderType>
+					</dcsset:item>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ТипПлатформы</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ТипПлатформы</dcsset:left>
+						<dcsset:comparisonType>Filled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemField">
+						<dcsset:field>Порядок</dcsset:field>
+						<dcsset:orderType>Asc</dcsset:orderType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:OrderItemField">
+						<dcsset:field>Количество</dcsset:field>
+						<dcsset:orderType>Desc</dcsset:orderType>
+					</dcsset:item>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Статус</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Статус</dcsset:left>
+						<dcsset:comparisonType>Filled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemField">
+						<dcsset:field>Порядок</dcsset:field>
+						<dcsset:orderType>Asc</dcsset:orderType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:OrderItemField">
+						<dcsset:field>Количество</dcsset:field>
+						<dcsset:orderType>Desc</dcsset:orderType>
+					</dcsset:item>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

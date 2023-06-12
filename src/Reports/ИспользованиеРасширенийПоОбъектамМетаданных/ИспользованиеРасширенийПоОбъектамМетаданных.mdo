@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c40c0f39-d5ee-4ee3-a0da-bca9055853d5">
+  <producedTypes>
+    <objectType typeId="561c35f5-6da3-43ca-a804-9a3c14a47418" valueTypeId="20d32fc9-8ffd-43cc-ae55-fd423e55a78e"/>
+    <managerType typeId="773e4821-7a85-4950-b080-07304876f4ef" valueTypeId="baea964a-8573-411e-aed3-2fcc433cce18"/>
+  </producedTypes>
+  <name>ИспользованиеРасширенийПоОбъектамМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование расширений по объектам метаданных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИспользованиеРасширенийПоОбъектамМетаданных.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="5a5e32df-d187-47ab-9811-62b85414b8ff">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="01735936-bc3f-42fb-9395-73d2457ffd49">
+    <name>ИспользованиеРасширенийПоОбъектамМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование расширений по объектам метаданных</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

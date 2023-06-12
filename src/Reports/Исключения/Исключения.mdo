@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d32c18b-c8e1-42b9-bb24-9e8d609e9ac8">
+  <producedTypes>
+    <objectType typeId="5bed2448-e49f-4fd4-96b9-01a80f617bbe" valueTypeId="e967e067-5803-4fda-b9f0-4d04f13776a1"/>
+    <managerType typeId="625f61e0-f63f-4bbb-a73d-59a905bd92a5" valueTypeId="6b11a9a9-6eb5-42f2-84ab-2dc7723861b5"/>
+  </producedTypes>
+  <name>Исключения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исключения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Исключения.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Исключения.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="2c3e203f-6dc5-4b89-bc24-cb5665d8684d">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="05bb475b-ae43-4b9c-9c57-df1739d46efd">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="b106e66e-7842-4f0d-a7ba-a6273fa1aa48">
+    <name>ОткрытьИсключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключения</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

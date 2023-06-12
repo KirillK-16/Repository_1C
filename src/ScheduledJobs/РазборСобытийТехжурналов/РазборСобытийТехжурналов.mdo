@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4167288a-ebea-441b-9932-d4f03a898e51">
+  <name>РазборСобытийТехжурналов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разбор событий техжурналов</value>
+  </synonym>
+  <methodName>CommonModule.СтатистикаИмпортТехжурнала.РазобратьТехжурналы</methodName>
+  <description>Статистика: Разбор событий техжурналов</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

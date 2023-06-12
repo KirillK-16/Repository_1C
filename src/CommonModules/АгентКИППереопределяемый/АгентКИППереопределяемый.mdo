@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f85af06a-2675-4d9b-9ab9-d02a71f0db69">
+  <name>АгентКИППереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Агент КИП Переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

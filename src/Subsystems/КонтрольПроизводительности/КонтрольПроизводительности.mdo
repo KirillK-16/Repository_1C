@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97dddff1-03e1-4006-bfda-2cfb551edd6c">
+  <name>КонтрольПроизводительности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль производительности</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ОценкаПроизводительности</content>
+  <content>BusinessProcess.КонтрольПроизводительности</content>
+  <content>InformationRegister.НастройкиКонтрольПроизводительности</content>
+  <content>Catalog.ТипыИсполнителейКонтрольПроизводительности</content>
+  <content>CommonTemplate.КонтрольПроизводительности</content>
+  <content>CommonTemplate.КонтрольПроизводительностиНетФайлов</content>
+  <content>CommonTemplate.КонтрольПроизводительностиНеверныйФорматФайлов</content>
+  <content>CommonTemplate.КонтрольПроизводительностиНедостаточнаяПроизводительность</content>
+  <content>Catalog.ТипыЗадачКонтрольПроизводительности</content>
+  <content>XDTOPackage.ApdexExport</content>
+  <content>CommonForm.ЗамерыПроизводительности</content>
+  <content>Catalog.ПоказателиСкоростиВыполненияТипичныхОпераций</content>
+  <content>Catalog.ПоказателиAPDEX</content>
+  <content>DataProcessor.ОценкаПроизводительностиПоПользователям</content>
+  <content>Catalog.ПараметрыЗамера</content>
+  <content>Catalog.ЗначенияПараметраЗамера</content>
+</mdclass:Subsystem>

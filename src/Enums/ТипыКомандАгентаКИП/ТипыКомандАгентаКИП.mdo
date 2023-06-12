@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b743d30-ccfb-4adf-850b-07bc4936ff93">
+  <producedTypes>
+    <refType typeId="58c05598-50db-4ad1-8450-df8a31b875e7" valueTypeId="98b3326d-50c7-4d2d-b8bf-651e6e469c84"/>
+    <listType typeId="509df346-4aff-46d6-aa60-5302c9ceb186" valueTypeId="754e2395-7e9b-409f-8a1b-c5bb286cb267"/>
+    <managerType typeId="2a094f1d-e8d5-4a32-84d5-4c1a3198f5fd" valueTypeId="f8e8044e-fedc-497c-b631-8fd54017e870"/>
+  </producedTypes>
+  <name>ТипыКомандАгентаКИП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы команд агента КИП</value>
+  </synonym>
+  <comment>Синоним значения используется как ключ соответствия при взаимодействии с агентом</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1dcbc5de-4567-4bd7-9758-6f4addc8b56d">
+    <name>RemoteControl</name>
+    <synonym>
+      <key>ru</key>
+      <value>Remote_Control</value>
+    </synonym>
+    <comment>Синоним используется как ключ соответствия при взаимодействии с агентом</comment>
+  </enumValues>
+  <enumValues uuid="1ea3a3e9-bbf7-4438-a1ca-3a39b6315271">
+    <name>PerformanceMonitor</name>
+    <synonym>
+      <key>ru</key>
+      <value>Performance_Monitor</value>
+    </synonym>
+    <comment>Синоним используется как ключ соответствия при взаимодействии с агентом</comment>
+  </enumValues>
+  <enumValues uuid="1f8eaced-2041-4ddb-a01a-04fb6762e14d">
+    <name>AutomationCommand</name>
+    <synonym>
+      <key>ru</key>
+      <value>Run_python_script</value>
+    </synonym>
+    <comment>Синоним используется как ключ соответствия при взаимодействии с агентом</comment>
+  </enumValues>
+  <enumValues uuid="270951d1-9174-42ae-b73d-6268aa6f59ee">
+    <name>Cluster1C</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cluster_1C</value>
+    </synonym>
+    <comment>Синоним используется как ключ соответствия при взаимодействии с агентом</comment>
+  </enumValues>
+  <enumValues uuid="1e8e778a-b402-4731-a60f-3cc2f028ba45">
+    <name>MainService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Main_Service</value>
+    </synonym>
+    <comment>Синоним используется как ключ соответствия при взаимодействии с агентом</comment>
+  </enumValues>
+  <enumValues uuid="c1f5b31d-dccc-4198-8de8-80f4f61abc1f">
+    <name>Dumps</name>
+    <synonym>
+      <key>ru</key>
+      <value>Dumps</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c5bbdb0-87b6-4a11-9a4d-0b06dd52dd88">
+    <name>Ring</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ring</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

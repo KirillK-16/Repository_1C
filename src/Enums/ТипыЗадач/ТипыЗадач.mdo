@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bdc7404-28b8-425d-9f5e-8ddb6e9f27ad">
+  <producedTypes>
+    <refType typeId="67bd0007-20fd-466a-8a89-87cf3a2d124d" valueTypeId="d1bf8945-87f2-41e6-b462-366c942ecaae"/>
+    <listType typeId="46dad6df-59fc-45e1-9dcf-6302b631903b" valueTypeId="11a624d9-96dd-4c71-9378-e58863a4717f"/>
+    <managerType typeId="77c9e181-7cba-4907-bd6d-d45c6fef46c5" valueTypeId="8332bbbb-8ebe-496d-9b55-5954d09e65de"/>
+  </producedTypes>
+  <name>ТипыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы задач</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="64dab7ed-3617-48b6-8e3a-9bfd7567a566">
+    <name>РассчитатьПоказатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассчитать показатель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a44e106f-b1b2-4bf7-b826-c7387abdf3fb">
+    <name>РассчитатьПоказательДетально</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассчитать показатель детально</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b5f0f60-d306-46e7-85f7-cc70efc64bfc">
+    <name>ПостроитьДиаграмму</name>
+    <synonym>
+      <key>ru</key>
+      <value>Построить диаграмму</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b81e5b2f-8d9c-4c29-a90b-6039b6944276">
+    <name>ПолучитьСтруктуруПоказателейПоТипу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить структуру показателей по типу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3fe5e530-a8ec-46ad-97ad-329c06bfbfe2">
+    <name>ПоискПоказателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск показателей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef88e6a9-9004-4655-b881-ca66f2235567">
+    <name>УдалитьПоказатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить показатель</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

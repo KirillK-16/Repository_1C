@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9782ebde-1fce-4239-ac23-17060dfa02ce">
+  <name>ИспользоватьЦентрМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать центр мониторинга</value>
+  </synonym>
+  <location>Constant.ИспользоватьЦентрМониторинга</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.ЦентрМониторингаИмпорт</content>
+  <content>Subsystem.ЦентрМониторингаИмпорт.Subsystem.Информация</content>
+  <content>Subsystem.ЦентрМониторингаИмпорт.Subsystem.ВерсииПодсистем</content>
+  <content>Subsystem.ЦентрМониторингаИмпорт.Subsystem.Дампы</content>
+  <content>Subsystem.ЦентрМониторингаИмпорт.Subsystem.ПрикладнаяСтатистикаКонфигурации</content>
+  <content>Subsystem.ЦентрМониторингаИмпорт.Subsystem.СтатистикаКонфигурации</content>
+  <content>Subsystem.ЦентрМониторингаИмпорт.Subsystem.ЗамерыПроизводительности</content>
+  <content>Subsystem.ЦентрМониторингаИмпорт.Subsystem.Сервис</content>
+  <content>CommonForm.ЦентрМониторингаРабочийСтол</content>
+  <content>Catalog.ПриоритетРасчетаАгрегатовКонфигурации</content>
+  <content>Report.МониторПроизводительностиКонфигурации</content>
+  <content>Catalog.Пользователи.Attribute.ИдентификаторДляРегистрацииОшибок</content>
+  <content>Catalog.ПрофилиКлючевыхОпераций</content>
+</mdclass:FunctionalOption>

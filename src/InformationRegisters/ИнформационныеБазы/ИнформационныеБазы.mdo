@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6106f22-6af1-4fea-af25-cd9799693cfc">
+  <producedTypes>
+    <selectionType typeId="8ccb09ee-bea2-472d-9dc2-022db6cbfaa4" valueTypeId="973ff8cd-187c-46fd-9a4c-99399b9e3eb7"/>
+    <listType typeId="a83f00ff-86c0-4cf9-92ce-edd8fbcccbb0" valueTypeId="b42d9927-e272-49c1-90b2-61ce67222654"/>
+    <managerType typeId="75c46bbf-68df-42f2-884c-a55aee67f102" valueTypeId="a84bbd7b-75ff-4f51-822d-09db8c0e15dc"/>
+    <recordSetType typeId="31036225-b1f6-4c58-9543-5e8295ff98c4" valueTypeId="c1e24ff6-40a2-415c-993f-0405fb37e13d"/>
+    <recordKeyType typeId="cd676dfe-6c87-400c-9547-c20811512bbe" valueTypeId="16b1ce2c-f9a6-41c5-a610-56696d3b02ac"/>
+    <recordType typeId="b0fc0143-56ee-4091-ba43-8c69ec5c2334" valueTypeId="b03a2833-9504-4018-9727-b77f42ef5179"/>
+    <recordManagerType typeId="8c383ddc-b3f1-442e-9fef-68d6e9d760d3" valueTypeId="d90dd3c3-ac50-4cfe-b93f-ffa5fd6126a0"/>
+  </producedTypes>
+  <name>ИнформационныеБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информационные базы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="14f2750e-fdc6-483e-a217-fb4b4eb1750d">
+    <name>ХешЗаписиИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш записи информация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="44826b82-0ede-4fa8-ac6a-fd8d8f2ca46b">
+    <name>ХешЗаписиВерсияПодсистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш записи версия подсистемы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="18095173-db1b-4658-b8ff-576e9536b888">
+    <name>ХешЗаписиКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш записи конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="68ab0e3a-1163-4e05-b5e5-c9e6f07f52f2">
+    <name>ХешЗаписиФункциональныеОпции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш записи функциональные опции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="40798e72-4fc2-486a-b67f-32c33c25040d">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

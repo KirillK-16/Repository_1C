@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e48c2046-6bba-4769-a55d-ed40d783427c">
+  <producedTypes>
+    <managerType typeId="f695a9a7-d764-4f60-b9e0-63c7da064cf7" valueTypeId="139330a6-16f0-4127-a033-dc5b90f01243"/>
+    <valueManagerType typeId="bf75467d-a941-41e1-af94-6a1e2a7a7538" valueTypeId="aa067db4-c44b-4486-a4a5-9134a91fddd8"/>
+    <valueKeyType typeId="91f2284d-d6d9-5652-95d3-e335f16fdefb" valueTypeId="d9e74fb6-0f5d-5429-8c45-7e9e440b363f"/>
+  </producedTypes>
+  <name>ПлощадкаЭксплуатацииПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Площадка эксплуатации по умолчанию</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ПлощадкиЭксплуатации</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+  <choiceForm>Catalog.ПлощадкиЭксплуатации.Form.ФормаВыбораПлощадки</choiceForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

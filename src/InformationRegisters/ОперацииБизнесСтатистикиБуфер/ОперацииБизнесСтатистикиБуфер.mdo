@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5445396a-3886-48b3-8db2-4338b6ab05a0">
+  <producedTypes>
+    <selectionType typeId="2f759260-d2eb-4ded-9650-860b8880d7f7" valueTypeId="45a9e761-5b4d-4eef-808a-df878b7c3869"/>
+    <listType typeId="31965878-dc27-4b5f-a35d-998a78179a6e" valueTypeId="647c4171-66ee-463a-bcba-e516ff8d90ea"/>
+    <managerType typeId="a1d1a9ba-b10b-4c30-ac9e-f12edf231a8d" valueTypeId="963140e4-4b44-4da1-83db-c8e8d8f84947"/>
+    <recordSetType typeId="a3fe248b-d655-49e5-906f-4f2e50fc86f1" valueTypeId="d26419f5-0b6b-455f-a73f-9f583ad0571c"/>
+    <recordKeyType typeId="531a18f3-7764-47ea-bde6-01e6aa48ad91" valueTypeId="cde5cef7-2a04-4b5d-b2c3-c7247cd378c2"/>
+    <recordType typeId="b5adbccc-8524-48cc-bea0-b90cee7e8bd7" valueTypeId="9a4dd010-bec6-4785-a6df-8a0a5f22e2f9"/>
+    <recordManagerType typeId="71473e16-01f4-4bea-996d-23e4b117e36b" valueTypeId="0ef8add7-a681-481a-adb7-f405cc920bdf"/>
+  </producedTypes>
+  <name>ОперацииБизнесСтатистикиБуфер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции прикладной статистики (буфер)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0aaa6477-36be-43c0-9b71-2accf50d3e51">
+    <name>КоличествоЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество значений</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1af14221-c6c2-4d9d-a7ed-42df8797f6b9">
+    <name>СуммаЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма значений</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cf9b80e1-8ab1-41f0-8429-6bc835761411">
+    <name>ОперацияБизнесСтатистики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция бизнес статистики</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОперацииБизнесСтатистики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="a601a39a-0d06-42e3-bc9e-b63509a9a874">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="370fffb0-c726-4842-9bc3-4394da024334">
+    <name>ПакетЦентраМониторинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пакет центра мониторинга</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПакетЦентраМониторинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

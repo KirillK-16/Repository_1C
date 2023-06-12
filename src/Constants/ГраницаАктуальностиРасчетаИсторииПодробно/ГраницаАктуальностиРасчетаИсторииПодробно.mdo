@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd86fa86-d1d2-4835-88ac-5755c37b79cf">
+  <producedTypes>
+    <managerType typeId="b831fda3-74b6-4cb4-8cb6-79c42d030899" valueTypeId="031e2deb-5aab-42ba-a547-38cbe47b8e8c"/>
+    <valueManagerType typeId="1b0c8c0e-715a-4931-9c29-dee7ec4b3ee8" valueTypeId="10898c70-6916-4df7-acd6-db7801cb51ee"/>
+    <valueKeyType typeId="dbae2c88-197f-5feb-9768-56017f7f506b" valueTypeId="e0cb7391-6423-57b2-9e98-49820f6c67ac"/>
+  </producedTypes>
+  <name>ГраницаАктуальностиРасчетаИсторииПодробно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Граница актуальности расчета истории подробно</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

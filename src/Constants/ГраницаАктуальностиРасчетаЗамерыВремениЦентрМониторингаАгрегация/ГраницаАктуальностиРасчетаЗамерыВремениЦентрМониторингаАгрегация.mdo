@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f6c0e53-5ce6-4c45-949f-68b1b4315931">
+  <producedTypes>
+    <managerType typeId="917cc325-12cd-456f-8255-40365e278c8d" valueTypeId="a42a3dfe-1611-4be1-a1fb-973a92186966"/>
+    <valueManagerType typeId="0d30a274-665a-45c9-b566-d13bea6876d9" valueTypeId="03fd463a-06cf-42e8-a108-38580b74aa2d"/>
+    <valueKeyType typeId="714f0892-9b53-5079-ab37-1ad52765a188" valueTypeId="8e05e1c2-4ace-597a-bfd7-ee7e25ea93d0"/>
+  </producedTypes>
+  <name>ГраницаАктуальностиРасчетаЗамерыВремениЦентрМониторингаАгрегация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Граница актуальности расчета замеры времени центр мониторинга агрегация</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f22c8b25-b809-42fa-ad52-44c2efda1f10">
+  <producedTypes>
+    <selectionType typeId="072910ed-965f-4820-b311-deb6c72a9712" valueTypeId="386af19a-93c4-4458-a28a-b23262139ac8"/>
+    <listType typeId="5da00ec4-51e2-463f-a20b-bb5f1e07483e" valueTypeId="a98a4be9-d412-4811-8d0a-180f12af7a10"/>
+    <managerType typeId="6ca87b48-32bc-4eeb-a17a-4e390a83aeab" valueTypeId="ff5e28d9-e7ba-4602-b89e-385d3fb8ea32"/>
+    <recordSetType typeId="4bfa5f0b-8dd1-42b8-8495-95e1b6cb0126" valueTypeId="40831bc5-19a4-4a87-b2a3-c28f7f19c9fa"/>
+    <recordKeyType typeId="9bcbf708-b7c8-451f-bb09-ea49b9d3f0c8" valueTypeId="9a8d4a14-c0ae-4ac4-87c8-4902700eb8f3"/>
+    <recordType typeId="109c498a-8e88-4010-90f4-3e891ad7a041" valueTypeId="89eeb03e-560e-4fa9-8ae6-71c02c98da95"/>
+    <recordManagerType typeId="e47bbb78-c1c9-4e58-be2c-aeb206387e62" valueTypeId="840f621c-4e00-4175-9cfa-52018414cea2"/>
+  </producedTypes>
+  <name>ТекущееСостояниеПовторногоОповещенияОперативного</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущее состояние повторного оповещения оперативного</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2f89b9a4-9712-4e14-9cac-630783cbec6f">
+    <name>ВремяГрупповогоОповещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время группового оповещения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b6a973c6-3958-41c0-ac5f-79a96921c933">
+    <name>ВремяПовторногоОповещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время повторного оповещения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9365b136-da50-41d4-b361-e12c13b5437e">
+    <name>Оповещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оповещение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОповещенияОперативные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

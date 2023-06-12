@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da63159d-6228-4d83-8827-a737cf946183">
+  <producedTypes>
+    <selectionType typeId="70ac07bd-c023-4542-88dc-2e7a6ad48d78" valueTypeId="45038051-77ae-49ff-ae98-eab8535121aa"/>
+    <listType typeId="77e9c6fe-92ba-4ce3-98a8-4d6b81bf0ae2" valueTypeId="90e54207-893d-43fc-b79d-1215785f8629"/>
+    <managerType typeId="97e33679-3c15-4683-a52f-b688e895f0a8" valueTypeId="33a13f63-03c5-4f53-9c2c-60b81f331a3f"/>
+    <recordSetType typeId="993ed892-793f-461e-abf2-c294c9c1eea5" valueTypeId="4cb264b7-b423-469e-b684-5c5afa0e2de6"/>
+    <recordKeyType typeId="761eca5a-d77f-417b-9f44-586d8b298f49" valueTypeId="6b92e64d-442f-4b4a-9932-dbc926dcc427"/>
+    <recordType typeId="828a5d49-5834-43e9-a311-73cb8bad6bdf" valueTypeId="76fd94ee-0e72-486a-a3d6-292d7cf5a953"/>
+    <recordManagerType typeId="3d2c67f0-84b0-4cbd-a9ac-c861e624f790" valueTypeId="3e4393b1-7732-4845-bae1-dea70dc2e301"/>
+  </producedTypes>
+  <name>ЛожныеТревогиКонтрольПодключений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ложные тревоги при контроле подключений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="bbee81ec-d64e-4ba4-881d-05d96daa304c">
+    <name>КонтрольнаяПроцедура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная процедура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольныеПроцедуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

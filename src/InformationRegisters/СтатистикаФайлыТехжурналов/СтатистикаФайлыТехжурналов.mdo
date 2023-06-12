@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f45e80e6-3415-48c3-839d-9fd79204b662">
+  <producedTypes>
+    <selectionType typeId="65d36203-4202-469d-abdd-5f1db409db2e" valueTypeId="30962701-1b1d-42d5-bf68-16a872866733"/>
+    <listType typeId="677fc033-83aa-4adc-ac0d-7efe1c1402ee" valueTypeId="098f38fb-6752-4b11-97ee-b42b68eba3db"/>
+    <managerType typeId="52119502-ecda-485e-9a1b-2a7fa0879173" valueTypeId="51894dca-6f40-418b-89fa-6d64b542ec77"/>
+    <recordSetType typeId="fc1b42fc-0cd5-4b26-a99f-11c2074a3b30" valueTypeId="b1387ae3-d71f-4320-b417-596d6ea9130a"/>
+    <recordKeyType typeId="00adf2a7-2956-455f-b6c6-f010513806e5" valueTypeId="5e62f870-14b1-4dad-922f-98d0c5295049"/>
+    <recordType typeId="0faf019b-4eff-4f38-8e29-6c51da25488e" valueTypeId="d6b81ff6-6831-444b-9a78-f35c54fa1096"/>
+    <recordManagerType typeId="bae0a73f-329e-48c8-aa0b-94c0ad7ecb7f" valueTypeId="d682ac09-9c33-4911-ae2b-901f53a6d59f"/>
+  </producedTypes>
+  <name>СтатистикаФайлыТехжурналов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика файлы техжурналов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СтатистикаФайлыТехжурналов.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="216651f7-abcb-47c3-a1e5-ef4c2c826afd">
+    <name>ПозицияЧтения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Позиция чтения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9cef12cb-1211-4cd8-a5c6-5de5d06aed00">
+    <name>ПолноеИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="9b7f512c-061a-42ef-9299-1e41b39a9a34">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebf2ca7b-75fe-45a0-8545-c79c7670c885">
+  <producedTypes>
+    <selectionType typeId="fd7a585c-dcb8-4c18-98b8-74cce7aeccc7" valueTypeId="da237e0c-cfe3-48f1-8719-f5891c4afe5e"/>
+    <listType typeId="37b673cd-8d5f-43d2-b8c0-cf9cf3072363" valueTypeId="94eb383b-e55e-4206-b779-a40a6dcc5673"/>
+    <managerType typeId="4e68e433-aa25-4514-ba4d-d1edd7beb1c7" valueTypeId="3b133a7e-ef2c-49de-b065-92a2df7409d2"/>
+    <recordSetType typeId="bb535333-6f3b-4128-92e9-8bc99cb80489" valueTypeId="5cdd3a85-c317-4f1e-8ac2-b639a08d88f0"/>
+    <recordKeyType typeId="8a210cc5-081d-4a86-a99a-8bd51fb9822b" valueTypeId="c4ea281d-9819-43df-9661-dcc5d2627987"/>
+    <recordType typeId="a9ed5c78-f5a6-4e9f-852f-a4a032eb03d6" valueTypeId="b35ff5a1-c095-462b-89ac-e7f6d77107b8"/>
+    <recordManagerType typeId="57dbf122-f657-4f39-8090-0823afce248a" valueTypeId="c05037a4-29eb-454d-81c3-12ff39bd40ba"/>
+  </producedTypes>
+  <name>ОбластиБизнесСтатистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Области прикладной статистики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b556e18e-f1e1-4767-9e7c-11cf3091fe3d">
+    <name>КоличествоЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество значений</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f1a26f92-a267-4a66-bc30-f4cd8e6279b2">
+    <name>ОперацияБизнесСтатистики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция бизнес статистики</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОперацииБизнесСтатистики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="f2088cd5-ff0e-464e-8a42-2bc605e3e843">
+    <name>ОбластьБизнесСтатистики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область бизнес статистики</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбластиБизнесСтатистики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="18ad30ec-13f8-4d62-870e-08bceedb9a82">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

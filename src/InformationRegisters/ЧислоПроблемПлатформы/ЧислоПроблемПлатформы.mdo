@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41b24c5d-66a1-4d51-960d-df3b03f0d806">
+  <producedTypes>
+    <selectionType typeId="3c99f7e6-e189-4311-8843-b43a9836abdf" valueTypeId="9fee904b-dce0-4d4e-9362-8b86037486c3"/>
+    <listType typeId="104c1105-5ba2-407d-9611-b8fc9e4ef0f5" valueTypeId="1e7f8baa-8a7c-4e5d-8e17-99e4ffb82b46"/>
+    <managerType typeId="5b71b86e-ec62-4133-9860-450c2b0fa69a" valueTypeId="d9537fc3-81e1-4576-9d8b-3f77a16acf58"/>
+    <recordSetType typeId="14bc3cbf-63c3-4124-a1ef-49f63eb3bf17" valueTypeId="7c7956a6-368e-4114-b887-fba8bd5587ae"/>
+    <recordKeyType typeId="9b2283e5-a271-4b98-8aea-3e31f4ba0a8d" valueTypeId="1025ab53-e7a8-479f-9649-26c4ab01105e"/>
+    <recordType typeId="1a553da0-a5bd-4363-96e3-57208738f50c" valueTypeId="939d96a8-46b9-418a-b4ae-509470a1eb2a"/>
+    <recordManagerType typeId="9f054939-dbbb-4671-9faf-6510e5502174" valueTypeId="2dd9b7c0-fb16-49cd-ad0f-462628fa48de"/>
+  </producedTypes>
+  <name>ЧислоПроблемПлатформы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Число проблем платформы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="dbf42379-16d8-4a4c-aec5-81cf30e1b5ff">
+    <name>ЧислоПроблем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число проблем</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

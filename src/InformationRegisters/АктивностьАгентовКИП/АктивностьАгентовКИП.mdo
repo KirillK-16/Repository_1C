@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77870bad-3b15-4dd4-9b9e-342c323f83ef">
+  <producedTypes>
+    <selectionType typeId="c74d75c8-ff72-4993-8566-bf36f9db2bf0" valueTypeId="4af1f622-aad8-448e-842f-cd27f09a367d"/>
+    <listType typeId="10dfba4c-5c71-439b-9bcd-56405cb7f5c4" valueTypeId="2ccababd-5f8b-4596-bb1e-f5f5d9553098"/>
+    <managerType typeId="3f2cbbf0-9e65-40de-8c3c-e067cba0fbe6" valueTypeId="0be129d3-e2ab-44b2-b799-a97b42f8a1bc"/>
+    <recordSetType typeId="fbb8e4be-f5e9-401a-88ec-d7661bd14777" valueTypeId="1651baa2-40d9-4b5e-b6a6-0b6111c2e8b3"/>
+    <recordKeyType typeId="e59144ef-292e-489d-8961-02f8d5f06ef0" valueTypeId="f898973d-ccbe-40c0-8230-9a9dffa09e6c"/>
+    <recordType typeId="59fda963-4259-4011-8348-223b37710981" valueTypeId="159ef18b-6f4e-43f3-aed2-d0cd03e12c4e"/>
+    <recordManagerType typeId="25ff2159-6253-424f-8953-2ef915ba32ed" valueTypeId="c6779591-9026-4811-96b3-e5fdced60a51"/>
+  </producedTypes>
+  <name>АктивностьАгентовКИП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Активность агентов КИП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="37541a28-dca0-44df-84a6-7cc137d28315">
+    <name>ДатаКрайнейАктивности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата крайней активности (UTC)</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="af687c59-7f7a-4f4e-9c6f-834eea451412">
+    <name>АгентКИП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агент КИП</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АгентыКИП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

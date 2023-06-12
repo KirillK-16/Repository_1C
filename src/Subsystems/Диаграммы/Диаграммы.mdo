@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c3f5618-d283-462e-95e1-0ddcb547f3ea">
+  <name>Диаграммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диаграммы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ДиаграммаОбщая</content>
+  <content>CommonModule.ДиаграммаОбщаяКлиент</content>
+</mdclass:Subsystem>

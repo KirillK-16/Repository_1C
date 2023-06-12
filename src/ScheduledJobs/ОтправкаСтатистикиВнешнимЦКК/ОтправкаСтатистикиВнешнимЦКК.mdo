@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c2b2ba3-ec16-4c16-a59a-f3985f6cee38">
+  <name>ОтправкаСтатистикиВнешнимЦКК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка статистики внешним ЦКК</value>
+  </synonym>
+  <methodName>CommonModule.СтатистикаОтправкаДанныхВнешнимЦКК.ОтправитьДанные</methodName>
+  <description>Статистика: Отправка данных внешним ЦКК</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

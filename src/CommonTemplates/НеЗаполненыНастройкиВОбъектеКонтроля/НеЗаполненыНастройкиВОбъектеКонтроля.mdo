@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd7f2f66-13d2-4175-b941-9072955e1ed1">
+  <name>НеЗаполненыНастройкиВОбъектеКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не заполнены настройки в объекте контроля</value>
+  </synonym>
+  <templateType>HTMLDocument</templateType>
+</mdclass:CommonTemplate>

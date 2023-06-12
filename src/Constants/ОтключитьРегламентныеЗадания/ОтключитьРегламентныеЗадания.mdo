@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7a30d9c-1d55-489e-8c2e-d87a34c360da">
+  <producedTypes>
+    <managerType typeId="638272d6-22a1-49aa-871c-5f63a2de9b7e" valueTypeId="35fe516a-0272-445b-b966-1b5775e53d67"/>
+    <valueManagerType typeId="93e142ce-9791-432b-8a4d-ef547b261908" valueTypeId="94287df2-7be5-4768-8b8e-4d0414827cc8"/>
+    <valueKeyType typeId="36f9271f-51ad-5fdd-941e-08de04fb028d" valueTypeId="c0329ee8-23f5-5c9e-af87-1f1e0428e12c"/>
+  </producedTypes>
+  <name>ОтключитьРегламентныеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отключить регламентные задания</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5202fd7c-bf31-40a4-b99d-0f0a564595fb">
+  <name>СборДампов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сбор дампов</value>
+  </synonym>
+  <templateType>HTMLDocument</templateType>
+</mdclass:CommonTemplate>

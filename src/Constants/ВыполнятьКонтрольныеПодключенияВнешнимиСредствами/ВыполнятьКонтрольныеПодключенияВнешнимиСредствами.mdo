@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee371b0c-6257-4bea-9ea8-35a736be287f">
+  <producedTypes>
+    <managerType typeId="a470bc0c-3f3c-4e59-a468-c88c29593870" valueTypeId="57b7995a-67c7-4591-8d84-c852b2d0d33a"/>
+    <valueManagerType typeId="d39a3995-2f42-43ac-9039-6d26e58bf865" valueTypeId="ae7970dc-a2b1-49ef-b52d-ce6abc85ef70"/>
+    <valueKeyType typeId="71b825f7-3d51-5232-9303-e4ef2996321d" valueTypeId="4dde1379-f43b-5f7f-9966-a30eec55fb18"/>
+  </producedTypes>
+  <name>ВыполнятьКонтрольныеПодключенияВнешнимиСредствами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнять контрольные подключения внешними средствами</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

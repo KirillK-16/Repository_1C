@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="befcdd1c-25da-40b9-bb2a-2f6e2366fb66">
+  <name>ВнешнийКонтрольЦККНеНайденыОтчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешний контроль ЦКК, проблемы</value>
+  </synonym>
+  <templateType>HTMLDocument</templateType>
+</mdclass:CommonTemplate>

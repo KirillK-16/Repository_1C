@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоОбъектовМетаданных</dataPath>
+			<field>КоличествоОбъектовМетаданных</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество объектов метаданных</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектМетаданных</dataPath>
+			<field>ОбъектМетаданных</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияПлатформы</dataPath>
+			<field>ВерсияПлатформы</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИнформационнаяБаза</dataPath>
+			<field>ИнформационнаяБаза</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Конфигурация</dataPath>
+			<field>Конфигурация</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияКонфигурации</dataPath>
+			<field>ВерсияКонфигурации</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<inputParameters>
+				<dcscor:item>
+					<dcscor:parameter>СвязиПараметровВыбора</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:ChoiceParameterLinks">
+						<dcscor:item>
+							<dcscor:choiceParameter>Отбор.Владелец</dcscor:choiceParameter>
+							<dcscor:value>Конфигурация</dcscor:value>
+							<dcscor:mode xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise" xsi:type="d8p1:LinkedValueChangeMode">Clear</dcscor:mode>
+						</dcscor:item>
+					</dcscor:value>
+				</dcscor:item>
+			</inputParameters>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектМетаданныхПолноеНаименование</dataPath>
+			<field>ОбъектМетаданныхПолноеНаименование</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект метаданных полное наименование</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПривнесеноРасширением</dataPath>
+			<field>ПривнесеноРасширением</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИзмененоРасширением</dataPath>
+			<field>ИзмененоРасширением</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ИнформацияСрезПоследних.Конфигурация КАК Конфигурация,
+	ИнформацияСрезПоследних.ВерсияКонфигурации КАК ВерсияКонфигурации,
+	ИнформацияСрезПоследних.ВерсияПлатформы КАК ВерсияПлатформы,
+	ИспользованиеРасширений.ИнформационнаяБаза КАК ИнформационнаяБаза,
+	ПОДСТРОКА(ИспользованиеРасширений.ОбъектМетаданных, 1, 4096) КАК ОбъектМетаданных,
+	ИспользованиеРасширений.ОбъектМетаданных КАК ОбъектМетаданныхПолноеНаименование,
+	1 КАК КоличествоОбъектовМетаданных,
+	ИспользованиеРасширений.ПривнесеноРасширением КАК ПривнесеноРасширением,
+	ИспользованиеРасширений.ИзмененоРасширением КАК ИзмененоРасширением
+{ВЫБРАТЬ
+	Конфигурация.*,
+	ВерсияКонфигурации.*,
+	ВерсияПлатформы.*,
+	ИнформационнаяБаза.*,
+	ОбъектМетаданных,
+	ОбъектМетаданныхПолноеНаименование,
+	КоличествоОбъектовМетаданных,
+	ПривнесеноРасширением}
+ИЗ
+	РегистрСведений.ИспользованиеРасширений КАК ИспользованиеРасширений
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ИнформацияСрезПоследних КАК ИнформацияСрезПоследних
+		ПО ИспользованиеРасширений.ИнформационнаяБаза = ИнформацияСрезПоследних.ИнформационнаяБаза
+{ГДЕ
+	ИнформацияСрезПоследних.Конфигурация.*,
+	ИнформацияСрезПоследних.ВерсияКонфигурации.*,
+	ИнформацияСрезПоследних.ВерсияПлатформы.*,
+	ИспользованиеРасширений.ИнформационнаяБаза.*,
+	(ПОДСТРОКА(ИспользованиеРасширений.ОбъектМетаданных, 1, 4096)) КАК ОбъектМетаданных,
+	ИспользованиеРасширений.ОбъектМетаданных КАК ОбъектМетаданныхПолноеНаименование,
+	(1) КАК КоличествоОбъектовМетаданных,
+	ИспользованиеРасширений.ПривнесеноРасширением}</query>
+	</dataSet>
+	<totalField>
+		<dataPath>КоличествоОбъектовМетаданных</dataPath>
+		<expression>Сумма(КоличествоОбъектовМетаданных)</expression>
+	</totalField>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Конфигурация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОбъектМетаданных</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоОбъектовМетаданных</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:userSettingID>27615334-1808-4b7e-83f8-246f8b5effb9</dcsset:userSettingID>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Конфигурация</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ОбъектМетаданных</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ПривнесеноРасширением</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ИзмененоРасширением</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+			<dcsset:itemsUserSettingID>4229800c-d7aa-42f2-b0ef-b980616617bd</dcsset:itemsUserSettingID>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

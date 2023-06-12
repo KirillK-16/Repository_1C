@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff4a7e0b-a8ce-4218-8d8b-d666b3b4edc0">
+  <producedTypes>
+    <selectionType typeId="e6a8a0b0-cf9d-4f6c-a281-40b629e803e7" valueTypeId="c82836f2-74b3-4e37-b1b7-a782b7ad0fba"/>
+    <listType typeId="e087f4b9-936f-4ae4-b3ec-0c3e85235878" valueTypeId="1b7e8d9b-046f-48d8-a4cd-2fb80ba46e5c"/>
+    <managerType typeId="ed558b83-3fca-4b6d-a7f6-fdcff2496499" valueTypeId="0ec3fa27-6d10-4106-91ef-fc19d3e36ad4"/>
+    <recordSetType typeId="1e5ac618-9417-4b89-b3fe-5a74da9acf09" valueTypeId="1d9b3669-8d86-4532-b8cc-c022256746aa"/>
+    <recordKeyType typeId="4c256530-c2e6-45d3-ae3c-ec787ddd1dcf" valueTypeId="ebadf75d-a562-4e54-980f-0e386340a3e0"/>
+    <recordType typeId="9a10b568-76ea-4235-ae5e-7b5742711aa2" valueTypeId="f26b20ae-f3ea-40b3-9e85-5205b9defc8c"/>
+    <recordManagerType typeId="78748c73-6883-4577-a4a9-0fcc6118a706" valueTypeId="0e73fafb-d8a1-4544-bc63-66fbf82e149a"/>
+  </producedTypes>
+  <name>НастройкиАнализВызововКластера1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки &quot;Анализ вызовов кластера 1С&quot;</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b273e3e6-1970-4d6d-bdf0-117085b4ec71">
+    <name>КаталогТЖСетевой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сетевое имя каталога технологического журнала</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="ea30d16c-d9a9-4585-93a1-4cab5b533200">
+    <name>КаталогТЖЛокальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локальный каталог обмена данными</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="d50f5e7e-9cd6-40d5-8e9a-75d0f62861fe">
+    <name>КаталогВременныхФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог временных файлов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="b5ed3424-7360-4b20-a44d-cccd55674f03">
+    <name>ДлительностьХраненияФайловТЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов, через которое информация будет удаляться из технологического журнала</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="228495ff-2876-46b4-876d-b9df78e1c133">
+    <name>АвтоматическиУдалятьЗаписиТЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически удалять сохраненные в ЦКК записи из технологического журнала</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6ac9e438-995a-482d-86ff-871eb818b305">
+    <name>СрокХраненияТЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов, через которое  записи о вызовах будут удаляться из технологического журнала, сохраненного в ЦКК</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="24016efa-0dfe-4042-8ad5-786e5aa95a2c">
+    <name>Расписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расписание</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fff80249-7f03-4024-8c35-1c8f2799bd84">
+    <name>КонтрольнаяПроцедура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная процедура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольныеПроцедуры</types>
+      <types>CatalogRef.ВидыКонтрольныхПроцедур</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d72c210c-ec33-43ba-a3a2-8bb361beed5e">
+  <producedTypes>
+    <objectType typeId="30472fe3-a3f0-44ad-9550-ad564b9e1b5f" valueTypeId="d3603f30-a3a2-4f78-8c39-11f3ccd05cd0"/>
+    <managerType typeId="ab580575-92c3-4c20-acfe-45a453f49b59" valueTypeId="d5c0e40a-5b35-4b7e-aef5-2ac5cb9f2ffc"/>
+  </producedTypes>
+  <name>СтатистикаДамповЦентрМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика дампов (центр мониторинга)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СтатистикаДамповЦентрМониторинга.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0029a4cc-613c-4176-b6d3-3f7507d3d6fc">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="e726bf3c-b43b-4091-94f1-e873144be251">
+    <name>СтатистикаДамповЦентрМониторинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статистика дампов центр мониторинга</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

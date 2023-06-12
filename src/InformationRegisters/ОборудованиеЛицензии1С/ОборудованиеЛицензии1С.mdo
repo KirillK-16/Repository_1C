@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cd782ca-569d-440b-bf47-5d7f14b9ea97">
+  <producedTypes>
+    <selectionType typeId="741b360b-b0b3-46f8-90af-3e3924133e5a" valueTypeId="ffd39dc5-43f3-42db-99a5-3a60d94590c6"/>
+    <listType typeId="17997ed4-d069-46c8-beec-db3b5273282c" valueTypeId="8ee3d4c7-872b-4369-ba38-40111ad0cd78"/>
+    <managerType typeId="1bbf2599-a68d-48aa-8d8b-15b44c52c533" valueTypeId="06c97c36-93b2-4907-9622-4e9d64f5f5e8"/>
+    <recordSetType typeId="a4f0d0fa-b63a-4982-8100-c21462085416" valueTypeId="423ce734-ad03-41d6-a3ec-9280cec1fe18"/>
+    <recordKeyType typeId="492ba9ac-bffb-4499-8690-1a4eea7f5875" valueTypeId="40f4d137-206b-4107-bd80-26b89460d2f0"/>
+    <recordType typeId="28c48982-64c5-45f7-9530-22d33241e0e6" valueTypeId="1328fcf2-bf30-46d2-8a9d-44deed976e87"/>
+    <recordManagerType typeId="bc405dc4-a2f7-4a74-a007-6641dffdcd98" valueTypeId="d8db8ced-eb92-4c9b-83d9-341f3948f93d"/>
+  </producedTypes>
+  <name>ОборудованиеЛицензии1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудование лицензии 1С</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="34eb3255-0b87-4fea-b038-2812dbcc58ae">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Оборудование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="775e84ea-e1ee-480d-ae0b-e2b794763ec4">
+    <name>Лицензия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицензия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Лицензии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

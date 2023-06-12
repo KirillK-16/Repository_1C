@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aad09a13-a22d-410e-8206-fc9666583d0f">
+  <name>ИдентификацияЦКК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор ЦКК</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

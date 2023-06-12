@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a490932-8194-4a84-9c31-3cd7f9a1fc44">
+  <name>НастройкиТехнологическихЖурналов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Технологические журналы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ТехнологическиеЖурналы</content>
+  <content>Catalog.ТехнологическиеЖурналыШаблоны</content>
+  <parentSubsystem>Subsystem.Настройки</parentSubsystem>
+</mdclass:Subsystem>

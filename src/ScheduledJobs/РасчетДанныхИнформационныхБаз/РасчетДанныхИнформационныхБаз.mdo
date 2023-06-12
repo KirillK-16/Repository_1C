@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfd52509-446e-4258-9332-5b181e56d48a">
+  <name>РасчетДанныхИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет данных информационных баз</value>
+  </synonym>
+  <methodName>CommonModule.ЦентрМониторингаИмпортСлужебный.РассчитатьДанныеИнформационныхБаз</methodName>
+  <description>Центр мониторинга: расчет данных ИБ</description>
+  <key>8a9e52c8-7f79-4c98-936b-0390aafc9b5f</key>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

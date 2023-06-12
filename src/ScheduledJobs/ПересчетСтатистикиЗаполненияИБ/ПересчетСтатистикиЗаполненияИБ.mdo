@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4391ea15-588e-4c67-8454-52b2457627db">
+  <name>ПересчетСтатистикиЗаполненияИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пересчет статистики заполнения ИБ</value>
+  </synonym>
+  <methodName>CommonModule.ЦентрМониторингаИмпортСлужебный.ПересчитатьСтатистикуЗаполненияИнформационныхБаз</methodName>
+  <description>Пересчет статистики заполнения ИБ</description>
+  <key>568d41c2-da9f-48fc-9308-0c4adf92c112</key>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

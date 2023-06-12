@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfe3278c-52fd-47df-8ddc-d40482f31de7">
+  <producedTypes>
+    <managerType typeId="4d238e1e-0a7f-41db-bc36-4b0e04fa53a1" valueTypeId="811bd97f-2e4e-48c7-89db-e987214823f1"/>
+    <valueManagerType typeId="e62ad891-b73d-4017-bc8b-3cb3227602e9" valueTypeId="f2554111-f742-4ae1-bb5d-2af34eea1a8c"/>
+    <valueKeyType typeId="0bb16920-bdb1-5b6c-96cc-ed13e025db2a" valueTypeId="064a346c-8afd-5e74-90c5-038b2e27d66f"/>
+  </producedTypes>
+  <name>SMTPНастройкиАктуальны</name>
+  <synonym>
+    <key>ru</key>
+    <value>SMTPНастройки актуальны</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

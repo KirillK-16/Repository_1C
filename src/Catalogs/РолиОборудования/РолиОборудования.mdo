@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f2a0492-a6cc-48d9-b381-5b65558d88f7">
+  <producedTypes>
+    <objectType typeId="6f341cd3-ce53-4e73-994d-e25bc2c87528" valueTypeId="7ab8459b-062b-437d-adf7-56a574084040"/>
+    <refType typeId="095d58bb-8250-476d-ba28-bbb0667defe6" valueTypeId="0113fcf8-ba2f-4a2c-85ad-dd89a2239613"/>
+    <selectionType typeId="631603d3-65fa-420a-8298-031f5012e37d" valueTypeId="b3217d65-0e21-41b6-8169-5f9daf92ceaa"/>
+    <listType typeId="1caff9cd-cb46-4384-923c-7b2499606fd6" valueTypeId="b89e007c-42b8-480d-a59c-ff14ed9ef516"/>
+    <managerType typeId="8b61ec77-cf58-4dac-82d6-71f9695c6dd8" valueTypeId="6d20cc6a-e8e1-44a1-95ed-de0323c2db21"/>
+  </producedTypes>
+  <name>РолиОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли оборудования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РолиОборудования.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="6c7a60db-34e3-4cd5-b11c-42b959474021">
+      <name>Apache</name>
+      <description>Apache</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a09d5b3b-2278-4d49-acc7-37fe199672b8">
+      <name>СерверIIS</name>
+      <description>IIS</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b352588f-7905-49bf-bbfb-fd3196b432ce">
+      <name>СерверMSSQL</name>
+      <description>MS SQL</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f7f880cb-37f4-4943-8334-97ec38c8b356">
+      <name>СерверPostgreSQL</name>
+      <description>PostgreSQL</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fc37dfe4-f827-4890-a1b1-56cb115a062b">
+      <name>ВиртуальнаяМашинаVMware</name>
+      <description>Виртуальная машина VMware</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9f465881-5745-4c9c-9862-e08c8da57702">
+      <name>ВнешнийРесурс</name>
+      <description>Внешний ресурс</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b6ff7803-4973-4cf2-8dbd-f80763447d12">
+      <name>РабочийСервер1С</name>
+      <description>Рабочий сервер 1С</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fb3beae6-3418-4de5-b182-8e5b2bf275e4">
+      <name>Сервер1СиMSSQL</name>
+      <description>Сервер &quot;1С и MS SQL&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="de432867-976b-4c06-962b-f9c0e4236780">
+      <name>Сервер1СиPostgreSQL</name>
+      <description>Сервер &quot;1С и PostgreSQL&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="dc16f2b0-a9ed-4ec7-872a-0208722d9fca">
+      <name>Сервер1СПредприятие</name>
+      <description>Сервер &quot;1С:Предприятие&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="679f16ec-971a-4c8b-9a6d-7b78d2d8baf5">
+      <name>СерверWindows</name>
+      <description>Сервер c ОС Windows</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="de139ab1-53c3-411a-bd15-865344467b93">
+      <name>СерверLinux</name>
+      <description>Сервер с ОС Linux</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ba099fa2-f2b0-4b78-b161-d402abe29a78">
+      <name>ТерминальныйСервер</name>
+      <description>Терминальный сервер</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2f364c85-6551-4323-b439-97a59fbf7e77">
+      <name>Шлюз</name>
+      <description>Шлюз</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РолиОборудования.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.РолиОборудования.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.РолиОборудования.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="e3b519a6-4052-4587-afa4-04e9c68bd7c5">
+    <name>УдалитьСоздаватьКонтрольныеПроцедуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Неиспользовать) Создавать контрольные процедуры</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="538794e4-c9b2-4773-86bf-c8366c58fbe2">
+    <producedTypes>
+      <objectType typeId="f19904c5-dec8-4ae7-94ae-0843eee32936" valueTypeId="f0cd4cd6-1104-4918-8757-b25365e3e5f9"/>
+      <rowType typeId="77deba59-7496-4cc1-80b7-28144ae6fd8a" valueTypeId="957c703a-a61b-45f3-833b-d48ef845d8de"/>
+    </producedTypes>
+    <name>СчетчикиПроизводительности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счетчики производительности</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c28dcddf-d310-4976-9f01-0ada920c8234">
+      <name>СчетчикПроизводительности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Счетчик производительности</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СчетчикиПроизводительности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="9cc96f63-154b-4fad-9bae-cd789468adac">
+    <producedTypes>
+      <objectType typeId="a9caca5c-ad67-4591-89a1-d0cd7726fb4d" valueTypeId="2cceccfb-0ef1-49ff-a20d-ba750dc3f5a7"/>
+      <rowType typeId="ea077064-212f-4891-9ea1-ec7936d64800" valueTypeId="cbca621c-c2e6-45d5-8ce7-a645731f10df"/>
+    </producedTypes>
+    <name>СчетчикиПроизводительностиLinux</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счетчики производительности linux</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="566a9168-2cf7-4503-8960-c8835e624ba0">
+      <name>СчетчикПроизводительности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Счетчик производительности</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СчетчикиПроизводительности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="28e3f246-332b-408a-90b3-22da879980fc">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="71543988-0ab7-42be-a7e1-b3ae795e1402">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="734c0b7b-e3c9-4acb-8b90-9cf69311ea2c">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f79006d-66e4-424f-8d54-8d8248b2f394">
+  <name>ОтправкаОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка отчета</value>
+  </synonym>
+  <methodName>CommonModule.Оповещение.ОтправкаОтчета</methodName>
+  <description>Отправка отчёта о работе ЦКК</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

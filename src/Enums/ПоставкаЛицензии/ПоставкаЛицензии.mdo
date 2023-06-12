@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c3fa4d4-0f56-4bdd-ad71-259fa70d4d1b">
+  <producedTypes>
+    <refType typeId="e5d2c526-db6a-40e0-9302-2205bf2d4383" valueTypeId="e060417f-7157-4c97-86c4-8fb341723465"/>
+    <listType typeId="086823d1-f6a3-4073-8eb4-edc394e0d75f" valueTypeId="e51c328a-b9d6-4a73-9098-1afc6cfd4dd2"/>
+    <managerType typeId="fd10563a-20a9-49b5-b4d8-193199c8fd84" valueTypeId="44c136c4-91df-42e0-abc4-80fdddeadc34"/>
+  </producedTypes>
+  <name>ПоставкаЛицензии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поставка лицензии</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0e308bb8-007a-4b14-8665-bf145868b0f0">
+    <name>ПРОФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПРОФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8f33cba5-ef4c-471a-94e2-fde397d8966f">
+    <name>КОРП</name>
+    <synonym>
+      <key>ru</key>
+      <value>КОРП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe6c114a-6b7a-4f0f-b017-2d6472411a3a">
+    <name>БЕТА</name>
+    <synonym>
+      <key>ru</key>
+      <value>БЕТА</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3743268-8240-482d-a754-8855e5addfc0">
+    <name>НеИзвестно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не известно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

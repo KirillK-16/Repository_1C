@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0bd45bc7-e485-401d-8385-8aeefed5c558">
+  <producedTypes>
+    <selectionType typeId="810e74c1-d53c-4167-a16c-87b7b94394e3" valueTypeId="6c7ce151-29db-422e-bee2-3669f997a57d"/>
+    <listType typeId="a71363db-d125-40a9-a192-3da7e3a81952" valueTypeId="caba37b1-390d-49e1-900c-bc10647ff37e"/>
+    <managerType typeId="fb9538a4-902c-48f4-b075-3ba08bd716ee" valueTypeId="dd53b25f-edd7-467f-8d01-137b1c1ff6b2"/>
+    <recordSetType typeId="b6dad193-2453-45fb-ac4d-4ce0a00f72cd" valueTypeId="70a0de5b-276a-490e-aa04-cd7dc86e7cd7"/>
+    <recordKeyType typeId="8f105116-d25a-4fa2-ac11-0d81d812930d" valueTypeId="8ad58408-f73e-463e-9714-f3f73ab4648b"/>
+    <recordType typeId="a692332e-83c3-4c13-9e0a-f139bea36d89" valueTypeId="4048ef5b-7f7f-40fc-8593-eb9d15661b2e"/>
+    <recordManagerType typeId="ab0f6838-b278-44e6-aeae-772f4dca0ccf" valueTypeId="929c2b10-4b8d-43f0-af64-5975eb46c3ea"/>
+  </producedTypes>
+  <name>ДополнительныеСведенияИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные сведения информационных баз</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fd123708-7a1f-4431-9271-d506a628bc5d">
+    <name>РежимСовместимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим совместимости</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="daa71793-d91e-4974-91af-18c998793f64">
+    <name>РежимСовместимостиИнтерфейса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим совместимости интерфейса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="5826ff81-fbce-476d-8be7-4a0668b8c196">
+    <name>РежимИспользованияМодальности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим использования модальности</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="a798d4ae-42a3-4307-8510-60c0ba136da8">
+    <name>ИспользованиеРасширений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование расширений</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f560d8c3-15c5-491e-ac2c-c7f0e6309960">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

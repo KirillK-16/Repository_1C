@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4aa8f4d-cd2a-458d-b13d-ab5c747926bb">
+  <name>InputIncidentTickets</name>
+  <synonym>
+    <key>ru</key>
+    <value>Input incident tickets</value>
+  </synonym>
+  <rootURL>InputIncidentTickets</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="57151970-0d5f-4b3f-9bea-3933c419f046">
+    <name>Open</name>
+    <synonym>
+      <key>ru</key>
+      <value>Open</value>
+    </synonym>
+    <template>/Open</template>
+    <methods uuid="43ebcf05-0fe1-4dbf-accc-778d1bb95131">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>OpenPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="49f3ba38-ed93-4978-a80c-a224f4318a91">
+    <name>Close</name>
+    <synonym>
+      <key>ru</key>
+      <value>Close</value>
+    </synonym>
+    <template>/Close</template>
+    <methods uuid="9d29d948-db8d-4f15-a572-4c0a834f9271">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ClosePOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="2a9eb72a-3a37-42cd-ac7b-5dc4f1584f25">
+    <name>DefineType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Define type</value>
+    </synonym>
+    <template>/DefineType</template>
+    <methods uuid="ebee27c2-4c3d-4660-b93a-a72bd124e500">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>DefineTypePOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

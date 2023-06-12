@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b0ce849-f66f-4a8a-91fc-c0b8c01731fb">
+  <producedTypes>
+    <managerType typeId="0171d311-db27-4139-a025-29f7bd67b93d" valueTypeId="6f01b674-2eb8-4481-9450-c71d9526a1af"/>
+    <valueManagerType typeId="a4eba955-5bb5-480c-a6f9-b5a2ce4bdef3" valueTypeId="927a2bec-f884-4235-92a1-6a0f0c72d3d2"/>
+    <valueKeyType typeId="f7010fc8-c165-57e3-95df-dea8dc3580b2" valueTypeId="c14e5d7a-6ace-5951-9a0e-c3e876ad9f8d"/>
+  </producedTypes>
+  <name>ПериодХраненияОповещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период хранения оповещений</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Период хранения в днях данных регистра сведений &quot;Журнал оповещений&quot; и справочника &quot;Отправка сообщений&quot;. Если равен нулю, то удаление данных не выполняется.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

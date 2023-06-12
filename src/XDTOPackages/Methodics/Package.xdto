@@ -1,0 +1,17 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/methodics">
+	<objectType name="Group">
+		<property name="ID" type="xs:string" form="Attribute"/>
+		<property name="Name" type="xs:string" form="Attribute"/>
+		<property name="ParentID" type="xs:string" nillable="true" form="Attribute"/>
+	</objectType>
+	<objectType name="Methodic">
+		<property name="ID" type="xs:string" form="Attribute"/>
+		<property name="Name" type="xs:string" form="Attribute"/>
+		<property name="ParentID" type="xs:string" nillable="true" form="Attribute"/>
+		<property name="Approved" type="xs:dateTime" nillable="true" form="Attribute"/>
+	</objectType>
+	<objectType name="Data">
+		<property xmlns:d3p1="http://v8.1c.ru/methodics" name="GroupsList" type="d3p1:Group" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://v8.1c.ru/methodics" name="MethodicsList" type="d3p1:Methodic" lowerBound="0" upperBound="-1"/>
+	</objectType>
+</package>

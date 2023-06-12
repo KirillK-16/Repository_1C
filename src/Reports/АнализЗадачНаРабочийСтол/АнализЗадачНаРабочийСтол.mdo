@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44798b96-cba7-415b-94cb-5d96a1642112">
+  <producedTypes>
+    <objectType typeId="fd8b58c1-cb25-442f-b733-05ab909dcd2f" valueTypeId="d8c7d2ca-935d-4895-82a1-260117128433"/>
+    <managerType typeId="e459122d-e2fa-4351-ad48-340ad14fca57" valueTypeId="fbe5efbf-b875-460e-aeba-01724b40c776"/>
+  </producedTypes>
+  <name>АнализЗадачНаРабочийСтол</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ задач на рабочий стол</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.АнализЗадачНаРабочийСтол.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.АнализЗадачНаРабочийСтол.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="fd8a76c9-e99c-4843-99b4-7f4e49ae9c3d">
+    <name>РезультатДиаграмма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат диаграмма</value>
+    </synonym>
+    <type>
+      <types>SpreadsheetDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="298eecee-9af1-4044-98bb-b2ecb1b18837">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="761edf35-7c46-4807-be65-9d7f024d3324">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="86897ffd-6769-43ed-bd65-d7d2648b1edf">
+    <name>МакетДиаграммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет диаграммы</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

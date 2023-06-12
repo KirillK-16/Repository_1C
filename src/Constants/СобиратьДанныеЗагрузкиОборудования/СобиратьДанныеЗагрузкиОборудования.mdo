@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cf4111a-361d-43fc-9cad-029fcda35137">
+  <producedTypes>
+    <managerType typeId="21338bf4-e49f-4d6c-b481-0aceb98ef664" valueTypeId="dcc70ac0-025f-424b-8650-174eba4ca249"/>
+    <valueManagerType typeId="8384696d-2b98-4dc8-b259-8e058093928d" valueTypeId="821ed557-7265-4e3f-9cbd-ec7bc2232cd7"/>
+    <valueKeyType typeId="b83f16fc-958c-50ba-a866-546156775e15" valueTypeId="dfbc5cf5-2dcd-57ff-9961-72040e124385"/>
+  </producedTypes>
+  <name>СобиратьДанныеЗагрузкиОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Собирать данные загрузки оборудования</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

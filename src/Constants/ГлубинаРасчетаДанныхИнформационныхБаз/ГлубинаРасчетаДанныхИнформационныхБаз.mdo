@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00ef3a75-dbab-4331-aedf-8d20fdaa4adf">
+  <producedTypes>
+    <managerType typeId="3aadd3f4-1495-417f-8540-76dbfc615dcf" valueTypeId="a029de20-7ef0-4da1-89dd-52f8d6b9fb65"/>
+    <valueManagerType typeId="643d2b3a-dbb5-4584-b6c3-da51d30028cb" valueTypeId="7089f3d4-85ce-4812-a1c9-ff78de00a1c0"/>
+    <valueKeyType typeId="6e975e50-e6e3-5d97-87c5-fd5f51bba539" valueTypeId="627e6971-6722-5f32-a0c7-15bafda80643"/>
+  </producedTypes>
+  <name>ГлубинаРасчетаДанныхИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Глубина расчета данных информационных баз, дней</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

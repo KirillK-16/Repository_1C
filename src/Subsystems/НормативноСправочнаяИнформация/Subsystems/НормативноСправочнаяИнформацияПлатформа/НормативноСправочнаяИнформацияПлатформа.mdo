@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb7c3529-c067-4713-b98e-3476da0d54b1">
+  <name>НормативноСправочнаяИнформацияПлатформа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платформа</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ТехнологическиеЖурналы</content>
+  <content>Catalog.ТехнологическиеЖурналыШаблоны</content>
+  <content>Catalog.ВариантыДампов</content>
+  <content>InformationRegister.Дампы</content>
+  <parentSubsystem>Subsystem.НормативноСправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

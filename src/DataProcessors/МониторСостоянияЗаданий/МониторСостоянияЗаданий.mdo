@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd592102-9e9e-45c6-a236-a9c116c49f8a">
+  <producedTypes>
+    <objectType typeId="2243ba69-dc03-41a6-8f2e-a27cdaf21b35" valueTypeId="9139a817-5bf5-4b2b-b795-986d5690cbb1"/>
+    <managerType typeId="59a4b32c-d387-42de-bae5-214ed7a615e1" valueTypeId="45f0e3da-88bc-4763-a1a7-eee82e29ef8e"/>
+  </producedTypes>
+  <name>МониторСостоянияЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор состояния заданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МониторСостоянияЗаданий.Form.МониторСостоянияСценариев</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="78ed2cb1-eb34-448e-8ae3-613e8d8b97bf">
+    <name>МониторСостоянияСценариев</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монитор состояния сценариев</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

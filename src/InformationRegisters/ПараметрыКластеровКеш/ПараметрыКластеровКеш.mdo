@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8eb41d24-ec67-4b59-af58-133362925560">
+  <producedTypes>
+    <selectionType typeId="f0dce884-8e91-43f0-aa5e-41719ab2f5de" valueTypeId="05047fbd-f606-4e17-bcd5-c81da10225cd"/>
+    <listType typeId="c6c1d39f-4cdf-4554-8320-aae66c0fc2c7" valueTypeId="c8c582c4-21ac-4b6c-b4af-e025f86d44c9"/>
+    <managerType typeId="62ed0de9-0da4-453f-99f2-659183a040a0" valueTypeId="123fc2ab-a20d-402d-8cb4-765853dede80"/>
+    <recordSetType typeId="aef2814e-4cf7-44c4-bbdb-6f5a87a60c79" valueTypeId="c567ada5-b358-4643-983e-78dfa5677d64"/>
+    <recordKeyType typeId="5a7a5ae9-ac5a-4d81-ae51-7a5e7c3b8e22" valueTypeId="e49cb7a5-75e6-4e0e-a44c-06a3126bacb6"/>
+    <recordType typeId="3e7f5954-0491-400f-b5ea-2a52b9236902" valueTypeId="2946a594-fb5e-491b-a540-646b00ffec3c"/>
+    <recordManagerType typeId="9dc24056-5f15-44c7-a9bf-ebf780737a0b" valueTypeId="5c58c96b-f3b2-40a8-bbee-d29a55732485"/>
+  </producedTypes>
+  <name>ПараметрыКластеровКеш</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры кластеров кеш</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="749f122f-c1ea-4bb6-bf6a-811b5a5d5cdf">
+    <name>ДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="59214007-f9b6-4bea-b989-0eec106bcb54">
+    <name>ИдентификаторКластера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор кластера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="14394903-bbe1-469a-9304-5969b26aa6c7">
+    <name>СписокИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список ИБ</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d35a7f0a-8e05-4b39-997e-0047d07629c0">
+    <name>СписокРабочиеСерверы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список рабочие серверы</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="87e493a0-dc82-44dd-a487-cf99c6711857">
+    <name>ОбъектКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект контроля</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

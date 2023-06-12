@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="268c71e4-cb3c-43ed-9973-51f92481350f">
+  <producedTypes>
+    <managerType typeId="fff12795-3604-4991-ada2-855e635fb3e1" valueTypeId="94a547fb-11c4-4749-b159-e5d48db83239"/>
+    <valueManagerType typeId="394aa53f-e09c-4638-b171-5ae6c97c0404" valueTypeId="49385901-1b50-4379-b2a9-3f9b2eb07067"/>
+    <valueKeyType typeId="d999adf9-1a07-55b3-8322-9b3159615093" valueTypeId="31b54519-1281-5040-b484-2a3ddc3b64b6"/>
+  </producedTypes>
+  <name>РольДляОповещенияОЗависшихПроцессах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роль для оповещения о зависших процессах</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.РолиПользователей</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

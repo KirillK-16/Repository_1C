@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26b5a7d9-1190-4dc9-ab79-7314b7f9db27">
+  <producedTypes>
+    <selectionType typeId="ecea7ff9-ef53-42b1-840b-fa86e4e23b8c" valueTypeId="9c697d8b-9612-4e4c-ba33-494a048c8785"/>
+    <listType typeId="a4a5a6e6-b97c-4a60-9b05-44ec7ba7896e" valueTypeId="3de82ccb-b1b8-42bf-b9a7-a658ff916c41"/>
+    <managerType typeId="aaa2fbd6-21fa-4bd5-8b56-d889451ed51e" valueTypeId="32cd093b-7afa-4322-bdb5-adb08b5d302c"/>
+    <recordSetType typeId="ded2c2be-cbf1-4ecf-bf50-cadf022b8c4f" valueTypeId="4fae8e83-63af-4459-9ab0-b00f539dcd81"/>
+    <recordKeyType typeId="9e0dbac9-96d5-41cc-ac78-5c67413d7393" valueTypeId="4b0b051d-b04f-4368-a60a-b8361a4d343f"/>
+    <recordType typeId="2955d3a8-bc44-4452-a3eb-6842231c91bf" valueTypeId="5fadeda7-90ae-4fcf-9889-375aeea961b1"/>
+    <recordManagerType typeId="73a3a28e-8053-4027-aab6-a240ac4519e4" valueTypeId="9e1eeb35-bb7c-4c22-bde1-23bf5506310c"/>
+  </producedTypes>
+  <name>АсинхронноеВыполнениеСценариев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Асинхронное выполнение сценариев</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1ba8d366-5a20-4dd5-8e5f-c4e44232b789">
+    <name>ФоновоеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фоновое задание</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f0d81ca5-d5c1-4c3f-86cf-3e4dc28c9429">
+    <name>Агент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АгентыКИП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="93e5941a-aac6-42a0-9502-2682dd176a37">
+    <name>ТипКоманды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип команды</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыКомандАгентаКИП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f738a234-ee92-4b4e-b99f-75b0b8870a7b">
+    <name>УникальныйИдентификаторКоманды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор команды</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

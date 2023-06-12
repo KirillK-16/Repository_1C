@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КлючеваяОперация</dataPath>
+			<field>КлючеваяОперация</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Конфигурация</dataPath>
+			<field>Конфигурация</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВсегоЗамеров</dataPath>
+			<field>ВсегоЗамеров</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Всего замеров</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияКонфигурации</dataPath>
+			<field>ВерсияКонфигурации</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Важность</dataPath>
+			<field>Важность</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦелевоеВремя</dataPath>
+			<field>ЦелевоеВремя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Целевое время</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>N_T</dataPath>
+			<field>N_T</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>N T</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаВремяВыполнения</dataPath>
+			<field>СуммаВремяВыполнения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма время выполнения</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>N_T_4T</dataPath>
+			<field>N_T_4T</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>N t 4 T</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>N_4T</dataPath>
+			<field>N_4T</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>N 4 T</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Статус</dataPath>
+			<field>Статус</field>
+			<useRestriction>
+				<field>true</field>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+			<attributeUseRestriction>
+				<field>true</field>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ПрофилиКлючевыхОперацийКлючевыеОперацииПрофиля.НомерСтроки КАК НомерСтроки,
+	ПрофилиКлючевыхОперацийКлючевыеОперацииПрофиля.ИмяПоиск КАК ИмяПоиск,
+	ПрофилиКлючевыхОперацийКлючевыеОперацииПрофиля.ИмяПредставление КАК ИмяПредставление,
+	ПрофилиКлючевыхОперацийКлючевыеОперацииПрофиля.ЦелевоеВремя КАК ЦелевоеВремя,
+	ПрофилиКлючевыхОперацийКлючевыеОперацииПрофиля.МинимальноеКоличествоЗамеров КАК МинимальноеКоличествоЗамеров,
+	ПрофилиКлючевыхОперацийКлючевыеОперацииПрофиля.Важность КАК Важность,
+	ПрофилиКлючевыхОперацийКлючевыеОперацииПрофиля.Ответственный КАК Ответственный
+ПОМЕСТИТЬ ВТ_Профиль
+ИЗ
+	Справочник.ПрофилиКлючевыхОпераций.КлючевыеОперацииПрофиля КАК ПрофилиКлючевыхОперацийКлючевыеОперацииПрофиля
+ГДЕ
+	ПрофилиКлючевыхОперацийКлючевыеОперацииПрофиля.Ссылка = &amp;ПрофильКлючевыхОпераций
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_Профиль.НомерСтроки КАК НомерСтроки,
+	ВТ_Профиль.ИмяПоиск КАК ИмяПоиск,
+	ВТ_Профиль.ИмяПредставление КАК ИмяПредставление,
+	ВТ_Профиль.ЦелевоеВремя КАК ЦелевоеВремя,
+	ВТ_Профиль.МинимальноеКоличествоЗамеров КАК МинимальноеКоличествоЗамеров,
+	ВТ_Профиль.Важность КАК Важность,
+	ВТ_Профиль.Ответственный КАК Ответственный,
+	ВЫБОР
+		КОГДА ВТ_Профиль.ИмяПоиск ПОДОБНО "\%%\%" СПЕЦСИМВОЛ "\"
+			ТОГДА "СлеваСправа"
+		КОГДА ВТ_Профиль.ИмяПоиск ПОДОБНО "%\%%" СПЕЦСИМВОЛ "\"
+			ТОГДА "ВСередине"
+		КОГДА ВТ_Профиль.ИмяПоиск ПОДОБНО "\%%" СПЕЦСИМВОЛ "\"
+			ТОГДА "Слева"
+		КОГДА ВТ_Профиль.ИмяПоиск ПОДОБНО "%\%" СПЕЦСИМВОЛ "\"
+			ТОГДА "Справа"
+		ИНАЧЕ "ПолноеСоотвествие"
+	КОНЕЦ КАК ВидПоиска
+ПОМЕСТИТЬ ВТ_ПрофильСВидомПоиска
+ИЗ
+	ВТ_Профиль КАК ВТ_Профиль
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ПрофильСВидомПоиска.НомерСтроки КАК НомерСтроки,
+	ВТ_ПрофильСВидомПоиска.ИмяПоиск КАК ИмяПоиск,
+	ВТ_ПрофильСВидомПоиска.ИмяПредставление КАК ИмяПредставление,
+	ВТ_ПрофильСВидомПоиска.ЦелевоеВремя КАК ЦелевоеВремя,
+	ВТ_ПрофильСВидомПоиска.МинимальноеКоличествоЗамеров КАК МинимальноеКоличествоЗамеров,
+	ВТ_ПрофильСВидомПоиска.Важность КАК Важность,
+	ВТ_ПрофильСВидомПоиска.Ответственный КАК Ответственный,
+	ВТ_ПрофильСВидомПоиска.ВидПоиска КАК ВидПоиска,
+	КлючевыеОперацииЦентрМониторинга.Ссылка КАК КлючеваяОперация,
+	1 КАК Приоритет
+ПОМЕСТИТЬ ВТ_ПолнаяТаблицаКлючевыхОпераий
+ИЗ
+	ВТ_ПрофильСВидомПоиска КАК ВТ_ПрофильСВидомПоиска
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.КлючевыеОперацииЦентрМониторинга КАК КлючевыеОперацииЦентрМониторинга
+		ПО ВТ_ПрофильСВидомПоиска.ИмяПоиск = КлючевыеОперацииЦентрМониторинга.Наименование
+ГДЕ
+	ВТ_ПрофильСВидомПоиска.ВидПоиска = "ПолноеСоотвествие"
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТ_ПрофильСВидомПоиска.НомерСтроки,
+	ВТ_ПрофильСВидомПоиска.ИмяПоиск,
+	ВТ_ПрофильСВидомПоиска.ИмяПредставление,
+	ВТ_ПрофильСВидомПоиска.ЦелевоеВремя,
+	ВТ_ПрофильСВидомПоиска.МинимальноеКоличествоЗамеров,
+	ВТ_ПрофильСВидомПоиска.Важность,
+	ВТ_ПрофильСВидомПоиска.Ответственный,
+	ВТ_ПрофильСВидомПоиска.ВидПоиска,
+	КлючевыеОперацииЦентрМониторинга.Ссылка,
+	2
+ИЗ
+	ВТ_ПрофильСВидомПоиска КАК ВТ_ПрофильСВидомПоиска
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.КлючевыеОперацииЦентрМониторинга КАК КлючевыеОперацииЦентрМониторинга
+		ПО (КлючевыеОперацииЦентрМониторинга.Наименование ПОДОБНО ВТ_ПрофильСВидомПоиска.ИмяПоиск)
+ГДЕ
+	ВТ_ПрофильСВидомПоиска.ВидПоиска = "ВСередине"
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТ_ПрофильСВидомПоиска.НомерСтроки,
+	ВТ_ПрофильСВидомПоиска.ИмяПоиск,
+	ВТ_ПрофильСВидомПоиска.ИмяПредставление,
+	ВТ_ПрофильСВидомПоиска.ЦелевоеВремя,
+	ВТ_ПрофильСВидомПоиска.МинимальноеКоличествоЗамеров,
+	ВТ_ПрофильСВидомПоиска.Важность,
+	ВТ_ПрофильСВидомПоиска.Ответственный,
+	ВТ_ПрофильСВидомПоиска.ВидПоиска,
+	КлючевыеОперацииЦентрМониторинга.Ссылка,
+	3
+ИЗ
+	ВТ_ПрофильСВидомПоиска КАК ВТ_ПрофильСВидомПоиска
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.КлючевыеОперацииЦентрМониторинга КАК КлючевыеОперацииЦентрМониторинга
+		ПО (КлючевыеОперацииЦентрМониторинга.Наименование ПОДОБНО ВТ_ПрофильСВидомПоиска.ИмяПоиск)
+ГДЕ
+	ВТ_ПрофильСВидомПоиска.ВидПоиска = "Справа"
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТ_ПрофильСВидомПоиска.НомерСтроки,
+	ВТ_ПрофильСВидомПоиска.ИмяПоиск,
+	ВТ_ПрофильСВидомПоиска.ИмяПредставление,
+	ВТ_ПрофильСВидомПоиска.ЦелевоеВремя,
+	ВТ_ПрофильСВидомПоиска.МинимальноеКоличествоЗамеров,
+	ВТ_ПрофильСВидомПоиска.Важность,
+	ВТ_ПрофильСВидомПоиска.Ответственный,
+	ВТ_ПрофильСВидомПоиска.ВидПоиска,
+	КлючевыеОперацииЦентрМониторинга.Ссылка,
+	4
+ИЗ
+	ВТ_ПрофильСВидомПоиска КАК ВТ_ПрофильСВидомПоиска
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.КлючевыеОперацииЦентрМониторинга КАК КлючевыеОперацииЦентрМониторинга
+		ПО (КлючевыеОперацииЦентрМониторинга.Наименование ПОДОБНО ВТ_ПрофильСВидомПоиска.ИмяПоиск)
+ГДЕ
+	ВТ_ПрофильСВидомПоиска.ВидПоиска = "Слева"
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТ_ПрофильСВидомПоиска.НомерСтроки,
+	ВТ_ПрофильСВидомПоиска.ИмяПоиск,
+	ВТ_ПрофильСВидомПоиска.ИмяПредставление,
+	ВТ_ПрофильСВидомПоиска.ЦелевоеВремя,
+	ВТ_ПрофильСВидомПоиска.МинимальноеКоличествоЗамеров,
+	ВТ_ПрофильСВидомПоиска.Важность,
+	ВТ_ПрофильСВидомПоиска.Ответственный,
+	ВТ_ПрофильСВидомПоиска.ВидПоиска,
+	КлючевыеОперацииЦентрМониторинга.Ссылка,
+	5
+ИЗ
+	ВТ_ПрофильСВидомПоиска КАК ВТ_ПрофильСВидомПоиска
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.КлючевыеОперацииЦентрМониторинга КАК КлючевыеОперацииЦентрМониторинга
+		ПО (КлючевыеОперацииЦентрМониторинга.Наименование ПОДОБНО ВТ_ПрофильСВидомПоиска.ИмяПоиск)
+ГДЕ
+	ВТ_ПрофильСВидомПоиска.ВидПоиска = "СлеваСправа"
+
+ИНДЕКСИРОВАТЬ ПО
+	КлючеваяОперация,
+	Приоритет
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ПолнаяТаблицаКлючевыхОпераий.КлючеваяОперация КАК КлючеваяОперация,
+	МИНИМУМ(ВТ_ПолнаяТаблицаКлючевыхОпераий.Приоритет) КАК Приоритет
+ПОМЕСТИТЬ ВТ_ПриоритезированиеКО
+ИЗ
+	ВТ_ПолнаяТаблицаКлючевыхОпераий КАК ВТ_ПолнаяТаблицаКлючевыхОпераий
+
+СГРУППИРОВАТЬ ПО
+	ВТ_ПолнаяТаблицаКлючевыхОпераий.КлючеваяОперация
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ПолнаяТаблицаКлючевыхОпераий.КлючеваяОперация КАК КлючеваяОперация,
+	ВТ_ПолнаяТаблицаКлючевыхОпераий.ИмяПредставление КАК ИмяПредставление,
+	ВТ_ПолнаяТаблицаКлючевыхОпераий.ЦелевоеВремя КАК ЦелевоеВремя,
+	ВТ_ПолнаяТаблицаКлючевыхОпераий.Важность КАК Важность,
+	ВТ_ПолнаяТаблицаКлючевыхОпераий.МинимальноеКоличествоЗамеров КАК МинимальноеКоличествоЗамеров,
+	ВТ_ПолнаяТаблицаКлючевыхОпераий.Ответственный КАК Ответственный
+ПОМЕСТИТЬ КлючевыеОперации
+ИЗ
+	ВТ_ПриоритезированиеКО КАК ВТ_ПриоритезированиеКО
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТ_ПолнаяТаблицаКлючевыхОпераий КАК ВТ_ПолнаяТаблицаКлючевыхОпераий
+		ПО ВТ_ПриоритезированиеКО.КлючеваяОперация = ВТ_ПолнаяТаблицаКлючевыхОпераий.КлючеваяОперация
+			И ВТ_ПриоритезированиеКО.Приоритет = ВТ_ПолнаяТаблицаКлючевыхОпераий.Приоритет
+
+ИНДЕКСИРОВАТЬ ПО
+	КлючеваяОперация
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДОБАВИТЬКДАТЕ(&amp;НачалоПериода, ДЕНЬ, Т3.Число * 1000 + Т2.Число * 100 + Т1.Число * 10 + Т0.Число * 1) КАК Период
+ПОМЕСТИТЬ Периоды
+ИЗ
+	(ВЫБРАТЬ
+		0 КАК Число
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		1
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		2
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		3
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		4
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		5
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		6
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		7
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		8
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		9) КАК Т3,
+	(ВЫБРАТЬ
+		0 КАК Число
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		1
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		2
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		3
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		4
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		5
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		6
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		7
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		8
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		9) КАК Т2,
+	(ВЫБРАТЬ
+		0 КАК Число
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		1
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		2
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		3
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		4
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		5
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		6
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		7
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		8
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		9) КАК Т1,
+	(ВЫБРАТЬ
+		0 КАК Число
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		1
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		2
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		3
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		4
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		5
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		6
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		7
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		8
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		9) КАК Т0
+ГДЕ
+	Т3.Число * 1000 + Т2.Число * 100 + Т1.Число * 10 + Т0.Число * 1 &lt;= РАЗНОСТЬДАТ(&amp;НачалоПериода, &amp;КонецПериода, ДЕНЬ)
+
+ИНДЕКСИРОВАТЬ ПО
+	Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ВерсииПлатформыЦентрМониторинга.Ссылка КАК Ссылка
+ПОМЕСТИТЬ РелизныеПлатформы
+ИЗ
+	Справочник.ВерсииПлатформыЦентрМониторинга КАК ВерсииПлатформыЦентрМониторинга
+ГДЕ
+	ВерсииПлатформыЦентрМониторинга.Релизная
+
+ИНДЕКСИРОВАТЬ ПО
+	Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ВерсииКонфигурации.Ссылка КАК Ссылка
+ПОМЕСТИТЬ РелизныеВерсииКонфигурации
+ИЗ
+	Справочник.ВерсииКонфигурации КАК ВерсииКонфигурации
+ГДЕ
+	ВерсииКонфигурации.Владелец = &amp;Конфигурация
+	И ВерсииКонфигурации.Релизная
+
+ИНДЕКСИРОВАТЬ ПО
+	Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ИнформацияИстория.ПериодЗаписи КАК ПериодЗаписи,
+	ИнформацияИстория.ИнформационнаяБаза КАК ИнформационнаяБаза,
+	ИнформацияИстория.Конфигурация КАК Конфигурация,
+	ИнформацияИстория.ВерсияКонфигурации КАК ВерсияКонфигурации,
+	СтатусИнформационнойБазы.Статус КАК Статус
+ПОМЕСТИТЬ ИнформацияИстория
+{ВЫБРАТЬ
+	ВерсияКонфигурации.*,
+	Статус.*}
+ИЗ
+	Периоды КАК Периоды
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ИнформацияИсторияПодробно КАК ИнформацияИстория
+			ВНУТРЕННЕЕ СОЕДИНЕНИЕ РелизныеПлатформы КАК РелизныеПлатформы
+			ПО ИнформацияИстория.ВерсияПлатформы = РелизныеПлатформы.Ссылка
+			ВНУТРЕННЕЕ СОЕДИНЕНИЕ РелизныеВерсииКонфигурации КАК РелизныеВерсииКонфигурации
+			ПО ИнформацияИстория.ВерсияКонфигурации = РелизныеВерсииКонфигурации.Ссылка
+			ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.СтатусИнформационнойБазы КАК СтатусИнформационнойБазы
+			ПО ИнформацияИстория.ИнформационнаяБаза = СтатусИнформационнойБазы.ИнформационнаяБаза
+		ПО (ИнформацияИстория.ПериодЗаписи = Периоды.Период)
+			И (ИнформацияИстория.Конфигурация = &amp;Конфигурация)
+{ГДЕ
+	ИнформацияИстория.ВерсияКонфигурации.*,
+	СтатусИнформационнойБазы.Статус.*}
+
+ИНДЕКСИРОВАТЬ ПО
+	ИнформацияИстория.ИнформационнаяБаза,
+	ИнформацияИстория.ПериодЗаписи
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ИнформацияИстория.Конфигурация КАК Конфигурация,
+	ИнформацияИстория.ВерсияКонфигурации КАК ВерсияКонфигурации,
+	Замеры.КлючеваяОперация КАК КлючеваяОперация,
+	ЕСТЬNULL(КлючевыеОперации.ЦелевоеВремя, 1) КАК ЦелевоеВремя,
+	КлючевыеОперации.Важность КАК Важность,
+	СУММА(Замеры.ВремяВыполнения * Замеры.КоличествоОпераций) КАК СуммаВремяВыполнения,
+	СУММА(Замеры.КоличествоОпераций) КАК ВсегоЗамеров,
+	СУММА(ВЫБОР
+			КОГДА Замеры.ВремяВыполнения &lt;= ЕСТЬNULL(КлючевыеОперации.ЦелевоеВремя, 1)
+				ТОГДА Замеры.КоличествоОпераций
+			ИНАЧЕ 0
+		КОНЕЦ) КАК N_T,
+	СУММА(ВЫБОР
+			КОГДА Замеры.ВремяВыполнения &gt; ЕСТЬNULL(КлючевыеОперации.ЦелевоеВремя, 1)
+					И Замеры.ВремяВыполнения &lt;= ЕСТЬNULL(КлючевыеОперации.ЦелевоеВремя, 1) * 4
+				ТОГДА Замеры.КоличествоОпераций
+			ИНАЧЕ 0
+		КОНЕЦ) КАК N_T_4T,
+	СУММА(ВЫБОР
+			КОГДА Замеры.ВремяВыполнения &gt; ЕСТЬNULL(КлючевыеОперации.ЦелевоеВремя, 1) * 4
+				ТОГДА Замеры.КоличествоОпераций
+			ИНАЧЕ 0
+		КОНЕЦ) КАК N_4T,
+	ИнформацияИстория.Статус КАК Статус
+{ВЫБРАТЬ
+	ВерсияКонфигурации.*,
+	КлючеваяОперация.*,
+	Статус.*}
+ИЗ
+	РегистрСведений.ЗамерыВремениЦентрМониторинга КАК Замеры
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ИнформацияИстория КАК ИнформацияИстория
+		ПО Замеры.Период = ИнформацияИстория.ПериодЗаписи
+			И Замеры.ИнформационнаяБаза = ИнформацияИстория.ИнформационнаяБаза
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ КлючевыеОперации КАК КлючевыеОперации
+		ПО Замеры.КлючеваяОперация = КлючевыеОперации.КлючеваяОперация
+{ГДЕ
+	Замеры.КлючеваяОперация.*,
+	ИнформацияИстория.Статус.*,
+	ИнформацияИстория.ВерсияКонфигурации.*}
+
+СГРУППИРОВАТЬ ПО
+	ИнформацияИстория.Конфигурация,
+	ИнформацияИстория.ВерсияКонфигурации,
+	Замеры.КлючеваяОперация,
+	КлючевыеОперации.Важность,
+	ЕСТЬNULL(КлючевыеОперации.ЦелевоеВремя, 1),
+	КлючевыеОперации.МинимальноеКоличествоЗамеров,
+	ИнформацияИстория.Статус
+
+ИМЕЮЩИЕ
+	СУММА(Замеры.КоличествоОпераций) &gt;= КлючевыеОперации.МинимальноеКоличествоЗамеров</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>APDEX</dataPath>
+		<expression/>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>APDEX</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СреднееВремя</dataPath>
+		<expression/>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Среднее время</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+	</calculatedField>
+	<totalField>
+		<dataPath>ВсегоЗамеров</dataPath>
+		<expression>Сумма(ВсегоЗамеров)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>APDEX</dataPath>
+		<expression>(Сумма(N_T)+Сумма(N_T_4T)/2)/Сумма(ВсегоЗамеров)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СреднееВремя</dataPath>
+		<expression>Сумма(СуммаВремяВыполнения)/Сумма(ВсегоЗамеров)</expression>
+	</totalField>
+	<parameter>
+		<name>Конфигурация</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конфигурация</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Конфигурации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ПрофильКлючевыхОпераций</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Профиль ключевых операций</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ПрофилиКлючевыхОпераций</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КлючеваяОперация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВерсияКонфигурации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Важность</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦелевоеВремя</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>APDEX</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СреднееВремя</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВсегоЗамеров</dcsset:field>
+				</dcsset:item>
+				<dcsset:userSettingID>cc8e4f44-98bf-4d96-ba0f-70a17754afab</dcsset:userSettingID>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:userSettingID>4d7ae5c0-fd4b-44af-8e78-043b1582f237</dcsset:userSettingID>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ПрофильКлючевыхОпераций</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>b9ec7c7e-671e-4bfa-a06c-a108d055ed45</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Важность</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>APDEX</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:userSettingID>3192b08b-bbf5-4c7e-bf51-f2045dd05bd5</dcsset:userSettingID>
+			</dcsset:order>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>APDEX</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>СреднееВремя</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=3</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:userSettingID>ac5e160e-ed87-456c-97ea-3ed0a9c826a5</dcsset:userSettingID>
+			</dcsset:conditionalAppearance>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>КлючеваяОперация</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Важность</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ЦелевоеВремя</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ВерсияКонфигурации</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+			<dcsset:itemsUserSettingID>6e67f0a0-4dc9-41d4-88d3-49172981556a</dcsset:itemsUserSettingID>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

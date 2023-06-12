@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cb6aec0-f2c0-4b3a-a600-22b5fa6655e2">
+  <producedTypes>
+    <objectType typeId="aa3388cc-a015-4fcf-a22c-bcdfdcf60b95" valueTypeId="e8390273-afff-479e-9670-b5bcb0cdc401"/>
+    <managerType typeId="5f47cc60-5638-4aaa-a5d9-6049c7f56cb0" valueTypeId="f69fdd88-b4bc-4d12-a888-0a4996cd352d"/>
+  </producedTypes>
+  <name>ОценкаПроизводительностиПоПользователям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка производительности по пользователям</value>
+  </synonym>
+  <defaultForm>DataProcessor.ОценкаПроизводительностиПоПользователям.Form.ПроизводительностьПоПользователям</defaultForm>
+  <forms uuid="5d561a82-f06e-4685-939b-06447cb90485">
+    <name>ПроизводительностьПоПользователям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка производительности по пользователям</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2ecca3c7-7642-4876-9e0a-5223fd53e851">
+    <name>ОперацииПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операции пользователя</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="be60e3b8-5b7d-491c-8e7e-7d8837652f83">
+    <name>КлючеваяОперацияПоПользователю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевая операция по пользователю</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="4a8f4a9f-f119-4299-bb5d-4bae0fab21df">
+    <name>ОценкаПроизводительностиПоПользователям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка производительности по пользователям</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.Отчеты.Subsystem.ОтчетыОценкаПроизводительности</subsystems>
+    <subsystems>Subsystem.Отчеты.Subsystem.ОтчетыКластер1С</subsystems>
+    <subsystems>Subsystem.Отчеты.Subsystem.ОтчетыИнформационнаяБаза</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

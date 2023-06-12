@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e238204-2bed-4357-9bc9-153fbf02b026">
+  <producedTypes>
+    <objectType typeId="d8b1a32b-417b-4f7a-aebd-4969d24246ca" valueTypeId="cba90650-42a5-4ab6-a6a0-88b5c9355b50"/>
+    <managerType typeId="e9fe3016-b519-4f33-b0d2-0daf807fe95f" valueTypeId="7066b082-3ef9-4c61-8fae-2599f9f4d10f"/>
+  </producedTypes>
+  <name>РолиПрофилейГруппДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли профилей групп доступа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РолиПрофилейГруппДоступа.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="9870cdb7-cb7b-44db-ac16-4dcfc63ba1af">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="7b3307d9-6163-4198-a75b-097148cd7389">
+    <name>РолиПрофилейГруппДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роли профилей групп доступа</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

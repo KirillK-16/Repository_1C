@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92bd9098-e8dc-4a99-aba4-32406346e75e">
+  <producedTypes>
+    <objectType typeId="143ad521-26e1-4011-afd7-34388e79460a" valueTypeId="a706e6cc-4ff9-44dc-bceb-365b58abd3fd"/>
+    <managerType typeId="07e7a1fc-470c-43e4-aaa1-414d267a2912" valueTypeId="301caaa1-aa07-458d-9bcc-324ecf209843"/>
+  </producedTypes>
+  <name>ИспользованиеПрофилейГруппДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование профилей групп доступа (центр мониторинга)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИспользованиеПрофилейГруппДоступа.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="d99b24f0-bb57-4bf1-b369-a586c2e1a106">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="3009c57a-aadc-4024-9c87-d2bf0629e2a8">
+    <name>ИспользованиеПрофилейГруппДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование профилей групп доступа</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

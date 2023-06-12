@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a52d1005-7919-469f-9ffa-dfea0f74a0a8">
+  <producedTypes>
+    <managerType typeId="2c9418be-d59f-4e49-8cc6-032b74a32cc3" valueTypeId="d5a73553-ddf1-4883-abc5-2a2b03bce3c1"/>
+    <valueManagerType typeId="551dee8c-a4db-4307-9810-a29f0dcd1fd3" valueTypeId="0d0db76a-5cdc-4f7a-80e3-8d766748384b"/>
+    <valueKeyType typeId="1cda44a9-807b-5a32-864b-017837ae26ae" valueTypeId="9ecec476-dc49-55e5-a79a-94f9a20a8e46"/>
+  </producedTypes>
+  <name>НастройкиПроверкиРелизности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки проверки релизности</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

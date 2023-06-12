@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9380d09-abbc-427e-b3b8-730b76c0063b">
+  <producedTypes>
+    <refType typeId="b4e0dd9f-1a20-4f64-94c8-524f19ae9d52" valueTypeId="686a7898-9a04-4607-ae72-4b9528f28e7c"/>
+    <listType typeId="d99c84f1-c890-4c3c-974e-34111c82b059" valueTypeId="729e6481-5cef-4860-8782-d4514e61a958"/>
+    <managerType typeId="fd336d71-2795-4321-bf1d-5b3d6a820935" valueTypeId="669b1643-9cb7-41af-914c-2f8b9bf6d095"/>
+  </producedTypes>
+  <name>СостоянияОбработкиДампа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния обработки дампа</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bfb58287-3452-4a95-8ec9-39fa300d6edb">
+    <name>Архивируется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архивируется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8b760a1d-cbf4-4355-861f-ca6f542bd3bb">
+    <name>ДампНеНайден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дамп не найден</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34c11a64-eeec-4d27-9073-08d54fe283d0">
+    <name>ДампОбработанПользователем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дамп обработан пользователем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1aaf5d51-2f2d-4b06-bac4-fe01f7e7d792">
+    <name>ДампОбработанУспешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дамп обработан успешно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1b114c59-1ef0-4d0e-b8f1-2b4e22a83ccf">
+    <name>ДампУдаленБезОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дамп удален без обработки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="792b12b7-6082-49cc-935f-b25c7cda753c">
+    <name>ЗавершеноАрхивирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершено архивирование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9c14273-7dd0-49db-b95a-fcc921de966d">
+    <name>ЗавершеноАрхивированиеДампУдален</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершено архивирование дамп удален</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7bda9467-f838-4942-b061-02ca3b1433a3">
+    <name>ЗарегистрированоСозданиеДампа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрировано создание дампа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="375cb57b-70d6-4629-ab71-89be6955f350">
+    <name>ЗарегистрированоСозданиеДампаАгентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрировано создание дампа агентом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5692652c-6b09-4e8a-8e85-03c4d2169486">
+    <name>ЗарегистрированоСозданиеДампаДляУдаления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрировано создание дампа для удаления</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3621052-0471-4d26-9b6a-bebb45678dfd">
+    <name>ЗарегистрированоСозданиеДампаДляУдаленияАгентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрировано создание дампа для удаления агентом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4a75d05-3b4b-4be5-a213-d83cd842145b">
+    <name>КопируетсяАрхив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Копируется архив</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5b6c26e-25bb-4465-9939-196689322b9b">
+    <name>ОбработкаДампа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка дампа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3e8ece2-d4ad-4425-a9b4-bb4b559f070a">
+    <name>ОшибкаАрхивирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка архивирования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93d83c98-652f-4723-b6f4-1df0318df27b">
+    <name>ОшибкаПопыткиАрхивирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка попытки архивирования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1dd1fbb0-cc21-48d7-9d2b-5e96aae9618b">
+    <name>ОшибкаПопыткиЭкспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка попытки экспорта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88fc6df1-bb9e-4ef1-8b4f-9e0b5f96c37e">
+    <name>ОшибкаСозданияДампа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка создания дампа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb12d5dc-2830-4b76-bdac-672ccb0aa06e">
+    <name>ОшибкаСозданияДампУдален</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка создания дамп удален</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1e92ecec-0e30-4f60-b4ad-0b8343df902d">
+    <name>ОшибкаУдаленияДампа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка удаления дампа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b176000-e45d-4ac5-ab5e-0e37cff22f4f">
+    <name>ОшибкаЭкспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка экспорта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58a6bf52-b6f8-4c4d-9970-5d063c299da9">
+    <name>УдалениеФайлаДампа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаление файла дампа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75d9e2e1-5df9-4af8-a9b2-dd5094902f5f">
+    <name>ЭкспортДампа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспорт дампа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

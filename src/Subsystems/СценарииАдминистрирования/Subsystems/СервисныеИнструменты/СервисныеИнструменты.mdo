@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66a4f881-ddec-4f0b-bc77-17eaaa37a1a8">
+  <name>СервисныеИнструменты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервисные инструменты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ЗагрузкаПоставляемыхСценариевАвтоматизацииXML</content>
+  <content>DataProcessor.ЗаданияНаОбновлениеИсполняющейЧасти</content>
+  <content>DataProcessor.КалендарьЗадачАдминистрирования</content>
+  <content>Report.ЧекЛист</content>
+  <content>Catalog.ХранилищеКонфиденциальнойИнформации</content>
+  <content>DataProcessor.МониторСостоянияЗаданий</content>
+  <parentSubsystem>Subsystem.СценарииАдминистрирования</parentSubsystem>
+</mdclass:Subsystem>

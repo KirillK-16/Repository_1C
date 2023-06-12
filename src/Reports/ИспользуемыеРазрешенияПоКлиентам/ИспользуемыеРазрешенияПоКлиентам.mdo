@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64e11e91-a9e0-4f3c-b831-5597d54bfc43">
+  <producedTypes>
+    <objectType typeId="72a1adc0-3570-45bd-bd81-ad308f50dd41" valueTypeId="879d4bea-add0-493c-914a-1ab441bdaa84"/>
+    <managerType typeId="eea3cd25-bc2c-430e-82ed-5d03e15b8dc1" valueTypeId="2017ef30-d5e0-4d0f-b32c-20dad0f8ccab"/>
+  </producedTypes>
+  <name>ИспользуемыеРазрешенияПоКлиентам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используемые разрешения по клиентам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИспользуемыеРазрешенияПоКлиентам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="fa9d89f0-3a27-4b2c-9284-87c2279cc668">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="e543646a-bf35-47b1-ba18-9c83b7cad7fe">
+    <name>ИспользуемыеРазрешенияПоКлиентам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используемые разрешения по клиентам</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

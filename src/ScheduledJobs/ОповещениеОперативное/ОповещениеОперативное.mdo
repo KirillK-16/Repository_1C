@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8cc70ac-4014-40de-91fa-902063de2810">
+  <name>ОповещениеОперативное</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещение оперативное</value>
+  </synonym>
+  <methodName>CommonModule.Оповещение.ОповещениеФормирование</methodName>
+  <description>Оповещение оперативное</description>
+  <key>a20c1fa6-dea1-4abc-8dc6-e00e9443bbc9</key>
+  <use>true</use>
+  <predefined>true</predefined>
+</mdclass:ScheduledJob>

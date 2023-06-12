@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1881a8e-e4dd-4e11-b343-a70474001382">
+  <producedTypes>
+    <selectionType typeId="5af86f53-07ae-41a2-becd-9a10a510324d" valueTypeId="8c611281-b721-4d3e-ae2c-3addace8a42d"/>
+    <listType typeId="b39b299f-129d-40e6-a7a5-2dffde44497c" valueTypeId="ffe8424d-17d5-4ff0-9fcc-226326e413b9"/>
+    <managerType typeId="cb248b52-3f03-4efc-a055-105a827679db" valueTypeId="31e77d58-4e77-4c32-b5c1-b73a65d8a84e"/>
+    <recordSetType typeId="3fca3749-36d2-433a-b27e-7867b390aff5" valueTypeId="b73c4e39-339e-4efe-9f9e-816f20a2c5d6"/>
+    <recordKeyType typeId="d539d3a7-30a6-47ec-99a1-daf1cea3cecd" valueTypeId="c3ddf34a-b8e7-4a1e-92b7-1b25557608d8"/>
+    <recordType typeId="46f04857-14b8-4b46-a3d8-dfd6fd53f31e" valueTypeId="5ee2d691-31f9-4f47-aa9f-970ddc27c3f6"/>
+    <recordManagerType typeId="06d3f712-0145-4098-896f-63fb0cd7de09" valueTypeId="d9b4171d-4675-4a4a-bd2c-a380bc66f3dd"/>
+  </producedTypes>
+  <name>ЗамерыПроизводительностиДополнительнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замеры производительности дополнительная информация (оценка производительности)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЗамерыПроизводительностиДополнительнаяИнформация.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ЗамерыПроизводительностиДополнительнаяИнформация.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="97b83f52-dee2-480e-8c1a-ec11117466f6">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗначенияПараметраЗамера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9e2d2b5c-4338-4006-8029-3a402b06aec2">
+    <name>УникальныйИдентификаторЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор записи</value>
+    </synonym>
+    <comment>Уникальный идентификатор записи в регистре сведений ЗамерыПроизводительности</comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="380cbf23-0669-41e4-9a88-cefab6d8e787">
+    <name>ПараметрыЗамера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры замера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПараметрыЗамера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="be708ccb-f094-4b8a-a75e-655c3fc89498">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8367755f-d373-4b47-9b72-7bd99f77761f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

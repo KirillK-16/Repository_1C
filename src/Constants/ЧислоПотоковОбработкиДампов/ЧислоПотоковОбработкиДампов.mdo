@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a76403c-f0fa-47d1-82ef-57457bbe6c3a">
+  <producedTypes>
+    <managerType typeId="a3369e4f-1e79-41ab-8326-61247f01dc1b" valueTypeId="88a7cd19-c3f5-4a22-8e57-afb0ea64ee63"/>
+    <valueManagerType typeId="3c7635e9-fb50-4a5f-9104-198ddb31ec20" valueTypeId="ff565325-15d0-4540-9eb0-20e197cd5240"/>
+    <valueKeyType typeId="30bae5d5-8b63-5f64-99da-938038e40b2e" valueTypeId="5d86e24e-11e4-507e-a7e3-4bb3dcff7b16"/>
+  </producedTypes>
+  <name>ЧислоПотоковОбработкиДампов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Число потоков обработки дампов</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

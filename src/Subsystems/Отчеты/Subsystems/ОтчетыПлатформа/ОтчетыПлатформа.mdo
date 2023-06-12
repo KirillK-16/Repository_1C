@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7feed1ca-2b50-4e3f-95b1-3eb515fc49e4">
+  <name>ОтчетыПлатформа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платформа</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonForm.АнализДампов</content>
+  <content>CommonCommand.ОткрытьАнализДампов</content>
+  <content>Report.СтатистикаПоДампам</content>
+  <content>DataProcessor.КонтрольИсключенийПоТехнологическомуЖурналу</content>
+  <content>DataProcessor.КонтрольИсключенийПоТехнологическомуЖурналуГруппировкаПоПоследнейСтроке</content>
+  <content>DataProcessor.ОшибкиБлокировокПоТехнологическомуЖурналу</content>
+  <parentSubsystem>Subsystem.Отчеты</parentSubsystem>
+</mdclass:Subsystem>

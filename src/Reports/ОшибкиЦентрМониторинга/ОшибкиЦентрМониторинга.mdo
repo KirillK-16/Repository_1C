@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c066253c-04fc-40ed-9ff8-f4c4a5d3fd96">
+  <producedTypes>
+    <objectType typeId="2e8ee19b-1ccf-4a70-abca-a181a6bf490c" valueTypeId="1e5d9802-d4d2-463e-af3a-8f2bf771bac2"/>
+    <managerType typeId="bca5292d-4f05-41c0-ba62-fc9cdfe0dc62" valueTypeId="166537e4-605d-4253-9fd0-b813cd758c02"/>
+  </producedTypes>
+  <name>ОшибкиЦентрМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки (центр мониторинга)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОшибкиЦентрМониторинга.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="32d028b6-56c5-4782-8427-5ef8ca98c75a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="7bf587d5-f5a4-4769-9397-42f46150d7cc">
+    <name>Ошибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

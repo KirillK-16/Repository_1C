@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce567df4-0e98-489a-a6f8-ecdd73690b05">
+  <name>ОтчетыКластер1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кластер 1С</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.КоличествоСеансов</content>
+  <content>Report.АнализРабочихПроцессов</content>
+  <content>DataProcessor.АнализВызововКластера1С</content>
+  <content>CommonCommand.ОткрытьАнализПотребленияПамяти</content>
+  <content>Report.АнализПотребленияПроцессорногоВремени</content>
+  <content>Report.ПрограммныеЛицензии1С</content>
+  <parentSubsystem>Subsystem.Отчеты</parentSubsystem>
+</mdclass:Subsystem>

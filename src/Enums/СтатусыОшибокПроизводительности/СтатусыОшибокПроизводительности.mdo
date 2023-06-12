@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dd0bb90-4e81-4805-a5f6-3f8d01757492">
+  <producedTypes>
+    <refType typeId="7ff587e0-0183-4dd4-81f1-61c317836c5d" valueTypeId="389a6108-ecaa-4299-a26c-e1b41e372fcb"/>
+    <listType typeId="7a872f13-dca7-476e-8c57-985ed4f21a61" valueTypeId="6779b48a-fa39-46f6-a05c-63ff9a3a0817"/>
+    <managerType typeId="9f4aa45e-7b30-43a0-8944-68a6052f3eed" valueTypeId="b363dc26-5815-45e1-bb76-e5455f1efd3f"/>
+  </producedTypes>
+  <name>СтатусыОшибокПроизводительности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы ошибок производительности</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e4caa6e5-61ed-4f45-b658-476d3de80ba9">
+    <name>Создана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создана</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eabe0201-d73e-4949-8b75-ee43a2afbec9">
+    <name>Зарегистрирована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрирована</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="89cdf995-01ad-4572-a3d4-59bddb5328e3">
+    <name>Исправлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправлена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dbe036b8-6acc-479d-8d3b-5c017484baf3">
+    <name>Отклонена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6fd2d75a-0fee-44d8-bac7-b5c433930c9c">
+    <name>Закрыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

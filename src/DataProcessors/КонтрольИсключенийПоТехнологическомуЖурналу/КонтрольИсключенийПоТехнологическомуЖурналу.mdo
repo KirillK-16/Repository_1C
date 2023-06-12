@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6872d942-4acd-4108-9522-d91e725f9c47">
+  <producedTypes>
+    <objectType typeId="68c1751c-5791-4f0e-97e5-33680746a576" valueTypeId="1d380003-3563-4902-b42e-d65782a3e949"/>
+    <managerType typeId="6110dd45-ee9c-4769-bf4b-02d467588e3c" valueTypeId="d49e08b1-9731-4489-80b0-44519158e69d"/>
+  </producedTypes>
+  <name>КонтрольИсключенийПоТехнологическомуЖурналу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль исключений по технологическому журналу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонтрольИсключенийПоТехнологическомуЖурналу.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="b3922fda-e3bd-45d8-bac2-0ce5f4b006e6">
+    <name>Кластер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кластер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d2dffa35-31f6-48ad-87ac-7275376e181d">
+    <name>РабочийСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий сервер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="477ef691-0193-4b16-a4e5-5c1530b815dd">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="00567753-3ce3-4f6f-834f-7ef5c29973d1">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="baad16c4-adce-4bba-9f9b-6c6499a97b24">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e2b4e139-682e-4dd4-bc3c-5bc3d6c9f2a6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="329e936d-2acf-4e0a-8887-07bfe76b37c6">
+    <name>ОткрытьКонтрольИсключенийПоТехнологическомуЖурналу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль исключений по технологическому журналу</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

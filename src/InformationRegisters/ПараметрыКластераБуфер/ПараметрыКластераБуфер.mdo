@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb9c6d38-d887-406a-8498-7a24ccdaf9bc">
+  <producedTypes>
+    <selectionType typeId="208e0c79-bee8-4eb3-8c91-18f2125a52c6" valueTypeId="170ba23c-7ce9-47f4-b095-410ff183488f"/>
+    <listType typeId="9fca0328-bf3c-46bd-b9fb-6ec808e4c62b" valueTypeId="4540447f-9b45-47f9-9585-b4d9f6a9c3a3"/>
+    <managerType typeId="d8fa7d26-0620-4194-b266-a3c3947b4fdd" valueTypeId="b6fbd1df-2aad-4dca-973e-ba03a6f2a831"/>
+    <recordSetType typeId="7933a74a-f264-4a1c-9edb-ccb62be49360" valueTypeId="3189dff5-271a-406e-9618-24bd4ca18124"/>
+    <recordKeyType typeId="d9541aaf-7a46-4145-8fc7-fce8b4baddd0" valueTypeId="b888dedd-f3b5-4d1c-b962-cabc7790f371"/>
+    <recordType typeId="759a94d6-75d5-4b4f-8840-5dd0923d5fee" valueTypeId="b38326ff-1547-49d5-a64c-7a16267340e3"/>
+    <recordManagerType typeId="6badbec8-1bc2-4320-ba16-c266179702b3" valueTypeId="67d9a222-6109-4e01-af04-a15daad6d6a5"/>
+  </producedTypes>
+  <name>ПараметрыКластераБуфер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры кластера буфер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ПараметрыКластераБуфер.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="94b6679d-10d0-4143-aaa9-ce0bfcabc464">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="b47ee2fe-01ab-4158-b568-b972a0143efc">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </dimensions>
+  <dimensions uuid="cde75452-161d-4693-a69a-4e53a74da343">
+    <name>ДатаЗаписиМинутаUTC</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи минута UTC</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="da2e4b73-6857-4298-a7ca-d55ccdae6c18">
+    <name>УникальныйИдентификаторКластера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор кластера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="15626236-3c96-4d41-bd9c-99f0e5afcfd1">
+    <name>УникальныйИдентификаторЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор записи</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="e5992879-3a9c-4cd6-b00f-c3ab3dc5f7ab">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

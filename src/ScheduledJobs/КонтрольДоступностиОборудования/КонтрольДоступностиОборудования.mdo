@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9dd61bd-51f3-4dd8-8f21-b0bc22c9e746">
+  <name>КонтрольДоступностиОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль доступности оборудования</value>
+  </synonym>
+  <methodName>CommonModule.АгентКИПвЦКК.ВнутреннийКонтрольДоступностиОборудования</methodName>
+  <description>Контроль доступности оборудования</description>
+  <key>11625637-1eac-4bfe-b5cf-e5aa1e700177</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

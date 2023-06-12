@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e37e76de-7af1-4386-8aa8-7d1f2ed0dd35">
+  <producedTypes>
+    <selectionType typeId="0bc7420c-87d0-4194-b9bb-cc31b72062d2" valueTypeId="3ef6b429-bc0d-4637-af93-c3fcd89b007a"/>
+    <listType typeId="e47b428b-9446-41ee-a314-4e406c8aab9a" valueTypeId="e85ca041-6fe9-4501-828d-8cd836fc8f4e"/>
+    <managerType typeId="c6ccf818-828d-4535-aab5-2407bd221808" valueTypeId="ca30a47f-5ee8-4b1c-9e0c-8541a721c1e6"/>
+    <recordSetType typeId="0f23eae4-fbb2-48aa-8fde-cda72b49df4e" valueTypeId="0ba1ef4b-eb4d-4fed-abfc-471ecb33d852"/>
+    <recordKeyType typeId="30b6c464-a56f-43a3-af7c-53c4489cd30f" valueTypeId="55d19358-4ee1-4f85-ac70-c7b8fd6ca518"/>
+    <recordType typeId="775f476e-f289-4de6-96f1-33c2b8df77d2" valueTypeId="101e7cd2-c89b-47e9-b83c-535258486d4d"/>
+    <recordManagerType typeId="28064379-aa39-4055-b46d-39c62ab47ac5" valueTypeId="959d5821-c011-4dfd-ba79-c618e8942580"/>
+  </producedTypes>
+  <name>НастройкиКонтрольНагрузочныхТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки &quot;Контроль нагрузочных тестов&quot;</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a1844bc9-2d19-4624-a4d0-3ef0dea33d9d">
+    <name>КаталогВыгрузкиРезультатов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог выгрузки результатов тестирования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="c6a680d5-c75c-477f-b0c2-a756811b026c">
+    <name>ПороговоеЧислоПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пороговое число пользователей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0fa336d7-6a99-4622-badd-b1f7eaf40af7">
+    <name>УчитыватьТолькоУспешныеТесты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать при сравнении только успешно пройденные тесты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ee45c1de-dfc9-4a2f-9fa5-7b03ce4d92a0">
+    <name>ЧислоПредыдущихЗапусков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число последних запусков теста, с результатами которых сравниваются результаты текущего</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8529de26-ef97-43be-8188-578816056e96">
+    <name>ДопустимоеОтклонениеПоПотреблениюПамяти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допустимое отклонение по потреблению памяти (в процентах)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f574641a-b13c-413f-829a-b4833d911d9c">
+    <name>ДопустимоеОтклонениеПоПроизводительности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допустимое отклонение по производительности (в процентах)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="406bb0be-c82a-4861-b457-8ca7504700bf">
+    <name>УчитыватьПроизводительность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать производительность</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5c3f994b-b71b-439c-9f4c-3eb99534c5e9">
+    <name>УчитыватьБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать блокировки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3b8b9395-4b46-4bc9-af4b-4314592e2261">
+    <name>УчитыватьДампы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать дампы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="404d9bf3-9018-41a1-aeb5-40bc97a2e320">
+    <name>УчитыватьПотреблениеПамяти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать потребление памяти</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7a6e6d04-f5ce-4bd2-a653-028ea300e386">
+    <name>УчитыватьИсключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать исключения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c8c049e3-3159-4fd1-8a61-ae4e1a70227e">
+    <name>КонтрольнаяПроцедура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная процедура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольныеПроцедуры</types>
+      <types>CatalogRef.ВидыКонтрольныхПроцедур</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

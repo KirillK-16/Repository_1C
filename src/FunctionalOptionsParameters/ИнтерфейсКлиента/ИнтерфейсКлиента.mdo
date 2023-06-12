@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOptionsParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6a5c7b4-41ec-4f1b-9f46-b27b9fcfb08d">
+  <name>ИнтерфейсКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерфейс клиента</value>
+  </synonym>
+  <use>Catalog.ИнтерфейсыКлиента</use>
+</mdclass:FunctionalOptionsParameter>

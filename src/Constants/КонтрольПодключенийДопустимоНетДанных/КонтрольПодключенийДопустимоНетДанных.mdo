@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b24b5d0a-effc-47e5-a9ad-029bbcebae58">
+  <producedTypes>
+    <managerType typeId="8ab9b6ef-7f67-42eb-8b9d-df8464634677" valueTypeId="9d776efd-967a-4154-b575-1c065d4187cf"/>
+    <valueManagerType typeId="b538d80a-89e9-4a98-b899-5386d2db2945" valueTypeId="c4f45e2b-0376-47b6-8cb7-3bfa6dc9f9ad"/>
+    <valueKeyType typeId="bcdf92c5-c169-53bb-8d8d-91b8a74b0456" valueTypeId="b458473b-1a57-5fd7-94ef-6fc742602217"/>
+  </producedTypes>
+  <name>КонтрольПодключенийДопустимоНетДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль подключений допустимо нет данных</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:StringValue">
+    <value>10</value>
+  </minValue>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

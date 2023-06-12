@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c64a2455-3506-47ae-8508-80794089eeca">
+  <producedTypes>
+    <managerType typeId="bcc06e9d-0fab-4a8c-afd9-76264561ae0d" valueTypeId="bba31850-be25-418e-b8f0-b99b77a6e79d"/>
+    <valueManagerType typeId="c9f7d06b-0368-4702-8270-201696aba3f2" valueTypeId="b749fcdf-f061-41c1-b281-0bd77625e33e"/>
+    <valueKeyType typeId="7e4892b6-b2ae-5387-bd1d-2e41057e3e8a" valueTypeId="132b002d-f8dd-5f58-acfa-8be3b72fbf91"/>
+  </producedTypes>
+  <name>СтатистикаРазмерПакетаЗапроса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика размер пакета запроса</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Количество записей единовременной выборки из регистра сведений &quot;СтатистикаБуфер&quot;</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

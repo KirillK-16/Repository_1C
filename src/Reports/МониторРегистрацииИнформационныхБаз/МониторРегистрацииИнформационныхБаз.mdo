@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cb551dd-e85a-4b5e-82b1-c28c2f78c3bd">
+  <producedTypes>
+    <objectType typeId="5a829fa8-dd01-4c24-b07f-ea2f74502408" valueTypeId="5d31ad91-4431-4bf4-b521-1b4eee7acd17"/>
+    <managerType typeId="87af9c83-d547-43b1-8a2a-ecda204b3e28" valueTypeId="91d77609-afb3-440b-9710-cae25e5ec3ee"/>
+  </producedTypes>
+  <name>МониторРегистрацииИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор регистрации информационных баз</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.МониторРегистрацииИнформационныхБаз.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.МониторРегистрацииИнформационныхБаз.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="dc57a9af-eec9-43d1-9c08-85e70d1c1754">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8dcfe414-f2d1-4fbd-91a3-168471c70f21">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="e23f926b-9674-480c-9ce0-8136651f6c59">
+    <name>МониторРегистрацииИнформационныхБаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монитор регистрации информационных баз</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

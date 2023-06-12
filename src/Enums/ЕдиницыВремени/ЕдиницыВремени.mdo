@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f74462ab-6f44-467a-b5af-04e6126e9a68">
+  <producedTypes>
+    <refType typeId="04e679d1-8f98-4443-8fa3-81948a839023" valueTypeId="13bbcc41-06a7-4cc6-839d-469106eefb23"/>
+    <listType typeId="d6cceb2e-0a42-4b92-9095-7d036709b36a" valueTypeId="92da4b61-c557-4a1a-8456-83560ec55230"/>
+    <managerType typeId="630f53e9-de9e-4cec-8650-b61411d9b521" valueTypeId="23a571b7-457d-4ed1-8175-e5c23c57412d"/>
+  </producedTypes>
+  <name>ЕдиницыВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы времени</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b70366e3-769c-4cad-b72c-f840b276ae8d">
+    <name>Секунда</name>
+    <synonym>
+      <key>ru</key>
+      <value>сек.</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53ae6eb3-7b4e-46b2-b9ca-0d2367fa7b9b">
+    <name>Минута</name>
+    <synonym>
+      <key>ru</key>
+      <value>мин.</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e4a2797-d138-46fd-99e8-35ea21933200">
+    <name>Час</name>
+    <synonym>
+      <key>ru</key>
+      <value>ч.</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8fa38f6a-a46f-46f7-acc7-a8583ab623e0">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>дн.</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

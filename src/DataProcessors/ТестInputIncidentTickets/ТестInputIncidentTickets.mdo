@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0fa684e-36a5-4a65-b618-bd3a1132fc2d">
+  <producedTypes>
+    <objectType typeId="33cabbbd-f0be-4871-952e-46dfb7f22167" valueTypeId="eebeca1d-91c5-45b4-a8ca-179d96a7eba0"/>
+    <managerType typeId="134925ea-48c4-40ff-aba8-9d9ab2ff8771" valueTypeId="e9e22316-1d1b-4fb4-be2d-138579a79254"/>
+  </producedTypes>
+  <name>ТестInputIncidentTickets</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест input incident tickets</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ТестInputIncidentTickets.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="1e4335b8-c390-4e00-a095-2be227b452ed">
+    <name>АдресЦКК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес ЦКК</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a45963b5-852a-4a35-a52c-4868dd932f61">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c4cca7c0-9f77-4813-b4a8-6bb0d1d16325">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="1877ed6e-7aeb-4f21-9fef-ef874bdcaebd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="68b9de84-f7cf-40b2-8fca-391d13fa6d32">
+    <name>ТестInputIncidentTickets</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест http-сервиса &quot;Input incident tickets&quot;</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

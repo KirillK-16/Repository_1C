@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27c5cf4a-00d3-4848-b5a7-c3a49272e9cb">
+  <producedTypes>
+    <refType typeId="7ae3e478-c8fb-4c7e-a687-045150b7dbd1" valueTypeId="a70c603a-b001-407a-b669-c4e922db647e"/>
+    <listType typeId="4329b018-f393-41f7-9cb7-7bb87a970e89" valueTypeId="e851fbc7-330b-4f00-9ceb-66b6f7a4facc"/>
+    <managerType typeId="1b51c77e-36b4-45fa-b9bd-32bf235e96ae" valueTypeId="ea3e7f24-494d-4aca-b41a-51a24239216e"/>
+  </producedTypes>
+  <name>ТипыОбнаруженияИнцидентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы обнаружения инцидентов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b577629c-7203-471e-be42-0689711a3e2f">
+    <name>Открытие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="63240ed7-b9b8-4b4d-8e5f-e468258e8039">
+    <name>Закрытие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрытие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="019b8c9b-d8db-41ac-803d-188c4da47085">
+    <name>ОткрытиеЗакрытие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытие и закрытие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="89896d9e-3a91-41e9-a1d2-e48d771bf685">
+    <name>ТекущееЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущее значение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

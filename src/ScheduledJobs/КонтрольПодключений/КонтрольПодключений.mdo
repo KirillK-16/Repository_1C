@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9b03ce8-78c4-4b2e-9ee0-0970a75efdc2">
+  <name>КонтрольПодключений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль подключений</value>
+  </synonym>
+  <methodName>CommonModule.КонтрольПодключенийСервер.КонтрольПодключенийВыполнить</methodName>
+  <description>КонтрольПодключений</description>
+  <key>93156e91-0531-41e3-84ae-4df5837311f3</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

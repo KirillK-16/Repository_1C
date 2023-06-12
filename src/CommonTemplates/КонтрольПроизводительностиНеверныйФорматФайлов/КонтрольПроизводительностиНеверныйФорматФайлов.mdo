@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcb17413-0c79-4a44-8735-8f8a4dd4aa11">
+  <name>КонтрольПроизводительностиНеверныйФорматФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль производительности неверный формат файлов</value>
+  </synonym>
+  <templateType>HTMLDocument</templateType>
+</mdclass:CommonTemplate>

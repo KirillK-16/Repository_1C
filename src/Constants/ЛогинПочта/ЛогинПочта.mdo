@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25c1c774-a785-4c99-830a-a2ea01efd8a6">
+  <producedTypes>
+    <managerType typeId="b7e7b01a-c85d-4560-b5da-01ff0756024c" valueTypeId="e9245b54-7ef6-459f-b422-b100b2c3fea0"/>
+    <valueManagerType typeId="349db0fc-d461-4434-abec-b8ed73a6e74a" valueTypeId="26aaec00-4e16-4d90-b745-bd27a81f3ac6"/>
+    <valueKeyType typeId="613d95db-6980-5d2e-b2e0-f322f31a8482" valueTypeId="de1c9cb8-a8e8-587f-8fcb-7addff3bde4c"/>
+  </producedTypes>
+  <name>ЛогинПочта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логин для доступа к почтовому ящику</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>128</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Имя пользователя для доступа на POP3 сервер (логин)</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

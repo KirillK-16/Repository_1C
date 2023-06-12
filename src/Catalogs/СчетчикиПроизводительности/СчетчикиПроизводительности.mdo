@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6971b0ca-861e-4008-9afd-0f8760524c4f">
+  <producedTypes>
+    <objectType typeId="370ee581-3554-404c-901f-6645b0501cdc" valueTypeId="8c88973e-cd12-4c1c-86a9-2bfb82675895"/>
+    <refType typeId="43e58af6-2df0-4258-943a-60c11eeecd39" valueTypeId="1486b6d0-4d6e-4df7-a686-09aa5ceb3acb"/>
+    <selectionType typeId="ebc22527-b617-4ee8-9e8f-fa30053c6ee6" valueTypeId="3d5cc611-3c38-42ac-966e-3f0e39066462"/>
+    <listType typeId="de494821-8927-4c49-823f-27cf757f326b" valueTypeId="2f94febc-a99f-4de0-9a8f-0d2c3db5293b"/>
+    <managerType typeId="d2b53a8f-4f20-45ee-ab4d-aaa8fb380147" valueTypeId="ff007c90-627e-4f1f-8a4f-c759eddd18fc"/>
+  </producedTypes>
+  <name>СчетчикиПроизводительности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счетчики производительности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СчетчикиПроизводительности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f2398776-373c-45ce-ab9a-68e83d836acb">
+      <name>DiskTotalPercentFreeSpace</name>
+      <description>\Disk(/)\% Free Space</description>
+      <code xsi:type="core:StringValue">
+        <value>000000048</value>
+      </code>
+    </items>
+    <items id="d10fded7-07c6-45fb-982f-0888cff0973f">
+      <name>DiskTotalFreeMegabytes</name>
+      <description>\Disk(/)\Free Megabytes</description>
+      <code xsi:type="core:StringValue">
+        <value>000000049</value>
+      </code>
+    </items>
+    <items id="06228d9a-0a7f-413b-b61e-12e7070ac7d0">
+      <name>DiskSdaBlkReadS</name>
+      <description>\Disk(sda)\Blk_read/s</description>
+      <code xsi:type="core:StringValue">
+        <value>000000054</value>
+      </code>
+    </items>
+    <items id="3fbe495a-24d6-473a-a284-d848682a1ffb">
+      <name>DiskSdaBlkWriteS</name>
+      <description>\Disk(sda)\Blk_write/s</description>
+      <code xsi:type="core:StringValue">
+        <value>000000055</value>
+      </code>
+    </items>
+    <items id="385258de-0725-407d-b55c-967c6a1df41c">
+      <name>ЛогическийДискПроцентСвободногоМеста</name>
+      <description>\LogicalDisk(_Total)\% Free Space</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="813bd54f-f61f-468c-b342-aad38159b0c1">
+      <name>MemoryPercentFree</name>
+      <description>\Memory\% Free</description>
+      <code xsi:type="core:StringValue">
+        <value>000000040</value>
+      </code>
+    </items>
+    <items id="5e74cfb7-0c35-423c-b95c-22664c84795d">
+      <name>MemoryPercentUsed</name>
+      <description>\Memory\% Used</description>
+      <code xsi:type="core:StringValue">
+        <value>000000042</value>
+      </code>
+    </items>
+    <items id="4320f393-f9a3-4877-8f7d-aa1c5bb9af9d">
+      <name>ПамятьДоступноМБ</name>
+      <description>\Memory\Available Mbytes</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="94e9c8e0-6d7f-4801-8490-7cecdfca1714">
+      <name>MemoryCachedMbytes</name>
+      <description>\Memory\Cached Mbytes</description>
+      <code xsi:type="core:StringValue">
+        <value>000000043</value>
+      </code>
+    </items>
+    <items id="d246c802-3f3d-42f8-b019-d431b90f8f74">
+      <name>MemoryFreeMbytes</name>
+      <description>\Memory\Free Mbytes</description>
+      <code xsi:type="core:StringValue">
+        <value>000000039</value>
+      </code>
+    </items>
+    <items id="071b6600-3aba-4a9f-9950-1cc690962400">
+      <name>MemoryUsedMbytes</name>
+      <description>\Memory\Used Mbytes</description>
+      <code xsi:type="core:StringValue">
+        <value>000000041</value>
+      </code>
+    </items>
+    <items id="08b49aa7-52a1-4f39-ac84-3c827e5f18fc">
+      <name>ФизическийДискСредняяДлинаОчередиДиска</name>
+      <description>\PhysicalDisk(_Total)\Avg. Disk Queue Length</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="09f15e5a-7d33-4edc-9b85-077c44a43ffc">
+      <name>ФизическийДискСреднееВремяЧтенияСДиска</name>
+      <description>\PhysicalDisk(_Total)\Avg. Disk Sec/Read</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="7338b5b7-a3e0-4cbc-8ce5-fcf50e6ede27">
+      <name>ФизическийДискСреднееВремяЗаписиНаДиск</name>
+      <description>\PhysicalDisk(_Total)\Avg. Disk Sec/Write</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="196192f3-a397-4ec8-97e2-f25a66b64156">
+      <name>ПроцессорПроцентВремениПростоя</name>
+      <description>\Processor(_Total)\% Idle Time</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="90840936-a983-4360-afe1-b06657433c53">
+      <name>ПроцессорПроцентЗагруженностиПроцессора</name>
+      <description>\Processor(_Total)\% Processor Time</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="fb79a946-fa45-477a-81bb-b0e78417e2d5">
+      <name>ПроцессорПроцентЗагруженностиПроцессораСистемный</name>
+      <description>\Processor(_Total)\% System Time</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="67fe82ea-1984-4609-993c-969fc7d3956a">
+      <name>ПроцессорПроцентРаботыВПользовательскомРежиме</name>
+      <description>\Processor(_Total)\% User Time</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="295165dc-cdbb-4e73-883d-9fdba6d3776e">
+      <name>ПроцессорПрерыванийСек</name>
+      <description>\Processor(_Total)\Interrupts/sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="7bafc827-60d1-40eb-a682-a0ac7ba3fdc8">
+      <name>SQLServerBufferManagerBufferCacheHitRatio</name>
+      <description>\SQLServer:Buffer Manager\Buffer Cache Hit Ratio</description>
+      <code xsi:type="core:StringValue">
+        <value>000000016</value>
+      </code>
+    </items>
+    <items id="55f67c0b-4777-4984-9b63-6cb44b4106cd">
+      <name>SQLServerBufferManagerLazyWritesSec</name>
+      <description>\SQLServer:Buffer Manager\Lazy Writes/Sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000018</value>
+      </code>
+    </items>
+    <items id="40377ffe-95fe-4cff-80f5-999407182212">
+      <name>SQLServerBufferManagerPageLifeExpectancy</name>
+      <description>\SQLServer:Buffer Manager\Page Life Expectancy</description>
+      <code xsi:type="core:StringValue">
+        <value>000000017</value>
+      </code>
+    </items>
+    <items id="9f4a49af-10d9-44cc-b608-9b52b1362a75">
+      <name>SQLServerBufferManagerPageReadsSec</name>
+      <description>\SQLServer:Buffer Manager\Page Reads/Sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000019</value>
+      </code>
+    </items>
+    <items id="ed6a14f3-77d2-41b6-92b5-f6179eb7acef">
+      <name>SQLServerBufferManagerPageWritesSec</name>
+      <description>\SQLServer:Buffer Manager\Page Writes/Sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000020</value>
+      </code>
+    </items>
+    <items id="c385c07d-32fc-4c11-9193-5d2c7911b869">
+      <name>SQLServerDatabasesTempdbDataFilesSizeKB</name>
+      <description>\SQLServer:Databases(tempdb)\Data File(s) Size (KB)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000024</value>
+      </code>
+    </items>
+    <items id="93990bd7-ce13-4741-9df8-46f7ef278b75">
+      <name>SQLServerDatabasesTempdbLogFilesSizeKB</name>
+      <description>\SQLServer:Databases(tempdb)\Log File(s) Size (KB)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000025</value>
+      </code>
+    </items>
+    <items id="4e26d3c3-acba-4b06-beb2-3d819976e8c6">
+      <name>SQLServerDatabasesTempdbLogFilesUsedSizeKB</name>
+      <description>\SQLServer:Databases(tempdb)\Log File(s) Used Size (KB)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000026</value>
+      </code>
+    </items>
+    <items id="136718ca-fe7b-4db8-bcb7-c045d4d05c96">
+      <name>SQLServerLatchesLatchWaitsSec</name>
+      <description>\SQLServer:Latches\Latch Waits/sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000034</value>
+      </code>
+    </items>
+    <items id="4a7503b7-7fa8-4b5d-b2a1-a248b3d19b44">
+      <name>SQLServerLatchesTotalLatchWaitTime_ms</name>
+      <description>\SQLServer:Latches\Total Latch Wait Time (ms)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000033</value>
+      </code>
+    </items>
+    <items id="3d81270d-9719-4e99-889d-329823a8801b">
+      <name>SQLServerLocksAverageWaitTime_ms</name>
+      <description>\SQLServer:Locks(_Total)\Average Wait Time (ms)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000030</value>
+      </code>
+    </items>
+    <items id="215c9af4-345d-4e98-ac0e-ca9a7244499a">
+      <name>SQLServerLocksLockTimeoutsTimeoutMore0sec</name>
+      <description>\SQLServer:Locks(_Total)\Lock Timeouts (timeout > 0)/sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000031</value>
+      </code>
+    </items>
+    <items id="7a5d5959-e8df-4e25-aac2-de9a73ac9921">
+      <name>SQLServerLocksLockWaitTime_ms</name>
+      <description>\SQLServer:Locks(_Total)\Lock Wait Time (ms)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000029</value>
+      </code>
+    </items>
+    <items id="79bc572b-4dba-45cd-8a44-052666038ede">
+      <name>SQLServerLocksLockWaitsSec</name>
+      <description>\SQLServer:Locks(_Total)\Lock Waits/Sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000028</value>
+      </code>
+    </items>
+    <items id="421b936b-5033-4e44-8b7b-d9b03b8b16df">
+      <name>SQLServerLocksNumberOfDeadlocksSec</name>
+      <description>\SQLServer:Locks(_Total)\Number of Deadlocks/sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000032</value>
+      </code>
+    </items>
+    <items id="02e6ce97-fce5-4faf-bc20-9652d83f68f6">
+      <name>SQLServerSQLErrorsErrorsSec</name>
+      <description>\SQLServer:SQL Errors(_Total)\Errors/sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000035</value>
+      </code>
+    </items>
+    <items id="606e4710-d229-48b3-a3ae-432bcac9fe1c">
+      <name>SQLServerSQLStatisticsBatchRequestsSec</name>
+      <description>\SQLServer:SQL Statistics\Batch Requests/Sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000021</value>
+      </code>
+    </items>
+    <items id="a9f3afd7-cfec-4f8e-8665-a319f76a5f25">
+      <name>SQLServerSQLStatisticsSQLAttentionRate</name>
+      <description>\SQLServer:SQL Statistics\SQL Attention rate</description>
+      <code xsi:type="core:StringValue">
+        <value>000000036</value>
+      </code>
+    </items>
+    <items id="0d8ce392-6df3-4193-8360-b25afddbafd7">
+      <name>SQLServerSQLStatisticsSQLCompilationsSec</name>
+      <description>\SQLServer:SQL Statistics\SQL Compilations/Sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000022</value>
+      </code>
+    </items>
+    <items id="c83d694d-880d-4ffc-8ef9-966b2b94693a">
+      <name>SQLServerSQLStatisticsSQLReCompilationsSec</name>
+      <description>\SQLServer:SQL Statistics\SQL Re-Compilations/Sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000023</value>
+      </code>
+    </items>
+    <items id="35262de6-3611-4245-b55f-7595da1c8ec6">
+      <name>SQLServerTransactionsFreeSpaceInTempdbKB</name>
+      <description>\SQLServer:Transactions\Free space in tempdb (KB)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000027</value>
+      </code>
+    </items>
+    <items id="9d9e40d6-79e6-4d8c-b494-1c43a8877e5a">
+      <name>SQLServerTransactionsLongestTransactionRunningTime</name>
+      <description>\SQLServer:Transactions\Longest Transaction Running Time</description>
+      <code xsi:type="core:StringValue">
+        <value>000000037</value>
+      </code>
+    </items>
+    <items id="3c91a124-e7ec-446c-af80-212a12a5e69c">
+      <name>SQLServerTransactionsTransactions</name>
+      <description>\SQLServer:Transactions\Transactions</description>
+      <code xsi:type="core:StringValue">
+        <value>000000038</value>
+      </code>
+    </items>
+    <items id="8c7a5f71-02c8-47e2-8cdc-07eb40722f19">
+      <name>SystemActiveProcesses</name>
+      <description>\System\Active Processes</description>
+      <code xsi:type="core:StringValue">
+        <value>000000044</value>
+      </code>
+    </items>
+    <items id="e6555a71-7c90-44de-8c01-b5be646102ca">
+      <name>СистемаКонтекстныхПереключенийСек</name>
+      <description>\System\Context Switches/sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="f8245a61-4e28-4425-bd3f-e5a8c9bcfaf3">
+      <name>СистемаБайтЧтенияФайловСек</name>
+      <description>\System\File Read Bytes/sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+    </items>
+    <items id="86231783-ecd5-456f-8468-c8529fbae098">
+      <name>СистемаБайтЗаписиФайловСек</name>
+      <description>\System\File Write Bytes/sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000015</value>
+      </code>
+    </items>
+    <items id="c1effa8f-eb4e-43a7-aaa5-7f8dcf397640">
+      <name>SystemLoadAverage1minute</name>
+      <description>\System\Load Average/1 minute</description>
+      <code xsi:type="core:StringValue">
+        <value>000000045</value>
+      </code>
+    </items>
+    <items id="1e913b5b-d1e4-45be-a0f1-d80960d407e0">
+      <name>SystemLoadAverage15minute</name>
+      <description>\System\Load Average/15 minute</description>
+      <code xsi:type="core:StringValue">
+        <value>000000047</value>
+      </code>
+    </items>
+    <items id="a3e717c0-b99c-4e90-9778-e44cdeecbf0f">
+      <name>SystemLoadAverage5minute</name>
+      <description>\System\Load Average/5 minute</description>
+      <code xsi:type="core:StringValue">
+        <value>000000046</value>
+      </code>
+    </items>
+    <items id="6cd5643e-c19d-4280-a960-f184e0eaee93">
+      <name>СистемаСчетчикПроцессов</name>
+      <description>\System\Processes</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="2a5a5a83-7fb9-4357-a446-5803a4e7f49a">
+      <name>СистемаДлинаОчередиПроцессора</name>
+      <description>\System\Processor Queue Length</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="151e5ea2-5e6e-47ec-b5d8-0664751a9540">
+      <name>СистемаПотоки</name>
+      <description>\System\Threads</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+    <items id="b6cee9b7-5029-468c-af5a-d1152b5e2a05">
+      <name>NetworkInterfaceEth0BytesTotalSec</name>
+      <description>Network Interface(eth0)\Bytes Total/sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000050</value>
+      </code>
+    </items>
+    <items id="fc948a66-687e-4c1e-b663-d9ceb162fa55">
+      <name>NetworkInterfaceEth0DroppedTotalSec</name>
+      <description>Network Interface(eth0)\Dropped Total/sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000053</value>
+      </code>
+    </items>
+    <items id="370df408-f3db-408a-8382-c11245ff7ed3">
+      <name>NetworkInterfaceEth0ErrorsTotalSec</name>
+      <description>Network Interface(eth0)\Errors Total/sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000052</value>
+      </code>
+    </items>
+    <items id="362d3132-f6b9-47d4-8ee2-7dc2d443a834">
+      <name>NetworkInterfaceEth0PacketsTotalSec</name>
+      <description>Network Interface(eth0)\Packets Total/sec</description>
+      <code xsi:type="core:StringValue">
+        <value>000000051</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СчетчикиПроизводительности.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СчетчикиПроизводительности.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СчетчикиПроизводительности.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="9bc28f3d-0310-4d70-8bfc-4d8196910701">
+    <name>ГруппаСчетчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа счетчика</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="69fbc4da-5b96-42ab-9a5f-6846eda6e317">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="db524cb6-6fe8-461b-bd42-b7343ef45b2e">
+    <name>Применимо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Применимо</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СчетчикПроизводительностиПрименимо</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СчетчикПроизводительностиПрименимо.EnumValue.Windows</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="80c45da7-f62e-4c4d-aad9-f4b9665666c5">
+    <producedTypes>
+      <objectType typeId="c6c90b65-dd37-433c-b964-2ed848425a31" valueTypeId="f89bd5cc-b967-4e8e-a060-16ec339843a6"/>
+      <rowType typeId="2d156669-cd88-49ba-960c-be11e7c5f256" valueTypeId="30be5e8b-2ef4-40cf-a917-32fc394b6c2b"/>
+    </producedTypes>
+    <name>НациональноеПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Национальное представление</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c062e475-9b8b-4b98-aee7-6beb7d603a69">
+      <name>Язык</name>
+      <synonym>
+        <key>ru</key>
+        <value>Язык</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ЯзыкиСистемы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9379b850-659e-462a-976f-f27a6050dd19">
+      <name>НаименованиеНациональное</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование национальное</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9b8370b6-4dd7-4c72-9cb2-d2316eba402c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="20176c24-e609-404d-a439-fc1a671ef307">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4330eab3-2b0b-4631-a82d-acddfb08e1a2">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

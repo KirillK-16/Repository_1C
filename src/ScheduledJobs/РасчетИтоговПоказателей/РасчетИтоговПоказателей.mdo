@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf2e5e8c-6131-4079-bf6a-527e2066af2e">
+  <name>РасчетИтоговПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет итогов показателей</value>
+  </synonym>
+  <methodName>CommonModule.РасчетИтоговПоказателей.РасчетИтоговПоказателей</methodName>
+  <description>Расчет итогов показателей</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>600</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

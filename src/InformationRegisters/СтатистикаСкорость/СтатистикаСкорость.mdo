@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0781476a-02bb-43e8-84c4-dcbe7fa3ea93">
+  <producedTypes>
+    <selectionType typeId="c8377f95-60cc-40f3-986f-4dfa88e8f1f8" valueTypeId="ca59967c-94d5-4d74-a33b-ce37a879bd8f"/>
+    <listType typeId="cf5fabd5-80f3-4b77-b9ef-fc9eca96fee6" valueTypeId="0b1e5e47-6f73-487c-b51f-b883072b1259"/>
+    <managerType typeId="8862078d-1f01-4ea0-a7f0-2c414f0f1bf9" valueTypeId="63c15da8-427a-45cd-9693-068ddd5e1499"/>
+    <recordSetType typeId="52b506b0-0280-4565-bc59-92480069935a" valueTypeId="82e367b3-63db-4c5b-aff8-10132f1b1ba0"/>
+    <recordKeyType typeId="af94ff4e-7c3b-4c58-aa36-42a83e6af210" valueTypeId="7446c7bd-de44-49c4-9405-abbdc90acb74"/>
+    <recordType typeId="14e0a99a-696f-4ceb-915f-09dc9337cf06" valueTypeId="851cf800-f6d3-4b97-ac3f-d9f03c7153db"/>
+    <recordManagerType typeId="a827a7ec-e06f-46b4-ab65-c39a2b019c36" valueTypeId="f98dd051-3918-496d-bdc9-d13f85380df7"/>
+  </producedTypes>
+  <name>СтатистикаСкорость</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика скорость</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="12d01a68-34fc-451b-bdd7-9eb1f13256ab">
+    <name>ЧислоОтчетовВМинуту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число отчетов в минуту</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c2565639-f6cb-4036-8c70-800d34ac86b2">
+    <name>НовыхОбъектовВМинуту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новых объектов в минуту</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5d6fba0a-d97e-427d-923b-d9ed70f188f6">
+    <name>ИзмененоОбъектовВМинуту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменено объектов в минуту</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="467b7f2f-c965-472e-a500-e22d798f92bd">
+    <name>ПроведеноДокументовВМинуту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведено документов в минуту</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1871fd7c-a622-4e40-a5e8-f826ca4d1fd9">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

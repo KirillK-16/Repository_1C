@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48902422-df80-4d10-b77a-0fcc34716090">
+  <producedTypes>
+    <selectionType typeId="22039252-b6a7-43d8-b58b-664b63566d5e" valueTypeId="0fae34dd-88c5-4697-8941-3a54fba37ff4"/>
+    <listType typeId="099a5428-018d-4166-8578-2e10e882cb11" valueTypeId="73bf8977-f559-4d86-b98d-9ba6741a7978"/>
+    <managerType typeId="b91bc43d-1d05-4528-8bb7-6033d7b9e61b" valueTypeId="663869a5-ca88-4885-bdf8-77b7e30afbb8"/>
+    <recordSetType typeId="8d98912d-e8dc-4958-9aa3-af86077d99db" valueTypeId="fa2fc770-6acd-4f18-ac14-815a57c9f6d4"/>
+    <recordKeyType typeId="05891029-1915-4760-8f6f-07095573c0a9" valueTypeId="29b3d97b-84a2-4758-ba00-a95a38ee4c94"/>
+    <recordType typeId="75220f59-20d5-4b85-ac13-cf85bc52a631" valueTypeId="79bb3e45-eb85-47e5-8021-dfd0c3ccf9ee"/>
+    <recordManagerType typeId="f363c9cc-70d8-4e29-8b9d-e69467514183" valueTypeId="fb46f93d-9184-49af-9f79-20ecb3e44eea"/>
+  </producedTypes>
+  <name>УровниИнцидентовПовторноеОповещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни инцидентов повторное оповещение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="22447c03-7822-4892-9c0c-4a26f1525c76">
+    <name>ПериодПовторногоОповещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период повторного оповещения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0c4c2634-05a4-4a11-8d3a-ee70efd25a82">
+    <name>УровеньИнцидента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень инцидента</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УровниИнцидентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

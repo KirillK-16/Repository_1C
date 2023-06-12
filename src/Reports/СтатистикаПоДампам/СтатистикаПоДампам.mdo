@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bcb120d-fd38-4171-833a-c096cac4b7cb">
+  <producedTypes>
+    <objectType typeId="c97d7913-63f3-4998-b338-088f64e9d66f" valueTypeId="1974638f-829b-4a44-ac6b-4b3a41c25b51"/>
+    <managerType typeId="66204969-85e4-448a-a693-c1c3ea066364" valueTypeId="8e00c485-f1b9-41d2-9646-9160272131d8"/>
+  </producedTypes>
+  <name>СтатистикаПоДампам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика по дампам</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.СтатистикаПоДампам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="2bc1a5c9-f11f-46b0-8fbc-ffec35a11073">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="aa4999a7-601f-4200-88a8-bd0047149e92">
+    <name>СтатистикаПоДампамОткрытьОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статистика по дампам</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

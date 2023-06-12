@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91220848-eeb4-4230-a3eb-dbde6dc8907c">
+  <producedTypes>
+    <objectType typeId="c27da36a-85e4-4511-9365-cb4e8e119f87" valueTypeId="9bfe34c0-b564-4561-8ec9-3b449a9bc58e"/>
+    <managerType typeId="e50bfb72-f932-4783-930c-4f424bbf3985" valueTypeId="f123e00a-3c5b-45db-a4e5-523bef9f9cff"/>
+  </producedTypes>
+  <name>МониторПроизводительностиКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор производительности конфигурации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.МониторПроизводительностиКонфигурации.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="ab1e81d7-f790-495f-90ee-3ec1309b5e7a">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="35d1ae6c-f83e-4d90-8d24-6f5f158fd931">
+    <name>ПериодОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период отчета</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="979141ae-5b35-44b1-8be5-fe798bf02d08">
+    <name>ПрофильКлючевыхОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль ключевых операций</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрофилиКлючевыхОпераций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3c42d21b-6832-4e2a-bbfc-027a93620c36">
+    <name>ТолькоКлючевыеОперацииПрофиля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только ключевые операции профиля</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bd6f0ba6-a9d0-4c0b-8987-fa395f983d51">
+    <name>МинимальноеКоличествоБазДляРаспределения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальное количество баз для распределения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="826e1a71-a7c2-4e18-8300-5ae0fd4dfcdb">
+    <name>РежимРаботыКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим работы конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8f5b61a4-3a6b-4786-bf17-38ebbcca69f1">
+    <name>ИспользоватьБазовоеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать базовое значение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ae6934a5-070a-4877-8cff-487f457153dc">
+    <name>РаспределениеПользователейXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределение пользователей XML</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ce4c3797-81cd-429e-92b4-67967a90bad4">
+    <name>МинимальноеКоличествоЗамеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальное количество замеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Устанавливает ограничение на минимальное количество замеров для ключевой операции</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eb32dec5-83b8-439a-a50d-3892ebdfcf5a">
+    <name>КлючеваяОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевая операция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлючевыеОперацииЦентрМониторинга</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если указана - сбор данных осуществляется только по указанной операции.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="628e10b0-798a-4c0b-a73f-9f29ece59d41">
+    <name>ОтборПоЧастойВерсииПлатформы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по частой версии платформы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Анализировать производительность конфигураций по самой популярной версии платформы в периоде отчета</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f43f1eb8-fb28-4e3a-9def-4d0e90a6e473">
+    <name>АнализироватьПлатформу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализировать платформу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Анализировать производительность с учетом версий платформы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="39ac7466-489b-446d-a1ef-fc43bf587770">
+    <name>СтатусИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус информационной базы</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если заполнен - устанавливает ограничение по статусу информационных баз (продуктивная/тестовая)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="5e11659b-af8d-4b2d-a72b-a8b22c514373">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9f153663-2eca-4d14-a8d6-b7908e887e2a">
+    <name>ФормаНастройкиОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

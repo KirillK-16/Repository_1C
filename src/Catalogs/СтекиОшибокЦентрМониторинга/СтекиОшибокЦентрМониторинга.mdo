@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6d820f8-e4db-464a-a2bc-c1a14dabe604">
+  <producedTypes>
+    <objectType typeId="297b9acf-4be3-494b-bb9b-541bbef3b154" valueTypeId="64aa2e67-f9d9-4161-a4b2-268836ea4981"/>
+    <refType typeId="b47fd7b0-4570-486e-8217-b5ac22273862" valueTypeId="fc62d439-561e-44c8-8cd9-35fa30515cd4"/>
+    <selectionType typeId="61285679-eb2d-47f6-9b9a-85e8019333ff" valueTypeId="651a5552-f7a7-4552-847f-2a5dfb1f4628"/>
+    <listType typeId="b79de54b-62e2-45ef-9e76-2fbefcb26557" valueTypeId="dfc401d9-578e-4713-95d4-f970fdd2ed8f"/>
+    <managerType typeId="5550a87d-c851-4e5b-951d-c4d92fe27f59" valueTypeId="9597c77b-d631-49e9-82b6-65fad30a2b95"/>
+  </producedTypes>
+  <name>СтекиОшибокЦентрМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стеки ошибок центр мониторинга</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтекиОшибокЦентрМониторинга.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтекиОшибокЦентрМониторинга.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="90771db8-bea7-4a4b-b70a-de4f03136ace">
+    <name>ПолныйСтек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный стек</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0595e9fc-521a-4a03-bd04-1b3d83293786">
+    <name>ХешСтека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш стека</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Хеш-сумма полного стека</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

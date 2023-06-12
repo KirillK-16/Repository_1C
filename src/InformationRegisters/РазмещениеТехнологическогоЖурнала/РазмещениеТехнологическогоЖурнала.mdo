@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b72b6257-517b-48f6-945c-5d23df8a20d2">
+  <producedTypes>
+    <selectionType typeId="67a77763-ecf1-470b-a095-3c725b387a18" valueTypeId="eafe4ecb-48ed-4923-a602-fdd9d3fa0b44"/>
+    <listType typeId="69d97723-1cd0-43c3-9dc9-641ca435bd26" valueTypeId="ac2e7252-eed3-4833-96a0-c1ecca2f75f7"/>
+    <managerType typeId="92bd3eab-1e9b-48f6-afe3-5067319d0329" valueTypeId="ee3495bf-4c9f-40d5-8fd9-daf0c2889f15"/>
+    <recordSetType typeId="6f3af089-7473-46ae-ab02-8b2e49183db6" valueTypeId="476fb6b9-ebe5-4f39-8229-35b465c83043"/>
+    <recordKeyType typeId="31fad23e-160d-4a70-938b-d6ec2a7ad0ae" valueTypeId="d523ff08-599c-4713-bd80-ca5000ca8da1"/>
+    <recordType typeId="ad91429c-96d6-478f-b99d-81571ec9cfe0" valueTypeId="0591539a-d907-4493-b379-83fc663c72f4"/>
+    <recordManagerType typeId="eacb54d5-97ef-4cb3-b02a-e46b0abaeed2" valueTypeId="f9e511f9-d0d5-4001-84d0-9d1f1d0198cf"/>
+  </producedTypes>
+  <name>РазмещениеТехнологическогоЖурнала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размещение технологического журнала</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a7e5dd47-fc9e-4474-9242-5578fe186768">
+    <name>ЛокальныйКаталогТЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локальный каталог ТЖ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="79e1bef2-f0bb-4e48-abf0-fe9c5d69f7a8">
+    <name>КонтрольнаяПроцедура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная процедура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольныеПроцедуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

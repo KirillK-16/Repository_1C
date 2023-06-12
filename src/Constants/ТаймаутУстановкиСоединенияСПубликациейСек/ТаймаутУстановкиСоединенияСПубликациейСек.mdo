@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa5616ea-7eb7-46ab-96d1-c97e490c7908">
+  <producedTypes>
+    <managerType typeId="646ad2f8-dd83-43b9-9c5f-57ae204cde69" valueTypeId="2c350d30-aaae-4270-b475-3b9c0bb1cf64"/>
+    <valueManagerType typeId="46339f2b-f214-4df5-bc5d-e0485389efe7" valueTypeId="3fd34527-10a7-4473-872d-ec560311d67c"/>
+    <valueKeyType typeId="f7b5dce0-3a56-5dd2-a665-0001e76a778b" valueTypeId="4bec652f-96e2-5759-b5c8-bb8b4cee03d5"/>
+  </producedTypes>
+  <name>ТаймаутУстановкиСоединенияСПубликациейСек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таймаут установки соединения с публикацией сек</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

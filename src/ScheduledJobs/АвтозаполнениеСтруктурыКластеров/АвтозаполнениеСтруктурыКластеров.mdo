@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9a92d69-85c3-419a-991b-69fb82d3ffa6">
+  <name>АвтозаполнениеСтруктурыКластеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автозаполнение структуры кластеров</value>
+  </synonym>
+  <methodName>CommonModule.АдминистрированиеКластераRAS.АвтозаполнениеСтруктурыКластеров</methodName>
+  <description>Автоматическое заполнение структуры кластеров 1С</description>
+  <key>c98910d9-5969-405a-9231-f6d2e9ce6f8f</key>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

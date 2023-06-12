@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bb3cdf3-3299-4e98-bc89-23b9f14c5c3a">
+  <producedTypes>
+    <refType typeId="7bafc98f-6179-4b4b-ae0c-9d167decff5f" valueTypeId="588b79ba-11e0-4641-96e8-a139a4900d8b"/>
+    <listType typeId="da143aec-0d2c-45fd-bd64-33a2fcff5b2f" valueTypeId="03b53a77-ebca-4a16-9762-b96c9a732dde"/>
+    <managerType typeId="917a5436-cea1-4b7a-af40-baed9f6e0f19" valueTypeId="95c5b180-01c3-4217-b632-460ae6836038"/>
+  </producedTypes>
+  <name>СчетчикПроизводительностиПрименимо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счетчик производительности применимо</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="334c3e07-a81c-4f0b-ae7d-2ae6d398ac0f">
+    <name>WindowsLinux</name>
+    <synonym>
+      <key>ru</key>
+      <value>Windows, Linux</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b92c9095-ffd4-4944-bd17-1537f30d30bb">
+    <name>Windows</name>
+    <synonym>
+      <key>ru</key>
+      <value>Windows</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fda39b40-ea08-4327-a645-7bf7a06ddf30">
+    <name>Linux</name>
+    <synonym>
+      <key>ru</key>
+      <value>Linux</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

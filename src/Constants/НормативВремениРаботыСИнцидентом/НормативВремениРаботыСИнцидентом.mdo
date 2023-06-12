@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6f7fb3b-9cf6-4978-bcc9-66afaee0ee6a">
+  <producedTypes>
+    <managerType typeId="a2b3d9f9-5355-4883-9dbb-607ddfb4c2bf" valueTypeId="ee1ec235-037d-49d6-8563-14d667ac7602"/>
+    <valueManagerType typeId="881eaec2-e9f4-45d4-a25c-38f8663a9c40" valueTypeId="8391254e-1dd4-4b07-b1b4-d4824bf86fbc"/>
+    <valueKeyType typeId="e82c4f9d-6d01-526d-b3c0-231dcb2730c7" valueTypeId="3f895c4d-3987-5487-9bcf-503eb2e8f3ae"/>
+  </producedTypes>
+  <name>НормативВремениРаботыСИнцидентом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Норматив времени работы с инцидентом (минут)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Значение по умолчанию: 60 минут.</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c389c3b-dac6-40fa-ba73-597213af8220">
+  <name>ВидимостьПомощникПерехода_2_1_3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Видимость помощника перехода 2.1.3</value>
+  </synonym>
+  <location>Constant.ВидимостьПомощникПерехода_2_1_3</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.ПомощникПерехода_2_1_3.Command.КомандаОткрытьПомощникПерехода_2_1_3</content>
+</mdclass:FunctionalOption>

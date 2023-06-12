@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="025fa097-c1b3-4984-b75d-940e5432ccef">
+  <producedTypes>
+    <selectionType typeId="3705cdc1-bde6-483e-9274-75b61b47ba0c" valueTypeId="b93b9a58-630d-4fde-9e48-9327abb479b7"/>
+    <listType typeId="edb2f060-bf64-4d4f-8899-39386255d70a" valueTypeId="eb26bfa0-2b47-45eb-b752-0e3af29b063c"/>
+    <managerType typeId="35aa2af4-25c5-4647-a2f2-2809ee29334b" valueTypeId="0d99b996-3a92-4c5e-bc29-d6f3f3a719f9"/>
+    <recordSetType typeId="ac4d7883-ba25-4702-a0e4-7235ea45dd5a" valueTypeId="03ddc177-276c-4475-a304-5fef3ccb929a"/>
+    <recordKeyType typeId="ad40d0f0-b494-40f2-bbea-47e041e61e32" valueTypeId="7bcbc8a2-4ae9-468c-ab2f-844d7f2e9d00"/>
+    <recordType typeId="04fd9995-aa08-4669-b35d-1ff164b4973f" valueTypeId="7df81289-c894-47dc-af1d-0dab5906541f"/>
+    <recordManagerType typeId="d218201c-2ed0-4d1f-aed3-23934f824380" valueTypeId="2dff4364-00ea-4c96-91b2-5600a084b8ca"/>
+  </producedTypes>
+  <name>ИнформацияВерсииПлатформы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация версии платформы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0fb0fc03-a0d7-4987-8727-09491c82158c">
+    <name>КоличествоИнформационныхБаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество информационных баз</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bcbba61f-4c9f-4ca4-8081-db6ad1abf62a">
+    <name>ПериодЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период записи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="21a42661-fdf8-4c8d-9a0d-a68ed1a8d3e4">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="eb0a0d8d-1895-425e-bff1-9dcd7ba1abb2">
+    <name>ВерсияПлатформы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия платформы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВерсииПлатформыЦентрМониторинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

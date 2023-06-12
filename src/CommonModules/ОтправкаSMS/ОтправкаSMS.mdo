@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cee2c4a-25a9-41e2-8017-e0ba8a2b5ae8">
+  <name>ОтправкаSMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка SMS</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

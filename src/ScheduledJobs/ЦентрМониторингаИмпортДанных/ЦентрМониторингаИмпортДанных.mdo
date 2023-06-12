@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6638a67-9185-42b7-b4c2-e1caf56a7303">
+  <name>ЦентрМониторингаИмпортДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр мониторинга импорт данных</value>
+  </synonym>
+  <methodName>CommonModule.ЦентрМониторингаИмпортСлужебный.ЦентрМониторингаИмпортДанных</methodName>
+  <description>Центр мониторинга: импорт данных</description>
+  <key>3d87bdc4-ba4f-4ec9-a2c6-13128c478a14</key>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

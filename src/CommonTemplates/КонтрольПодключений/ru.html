@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"></meta><link rel="stylesheet" type="text/css" href="__STYLE__"></link><meta name="GENERATOR" content="MSHTML 11.00.9600.18125"></meta></head><body>
+<h1>Контроль подключений</h1>
+<p>Контрольная процедура "Контроль подключений" позволяет оперативно обнаруживать проблемы с подключением к информационной базе. </p>
+<p>При работе контрольной процедуры программа автоматически пытается устанавить соединение с информационной базой при помощи COM-соединителя 1С или через опубликованный web-сервис.</p>
+<p>Для контроля подключений требуется выбрать способ, которым программа будет выполнять контрольные подключения к информационной базе.</p>
+<p><img src="_files/001.png"></img></p>
+<p> Программа может использовать либо web-сервис, либо COM-соединитель.</p>
+<p>При выборе способа подключения "WEB сервис" форма настроек примет следующий вид</p>
+<p><img src="_files/002.png"></img></p>
+<p>При использовании web-сервиса требуется, чтобы в исследуемой информационной базе был опубликован web-сервис, удовлетворяющий следующим требованиям:</p>
+<ul><li> Имя сервиса: RemoteControl. 
+</li><li>URI пространства имён: <a href="http://www.1c.ru/SSL/RemoteControl_1_0_0_1">http://www.1c.ru/SSL/RemoteControl_1_0_0_1</a>. 
+</li><li>Сервис имеет единственную операцию с именем GetCurrentState 
+</li><li>Обработчик операции не имеет входящих параметров и возращает значение типа  "boolean (http://www.w3.org/2001/XMLSchema)".</li></ul><p><font color="#536ac2">Примечание: данный web-сервис присутствует в конфигурации ЦКК.</font></p>
+<p><img src="_files/КонтрольПодключений_Конфигурация.png"></img></p>
+<p><img src="_files/RemoteControl1.png"></img></p>
+<p><img src="_files/КонтрольПодключений_003.jpg"></img></p>
+<p><img src="_files/КонтрольПодключений_Операция2.png"></img></p>
+<p><font size="2"><font face="Arial"><font color="#ff0000">Функция</font> <font color="#0000ff">GetCurrentState</font></font></font><font size="2"><font face="Arial"><font color="#ff0000">()<br></font> <br></font></font><font size="2"><font face="Arial">    </font></font><font size="2"><font face="Arial"><font color="#ff0000">Возврат Истина;<br></font> <br><font color="#ff0000">КонецФункции</font></font></font></p>
+<p>После выполнения настроек по подключению web-сервиса форма примет вид</p>
+<p><img src="_files/2018-06-25_13h19_50.png"></img></p>
+<p>При выборе способа подключения COM-соединитель, форма настроек примет следующий вид:</p>
+<p><img src="_files/004.png"></img></p>
+<p>В данной форме необходимо корректно заполнить строку соединения, пользователя и пароль.</p>
+<div></div>
+<div> </div>
+<div> </div>
+<div></div>
+<div> </div>
+<div> </div>
+<div></div></body></html>

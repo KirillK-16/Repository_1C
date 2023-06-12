@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2840a056-6a31-4f17-9de1-eed8239a83af">
+  <producedTypes>
+    <refType typeId="40b7d869-92ea-459b-8cd5-1ff6a30c77fa" valueTypeId="18fdaf2e-3d04-4597-a238-de3c6a18f31a"/>
+    <listType typeId="d6e1923c-ded0-4f4d-a2c4-b3c4bc85f5bc" valueTypeId="c5e6ea79-966f-446e-8d53-163309e9589d"/>
+    <managerType typeId="c9a9c908-1a0f-450d-bc1f-befbd05890c5" valueTypeId="ef1f0867-d9df-4e14-a22d-81637f5e546a"/>
+  </producedTypes>
+  <name>ТипыГруппировкиСчетчиковВМониторе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы группировки счетчиков в мониторе</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cf5d3440-aa75-4f41-bb7c-2f8da30b2108">
+    <name>СерверСчетчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер \ счетчик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58c8df16-f38a-4c6e-a593-b2d229a0e64c">
+    <name>СчетчикСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счетчик \ сервер</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

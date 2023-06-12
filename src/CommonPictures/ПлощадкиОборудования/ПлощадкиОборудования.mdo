@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d126283-86ce-4d23-8454-b8d83625ee66">
+  <name>ПлощадкиОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Площадки оборудования</value>
+  </synonym>
+</mdclass:CommonPicture>

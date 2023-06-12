@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1076eb7d-0570-4c20-bf65-103d63c20104">
+  <name>ОценкаПроизводительности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка производительности</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ОценкаПроизводительности</content>
+  <content>DataProcessor.ОценкаПроизводительностиПоПользователям</content>
+  <content>Report.АнализApdex</content>
+  <content>Report.ОценкаПроизводительностиСКД</content>
+  <content>Report.ОценкаПроизводительностиИнформационнойСистемы</content>
+  <parentSubsystem>Subsystem.Мониторинг</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="101335c5-f1d9-449e-a281-55987c5902bd">
+  <name>КонвертацияСправочникОтправкаСообщений_2_1_3_5</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конвертация справочник отправка сообщений 2 1 3 5</value>
+  </synonym>
+  <methodName>CommonModule.Общий.КонвертацияСправочникОтправкаСообщений_2_1_3_5</methodName>
+  <description>Конвертация справочника &quot;Отправка сообщений&quot; 2.1.3.5</description>
+  <key>c08426b2-3f71-4f11-ba09-f1d4d2a4dcb6</key>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

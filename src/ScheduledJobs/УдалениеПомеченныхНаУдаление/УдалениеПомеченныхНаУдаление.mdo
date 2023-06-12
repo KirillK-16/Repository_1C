@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="093f0b56-aa73-492d-bfd6-b6753e6de141">
+  <name>УдалениеПомеченныхНаУдаление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление помеченных на удаление</value>
+  </synonym>
+  <methodName>CommonModule.Общий.УдалениеПомеченныхНаУдаление</methodName>
+  <description>Удаление помеченных на удаление</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

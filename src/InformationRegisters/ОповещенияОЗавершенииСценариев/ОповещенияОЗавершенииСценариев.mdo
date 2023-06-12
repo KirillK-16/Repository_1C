@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b27f6290-f96c-4788-bda7-4ddeff1fd7ae">
+  <producedTypes>
+    <selectionType typeId="7d58a6de-a2ca-4353-8f28-8dc46b7b30e8" valueTypeId="2b27e818-0efd-4613-8b7d-9bd7ea0e9102"/>
+    <listType typeId="b6d04da2-d3cd-4f41-862e-430ad86a2d8c" valueTypeId="1c65374e-918f-4c2c-adc6-389fc25a0ef1"/>
+    <managerType typeId="232070b4-28c1-4225-be11-d4127a7b47f1" valueTypeId="5f94a303-ca9e-4b80-a195-ff4c3c34bf33"/>
+    <recordSetType typeId="7743f790-14c0-4993-82b9-3ea47b67687e" valueTypeId="dd833b45-85f6-4e53-9fec-a367383c4cdb"/>
+    <recordKeyType typeId="68b3b861-1af2-41d1-a754-2b23b230fe49" valueTypeId="3761fa1a-b2ae-45dc-9d89-e6144801246c"/>
+    <recordType typeId="d58d91c3-c110-4c74-87fc-d72607606d2d" valueTypeId="033165c5-5198-45d5-8ae3-2be024283648"/>
+    <recordManagerType typeId="f7291e51-e75c-43f0-beb3-9a07e799f30a" valueTypeId="6b36fb9f-aaa6-4845-b55d-dc14af4bd790"/>
+  </producedTypes>
+  <name>ОповещенияОЗавершенииСценариев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещения о завершении сценариев</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="4b4b484c-6ba0-477c-b8d5-111e864c3455">
+    <name>Экземпляр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экземпляр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭкземплярыСценариевАвтоматизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6bbdf0a7-086c-4607-86a5-cb19f269d68a">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияСценария</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="009b4015-21fc-43d3-9c22-28f893eb5708">
+    <name>ДатаПереводаВСостояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата перевода в состояние</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d05dfde1-8e99-4872-8100-f9c99a098c76">
+  <producedTypes>
+    <managerType typeId="3067570a-2b60-42d2-86a3-ec15bbd2a13e" valueTypeId="88a3f4e3-0407-45da-b502-18f3f979b4aa"/>
+    <valueManagerType typeId="deb63f98-80ef-4904-bdc4-d907491a56ef" valueTypeId="fabe5bfe-7109-48ba-a265-4bf55b83f2ec"/>
+    <valueKeyType typeId="906cf25e-35b6-50cd-bc7b-8787e47c6699" valueTypeId="fa8d98ba-b3c9-52e3-9587-dfa7a6a37c18"/>
+  </producedTypes>
+  <name>СобиратьДанныеТехнологическихЖурналов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Собирать данные технологических журналов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

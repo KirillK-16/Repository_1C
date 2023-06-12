@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f70931b2-577e-4f99-8813-a938e668e1bb">
+  <name>ОтчетПоНагрузочномуТестированию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по нагрузочному тестированию</value>
+  </synonym>
+</mdclass:CommonTemplate>

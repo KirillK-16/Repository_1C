@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>ОсновнойНабор</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МаксимумЗаписей</dataPath>
+			<field>МаксимумЗаписей</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СреднееКоличествоЗаписей</dataPath>
+			<field>СреднееКоличествоЗаписей</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Конфигурация</dataPath>
+			<field>Конфигурация</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияКонфигурации</dataPath>
+			<field>ВерсияКонфигурации</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<inputParameters>
+				<dcscor:item>
+					<dcscor:parameter>СвязиПараметровВыбора</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:ChoiceParameterLinks">
+						<dcscor:item>
+							<dcscor:choiceParameter>Отбор.Владелец</dcscor:choiceParameter>
+							<dcscor:value>Конфигурация</dcscor:value>
+							<dcscor:mode xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise" xsi:type="d8p1:LinkedValueChangeMode">Clear</dcscor:mode>
+						</dcscor:item>
+					</dcscor:value>
+				</dcscor:item>
+			</inputParameters>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектМетаданных</dataPath>
+			<field>ОбъектМетаданных</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Медиана</dataPath>
+			<field>Медиана</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВсегоЗаписей</dataPath>
+			<field>ВсегоЗаписей</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МинимумЗаписей</dataPath>
+			<field>МинимумЗаписей</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоИБ</dataPath>
+			<field>КоличествоИБ</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	СтатистикаЗаполненияИнформационныхБаз.Конфигурация КАК Конфигурация,
+	СтатистикаЗаполненияИнформационныхБаз.ВерсияКонфигурации КАК ВерсияКонфигурации,
+	СтатистикаЗаполненияИнформационныхБаз.ОбъектМетаданных КАК ОбъектМетаданных,
+	СтатистикаЗаполненияИнформационныхБаз.ВсегоЗаписей КАК ВсегоЗаписей,
+	СтатистикаЗаполненияИнформационныхБаз.СреднееКоличествоЗаписей КАК СреднееКоличествоЗаписей,
+	СтатистикаЗаполненияИнформационныхБаз.КоличествоИБ КАК КоличествоИБ,
+	СтатистикаЗаполненияИнформационныхБаз.МинимумЗаписей КАК МинимумЗаписей,
+	СтатистикаЗаполненияИнформационныхБаз.МаксимумЗаписей КАК МаксимумЗаписей,
+	СтатистикаЗаполненияИнформационныхБаз.Медиана КАК Медиана
+{ВЫБРАТЬ
+	Конфигурация.*,
+	ВерсияКонфигурации.*,
+	ОбъектМетаданных.*,
+	ВсегоЗаписей,
+	СреднееКоличествоЗаписей,
+	КоличествоИБ,
+	МинимумЗаписей,
+	МаксимумЗаписей,
+	Медиана}
+ИЗ
+	РегистрСведений.СтатистикаЗаполненияИнформационныхБаз КАК СтатистикаЗаполненияИнформационныхБаз
+ГДЕ
+	СтатистикаЗаполненияИнформационныхБаз.Конфигурация = &amp;Конфигурация
+{ГДЕ
+	СтатистикаЗаполненияИнформационныхБаз.Конфигурация.*,
+	СтатистикаЗаполненияИнформационныхБаз.ВерсияКонфигурации.*,
+	СтатистикаЗаполненияИнформационныхБаз.ОбъектМетаданных.*,
+	СтатистикаЗаполненияИнформационныхБаз.ВсегоЗаписей,
+	СтатистикаЗаполненияИнформационныхБаз.СреднееКоличествоЗаписей,
+	СтатистикаЗаполненияИнформационныхБаз.КоличествоИБ,
+	СтатистикаЗаполненияИнформационныхБаз.МинимумЗаписей,
+	СтатистикаЗаполненияИнформационныхБаз.МаксимумЗаписей,
+	СтатистикаЗаполненияИнформационныхБаз.Медиана}</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>КоличествоПользователей</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Конфигурация</dataPath>
+			<field>Конфигурация</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияКонфигурации</dataPath>
+			<field>ВерсияКонфигурации</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СреднееКоличествоПользователей</dataPath>
+			<field>СреднееКоличествоПользователей</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Среднее количество пользователей</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	СтатистикаЗаполненияИнформационныхБаз.Конфигурация КАК Конфигурация,
+	СтатистикаЗаполненияИнформационныхБаз.ВерсияКонфигурации КАК ВерсияКонфигурации,
+	СтатистикаЗаполненияИнформационныхБаз.СреднееКоличествоПользователей КАК СреднееКоличествоПользователей
+ИЗ
+	РегистрСведений.СтатистикаЗаполненияИнформационныхБаз КАК СтатистикаЗаполненияИнформационныхБаз
+ГДЕ
+	СтатистикаЗаполненияИнформационныхБаз.ОбъектМетаданных = &amp;ОбъектМетаданных</query>
+	</dataSet>
+	<dataSetLink>
+		<sourceDataSet>ОсновнойНабор</sourceDataSet>
+		<destinationDataSet>КоличествоПользователей</destinationDataSet>
+		<sourceExpression>Конфигурация</sourceExpression>
+		<destinationExpression>Конфигурация</destinationExpression>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>ОсновнойНабор</sourceDataSet>
+		<destinationDataSet>КоличествоПользователей</destinationDataSet>
+		<sourceExpression>ВерсияКонфигурации</sourceExpression>
+		<destinationExpression>ВерсияКонфигурации</destinationExpression>
+	</dataSetLink>
+	<totalField>
+		<dataPath>ВсегоЗаписей</dataPath>
+		<expression>Сумма(ВсегоЗаписей)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоИБ</dataPath>
+		<expression>Сумма(КоличествоИБ)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>МаксимумЗаписей</dataPath>
+		<expression>Максимум(МаксимумЗаписей)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Медиана</dataPath>
+		<expression>Среднее(Медиана)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>МинимумЗаписей</dataPath>
+		<expression>Минимум(МинимумЗаписей)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СреднееКоличествоЗаписей</dataPath>
+		<expression>Среднее(СреднееКоличествоЗаписей)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СреднееКоличествоПользователей</dataPath>
+		<expression>Сумма(СреднееКоличествоПользователей)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоИБ</dataPath>
+		<expression>Сумма(ВычислитьВыражениеСГруппировкойМассив("Максимум(КоличествоИБ)","Конфигурация,ВерсияКонфигурации"))</expression>
+		<group>ВерсияКонфигурации</group>
+		<group>Конфигурация</group>
+		<group>ОбщийИтог</group>
+	</totalField>
+	<parameter>
+		<name>ОбъектМетаданных</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Объект метаданных</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ОперацииСтатистикиКонфигурации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>Константы.ОперацияСправочникПользователи.Получить()</expression>
+	</parameter>
+	<parameter>
+		<name>Конфигурация</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конфигурация</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Конфигурации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Конфигурация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВерсияКонфигурации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОбъектМетаданных</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВсегоЗаписей</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоИБ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МаксимумЗаписей</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МинимумЗаписей</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СреднееКоличествоЗаписей</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Медиана</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СреднееКоличествоПользователей</dcsset:field>
+				</dcsset:item>
+				<dcsset:userSettingID>cc8e4f44-98bf-4d96-ba0f-70a17754afab</dcsset:userSettingID>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:userSettingID>4d7ae5c0-fd4b-44af-8e78-043b1582f237</dcsset:userSettingID>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Конфигурация</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>0364ca85-c036-4ad9-ae9d-9825c94356f2</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>СреднееКоличествоЗаписей</dcsset:field>
+					<dcsset:orderType>Desc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:userSettingID>3192b08b-bbf5-4c7e-bf51-f2045dd05bd5</dcsset:userSettingID>
+			</dcsset:order>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ВсегоЗаписей</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>КоличествоИБ</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>МаксимумЗаписей</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Медиана</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>МинимумЗаписей</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>СреднееКоличествоЗаписей</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>СреднееКоличествоПользователей</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:userSettingID>ac5e160e-ed87-456c-97ea-3ed0a9c826a5</dcsset:userSettingID>
+			</dcsset:conditionalAppearance>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Конфигурация</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ВерсияКонфигурации</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ОбъектМетаданных</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+			<dcsset:itemsUserSettingID>6e67f0a0-4dc9-41d4-88d3-49172981556a</dcsset:itemsUserSettingID>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e97d3684-14d9-44cf-b7ce-d1ec79609384">
+  <name>ПрикладнаяСтатистикаКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прикладная статистика конфигурации</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ОперацииБизнесСтатистики</content>
+  <content>InformationRegister.КомментарииБизнесСтатистики</content>
+  <content>InformationRegister.ОбластиБизнесСтатистики</content>
+  <content>Report.БизнесСтатистика</content>
+  <content>Constant.ГлубинаХраненияБуфераОперацийБизнесСтатистики</content>
+  <content>Constant.МинимальныйПериодХраненияДанныхВБуфереОперацийБизнесСтатистики</content>
+  <content>InformationRegister.ОперацииБизнесСтатистикиБуфер</content>
+  <parentSubsystem>Subsystem.ЦентрМониторингаИмпорт</parentSubsystem>
+</mdclass:Subsystem>

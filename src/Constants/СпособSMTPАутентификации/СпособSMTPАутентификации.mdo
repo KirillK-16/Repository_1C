@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6930e668-5e44-4606-8f1a-e741fb2d1ccb">
+  <producedTypes>
+    <managerType typeId="8e259c2e-8680-4c8c-b457-58687ebfe2c6" valueTypeId="4f0a46d4-e534-4632-b047-f5bd26e16fbf"/>
+    <valueManagerType typeId="cf2abc95-3909-4613-920e-6cff3485f13a" valueTypeId="772de80d-5574-4efa-86ca-0f73964ad212"/>
+    <valueKeyType typeId="52fda0a5-9fbb-5ed7-baed-1b9efbba77a9" valueTypeId="2cae19ca-625b-592b-a417-54df0b062e4b"/>
+  </producedTypes>
+  <name>СпособSMTPАутентификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ SMTP аутентификации</value>
+  </synonym>
+  <type>
+    <types>EnumRef.СпособыSMTPАутентификации</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Способ аутентификации на сервере SMTP</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

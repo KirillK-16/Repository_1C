@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f72a3b9-2d5f-404c-990a-c58f72a2018b">
+  <producedTypes>
+    <selectionType typeId="44ee642e-a69d-48e9-a1e6-b94d9931b310" valueTypeId="c6375d63-84fa-4e1f-a4ab-93909172ad5e"/>
+    <listType typeId="3bbf8ef8-1833-40b2-b119-0051fd8e8ee6" valueTypeId="992a966b-cdb0-4e1a-b41d-50ec235f9272"/>
+    <managerType typeId="b4e82d4b-7115-4bb8-b220-37500833fb63" valueTypeId="d42fde16-09a3-44db-b1ac-a00599daaceb"/>
+    <recordSetType typeId="ece59318-a82b-4e28-8aab-83b531d30209" valueTypeId="3934ed31-62bb-4d31-bf06-35532a659113"/>
+    <recordKeyType typeId="284234a1-bbf1-4cee-902a-910f4b5933f6" valueTypeId="48466a07-bf55-4923-b2a4-6bac3ffaec1b"/>
+    <recordType typeId="0fe42dcb-d415-4e51-8dd6-19dfc837a3df" valueTypeId="8a091dd1-ccb4-4ad3-90e2-963e0fbcd7fd"/>
+    <recordManagerType typeId="7868d906-df60-426e-8c08-f41789acb544" valueTypeId="e2e9202a-e0cf-4325-b3af-55fee312ee68"/>
+  </producedTypes>
+  <name>ИсторияСостоянийСценариев</name>
+  <synonym>
+    <key>ru</key>
+    <value>История состояний сценариев</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="14044b48-8110-4f20-8f03-d1b9060b78d0">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияСценария</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="94dec30b-9e52-4eb8-9d56-41b3e9a95a21">
+    <name>Экземпляр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экземпляр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭкземплярыСценариевАвтоматизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

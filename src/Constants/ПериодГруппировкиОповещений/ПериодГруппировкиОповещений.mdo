@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dca7b786-e29f-415c-8f3e-ebd8ead547b7">
+  <producedTypes>
+    <managerType typeId="da69a22d-01b4-4be5-bed3-c632aca09409" valueTypeId="ffafb29a-2f62-43ff-b04c-673759376d97"/>
+    <valueManagerType typeId="364a8999-a13e-4632-a998-373767833402" valueTypeId="3921ac93-da81-4549-bdc8-9d5ce88569f0"/>
+    <valueKeyType typeId="deb5147c-f549-5a1d-bede-ec1707b72f36" valueTypeId="ce377768-e0c7-51fb-87b9-413548072c12"/>
+  </producedTypes>
+  <name>ПериодГруппировкиОповещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период группировки оповещений, сек</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:StringValue">
+    <value>60</value>
+  </minValue>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

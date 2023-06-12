@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>СхемаОповещенияЗапрос</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РольПользователя</dataPath>
+			<field>РольПользователя</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Пользователь</dataPath>
+			<field>Пользователь</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектКонтроля</dataPath>
+			<field>ОбъектКонтроля</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидОбъектаКонтроля</dataPath>
+			<field>ВидОбъектаКонтроля</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид объекта контроля</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидКонтрольнойПроцедуры</dataPath>
+			<field>ВидКонтрольнойПроцедуры</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид контрольной процедуры</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонтрольнаяПроцедура</dataPath>
+			<field>КонтрольнаяПроцедура</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрольная процедура</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	СпрВидыОбъектовКонтроля.Ссылка КАК ВидОбъектаКонтроля,
+	СпрВидыКонтрольныхПроцедур.Ссылка КАК ВидКонтрольнойПроцедуры,
+	СпрКонтрольныеПроцедуры.Наименование КАК КонтрольнаяПроцедура,
+	СпрКонтрольныеПроцедуры.ОбъектКонтроля КАК ОбъектКонтроля,
+	РегСвСхемаАдресацииЗадач.РольПользователя КАК РольПользователя,
+	РегСвПользовательРоль.Пользователь КАК Пользователь
+ИЗ
+	Справочник.КонтрольныеПроцедуры КАК СпрКонтрольныеПроцедуры
+ВНУТРЕННЕЕ СОЕДИНЕНИЕ
+	(ВЫБРАТЬ
+		СпрКонтрольныеПроцедуры.Ссылка КАК КонтрольнаяПроцедура,
+		СпрТипыИсполнителейАнализВызововКластера1С.Ссылка КАК ТипИсполнителя
+	ИЗ
+		Справочник.КонтрольныеПроцедуры КАК СпрКонтрольныеПроцедуры
+	ЛЕВОЕ СОЕДИНЕНИЕ
+		Справочник.ТипыИсполнителейАнализВызововКластера1С КАК СпрТипыИсполнителейАнализВызововКластера1С
+	ПО
+		ИСТИНА
+	ГДЕ
+		Владелец = &amp;АнализВызововКластера1С
+	ОБЪЕДИНИТЬ ВСЕ
+	ВЫБРАТЬ
+		СпрКонтрольныеПроцедуры.Ссылка,
+		СпрТипыИсполнителейВнешнийКонтрольЦКК.Ссылка
+	ИЗ
+		Справочник.КонтрольныеПроцедуры КАК СпрКонтрольныеПроцедуры
+	ЛЕВОЕ СОЕДИНЕНИЕ
+		Справочник.ТипыИсполнителейВнешнийКонтрольЦКК КАК СпрТипыИсполнителейВнешнийКонтрольЦКК
+	ПО
+		ИСТИНА
+	ГДЕ
+		Владелец = &amp;ВнешнийКонтрольЦКК
+	ОБЪЕДИНИТЬ ВСЕ
+	ВЫБРАТЬ
+		СпрКонтрольныеПроцедуры.Ссылка,
+		СпрТипыИсполнителейКонтрольРегламентныхЗаданий.Ссылка
+	ИЗ
+		Справочник.КонтрольныеПроцедуры КАК СпрКонтрольныеПроцедуры
+	ЛЕВОЕ СОЕДИНЕНИЕ
+		Справочник.ТипыИсполнителейКонтрольРегламентныхЗаданий КАК СпрТипыИсполнителейКонтрольРегламентныхЗаданий
+	ПО
+		ИСТИНА
+	ГДЕ
+		Владелец = &amp;КонтрольВыполненияРегламентныхЗаданий
+	ОБЪЕДИНИТЬ ВСЕ
+	ВЫБРАТЬ
+		СпрКонтрольныеПроцедуры.Ссылка,
+		СпрТипыИсполнителейКонтрольНагрузочныхТестов.Ссылка
+	ИЗ
+		Справочник.КонтрольныеПроцедуры КАК СпрКонтрольныеПроцедуры
+	ЛЕВОЕ СОЕДИНЕНИЕ
+		Справочник.ТипыИсполнителейКонтрольНагрузочныхТестов КАК СпрТипыИсполнителейКонтрольНагрузочныхТестов
+	ПО
+		ИСТИНА
+	ГДЕ
+		Владелец = &amp;КонтрольНагрузочныхТестов
+	ОБЪЕДИНИТЬ ВСЕ
+	ВЫБРАТЬ
+		СпрКонтрольныеПроцедуры.Ссылка,
+		СпрТипыИсполнителейКонтрольПодключений.Ссылка
+	ИЗ
+		Справочник.КонтрольныеПроцедуры КАК СпрКонтрольныеПроцедуры
+	ЛЕВОЕ СОЕДИНЕНИЕ
+		Справочник.ТипыИсполнителейКонтрольПодключений КАК СпрТипыИсполнителейКонтрольПодключений
+	ПО
+		ИСТИНА
+	ГДЕ
+		Владелец = &amp;КонтрольПодключений
+	ОБЪЕДИНИТЬ ВСЕ
+	ВЫБРАТЬ
+		СпрКонтрольныеПроцедуры.Ссылка,
+		СпрТипыИсполнителейКонтрольПамяти.Ссылка
+	ИЗ
+		Справочник.КонтрольныеПроцедуры КАК СпрКонтрольныеПроцедуры
+	ЛЕВОЕ СОЕДИНЕНИЕ
+		Справочник.ТипыИсполнителейКонтрольПамяти КАК СпрТипыИсполнителейКонтрольПамяти
+	ПО
+		ИСТИНА
+	ГДЕ
+		Владелец = &amp;КонтрольПамяти
+	ОБЪЕДИНИТЬ ВСЕ
+	ВЫБРАТЬ
+		СпрКонтрольныеПроцедуры.Ссылка,
+		СпрТипыИсполнителейКонтрольПроизводительности.Ссылка
+	ИЗ
+		Справочник.КонтрольныеПроцедуры КАК СпрКонтрольныеПроцедуры
+	ЛЕВОЕ СОЕДИНЕНИЕ
+		Справочник.ТипыИсполнителейКонтрольПроизводительности КАК СпрТипыИсполнителейКонтрольПроизводительности
+	ПО
+		ИСТИНА
+	ГДЕ
+		Владелец = &amp;КонтрольПроизводительности
+	ОБЪЕДИНИТЬ ВСЕ
+	ВЫБРАТЬ
+		СпрКонтрольныеПроцедуры.Ссылка,
+		СпрТипыИсполнителейСборДампов.Ссылка
+	ИЗ
+		Справочник.КонтрольныеПроцедуры КАК СпрКонтрольныеПроцедуры
+	ЛЕВОЕ СОЕДИНЕНИЕ
+		Справочник.ТипыИсполнителейСборДампов КАК СпрТипыИсполнителейСборДампов
+	ПО
+		ИСТИНА
+	ГДЕ
+		Владелец = &amp;КонтрольУстойчивостиСистемы
+	ОБЪЕДИНИТЬ ВСЕ
+	ВЫБРАТЬ
+		СпрКонтрольныеПроцедуры.Ссылка,
+		СпрТипыИсполнителейКонтрольЧислаИсключений.Ссылка
+	ИЗ
+		Справочник.КонтрольныеПроцедуры КАК СпрКонтрольныеПроцедуры
+	ЛЕВОЕ СОЕДИНЕНИЕ
+		Справочник.ТипыИсполнителейКонтрольЧислаИсключений КАК СпрТипыИсполнителейКонтрольЧислаИсключений
+	ПО
+		ИСТИНА
+	ГДЕ
+		Владелец = &amp;МониторингСистемныхОшибок
+	ОБЪЕДИНИТЬ ВСЕ
+	ВЫБРАТЬ
+		СпрКонтрольныеПроцедуры.Ссылка,
+		СпрТипыИсполнителейОценкаПользователей.Ссылка
+	ИЗ
+		Справочник.КонтрольныеПроцедуры КАК СпрКонтрольныеПроцедуры
+	ЛЕВОЕ СОЕДИНЕНИЕ
+		Справочник.ТипыИсполнителейОценкаПользователей КАК СпрТипыИсполнителейОценкаПользователей
+	ПО
+		ИСТИНА
+	ГДЕ
+		Владелец = &amp;ОценкаПользователей
+	) КАК КонтрольныеПроцедурыТипИсполнителя
+ПО
+	СпрКонтрольныеПроцедуры.Ссылка = КонтрольныеПроцедурыТипИсполнителя.КонтрольнаяПроцедура
+ЛЕВОЕ СОЕДИНЕНИЕ
+	Справочник.ВидыКонтрольныхПроцедур КАК СпрВидыКонтрольныхПроцедур
+ПО
+	СпрВидыКонтрольныхПроцедур.Ссылка = СпрКонтрольныеПроцедуры.Владелец
+ЛЕВОЕ СОЕДИНЕНИЕ
+	Справочник.ВидыОбъектовКонтроля КАК СпрВидыОбъектовКонтроля
+ПО
+	СпрВидыОбъектовКонтроля.Ссылка = СпрВидыКонтрольныхПроцедур.Владелец
+ЛЕВОЕ СОЕДИНЕНИЕ
+	РегистрСведений.СхемаАдресацииЗадач КАК РегСвСхемаАдресацииЗадач
+ПО
+	РегСвСхемаАдресацииЗадач.КонтрольнаяПроцедура = СпрКонтрольныеПроцедуры.Ссылка
+	И РегСвСхемаАдресацииЗадач.ТипИсполнителя = КонтрольныеПроцедурыТипИсполнителя.ТипИсполнителя
+ЛЕВОЕ СОЕДИНЕНИЕ
+	РегистрСведений.СвязьПользовательРоль КАК РегСвПользовательРоль
+ПО
+	РегСвПользовательРоль.Роль = РегСвСхемаАдресацииЗадач.РольПользователя
+ГДЕ
+	РегСвПользовательРоль.Пользователь IS NOT NULL
+ОБЪЕДИНИТЬ ВСЕ
+ВЫБРАТЬ
+	СпрВидыОбъектовКонтроля.Ссылка,
+	СпрВидыКонтрольныхПроцедур.Ссылка,
+	СпрКонтрольныеПроцедуры.Наименование,
+	СпрКонтрольныеПроцедуры.ОбъектКонтроля,
+	"Дополнительное оповещение",
+	СпрКонтрольныеПроцедурыДопОповещение.Пользователь
+ИЗ
+	Справочник.КонтрольныеПроцедуры КАК СпрКонтрольныеПроцедуры
+ВНУТРЕННЕЕ СОЕДИНЕНИЕ
+	Справочник.КонтрольныеПроцедуры.ДополнительноеОповещение КАК СпрКонтрольныеПроцедурыДопОповещение
+ПО
+	СпрКонтрольныеПроцедурыДопОповещение.Ссылка = СпрКонтрольныеПроцедуры.Ссылка
+ЛЕВОЕ СОЕДИНЕНИЕ
+	Справочник.ВидыКонтрольныхПроцедур КАК СпрВидыКонтрольныхПроцедур
+ПО
+	СпрВидыКонтрольныхПроцедур.Ссылка = СпрКонтрольныеПроцедуры.Владелец
+ЛЕВОЕ СОЕДИНЕНИЕ
+	Справочник.ВидыОбъектовКонтроля КАК СпрВидыОбъектовКонтроля
+ПО
+	СпрВидыОбъектовКонтроля.Ссылка = СпрВидыКонтрольныхПроцедур.Владелец</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>ТелефонЗаполнен</dataPath>
+		<expression>ЗначениеЗаполнено(Пользователь.НомерТелефона)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Телефон заполнен</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ЭлектроннаяПочтаЗаполнена</dataPath>
+		<expression>ЗначениеЗаполнено(Пользователь.АдресЭлектроннойПочты)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Электронная почта заполнена</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<parameter>
+		<name>АнализВызововКластера1С</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Анализ вызовов кластера1 С</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ВидыКонтрольныхПроцедур</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>Справочники.ВидыКонтрольныхПроцедур.НайтиПоНаименованию("Анализ вызовов кластера 1С")</expression>
+	</parameter>
+	<parameter>
+		<name>ВнешнийКонтрольЦКК</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Внешний контроль ЦКК</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ВидыКонтрольныхПроцедур</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>Справочники.ВидыКонтрольныхПроцедур.НайтиПоНаименованию("Внешний контроль ЦКК")</expression>
+	</parameter>
+	<parameter>
+		<name>КонтрольВыполненияРегламентныхЗаданий</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Контроль выполнения регламентных заданий</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ВидыКонтрольныхПроцедур</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>Справочники.ВидыКонтрольныхПроцедур.НайтиПоНаименованию("Контроль выполнения регламентных заданий")</expression>
+	</parameter>
+	<parameter>
+		<name>КонтрольНагрузочныхТестов</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Контроль нагрузочных тестов</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ВидыКонтрольныхПроцедур</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>Справочники.ВидыКонтрольныхПроцедур.НайтиПоНаименованию("Контроль нагрузочных тестов")</expression>
+	</parameter>
+	<parameter>
+		<name>КонтрольПамяти</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Контроль памяти</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ВидыКонтрольныхПроцедур</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>Справочники.ВидыКонтрольныхПроцедур.НайтиПоНаименованию("Контроль потребления памяти")</expression>
+	</parameter>
+	<parameter>
+		<name>КонтрольПодключений</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Контроль подключений</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ВидыКонтрольныхПроцедур</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>Справочники.ВидыКонтрольныхПроцедур.НайтиПоНаименованию("Контроль подключений")</expression>
+	</parameter>
+	<parameter>
+		<name>КонтрольПроизводительности</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Контроль производительности</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ВидыКонтрольныхПроцедур</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>Справочники.ВидыКонтрольныхПроцедур.НайтиПоНаименованию("Контроль производительности")</expression>
+	</parameter>
+	<parameter>
+		<name>КонтрольУстойчивостиСистемы</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Контроль устойчивости системы</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ВидыКонтрольныхПроцедур</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>Справочники.ВидыКонтрольныхПроцедур.НайтиПоНаименованию("Контроль устойчивости системы")</expression>
+	</parameter>
+	<parameter>
+		<name>МониторингСистемныхОшибок</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Мониторинг системных ошибок</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ВидыКонтрольныхПроцедур</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>Справочники.ВидыКонтрольныхПроцедур.НайтиПоНаименованию("Мониторинг системных ошибок")</expression>
+	</parameter>
+	<parameter>
+		<name>ОценкаПользователей</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Оценка пользователей</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ВидыКонтрольныхПроцедур</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>Справочники.ВидыКонтрольныхПроцедур.НайтиПоНаименованию("Оценка пользователей")</expression>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>ПоОбъектамКонтроля</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>По объектам контроля</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидОбъектаКонтроля</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОбъектКонтроля</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КонтрольнаяПроцедура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РольПользователя</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Пользователь</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ТелефонЗаполнен</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					<dcsset:userSettingID>5136f837-cd27-4296-8112-02d6f33b6497</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ЭлектроннаяПочтаЗаполнена</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					<dcsset:userSettingID>bec46be4-9b20-4d51-8923-2976846297b4</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Пользователь</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>b18d35a6-d83c-408b-9687-383a1d23de6f</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>АнализВызововКластера1С</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DesignTimeValue">Справочник.ТипыИсполнителейАнализВызововКластера1С.ПустаяСсылка</dcscor:value>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ВидОбъектаКонтроля</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ОбъектКонтроля</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>КонтрольнаяПроцедура</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>РольПользователя</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Пользователь</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Пользователь.НомерТелефона</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Пользователь.АдресЭлектроннойПочты</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>РольПользователя</dcsset:field>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>Пользователь</dcsset:field>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>Пользователь.НомерТелефона</dcsset:field>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>Пользователь.АдресЭлектроннойПочты</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:outputParameters>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+									<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Separately</dcscor:value>
+								</dcscor:item>
+							</dcsset:outputParameters>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+	<settingsVariant>
+		<dcsset:name>ПоПользователям</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>По пользователям</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ТелефонЗаполнен</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					<dcsset:userSettingID>49ac583b-4f67-45cc-ac5b-21e3af1bf983</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ЭлектроннаяПочтаЗаполнена</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					<dcsset:userSettingID>c09a583c-95bf-4476-997c-f24ca7f4202d</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Пользователь</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>c860ef03-dc87-45f6-863c-326cb619bfd5</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Пользователь</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Пользователь.НомерТелефона</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Пользователь.АдресЭлектроннойПочты</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Separately</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ВидОбъектаКонтроля</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ОбъектКонтроля</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>КонтрольнаяПроцедура</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>РольПользователя</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:outputParameters>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+								<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Separately</dcscor:value>
+							</dcscor:item>
+						</dcsset:outputParameters>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

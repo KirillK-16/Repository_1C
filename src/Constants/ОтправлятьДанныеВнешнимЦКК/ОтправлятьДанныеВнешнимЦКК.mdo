@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f574f718-68b9-4dac-86c1-ccc20ade4b57">
+  <producedTypes>
+    <managerType typeId="b33fb5da-a6af-4403-ac51-311b1a42db21" valueTypeId="63ddf5c8-3733-4ec6-96ac-3d258bcd00e4"/>
+    <valueManagerType typeId="03c649c7-e67d-404c-b122-23e5b322d9ce" valueTypeId="2093fb68-900d-4dcb-9127-9ccc94543cf8"/>
+    <valueKeyType typeId="81240da2-7e02-57ae-ba5b-71ad8712a06e" valueTypeId="2c470fcc-4fd3-5c9a-9c20-c64656914214"/>
+  </producedTypes>
+  <name>ОтправлятьДанныеВнешнимЦКК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправлять данные внешним ЦКК</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

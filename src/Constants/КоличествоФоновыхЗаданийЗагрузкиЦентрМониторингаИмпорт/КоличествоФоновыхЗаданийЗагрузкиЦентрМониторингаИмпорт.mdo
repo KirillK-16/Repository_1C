@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bede5888-a0ff-4296-b06b-ed7481546b4b">
+  <producedTypes>
+    <managerType typeId="bbd12a5b-4628-4398-97a7-e29e2b679bff" valueTypeId="beb9993e-916d-4694-a1db-b0beee607618"/>
+    <valueManagerType typeId="6ff61abf-9bdf-412a-a38e-a0f06d800043" valueTypeId="55307843-60ef-4b59-8c6a-f5110370ddc8"/>
+    <valueKeyType typeId="403f82ea-7e38-551d-b307-36185fe12cfb" valueTypeId="b5422eaf-d589-561d-bac8-f133adacc682"/>
+  </producedTypes>
+  <name>КоличествоФоновыхЗаданийЗагрузкиЦентрМониторингаИмпорт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество фоновых заданий загрузки центр мониторинга импорт</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

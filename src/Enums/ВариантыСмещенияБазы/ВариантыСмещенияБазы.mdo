@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e67814e-5448-4e58-8f60-aa2b8c71d8de">
+  <producedTypes>
+    <refType typeId="3f4e29af-feea-4e15-b43e-1fd779047db3" valueTypeId="3c09c5ca-f109-4bf7-9b69-5c002bf21977"/>
+    <listType typeId="0e1f69d6-f094-4bcf-bac2-d9562fc6065d" valueTypeId="b633c5f8-60d7-4203-a43e-c467c9888bcd"/>
+    <managerType typeId="0634bf61-bba4-4520-9abb-6e8c07ed023d" valueTypeId="4630fe3a-a870-429c-8fd3-3d3135d4283c"/>
+  </producedTypes>
+  <name>ВариантыСмещенияБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты смещения базы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7b692612-742a-40d9-9f30-84921ae2a135">
+    <name>Прошлый</name>
+    <synonym>
+      <key>ru</key>
+      <value>за предыдущий период</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7bf935e-9fa8-4ce5-8980-579b38a73d5b">
+    <name>Минута</name>
+    <synonym>
+      <key>ru</key>
+      <value>минуту назад</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b937547d-1322-4ff4-a33f-b2c3f8d1c492">
+    <name>Час</name>
+    <synonym>
+      <key>ru</key>
+      <value>час назад</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9cfef79a-8baf-4944-8d35-1c15a839d701">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>день назад</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

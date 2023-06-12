@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cc6e2af-aaf8-45a3-8222-1ca35bd79636">
+  <producedTypes>
+    <selectionType typeId="1917fcc4-8c40-471c-877d-31fc197eff82" valueTypeId="7a0c7596-f6d4-4677-bf22-5774ddebf357"/>
+    <listType typeId="f9db7130-96c4-42e5-a806-0a06b98ed3e6" valueTypeId="2f4ea4b3-f1c2-47ac-a8aa-fde35bd86242"/>
+    <managerType typeId="139f9a5e-0e37-4910-a3ea-57d5215b45a7" valueTypeId="dd5ae7d8-0270-408a-82f6-9a6694ef9ccc"/>
+    <recordSetType typeId="598df0a4-ae24-4f7a-bad1-69097a48a3e7" valueTypeId="3fd37666-e790-4c91-a386-10622be05ef3"/>
+    <recordKeyType typeId="ae69962b-2147-40cb-b28f-def8a1c0853a" valueTypeId="3d16db80-ec30-4bac-ab9f-cc97363ecbb2"/>
+    <recordType typeId="20a31fdd-54a8-4cc5-b6c7-cc0d7cc0ec21" valueTypeId="bfde5c7b-2543-4aae-bca0-150225d87d32"/>
+    <recordManagerType typeId="c5fd28aa-7499-495c-be51-4c001be8d179" valueTypeId="0102d486-1304-44b9-b47e-5c39e5a37296"/>
+  </producedTypes>
+  <name>НастройкиКонтрольПроизводительности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки &quot;Контроль производительности&quot;</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="220faf56-9bc6-47ea-9176-90248cd4d902">
+    <name>ОповещатьПриУхудшенииАпдекса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оповещать при ухудшении апдекса</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b18c0d1c-54a8-461b-8edb-24d2889585f0">
+    <name>ПороговоеЗначениеПадения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пороговое значение падения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>1</value>
+    </maxValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a757db59-9f38-420a-af56-7d14c819e496">
+    <name>КаталогФайловОценкиПроизводительности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог файлов оценки производительности</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>512</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="6edb7f41-0dff-407e-b3a2-b8b101ae8399">
+    <name>Расписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расписание</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7f068cd6-73be-4013-a376-50bb9a57f276">
+    <name>КонтрольнаяПроцедура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная процедура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольныеПроцедуры</types>
+      <types>CatalogRef.ВидыКонтрольныхПроцедур</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f374dbae-6999-4e7c-836e-97f13deba59f">
+  <producedTypes>
+    <refType typeId="c8ebdbe7-0d29-4b93-8d2d-1c47818f2c63" valueTypeId="a1e21441-2c5b-44ab-bc90-5a79a4aa8dd5"/>
+    <listType typeId="ef89344e-18a0-4074-afa5-b57b9f26a248" valueTypeId="a43ef3ca-88e6-42c6-a5fc-85d5fe9fa85d"/>
+    <managerType typeId="0ac9bb38-0818-4f35-9d75-653e3f412f36" valueTypeId="2f6bddb2-f321-4047-95c6-32bffa7b7c9e"/>
+  </producedTypes>
+  <name>СостоянияКонтрольныхПроцедур</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния контрольных процедур</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="26083e64-bb2f-4416-95e6-aed86b215b96">
+    <name>ВыполненаУспешноПроблемНет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проблем нет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f57ac1e4-df3c-483b-a2fb-5f3f6edd5dfd">
+    <name>НеизвестноеСостояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не работает контрольная процедура</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b7b9f49a-1c82-4f8f-9039-29b0a678d9d5">
+    <name>ВыполненаУспешноЕстьПроблемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обнаружены проблемы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="81f8122d-0863-4a1a-a4c7-d4b8f15761fd">
+    <name>ПрерванаЕстьПроблемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прервана, обнаружены проблемы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

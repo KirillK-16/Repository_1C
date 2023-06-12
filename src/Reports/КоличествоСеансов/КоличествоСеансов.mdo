@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d3d6341-5fd4-4768-8a92-c2c4a208e55f">
+  <producedTypes>
+    <objectType typeId="b1dc93d7-84cc-44bb-a356-5007a2e3f35e" valueTypeId="3f2ad0da-0761-4098-be81-0fb164242509"/>
+    <managerType typeId="77713a07-6821-4991-b54b-9d2fb2286aad" valueTypeId="4c0b27bc-da56-4ce0-9823-8fa1ca670acd"/>
+  </producedTypes>
+  <name>КоличествоСеансов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество сеансов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КоличествоСеансов.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.КоличествоСеансов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.КоличествоСеансов.Form.ФормаНастроек</defaultSettingsForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="da77ef76-4e34-42f0-8a90-98e137144a94">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2908f33c-18da-4426-acca-63759e473cf4">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7de59db5-385b-4c5e-8ba4-7fdeaffb2565">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="4dee3794-f3aa-4ee6-b23f-4466c54145b7">
+    <name>ОткрытьОтчетКоличествоСеансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество сеансов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

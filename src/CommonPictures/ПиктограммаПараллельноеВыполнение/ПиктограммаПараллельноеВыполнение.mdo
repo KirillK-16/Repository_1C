@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a42878e1-9dcc-4e37-bf7e-d79f15466b2f">
+  <name>ПиктограммаПараллельноеВыполнение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пиктограмма параллельное выполнение</value>
+  </synonym>
+</mdclass:CommonPicture>

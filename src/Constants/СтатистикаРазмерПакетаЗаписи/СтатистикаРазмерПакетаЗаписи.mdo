@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d9ff597-d2bc-4cb8-8095-1b16189d4349">
+  <producedTypes>
+    <managerType typeId="75d111e7-b7d5-4e6d-9caf-f5bfbd0da462" valueTypeId="bed58c9b-1679-4705-bb97-6e80809ece5c"/>
+    <valueManagerType typeId="5c52566c-15f7-47e3-b5e4-b0ab9e9f512a" valueTypeId="ee9c30a3-9132-4e8a-9e6c-659e1fdbc9dc"/>
+    <valueKeyType typeId="e71a4b06-123f-55ad-9203-33188a8e89bb" valueTypeId="37cf2ace-c3c2-56de-91e4-64eb20d691a7"/>
+  </producedTypes>
+  <name>СтатистикаРазмерПакетаЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика размер пакета записи</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Количество записей регистра для работы в рамках одной транзакции с регистрами статистики</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

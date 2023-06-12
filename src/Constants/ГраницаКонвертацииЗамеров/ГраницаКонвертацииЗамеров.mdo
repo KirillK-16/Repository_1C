@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf801626-fb92-478b-8d3f-1d32697096eb">
+  <producedTypes>
+    <managerType typeId="cdce9927-e886-4429-b877-a7556e3b67d9" valueTypeId="70589cba-51ef-49bd-9c62-89aaeff387b6"/>
+    <valueManagerType typeId="cf3e9e39-8aa3-4e57-9a0c-50b82b7165a7" valueTypeId="9e4d4e35-0f4f-4e6b-a091-fd4ae93578da"/>
+    <valueKeyType typeId="99ea4053-37b0-508e-b1b7-ad2aabb53cef" valueTypeId="fd9bbc6a-b621-56e4-9dbc-f22497f75e39"/>
+  </producedTypes>
+  <name>ГраницаКонвертацииЗамеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Граница конвертации замеров</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

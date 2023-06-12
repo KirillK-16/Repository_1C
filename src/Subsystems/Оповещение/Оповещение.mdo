@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5010cb4-5b42-449b-8a45-0bf475ba93ac">
+  <name>Оповещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПозвонитьОтправитьSMS</picture>
+  </picture>
+  <content>Constant.ИмяЭтогоЦКК</content>
+  <content>Constant.УдалитьПользовательSMTP</content>
+  <content>Constant.ЛогинПочта</content>
+  <content>Constant.ПарольПочта</content>
+  <content>Constant.УдалитьПарольSMTP</content>
+  <content>Constant.ПортSMTP</content>
+  <content>Constant.ПортPOP3</content>
+  <content>Constant.СпособSMTPАутентификации</content>
+  <content>Constant.СпособPOP3Аутентификации</content>
+  <content>Constant.СерверИсходящейПочтыSMTP</content>
+  <content>Constant.СерверВходящейПочтыPOP3</content>
+  <content>Constant.ПровайдерSMS</content>
+  <content>Constant.УдалитьПарольДляОтправкиSMS</content>
+  <content>Constant.УдалитьЛогинДляОтправкиSMS</content>
+  <content>Constant.ВремяОжиданияSMTP</content>
+  <content>Constant.АдресДляОтчетовЦКК</content>
+  <content>Constant.ВыполнятьОповещениеПоПочте</content>
+  <content>Constant.ВыполнятьОповещениеПоСМС</content>
+  <content>Constant.ПосылатьОтчетыЦКК</content>
+  <content>Constant.SMTPАутентификация</content>
+  <content>Constant.НастройкаОповещенияВыполнена</content>
+  <content>Constant.АдресЭлектроннойПочты</content>
+  <content>Constant.ПериодОтправкиОтчетовМин</content>
+  <content>Catalog.ПроцентДоступностиСервисаВсеБазы</content>
+  <content>Enum.УровниИнцидентов</content>
+  <content>Constant.ВыполнятьОповещениеПоSkype</content>
+  <content>Constant.ОткладыватьДоставкуОповещенийПриНевозможностиОтправки</content>
+  <content>InformationRegister.ЖурналОповещений</content>
+</mdclass:Subsystem>

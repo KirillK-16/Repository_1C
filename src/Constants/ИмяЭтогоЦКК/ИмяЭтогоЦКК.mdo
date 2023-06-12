@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33349730-c1fd-4b90-bec4-4733a175bde2">
+  <producedTypes>
+    <managerType typeId="7c0a4680-28eb-4425-a97c-4833a302163a" valueTypeId="8cc5d7cd-fb1e-4449-862d-20c2e35111dc"/>
+    <valueManagerType typeId="f3169a7d-722c-4134-87e1-7cdc30494fec" valueTypeId="d4a27e33-4532-4932-a715-134db5e62196"/>
+    <valueKeyType typeId="957cf6ca-ba33-5e1c-a1d0-d85c682093bb" valueTypeId="a258d845-1acb-50b1-becb-666215af1033"/>
+  </producedTypes>
+  <name>ИмяЭтогоЦКК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имя текущего Центра Контроля Качества </value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.НаименованиеЦКК</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38332daf-d58a-4d73-b330-d6e4354be28e">
+  <producedTypes>
+    <managerType typeId="a9507047-6f9a-491f-8723-f87882f21e64" valueTypeId="6d763a9b-a533-4ec4-96b9-e632d98a639c"/>
+    <valueManagerType typeId="9257278e-e3aa-477d-8241-10f1acd8bc82" valueTypeId="e0e11a20-6534-44cd-b67c-6991aaf02d07"/>
+    <valueKeyType typeId="f26ad783-cdca-55a8-b222-560229c081ef" valueTypeId="5c73eff5-9833-5bb0-b7c2-438b8e477dcf"/>
+  </producedTypes>
+  <name>ВыполнятьПроверкуПубликаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнять проверку публикаций</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

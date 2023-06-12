@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f9fbc81-e39f-4dcf-b01e-6620a62a6372">
+  <producedTypes>
+    <selectionType typeId="a8b889ff-c596-4e1b-a8e6-0aef12f11610" valueTypeId="d9218836-b477-44fa-b7c8-6b10189542da"/>
+    <listType typeId="c5c799e1-3379-4c24-826d-081ae46b8f2e" valueTypeId="a8636e45-cdf3-4e73-b384-e5d311261992"/>
+    <managerType typeId="8a17b7f6-6677-412c-89e3-0b64e2f656b5" valueTypeId="281c3ef0-d59c-4a8b-b420-b75332ee4a51"/>
+    <recordSetType typeId="eebe762b-983b-44a0-99a3-a0e41b519582" valueTypeId="9a78e848-c08f-49b3-bf45-8d23233e51d8"/>
+    <recordKeyType typeId="991088c6-b784-44b2-b048-129385296030" valueTypeId="de4f3bb2-c46b-4be0-b547-d79d84d40f7c"/>
+    <recordType typeId="5dd73a1e-c0c1-47ba-9b9f-f9c092a58751" valueTypeId="6abfdb6d-9c36-477b-8854-dcb4ffd7ce7b"/>
+    <recordManagerType typeId="dbb35775-6d67-4b6f-a2e1-be1014f40135" valueTypeId="f3626edb-afed-48f0-b434-838f28d84d36"/>
+  </producedTypes>
+  <name>ПараметрыКластеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры кластеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</value>
+  </explanation>
+  <resources uuid="40e1e327-eb22-4130-87c3-332bcfb6352e">
+    <name>ТипПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип подключения для администрирования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>   </value>
+    </fillValue>
+  </resources>
+  <resources uuid="f8db7191-2a66-41ec-adb1-8ddda42c64d1">
+    <name>АдресСервераАдминистрирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервера администрирования</value>
+    </synonym>
+    <comment>// Только для &quot;RAS&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="82fb88e5-dd2c-4ef4-8a7f-8d0d1529c082">
+    <name>ПортСервераАдминистрирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт сервера администрирования  (по умолчанию 1545)</value>
+    </synonym>
+    <comment>// Только для &quot;RAS&quot;</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="454ca896-4a86-4faa-8ce2-4f856f63b543">
+    <name>КаталогЗапускаСервераАдминистрирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог запуска клиента администрирования</value>
+    </synonym>
+    <comment>// Только для &quot;RAС&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="04f49d04-075d-423c-8ce6-8685c58268c2">
+    <name>АдресКластера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компьютер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="6d156a18-7ba2-4e9e-8aab-15294dcd03a7">
+    <name>ПортАгентаКластера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер IP порта агента сервера (по умолчанию 1540)</value>
+    </synonym>
+    <comment>ПортАгентаСервера Только для &quot;COM&quot;</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a47509e9-af20-4a98-adeb-8bc0efc571c5">
+    <name>КластерОбъектаКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кластер объекта контроля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="1c47deb2-9766-4873-914f-ff1895cffe20">
+    <name>ПортКластера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер основного IP порта менеджера кластера (по умолчанию 1541)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+  </resources>
+  <resources uuid="5b07ca4e-a802-4eda-9ce8-3c1bb6255398">
+    <name>ВерсияПлатформы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия платформы 1С</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВерсииПлатформы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9c21b5b5-f253-4339-8af0-5235b441a9a6">
+    <name>ИмяКластера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя кластера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="688f43ba-c544-40b8-b77a-39f8caf9adf6">
+    <name>ЗащищенноеСоединение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Защищенное соединение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bbc8ea14-945b-4768-9958-70bcb0873588">
+    <name>ИнтервалПерезапускаРабочихПроцессов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал перезапуска рабочих процессов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d0374df8-49aa-413d-b7f7-6ee2d2475eae">
+    <name>ДопустимыйОбъемПамяти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допустимый объем памяти</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="76069cca-0d2a-4413-869c-29a36a46b7ff">
+    <name>ИнтервалДопустимогоПревышенияОбъемаПамяти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал допустимого превышения объема памяти</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fd863154-7e48-40e7-a459-c430ea63e6bc">
+    <name>ДопустимоеОтклонениеОшибокСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допустимое отклонение ошибок сервера</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>100</value>
+    </maxValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f22eb0e3-99a1-4b2c-b7ce-fa8974b04d6a">
+    <name>ПринудительноЗавершатьПроблемныеПроцессы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принудительно завершать проблемные процессы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1e49c29c-1176-4d71-a5db-8034a490110a">
+    <name>ВыключенныеПроцессыОстанавливатьЧерез</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выключенные процессы останавливать через</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b9856c90-ba20-41d2-893e-14b1be38ff8b">
+    <name>УровеньОтказоустойчивости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень отказоустойчивости</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="231eb781-d34c-4a5f-bfaa-68f03e28a1be">
+    <name>РежимРаспределенияНагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим распределения нагрузки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f462b61d-df9f-4273-9424-a2971eba28a8">
+    <name>Мониторинг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мониторинг</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="fd55c06c-0993-4de6-8294-d7f41e27b6bb">
+    <name>ОбъектКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект контроля</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыОбъектовКонтроля</types>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="fab10dce-c384-432d-8f46-e80b7822e26c">
+    <name>ФормаЗначенияПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма значения по умолчанию</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="0138baa2-9538-452c-91b7-bd483f60862a">
+    <name>КластерыЗначенияПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кластеры серверов 1С:Предприятия</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

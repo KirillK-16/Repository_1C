@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="322ddd94-eede-4d90-b8d6-30886f633df4">
+  <producedTypes>
+    <selectionType typeId="f53d5c95-3e55-4b3a-ae93-0f9bb455b081" valueTypeId="d0436262-8014-4596-8baf-0ab2525146ec"/>
+    <listType typeId="ec925170-0f95-4beb-aac7-a41c90a6b0b6" valueTypeId="16ada2ec-0121-447d-b9a9-952a050d2a73"/>
+    <managerType typeId="aaa03ea2-09cf-4081-90a4-8d8789d33d97" valueTypeId="ee024675-4951-4e91-afc8-b849d0055cff"/>
+    <recordSetType typeId="3d9621ce-db1e-4eb5-b0dd-b1b40dc0c0d4" valueTypeId="7116b310-e7af-4cba-bf1f-7b80e70864e3"/>
+    <recordKeyType typeId="2d26e0eb-8a29-48fe-98bf-955c2c5b6bb9" valueTypeId="beff2fdc-645a-4e7e-a1a6-28252b0e4499"/>
+    <recordType typeId="84cf8611-8520-4be1-9b90-6c2a9280cfb6" valueTypeId="dee6e4e5-964a-4722-a1fc-59d95c4c7bc9"/>
+    <recordManagerType typeId="ffcc94f7-2b14-4314-b3e1-36c4410b3e21" valueTypeId="d456b232-7fe7-435e-a284-e76f7169ac59"/>
+  </producedTypes>
+  <name>КонтрольПараметровОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль параметров объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.КонтрольПараметровОбъектов.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="bf36cb5f-f13b-4614-85d0-789dc44d0609">
+    <name>Контроль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="a413a94e-2e59-4843-a2cc-d25be594d293">
+    <name>ОбъектКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект контроля</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="d0e7d50a-c734-4dfb-bf17-c2388dff6e5a">
+    <name>ИмяРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя ресурса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="2151962a-bd0e-43b2-a89d-28e7b5138b88">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

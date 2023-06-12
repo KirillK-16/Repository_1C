@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="235f8cc9-90ab-4506-9891-1130ffbcd324">
+  <producedTypes>
+    <refType typeId="5df4881d-742b-4caf-87f3-30c4555aac6a" valueTypeId="849cb890-5856-48f3-bcc6-066ad2933f44"/>
+    <listType typeId="77c3a9c1-5292-4f72-b032-c490fed90457" valueTypeId="6f5fc86f-c83c-4a23-9e27-979dbd1f34c4"/>
+    <managerType typeId="707c0481-0b60-4c96-af7f-56e4acbe0421" valueTypeId="3d2084b9-fa92-40f2-88aa-5045b8481aed"/>
+  </producedTypes>
+  <name>УровниИнцидентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни инцидентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6e6a520b-5fec-442b-953e-d1977a2e9ee3">
+    <name>Информация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48b52c6a-f6ed-4430-ac99-893624bff99a">
+    <name>Предупреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2e2c84a-b8c6-4673-9fa5-5cf10b37d198">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bdf7b5c9-0902-4e5b-b669-e3658c0e9e98">
+    <name>КритическаяОшибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Критическая ошибка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

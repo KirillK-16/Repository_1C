@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62b89798-3294-42a5-a9c5-33cd286ba539">
+  <name>АвтоматическийАнализПроизводительностиЦентрМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматический анализ производительности (центр мониторинга)</value>
+  </synonym>
+  <methodName>CommonModule.ЦентрМониторингаИмпортСлужебный.ВыполнитьАнализПроблемПроизводительности</methodName>
+  <description>Автоматический анализ производительности (центр мониторинга)</description>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

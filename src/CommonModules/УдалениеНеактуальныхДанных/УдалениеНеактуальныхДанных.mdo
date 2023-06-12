@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87a1998c-d7f8-48f6-b898-c40d3554b00b">
+  <name>УдалениеНеактуальныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление неактуальных данных</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

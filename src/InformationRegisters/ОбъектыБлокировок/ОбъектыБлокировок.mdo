@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1dc51153-7d03-4da3-8afe-f487d322dcc3">
+  <producedTypes>
+    <selectionType typeId="56495a7c-5e6a-44e0-8309-eaba48872de7" valueTypeId="bf1bc9f7-fd10-4268-8458-e4c1bc6b793d"/>
+    <listType typeId="d26f8c16-1e12-448d-948e-f8443b786edd" valueTypeId="d4c12353-a3ce-4170-a5f3-b3f78380574c"/>
+    <managerType typeId="fd923d0e-409e-409b-928f-27362eae10cf" valueTypeId="b2ee03b5-eb95-458c-adea-38110dbcaa21"/>
+    <recordSetType typeId="c7ba8444-492a-4510-b2ca-3aaea1b90c9f" valueTypeId="02eac24a-4bad-464a-9c28-6dc49653abaa"/>
+    <recordKeyType typeId="bbd1f8cd-5b44-4e42-bcb9-7b9dd14d06bf" valueTypeId="b36abbc8-4f7f-4408-937d-adebe9604ac4"/>
+    <recordType typeId="302aa068-3a20-4c59-9834-1a6bed23ff87" valueTypeId="895bf7af-d9d0-4c88-9aaa-c28187c6973a"/>
+    <recordManagerType typeId="baa16f53-012a-4253-83b0-3de269d7bac6" valueTypeId="0cc98d9a-6e22-4a77-96f5-24ff772209f9"/>
+  </producedTypes>
+  <name>ОбъектыБлокировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты блокировок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8e3e974b-9e0d-439a-a93a-20e917587ed4">
+    <name>Блокировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокировка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d3fcf8e1-8d8e-4d5f-bcc8-eb28877570b2">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольныеПроцедуры</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

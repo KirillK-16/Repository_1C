@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e4bbcae-078b-4214-a811-15613e051fce">
+  <name>InputStatistics</name>
+  <synonym>
+    <key>ru</key>
+    <value>Input statistics</value>
+  </synonym>
+  <namespace>http://1c.ru</namespace>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/core</value>
+  </xdtoPackages>
+  <descriptorFileName>InputStatistics.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="e69d8b96-df9a-4f05-9985-9ac5d158a473">
+    <name>InputData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Input data</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <transactioned>true</transactioned>
+    <procedureName>InputData</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="6c6f1999-71aa-49e8-8af4-fd7a131595d3">
+      <name>inParam</name>
+      <synonym>
+        <key>ru</key>
+        <value>In param</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

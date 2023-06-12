@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92c0e443-3404-4321-ad7b-e5de4911ec32">
+  <producedTypes>
+    <managerType typeId="c232d073-8457-4028-9454-712ce85a3aef" valueTypeId="4431dbfe-82ed-4cff-b707-7db3590b418b"/>
+    <valueManagerType typeId="1710a00c-3a0b-46c8-9930-9d36ed038efc" valueTypeId="6665368d-4711-4fec-8bcc-9a0c3fe56f9b"/>
+    <valueKeyType typeId="e570dc96-b98b-5486-8d39-dc349e424d2c" valueTypeId="dd28f714-8247-5f82-98cd-f5111e6cb15a"/>
+  </producedTypes>
+  <name>ПериодОбновленияПанелиМониторингаИнцидентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период обновления панели мониторинга инцидентов</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

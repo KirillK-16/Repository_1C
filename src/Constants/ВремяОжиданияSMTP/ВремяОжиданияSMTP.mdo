@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0326a7a9-30a0-4a43-9eb7-384f5b2c4abb">
+  <producedTypes>
+    <managerType typeId="dba09705-79f1-47f4-be0c-1a876440f5da" valueTypeId="b3235aa4-6244-4a4f-97ec-4b77b0e44fc7"/>
+    <valueManagerType typeId="ec1a6938-496e-426a-97b6-8241f3400ee3" valueTypeId="ad63dbd4-e085-4306-b4a7-d4680be1d648"/>
+    <valueKeyType typeId="be7a4639-051b-5699-b9dd-45146495a042" valueTypeId="22e3395c-6ef5-5f16-a4ab-35b6f1457d59"/>
+  </producedTypes>
+  <name>ВремяОжиданияSMTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время ожидания сервера (сек)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Время ожидания сервера до разрыва соединения</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

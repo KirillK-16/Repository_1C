@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f4eb9f4-12c1-4f61-b894-52bb9584f985">
+  <producedTypes>
+    <objectType typeId="78f69947-858c-4ec6-bfaf-8a0bfb1fccb4" valueTypeId="2490f63e-3916-45e7-b009-fd0ca488e897"/>
+    <managerType typeId="4cf50a19-ec64-4a67-aa35-26b8e15a7258" valueTypeId="720c5f82-a670-4c0f-bd01-d3f17fba2bcf"/>
+  </producedTypes>
+  <name>ТипичнаяИнформационнаяБаза</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типичная информационная база</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ТипичнаяИнформационнаяБаза.Form.Форма</defaultForm>
+  <attributes uuid="537a2ae6-3151-4152-bbc0-452c7ba7b67e">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="41e90532-99c8-47e9-8bb3-3fde8bca4a4e">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9853a2b4-4bcc-4391-ac67-9dcfe8c3ea84">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6a89a769-e221-4062-8bcd-9567f8efc1e5">
+    <name>МетаданныеОбщий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метаданные общий</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="8eee8e21-ea47-4a01-a23a-ce9a2889b13a">
+    <name>МетаданныеПоИнфоБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метаданные по инфо базе</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="fc390ff3-89a9-441f-a73b-cc2d10e881a1">
+    <name>ПроизводительностьОбщий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производительность общий</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="4266a74f-7505-4db5-8e39-de1da80541a7">
+    <name>ПроизводительностьПоИнфоБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производительность по инфо базе</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="f82a558f-f6f3-4ca7-91aa-6ff41fea94f4">
+    <name>ПраваОбщий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Права общий</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="3f1255b9-d973-4480-b33d-d94f5b093173">
+    <name>ПраваПоИнфоБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Права по инфо базе</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="0f3ff07f-f50e-4bc9-964b-fe678c4f2753">
+    <name>ОбщаяИнформацияОбщий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая информация общий</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="1cc46b8e-9a63-4fcb-b3ad-7c46b740e52b">
+    <name>ОбщаяИнформацияПоИнфоБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая информация по инфо базе</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="c6afa956-a8d4-4d75-9e21-c7747b6dcf8a">
+    <name>АктивностьПользователейОбщий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активность пользователей общий</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="2addfaeb-906c-43d8-9392-ad6400c8cbed">
+    <name>АктивностьПользователейПоИнфоБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активность пользователей по инфо базе</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="e077067a-2d65-400d-8a9f-3133544ff3bb">
+    <name>ОкружениеИСтатусОбщий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окружение и статус общий</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="aa5007bf-6d1c-47a3-81df-7b9cd9d571bf">
+    <name>ОкружениеИСтатусПоИнфоБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окружение и статус по инфо базе</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="6f92a98a-177f-48a6-a5ad-62f4dd0f0594">
+    <name>ТипичнаяИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типичная информационная база</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

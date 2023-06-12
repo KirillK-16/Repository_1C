@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38beb46a-330a-49fa-9a46-f134325a71f7">
+  <producedTypes>
+    <managerType typeId="6a2bef73-480d-4d36-a10b-bae39930987b" valueTypeId="930fdff9-f108-43c2-bcce-5835e715ef6f"/>
+    <valueManagerType typeId="5c706c8e-146e-467a-a06d-5d0a770e6adb" valueTypeId="6a3e9ef0-55d7-4dec-9d84-88656e908ceb"/>
+    <valueKeyType typeId="e5fec892-376c-5e58-a208-113366541c5f" valueTypeId="c93ec7ec-2d1c-5408-8422-57d79eca73af"/>
+  </producedTypes>
+  <name>ОтправительSMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправитель SMS</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

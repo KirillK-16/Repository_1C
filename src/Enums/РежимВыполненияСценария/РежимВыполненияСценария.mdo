@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43385bee-b5fc-4600-ba5d-2b4da547e058">
+  <producedTypes>
+    <refType typeId="345250d6-5038-4be2-94e9-1f6d89c37001" valueTypeId="b6c03ec0-1e1e-44ac-8426-d872a781b01d"/>
+    <listType typeId="4aee1489-033b-4c0d-a284-112231c0172b" valueTypeId="18d60bf1-be77-4f10-87d3-56b9b611a52b"/>
+    <managerType typeId="e8a29d5e-6a93-4459-a401-bbc868f3823c" valueTypeId="b6e945ad-0915-40f4-9c97-0b8fec75977e"/>
+  </producedTypes>
+  <name>РежимВыполненияСценария</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим выполнения сценария</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bbfc4378-74b9-41f8-80e9-0a798c68c75d">
+    <name>Монопольное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монопольное</value>
+    </synonym>
+    <comment>Выполняется, когда не запущены иные монопольные или немонополные сценарии</comment>
+  </enumValues>
+  <enumValues uuid="4e78f206-174a-4488-8840-1924b72d6246">
+    <name>Немонопольное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Немонопольное</value>
+    </synonym>
+    <comment>Выполняется, когда не запущены монопольные сценарии</comment>
+  </enumValues>
+  <enumValues uuid="8cbeb24d-9989-45a7-876c-a7d56224a6af">
+    <name>Фоновое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фоновое</value>
+    </synonym>
+    <comment>Не блокирует выполнение сценариев. Используется в основном для планировщика</comment>
+  </enumValues>
+</mdclass:Enum>

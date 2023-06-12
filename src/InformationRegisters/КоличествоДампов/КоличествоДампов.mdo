@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c224ba48-73c4-401e-9477-57c1ce39540e">
+  <producedTypes>
+    <selectionType typeId="5f01bba4-b1d3-4ed9-a755-33e320e8e338" valueTypeId="263dcbe9-50ed-40a3-a453-ffaf29419a27"/>
+    <listType typeId="c2feefbe-cde3-4d81-b00c-3567859f4399" valueTypeId="05bb4d54-dab3-4db9-a7ea-2fbc50eb0361"/>
+    <managerType typeId="1541a308-d416-46ba-85ee-1708958ce95d" valueTypeId="36b89732-50ed-4cbf-bc8b-7067d9c7723e"/>
+    <recordSetType typeId="d0345bb5-e1be-4fe8-b9b6-b0016442b2de" valueTypeId="c53f506a-82ef-404f-87de-82e0de630a59"/>
+    <recordKeyType typeId="af3583b7-10e1-449d-af12-afafaccdada4" valueTypeId="508bf3d2-c8d3-40a1-baab-d8768ea877ea"/>
+    <recordType typeId="05fc462c-e59e-4b42-ac93-ba8a2b037cb7" valueTypeId="ec21a6ad-1702-4345-94b1-1f73fc949cc8"/>
+    <recordManagerType typeId="0c135bcc-9d82-498c-aaa2-1321542ae92b" valueTypeId="40de471b-8246-4883-a4ff-673c8f86f2be"/>
+  </producedTypes>
+  <name>КоличествоДампов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество дампов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8cde868a-a622-464f-a34f-203f6455dd12">
+    <name>ЧислоДампов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число дампов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f739c064-6257-4e8b-9ded-3b4cc09f8db0">
+    <name>РабочийСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий сервер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

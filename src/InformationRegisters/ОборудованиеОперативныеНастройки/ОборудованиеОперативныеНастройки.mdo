@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf0780cc-a4fb-4f44-a6fb-88c9f66707cb">
+  <producedTypes>
+    <selectionType typeId="ce6cd321-03a7-44b6-83d9-518bcac5726a" valueTypeId="411745c2-4d46-4f10-9740-0ae7a5801b9b"/>
+    <listType typeId="fac413f5-cfec-4963-890a-97627526b371" valueTypeId="3cbf6b76-1578-4bb8-988a-b95872e73504"/>
+    <managerType typeId="e7c632ef-fed0-419c-a10a-ef7f42855108" valueTypeId="57f92747-73eb-430a-b128-ab20b1e26604"/>
+    <recordSetType typeId="b72b6a4a-1c2b-4433-8f62-50672ecb6703" valueTypeId="35280407-9b34-408b-8e47-6b89132591ed"/>
+    <recordKeyType typeId="847b7143-e665-4c07-93b8-d3d849f5d6b1" valueTypeId="7a32b1f7-a940-4a2c-855c-cf038425e1b4"/>
+    <recordType typeId="77471b18-641d-44a1-b21d-9ccea5af862c" valueTypeId="851feee3-3e9e-4352-9254-55851f89abb3"/>
+    <recordManagerType typeId="56fe4f0c-af05-478c-9835-57e5dfa49664" valueTypeId="fcd120bb-eb2f-4c94-8722-58a03fc27099"/>
+  </producedTypes>
+  <name>ОборудованиеОперативныеНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудование оперативные настройки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="8ca0dacc-795c-4faf-9ee9-a39f9c572f59">
+    <name>ДатаЗаписиUTC</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи UTC</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e370c3ee-8e6b-436b-80e1-dfd984cd5661">
+    <name>ОперативныйРежим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оперативный режим</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d66bd620-e455-46da-b301-f528c7d92352">
+    <name>ЯзыкОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Язык ОС</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЯзыкиСистемы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="8535c520-5821-4f5e-8638-edf253cb4284">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Оборудование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

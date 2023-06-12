@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7298861c-7ca2-4268-9729-973fcd090c84">
+  <producedTypes>
+    <objectType typeId="115b0543-587a-427d-a45b-1cdc6a84152e" valueTypeId="99600c26-dfc0-4b5f-a5f1-a5653ee2c423"/>
+    <managerType typeId="d321f883-50de-42e3-af1e-d7f6b71f9422" valueTypeId="9b1281fb-3755-4039-ac63-27eecd1f60d7"/>
+  </producedTypes>
+  <name>МониторДампов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор дампов в обработке</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МониторДампов.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="98f4348f-e780-4016-b2e2-283ee3e9c40e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="ddfaf226-08d3-450f-a717-aada93f379dc">
+    <name>ОткрытьМониторингОбработкиДампов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монитор обработки дампов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

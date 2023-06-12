@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0ef5c40-3b75-469f-96cb-e644a087983e">
+  <name>МассовыйЗапуск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Массовый запуск</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ГруппыЕдиницАвтоматизации</content>
+  <content>Enum.ТипыГруппировокЕдиницАвтоматизации</content>
+  <content>DataProcessor.МастерСозданияЭкземпляровСценария</content>
+  <parentSubsystem>Subsystem.СценарииАдминистрирования</parentSubsystem>
+</mdclass:Subsystem>

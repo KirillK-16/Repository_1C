@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WSReference xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82fad7ab-82ff-4369-a45c-7c3350c15fbe">
+  <producedTypes>
+    <managerType typeId="afd8cb76-7389-45aa-a342-a13a479306cf" valueTypeId="2b7df8e3-0a8c-44a6-8ff7-016ddc358208"/>
+  </producedTypes>
+  <name>ОтправкаSMSМТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка SMS МТС</value>
+  </synonym>
+  <locationURL>http://www.mcommunicator.ru/m2m/m2m_api.asmx?WSDL</locationURL>
+</mdclass:WSReference>

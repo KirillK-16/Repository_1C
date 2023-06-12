@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Report.АнализПотребленияПроцессорногоВремени.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.АнализРабочихПроцессов.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.КоличествоСеансов.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.ПрограммныеЛицензии1С.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.АнализВызововКластера1С.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Report.ПрограммныеЛицензии1С.Command.Лицензии1С</commands>
+      <commands>Report.КоличествоСеансов.Command.ОткрытьОтчетКоличествоСеансов</commands>
+      <commands>Report.АнализРабочихПроцессов.Command.КомандаАнализРабочихПроцессов</commands>
+      <commands>DataProcessor.АнализВызововКластера1С.Command.ОткрытьАнализВызововКластера1С</commands>
+      <commands>CommonCommand.ОткрытьАнализПотребленияПамяти</commands>
+      <commands>Report.АнализПотребленияПроцессорногоВремени.Command.АнализПотребленияПроцессорногоВремени</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

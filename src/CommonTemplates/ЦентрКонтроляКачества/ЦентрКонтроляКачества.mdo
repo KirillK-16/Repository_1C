@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5f474e7-4292-46ea-b1ad-2e92350ec0c4">
+  <name>ЦентрКонтроляКачества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр контроля качества</value>
+  </synonym>
+  <templateType>HTMLDocument</templateType>
+</mdclass:CommonTemplate>

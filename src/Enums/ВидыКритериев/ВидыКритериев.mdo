@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da223198-54b2-4fff-9024-17b712fe960d">
+  <producedTypes>
+    <refType typeId="59ba6f34-fcbc-4967-84c4-fd0d898bb696" valueTypeId="e0b779d4-2eb0-4ea7-8983-6417d24879e2"/>
+    <listType typeId="ae506696-b9af-43b1-98af-eb87c2d1ea4a" valueTypeId="e7dec29b-62ec-47c6-9489-232643f876af"/>
+    <managerType typeId="894c0ff1-eac7-4488-97a2-eae09c6c215d" valueTypeId="6f019dd3-0470-4a51-8050-977cdf7aad85"/>
+  </producedTypes>
+  <name>ВидыКритериев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды критериев</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="03951328-d9f0-451d-bb44-70a656da6242">
+    <name>СтекРавен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стек равен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6547ae05-4421-410f-a3e8-35aebd91d8a0">
+    <name>ТекстИсключенияРавен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст исключения равен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d57fd933-86c2-4222-b63b-ddfdd7a98770">
+    <name>ТекстИсключенияСодержитСтроку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст исключения содержит строку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cfd267ba-04c0-432c-92dd-f7b5a3e7609f">
+    <name>ТекстИсключенияНеСодержитСтроку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст исключения не содержит строку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e48c810e-ad01-4a99-b9b5-ce5f06daad04">
+    <name>КодИсключенияРавен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код исключения равен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c7193a35-abca-4a9e-9fd2-5af3c308868f">
+    <name>КлиентскоеПриложениеРавно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиентское приложение равно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

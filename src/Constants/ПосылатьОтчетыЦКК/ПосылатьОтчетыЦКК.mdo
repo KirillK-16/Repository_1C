@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="504e7a1f-3eac-40a8-ba1d-bd987c9361d3">
+  <producedTypes>
+    <managerType typeId="803811f6-3e5b-499c-9120-9de77fb5455a" valueTypeId="d8d3aeb5-6162-4857-baec-eed35bebe516"/>
+    <valueManagerType typeId="7ccd7d5e-f047-4550-b6dd-bb9974b00ef1" valueTypeId="d41d75e7-e9b3-4cb8-86c4-7df7bea57f81"/>
+    <valueKeyType typeId="4d15d687-67d7-5aef-9e28-cd5343a92b00" valueTypeId="a0c484d4-1e47-5c26-bd5e-2e46a8a65ccc"/>
+  </producedTypes>
+  <name>ПосылатьОтчетыЦКК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Посылать отчеты о работе Центра Контроля Качества</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecd60d2a-417c-4432-952b-780f168bc960">
+  <name>ЦентрМониторингаПереносБизнесСтатистикиИзБуфера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр мониторинга: перенос бизнес-статистики из буфера</value>
+  </synonym>
+  <methodName>CommonModule.ЦентрМониторингаИмпортСлужебный.ПеренестиБизнесСтатистикуИзБуфера</methodName>
+  <description>Центр мониторинга: перенос бизнес-статистики из буфера</description>
+  <key>c1973cb2-6a36-40e9-b23c-3876ed328517</key>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

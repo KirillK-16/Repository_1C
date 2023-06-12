@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2661dad-1969-4766-b3e8-ad3cfba9fab5">
+  <name>УровниИнцидентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни инцидентов</value>
+  </synonym>
+</mdclass:CommonPicture>

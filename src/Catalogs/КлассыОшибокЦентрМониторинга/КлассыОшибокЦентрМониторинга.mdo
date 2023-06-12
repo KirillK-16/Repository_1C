@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33402da4-2ff6-4e6e-8a23-cfdf21cdcf7f">
+  <producedTypes>
+    <objectType typeId="f192dd98-a52e-41b9-bb6b-73352182217c" valueTypeId="9f636b3f-1522-4a32-8554-093ca1c0d294"/>
+    <refType typeId="03e7db98-be5f-43c6-a469-610cef47522b" valueTypeId="7134231d-4c04-4261-b78d-cfc16c0d5e62"/>
+    <selectionType typeId="17ba2682-1a1d-448a-a759-13ed983d3e49" valueTypeId="afc6c2af-184f-4055-a371-2be3afcdd21d"/>
+    <listType typeId="ef1520bc-3b41-4372-9fdb-ca08b13ee115" valueTypeId="eb9741a8-7769-43c0-845c-8fc119fb5a62"/>
+    <managerType typeId="c48d74c3-a4f4-4c40-939e-6820762cfbeb" valueTypeId="30d69c6e-30cc-42fe-a77d-d99b552f7bec"/>
+  </producedTypes>
+  <name>КлассыОшибокЦентрМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классы ошибок центр мониторинга</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КлассыОшибокЦентрМониторинга.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КлассыОшибокЦентрМониторинга.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

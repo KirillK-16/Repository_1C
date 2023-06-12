@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1619f5c7-721d-4068-aad0-57d457d35b7d">
+  <producedTypes>
+    <refType typeId="715531c5-44e5-4657-a051-277d09563769" valueTypeId="6ecab661-b9f7-45fb-9117-cbc91bcdcab6"/>
+    <listType typeId="32a03f94-8631-427d-a2e6-19739870ea4f" valueTypeId="078dd061-f7b7-473f-b507-61ef9cf50975"/>
+    <managerType typeId="b0f3d33d-f438-4411-95ca-00cdc70c2728" valueTypeId="37771fe7-1e9d-415f-b716-a8bfc3eae447"/>
+  </producedTypes>
+  <name>ВариантыСмещенияВременногоОкна</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты смещения временного окна</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="88b37528-e1f8-43d3-a15a-c53f2cfdae0d">
+    <name>Час</name>
+    <synonym>
+      <key>ru</key>
+      <value>прошлый час</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="220b0464-e39f-42d8-a699-db029e8c7bda">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>прошлый день</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f28ac66e-da90-4ae1-9035-8c68ee96fe6e">
+    <name>Неделя</name>
+    <synonym>
+      <key>ru</key>
+      <value>прошлую неделю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d8ba547-4157-4646-aad5-6092fdfb145a">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>прошлый месяц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f0ce1f8-545a-4799-8750-a392cbb067db">
+    <name>Квартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>прошлый квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b87f9502-3216-44c0-adbc-79a6e4dc6281">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>прошлый год</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

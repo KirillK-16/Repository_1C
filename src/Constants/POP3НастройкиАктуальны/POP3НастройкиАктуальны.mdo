@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c553434-c839-463f-9010-1cb28ae280b0">
+  <producedTypes>
+    <managerType typeId="55a83c70-b080-49e0-ab3e-9c6415e19ad1" valueTypeId="9ad73a45-8838-4bba-80c0-71b93e91e15e"/>
+    <valueManagerType typeId="10c13784-6ead-4dd6-8043-a21ad7f3c33e" valueTypeId="ef62e112-6e0b-438f-b02c-9823be578a76"/>
+    <valueKeyType typeId="a03b4fbf-a1d5-529e-b9d6-a64d7c0f04d8" valueTypeId="f3f4d7d4-cd61-5150-bed2-64428f438735"/>
+  </producedTypes>
+  <name>POP3НастройкиАктуальны</name>
+  <synonym>
+    <key>ru</key>
+    <value>POP3 настройки актуальны</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

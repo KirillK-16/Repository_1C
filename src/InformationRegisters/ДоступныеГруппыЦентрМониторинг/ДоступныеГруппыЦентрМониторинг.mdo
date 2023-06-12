@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="036d685c-97e6-4b6a-842f-2aa2cfaed5d4">
+  <producedTypes>
+    <selectionType typeId="de725e40-b037-46a7-b5e1-6ae2057ee2d7" valueTypeId="2b1ba8bb-4203-421f-89ed-1efd7f941f41"/>
+    <listType typeId="a43b5da4-344d-43c7-b920-e1e1b98029af" valueTypeId="913967fa-0cdb-4fd2-97cf-b45968c7e237"/>
+    <managerType typeId="67932629-fbb1-4d2f-b4e4-e7b644dd4463" valueTypeId="8d0f78c7-b999-4b04-88c4-87517a38874c"/>
+    <recordSetType typeId="3639a37b-c89b-4029-8272-ed6479fb6c98" valueTypeId="956ec77a-0633-43cf-b6a5-15af3ee03f5e"/>
+    <recordKeyType typeId="f13e7d20-a1ee-4ad6-973b-8b68a6220410" valueTypeId="dace4908-76ef-462a-9376-e5576914a047"/>
+    <recordType typeId="299488c6-8486-4a84-a31c-c2d0f7e9fdfb" valueTypeId="6b216865-480f-4d5f-a63f-5e1cf223e89f"/>
+    <recordManagerType typeId="94253d64-4d5d-435b-b939-3875250c1346" valueTypeId="30a6ff47-841f-4472-8fbc-3a610951c86f"/>
+  </producedTypes>
+  <name>ДоступныеГруппыЦентрМониторинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступные группы центр мониторинг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="50461aa2-478a-42bd-b7c0-36664e62d0f2">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2a8b9d9f-7498-4ad1-939d-57ffdb155673">
+    <name>ГруппаПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа пользователей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыПользователейЦентрМониторинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

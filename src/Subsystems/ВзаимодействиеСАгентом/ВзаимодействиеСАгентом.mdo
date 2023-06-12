@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc17bca1-afb5-4e05-bad5-5730a82797d8">
+  <name>ВзаимодействиеСАгентом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимодействие с агентом</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Агент</picture>
+  </picture>
+  <content>CommonPicture.Агент</content>
+  <content>Catalog.АгентыКИП</content>
+  <content>Enum.СтатусыКомандАгентаКИП</content>
+  <content>Enum.ТипыКомандАгентаКИП</content>
+  <content>Enum.ТипыОшибокАгента</content>
+  <content>InformationRegister.АктивностьАгентовКИП</content>
+  <content>InformationRegister.КомандыАгентаКИП</content>
+  <content>CommonModule.АгентКИППереопределяемый</content>
+  <content>Role.АгентПолныеПрава</content>
+  <content>HTTPService.УдалитьAgentQMC</content>
+  <content>CommonModule.АгентКИПСервер</content>
+</mdclass:Subsystem>

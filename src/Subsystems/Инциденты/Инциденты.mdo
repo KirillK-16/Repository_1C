@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04edac57-b955-4ca6-896b-0bd9fd2d481e">
+  <name>Инциденты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инциденты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ИнцидентыЗнак</picture>
+  </picture>
+  <content>CommonModule.ИнцидентыСервер</content>
+  <content>HTTPService.InputIncidentTickets</content>
+  <content>Constant.ПериодОбновленияПанелиМониторингаИнцидентов</content>
+  <content>InformationRegister.МетодыРеагированияНаИнциденты</content>
+  <content>Enum.СтатусыИнцидентов</content>
+  <content>Enum.УровниИнцидентов</content>
+  <content>Constant.НормативВремениРаботыСИнцидентом</content>
+  <content>InformationRegister.ИнцидентыИстория</content>
+  <content>InformationRegister.ИнцидентыДлительность</content>
+  <content>CommonModule.ИнцидентыСерверСлужебный</content>
+</mdclass:Subsystem>

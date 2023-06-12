@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc4da9f1-ee76-4109-8955-8397eb45a564">
+  <producedTypes>
+    <selectionType typeId="be06b126-0a8f-4e03-94f8-e42a7df53058" valueTypeId="2b174a09-21e4-4465-abf1-fd41f519a5e6"/>
+    <listType typeId="ed40de5d-8fb6-4b8a-8b7c-ee4a921e4c03" valueTypeId="c4d457f8-76f5-409d-b577-74590279b37b"/>
+    <managerType typeId="bde0f5f6-716e-44f5-ba2a-57a6be9e7313" valueTypeId="54e6f538-2602-4883-bdfb-f1c0bac2ab4f"/>
+    <recordSetType typeId="8b868d80-3a02-4cb7-b322-67009bc5aacf" valueTypeId="2f9a817e-39cf-4863-993f-efc9482ac2ce"/>
+    <recordKeyType typeId="36c685fb-2624-4509-8dc5-80b36c0ed7bf" valueTypeId="159393b8-3230-4e28-9025-fa688729b7cf"/>
+    <recordType typeId="2ffb42e0-b877-4b60-aeb7-264dbdf26dc0" valueTypeId="12b9f120-4f8e-49e7-ab22-0e326dd72010"/>
+    <recordManagerType typeId="78179004-7783-4c09-b291-a58f0b4253f5" valueTypeId="61eb52c7-1a1b-47fe-921a-34985c5b04db"/>
+  </producedTypes>
+  <name>СхемаАдресацииЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Схема адресации задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="05b7a5a8-869f-483e-8bb5-9f31b9d2432c">
+    <name>РольПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль пользователя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РолиПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="59f849a8-05d3-4678-a607-3ba4b26972e7">
+    <name>ТипИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип исполнителя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыИсполнителейКонтрольПамяти</types>
+      <types>CatalogRef.ТипыИсполнителей</types>
+      <types>CatalogRef.ТипыИсполнителейВнешнийКонтрольЦКК</types>
+      <types>CatalogRef.ТипыИсполнителейАнализВызововКластера1С</types>
+      <types>CatalogRef.ТипыИсполнителейОценкаПользователей</types>
+      <types>CatalogRef.ТипыИсполнителейКонтрольПодключений</types>
+      <types>CatalogRef.ТипыИсполнителейСборДампов</types>
+      <types>CatalogRef.ТипыИсполнителейКонтрольПроизводительности</types>
+      <types>CatalogRef.ТипыИсполнителейКонтрольРегламентныхЗаданий</types>
+      <types>CatalogRef.ТипыИсполнителейКонтрольЧислаИсключений</types>
+      <types>CatalogRef.ТипыИсполнителейКонтрольНагрузочныхТестов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d99adf08-2fbb-4bfa-b3a3-915ecd7b174a">
+    <name>КонтрольнаяПроцедура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная процедура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольныеПроцедуры</types>
+      <types>CatalogRef.ВидыКонтрольныхПроцедур</types>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

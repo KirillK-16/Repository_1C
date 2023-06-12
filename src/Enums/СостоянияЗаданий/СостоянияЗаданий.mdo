@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="479c365b-958b-4ce4-8c0d-24b3c5aa174d">
+  <producedTypes>
+    <refType typeId="2cb261a1-50e0-4ac1-a6e8-915a89dd30ab" valueTypeId="ac4a6da2-30e9-41f0-9c9e-476c5f48ad5a"/>
+    <listType typeId="e72a2f52-b1e6-4e4e-8148-0558c92412e2" valueTypeId="7d1db0b6-c34b-44b6-81f5-e918ad533fe4"/>
+    <managerType typeId="e277275b-f143-41a7-8f84-d5bd5a2418f7" valueTypeId="0cfca6d1-901c-45b5-8c71-a1cdffd0976b"/>
+  </producedTypes>
+  <name>СостоянияЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния заданий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a7a38956-2080-4fb6-b923-53ccbd552e36">
+    <name>Запланировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировано</value>
+    </synonym>
+    <comment>Задание запланировано на выполнение</comment>
+  </enumValues>
+  <enumValues uuid="119f303c-ed4d-4ec5-8104-588f9008524c">
+    <name>Выполняется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняется</value>
+    </synonym>
+    <comment>Задание выполняется</comment>
+  </enumValues>
+  <enumValues uuid="7e5fa4fe-e3d2-45b4-9f66-605872114fb1">
+    <name>Завершено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершено</value>
+    </synonym>
+    <comment>Задание завершено</comment>
+  </enumValues>
+  <enumValues uuid="bd9bae14-8a9b-42a8-ae0c-58ed941882f5">
+    <name>НеЗапланировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не запланировано</value>
+    </synonym>
+    <comment>Задание не запланировано</comment>
+  </enumValues>
+  <enumValues uuid="38d378a2-66d2-494a-988b-f6f1f6bf2b9e">
+    <name>ОшибкаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка выполнения</value>
+    </synonym>
+    <comment>Ошибка при выполнении задания</comment>
+  </enumValues>
+  <enumValues uuid="94530975-cae5-4fe2-ba04-92bbb0c78248">
+    <name>НеАктивно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не активно</value>
+    </synonym>
+    <comment>Задание не активно</comment>
+  </enumValues>
+</mdclass:Enum>

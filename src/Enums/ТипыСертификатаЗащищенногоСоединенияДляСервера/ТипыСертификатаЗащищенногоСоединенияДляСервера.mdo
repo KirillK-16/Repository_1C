@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1239561-beed-4564-839c-9d970627f832">
+  <producedTypes>
+    <refType typeId="894dfd77-f7e5-40fb-bf94-67baf9ee1480" valueTypeId="14e2712b-eb93-4ef4-99bd-d8ef2a40500c"/>
+    <listType typeId="3d159b9a-ae2e-4285-a5d8-c03c6a3d7009" valueTypeId="f0f04082-e27c-4a7c-a899-f297d1eb6ff1"/>
+    <managerType typeId="3c6cab2f-f48f-4c81-b5fe-7d65514c1f79" valueTypeId="f26261f1-7ede-479e-8a6e-a4d9eec04421"/>
+  </producedTypes>
+  <name>ТипыСертификатаЗащищенногоСоединенияДляСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы сертификата защищенного соединения для сервера</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="28736a69-6479-482d-aed8-ef2c6819d229">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3bf7a30-9100-45f7-a500-e57201d7661f">
+    <name>Windows</name>
+    <synonym>
+      <key>ru</key>
+      <value>Windows</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

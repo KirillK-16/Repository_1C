@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1682080d-bb07-4222-9917-cd4681e81f90">
+  <producedTypes>
+    <selectionType typeId="d392a7f2-39bb-4df7-b4a9-02041cabd8d6" valueTypeId="8b7732f7-922a-4635-bfe7-71bbe8bed7f6"/>
+    <listType typeId="49b02671-7a1a-4d79-9898-574ce5dc108a" valueTypeId="d71f2d20-5940-450b-b630-298f996e39b2"/>
+    <managerType typeId="1b8c981a-3fd4-4429-86cc-69f55b54dc66" valueTypeId="11e41636-d067-40a9-8d6e-548371ae1edc"/>
+    <recordSetType typeId="247a0bc2-82b5-4cf4-9995-2a57517d8c0d" valueTypeId="b7b3e7e6-13da-4081-9a36-a888f11c079d"/>
+    <recordKeyType typeId="21449be5-a50c-4bd0-a988-e3e56a4cf463" valueTypeId="1fb7181d-c2ed-4ef2-b250-73111306187a"/>
+    <recordType typeId="05091dec-9d48-481e-8218-1adb40ce1a33" valueTypeId="3727a1d1-4cd2-4ecc-a3c1-69cd390251a4"/>
+    <recordManagerType typeId="d518ef15-31bb-4f0f-a925-051c5d38f4f9" valueTypeId="29df9931-2209-4048-8187-588908639f0a"/>
+  </producedTypes>
+  <name>ДампыЦентраМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дампы центра мониторинга</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c8b5e6b2-1a6a-4a54-978b-e373a9bcb9ac">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8f26b529-dfa8-4600-8410-25d0b2767f5d">
+    <name>ВариантДампа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант дампа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВариантыДамповЦентрМониторинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="21c71a58-5abc-4712-bc0c-9ad000284c91">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="077855dd-fce7-4095-b415-bd7f75d074ff">
+  <producedTypes>
+    <objectType typeId="9942ef28-5cd3-4560-b101-478c44a2c23e" valueTypeId="88f874d2-c646-45b3-9d05-835fcfd39855"/>
+    <managerType typeId="a2893bfc-55a6-41f9-8d7c-d20a7289ff05" valueTypeId="e623d9a0-d0fb-4904-9e9e-dfcbaafde128"/>
+  </producedTypes>
+  <name>АнализИнцидентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ инцидентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализИнцидентов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="8a39c90b-0a20-4b3b-8890-9009d55a1b3e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="42255b53-b4ac-435c-93f2-cc80d0b99f47">
+    <name>АнализИнцидентовОткрыть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ инцидентов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7f17d5e-1e05-433a-9737-2c41671102cd">
+  <producedTypes>
+    <managerType typeId="84381962-5ebe-4232-a712-392a72a4bf65" valueTypeId="e78754aa-e25a-417e-acf4-e78215b0d2bc"/>
+    <valueManagerType typeId="61a4f317-d9b1-4e9a-9cae-41698ccda3af" valueTypeId="bfc7e557-316f-49cd-a5db-b9cce8a326d2"/>
+    <valueKeyType typeId="f74b6d58-6b4f-521c-b1dd-0ee3eb6dd655" valueTypeId="d3d103e4-aae4-5b53-8054-980625b87fd4"/>
+  </producedTypes>
+  <name>СерверВходящейПочтыPOP3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервер входящей почты (POP3)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>300</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Адрес POP3 сервера</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

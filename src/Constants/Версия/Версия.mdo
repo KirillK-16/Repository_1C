@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a4bc2cc-31e8-405e-be04-73067113d7d6">
+  <producedTypes>
+    <managerType typeId="911b3dcb-ba39-4c00-990e-ce241bd0e14c" valueTypeId="8f3cfb26-1afc-45d2-b320-67d89b28b848"/>
+    <valueManagerType typeId="e01ddd10-0699-4974-aef2-170e6ffb56b9" valueTypeId="9ce560e1-fa74-40f5-a272-ab13a421127a"/>
+    <valueKeyType typeId="7e81c9a1-32d0-5ab0-999b-69249fa38f5c" valueTypeId="fdec51af-ec45-5338-9e63-cf03cac1b97d"/>
+  </producedTypes>
+  <name>Версия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия текущего Центра Контроля Качества </value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>20</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

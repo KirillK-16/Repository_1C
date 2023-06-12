@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4710e33d-16f6-4070-9bbe-72cf0e14bc7a">
+  <producedTypes>
+    <objectType typeId="2ff1bf65-b577-426b-9481-d4e655fe440f" valueTypeId="ac017bc4-8c9b-46d8-bc5f-a8eb5ea97f64"/>
+    <managerType typeId="1dc4b5c0-dc11-456f-bddb-3f88cffd50fb" valueTypeId="c2e190c5-0eb9-4c4a-bc3e-3805150f083d"/>
+  </producedTypes>
+  <name>АнализЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.АнализЗадач.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.АнализЗадач.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="371f2ae5-ca95-46b5-a267-15896435fc80">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d12dbe37-68d6-4ad4-a97c-afc80a4f58b7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="e2aa261c-5dcc-492a-b124-84f72eed5dfe">
+    <name>ОткрытьФормуОтчетаАнализЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ задач</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

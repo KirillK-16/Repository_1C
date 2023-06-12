@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8055ca46-b274-4c84-b19d-e17adc838935">
+  <producedTypes>
+    <objectType typeId="bbc35d80-1a2a-45e0-aae2-24bfd5d9ae34" valueTypeId="2d11ac6d-99a5-416e-9bb2-9d6963c365cb"/>
+    <managerType typeId="73d75fd4-e029-4a85-8a3e-514b58d91b34" valueTypeId="ffc5eec8-74dd-48f1-801c-c9fc268f3bb6"/>
+  </producedTypes>
+  <name>ЧекЛист</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чек-лист</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ЧекЛист.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ЧекЛист.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="385f95c6-93ec-4d02-8ec4-df097dfd83a3">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="9d4511d3-fa1a-41e3-be78-a195f5e117a5">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

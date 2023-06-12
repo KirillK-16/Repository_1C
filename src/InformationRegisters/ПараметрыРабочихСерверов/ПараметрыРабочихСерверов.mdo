@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1942c23-e534-4ad8-a974-f9bb3aceca70">
+  <producedTypes>
+    <selectionType typeId="1b3282a8-d517-433c-9fe0-da09ca8005d7" valueTypeId="e8ca4afe-92a6-46f8-b991-8b890a6e5160"/>
+    <listType typeId="9412bcaf-3755-4d85-be94-c50a01e86674" valueTypeId="84222d9a-35bc-423c-984a-97735cf86f88"/>
+    <managerType typeId="b8a34ffb-1938-40d7-aa61-d581df0212d8" valueTypeId="4f9e0ef9-0075-41f5-9732-26c27203062b"/>
+    <recordSetType typeId="2a3f4c05-f350-4f7f-ab0b-64aec687f157" valueTypeId="c8703ea6-193b-408f-b62d-681d6dc476b0"/>
+    <recordKeyType typeId="777929f7-4bd8-436c-9338-7596e881a31d" valueTypeId="deec442c-591d-49f3-b5bc-a8e62b6f9219"/>
+    <recordType typeId="566eec5b-0441-4bda-b857-9e2244a35161" valueTypeId="90b31b1b-b869-4a01-a9d3-ddc4280df808"/>
+    <recordManagerType typeId="bc7fe63a-c186-4a49-8e6c-eae72e5fe17e" valueTypeId="76f03ec8-7686-49f0-b6f8-c7a09461cc20"/>
+  </producedTypes>
+  <name>ПараметрыРабочихСерверов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры рабочих серверов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e98c9e0a-5a41-43a4-abea-ed7c9f01940d">
+    <name>Кластер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кластер 1C:Предприятия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="3e0a9a26-1512-43f8-bd59-09264e207019">
+    <name>КаталогНастроекТЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя каталога файла настройки технологического журнала (logcfg.xml)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="6c54d6b1-f2ec-4a65-9ebd-a6b0f9340f89">
+    <name>КаталогНастроекТЖСетевой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог настроек ТЖСетевой</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="18875cf5-addb-4e74-8a0a-db2e125513db">
+    <name>КаталогОбменаДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог обмена данными</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="d91fef18-d0a5-456a-99e5-e8e82dec188c">
+    <name>КаталогОбменаДаннымиСетевой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог обмена данными сетевой</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="8d920a0e-8c95-44d7-844d-a0efd0b5a7c3">
+    <name>КаталогВременный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог временный</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="640382df-59b6-43f2-8d5d-00285d2e1444">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Оборудование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="6615fa89-7fa3-45b7-ac01-55867a969c1f">
+    <name>ДиапазонПортовОт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон портов от</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="178e33d8-c27e-4ccc-8025-01cdb36ab501">
+    <name>ДиапазонПортовДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон портов до</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="61248206-da4e-49de-ba40-34d764b14c40">
+    <name>ДиапазоныПортов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазоны портов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="7f204a48-db28-41fa-af47-4c2b6c44f44d">
+    <name>ОписаниеСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание сервера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="45712505-25b2-4bd1-a924-e780d2b2bd93">
+    <name>IPПорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>IP Порт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3aac4a04-a003-4b09-b505-defbb15dbbfe">
+    <name>МаксимальныйОбъемПамятиРабочихПроцессов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальный объем памяти рабочих процессов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b5baf6ba-8eab-4ad0-98b2-9a90950199e5">
+    <name>БезопасныйРасходПамятиЗаОдинВызов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безопасный расход памяти за один вызов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eaa8216b-76ee-4d05-b3f3-06a4e2c92291">
+    <name>ОбъемПамятиРабочихПроцессовДоКоторогоСерверСчитаетсяПроизводительным</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем памяти рабочих процессов до которого сервер считается производительным</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9b4a492a-ff9b-46d0-a721-5f64f5ecf4b9">
+    <name>КоличествоИбНаПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество иб на процесс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7d724931-1751-43d0-b01a-79e989b55b21">
+    <name>КоличествоСоединенийНаПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество соединений на процесс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="564c276e-1e47-464c-b39d-6cbdf31823c2">
+    <name>ПортГлавногоМенеджераКластера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт главного менеджера кластера</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c2015368-c5ce-444e-a91d-a7db80aae175">
+    <name>МенеджерНаКаждыйСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер на каждый сервис</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="676aabee-a251-4e68-ae30-119a4f71fc77">
+    <name>ЦентральныйСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Центральный сервер</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="51295944-010c-4a80-8018-63de475059b4">
+    <name>ОбъектКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект контроля</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыОбъектовКонтроля</types>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b193d243-24dc-4b75-bed0-40616b283033">
+    <name>ФормаЗначенияПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма значения по умолчанию</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="5e5b61e0-4865-4657-a479-a1539daa23e8">
+    <name>РабочиеСерверыЗначенияПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочие серверы</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

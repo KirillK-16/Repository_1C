@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef16d833-8fb2-4273-af90-ef5896522e83">
+  <name>КонтрольПодключений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль подключений</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.НастройкиКонтрольПодключений</content>
+  <content>BusinessProcess.КонтрольПодключений</content>
+  <content>Catalog.ТипыИсполнителейКонтрольПодключений</content>
+  <content>CommonTemplate.КонтрольПодключений</content>
+  <content>CommonTemplate.КонтрольПодключенийНевозможноПодключиться</content>
+  <content>Catalog.ТипыЗадачКонтрольПодключений</content>
+  <content>CommonModule.КонтрольПамятиСервер</content>
+  <content>Enum.МеханизмыПроверкиПодключения</content>
+  <content>Constant.ВыполнятьКонтрольныеПодключенияВнешнимиСредствами</content>
+  <content>InformationRegister.ЗаписиОПодключениях</content>
+  <content>CommonModule.КонтрольПодключенийСервер</content>
+  <content>InformationRegister.ЛожныеТревогиКонтрольПодключений</content>
+  <content>InformationRegister.ДоступностьИнформационныхБаз</content>
+</mdclass:Subsystem>

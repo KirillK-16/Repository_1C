@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="409fd3d1-0494-4cf9-ae37-71dfbea2d4c2">
+  <producedTypes>
+    <managerType typeId="b276e84e-c86a-426a-b368-14fc08468b95" valueTypeId="9d360ae5-7b79-4568-b878-2d38d9c7aa18"/>
+    <valueManagerType typeId="645c81d3-c19f-46ff-a5a6-a32035cb7aa8" valueTypeId="fbfcb259-ccf9-4bdf-83cd-e3801642cd1d"/>
+    <valueKeyType typeId="5896644f-25ab-516a-b87b-b3885743445a" valueTypeId="b5e4e2bd-d1d7-5fc4-b585-82f315e1609d"/>
+  </producedTypes>
+  <name>ОперацияАктивностьПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операция активность пользователей</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ОперацииБизнесСтатистики</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

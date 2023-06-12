@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb659565-0014-455a-ab0c-81b1d246a5e7">
+  <producedTypes>
+    <objectType typeId="9823875f-bc6c-4e51-b938-dae428e58553" valueTypeId="333792d8-5180-48ff-8e7d-c471df044240"/>
+    <managerType typeId="698e93c1-9be5-4aa4-8061-c0b92e5f7eba" valueTypeId="9e2bae42-313d-4f48-ad96-9b95ac3456ba"/>
+  </producedTypes>
+  <name>СхемаОповещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Схема оповещений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СхемаОповещений.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="342d4079-854a-48c1-8229-e305efc3e33a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="50117434-52a2-4ffa-8fbf-80e08c7a1823">
+    <name>СхемаОповещенийКонтрольныхПроцедур</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема оповещений контрольных процедур</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcf6a2d1-1c4e-4fa4-98c9-fab0c8d61723">
+  <producedTypes>
+    <managerType typeId="672f7a3e-b191-4cdc-bc4f-89f53858074e" valueTypeId="c43ff8f4-3c67-4440-8795-ef02a40c72cc"/>
+    <valueManagerType typeId="28b72b02-7368-4886-a1a9-f7e32f744db6" valueTypeId="70e586e8-5156-400e-b62f-5ff7a8958ad0"/>
+    <valueKeyType typeId="cef7bb31-7513-5d23-88a5-2ab4bd738f26" valueTypeId="5264a501-182e-520e-99d9-ec4c05013988"/>
+  </producedTypes>
+  <name>ПриниматьОтчетыЦКК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Принимать отчеты о работоспособности от других ЦКК</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

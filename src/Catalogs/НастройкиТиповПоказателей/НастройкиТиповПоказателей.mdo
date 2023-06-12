@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c63a1c29-44a8-4965-9605-e03f612876eb">
+  <producedTypes>
+    <objectType typeId="6745d0cf-e324-4f87-afa7-d2f31ae4826f" valueTypeId="0648b40e-00cd-49a7-a762-efaf21e1bdc8"/>
+    <refType typeId="580d5618-e8c3-4f5a-a4d8-8ebd4c146086" valueTypeId="d741472d-3eac-4afc-b9fd-5edbd5d49d71"/>
+    <selectionType typeId="4dfd8c27-89d3-446f-94b8-b20420c9ecd0" valueTypeId="e0c63a25-71c2-4fb9-9244-d3d1d05f7e16"/>
+    <listType typeId="97bbf7cf-d926-4e54-9cef-3252ad4898b9" valueTypeId="0c15813f-4fc0-4db5-9d73-0e183a5519c4"/>
+    <managerType typeId="987838b4-8a10-4789-a78a-493f7e10752c" valueTypeId="b20da58a-823b-4793-bbb8-911cc51618e9"/>
+  </producedTypes>
+  <name>НастройкиТиповПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки типов показателей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НастройкиТиповПоказателей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НастройкиТиповПоказателей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Настройка типа показателя</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Настройки типов показателей</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="5c9a1b34-9abe-42d4-9fb2-d68720af9ee9">
+      <name>ПоказателиAPDEX</name>
+      <description>APDEX</description>
+      <code xsi:type="core:StringValue">
+        <value>000000015</value>
+      </code>
+    </items>
+    <items id="f3005b87-a1e9-4843-9ce1-d104ef96b6c8">
+      <name>ЧислоИсключенийПоТехнологическомуЖурналу</name>
+      <description>EXCP по тех. журналу</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="4b3f6878-aed5-42ec-be86-a244e4036e43">
+      <name>ТекущееЧислоВызововСервера</name>
+      <description>Активных вызовов сервера</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="6e12383a-7575-4904-87d9-ed325706c06c">
+      <name>ПроцентДоступностиСервисаВсеБазы</name>
+      <description>Доступность сервиса (все базы)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000016</value>
+      </code>
+    </items>
+    <items id="d2ed3baf-3f33-44da-af81-61889150fca5">
+      <name>ПроцентДоступностиСервисаВсеРесурсы</name>
+      <description>Доступность сервиса (все ресурсы)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000017</value>
+      </code>
+    </items>
+    <items id="46cf678b-eeca-4764-9ccf-8dcfaef57252">
+      <name>ИспользованиеОперативнойПамятиПроцессамиКластера</name>
+      <description>Использование оперативной памяти</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="7aa9bf5f-dc28-47df-b175-36e67551c3bb">
+      <name>ЧислоНерешенныхПроблем</name>
+      <description>Новые проблемы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="1b61da3d-97b5-46a4-800d-178266abdf58">
+      <name>ЧислоНовыхОбъектов</name>
+      <description>Новых объектов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="fa8d3bfb-5f71-45e9-88e7-a13d7334c9c8">
+      <name>ОценкаПользователей</name>
+      <description>Оценка пользователей</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="d1e1ab58-d76f-4f6d-9178-18f7b64cad4d">
+      <name>ЧислоПаденийРабочихПроцессов</name>
+      <description>Падений рабочих процессов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="9c918c3d-980e-4fb1-82ba-ec33b062e5d7">
+      <name>ПоказателиСчетчиков</name>
+      <description>Показатели счетчиков</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="20bef973-9792-4256-86a5-ad456edd333e">
+      <name>СкоростьРазбораПроблем</name>
+      <description>Решенные проблемы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="a63a8f99-d701-41dc-834f-b10f3f9def02">
+      <name>ПоказателиСкоростиВыполненияТипичныхОпераций</name>
+      <description>Скорость выполнения операций</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="198e4a07-070b-4a87-904f-472b6ddb413b">
+      <name>СформированоОтчетов</name>
+      <description>Сформировано отчетов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="8a5665be-7986-4309-9a57-04bc65d5c2ac">
+      <name>ЧислоСеансовПользователей</name>
+      <description>Число сеансов пользователей</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НастройкиТиповПоказателей.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.НастройкиТиповПоказателей.Form.ФормаСписка</defaultListForm>
+  <forms uuid="24d46898-13c8-4a32-8f05-3c4c67b7f9a6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1f4c16a3-2bf0-4c29-816b-e23966110566">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f13feb3-3d72-4c3c-8552-afabd66f8602">
+  <name>СборДамповНайденФайлБывшийВОбработке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сбор дампов найден файл бывший в обработке</value>
+  </synonym>
+  <templateType>HTMLDocument</templateType>
+</mdclass:CommonTemplate>

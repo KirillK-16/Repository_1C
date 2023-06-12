@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="847df030-6824-43dd-9573-54ae5053c55b">
+  <name>Информация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общая и системная информация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ИнформацияИстория</content>
+  <content>InformationRegister.ИнформацияСрезПоследних</content>
+  <content>Catalog.ГруппыПользователейЦентрМониторинга</content>
+  <content>InformationRegister.ИнформацияИсторияПодробно</content>
+  <content>InformationRegister.КонтактыИнформационныхБаз</content>
+  <parentSubsystem>Subsystem.ЦентрМониторингаИмпорт</parentSubsystem>
+</mdclass:Subsystem>

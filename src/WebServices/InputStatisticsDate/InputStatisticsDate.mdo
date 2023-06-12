@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e536cd0-24ee-4920-be61-b6750811f3ef">
+  <name>InputStatisticsDate</name>
+  <synonym>
+    <key>ru</key>
+    <value>Input statistics date</value>
+  </synonym>
+  <namespace>http://1c.ru</namespace>
+  <descriptorFileName>InputStatisticsDate.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="f8be65c5-e595-4871-9385-1b0800f14f4a">
+    <name>InputData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Input data</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>InputData</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="a91308cb-6026-4cce-82d8-6cbad0f0784c">
+      <name>InDateTime</name>
+      <synonym>
+        <key>ru</key>
+        <value>In date time</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="08df7c15-7e47-40dd-bcd8-77dedb2dd1be">
+      <name>inParam</name>
+      <synonym>
+        <key>ru</key>
+        <value>In param</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

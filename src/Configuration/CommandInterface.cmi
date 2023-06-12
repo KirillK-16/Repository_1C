@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsVisibility>
+    <visibilityFragments>
+      <subsystem>Subsystem.Мониторинг</subsystem>
+      <visible>
+        <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.Мониторинг</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ПолныеПрава</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+  </subsystemsVisibility>
+  <subsystemsOrder>
+    <subsystems>Subsystem.Мониторинг</subsystems>
+    <subsystems>Subsystem.Отчеты</subsystems>
+    <subsystems>Subsystem.НормативноСправочнаяИнформация</subsystems>
+    <subsystems>Subsystem.СценарииАдминистрирования</subsystems>
+    <subsystems>Subsystem.ОбновлениеСценариевИСкриптов</subsystems>
+    <subsystems>Subsystem.ЦентрМониторингаИмпорт</subsystems>
+    <subsystems>Subsystem.Настройки</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

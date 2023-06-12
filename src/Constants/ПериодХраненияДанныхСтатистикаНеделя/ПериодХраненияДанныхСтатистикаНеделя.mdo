@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d30e944-a4c9-4527-9a22-693ee7d41b32">
+  <producedTypes>
+    <managerType typeId="0cc69ef1-14db-497f-8b57-b272c924d8c0" valueTypeId="21b5e05b-39b3-4ed9-afc1-540ca80ae6ee"/>
+    <valueManagerType typeId="aadcd100-2f5f-4ff2-8de9-b843adee6c66" valueTypeId="2bdb99bf-0256-40e1-97cf-299eb4438e04"/>
+    <valueKeyType typeId="99c5323c-1751-5512-95c1-0cfbe97ee35e" valueTypeId="6d1ac195-2d1b-5579-8bdb-d8a2e7292722"/>
+  </producedTypes>
+  <name>ПериодХраненияДанныхСтатистикаНеделя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период хранения данных статистика неделя</value>
+  </synonym>
+  <comment>Сколько дней хранятся обработанные данные в регистре сведений &quot;СтатистикаНеделя&quot;, если равен нулю, то по умолчанию берется значений 7</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

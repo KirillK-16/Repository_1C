@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9caec30-faf4-4007-865d-a3986160451e">
+  <name>УдалитьВнутренниеЗамерыПроизводительности</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Не используется) внутренние замеры производительности</value>
+  </synonym>
+  <location>Constant.ОтображатьВнутренниеЗамерыПроизводительности</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ОбъектыКонтроля.Command.НастройкиЦКК</content>
+</mdclass:FunctionalOption>

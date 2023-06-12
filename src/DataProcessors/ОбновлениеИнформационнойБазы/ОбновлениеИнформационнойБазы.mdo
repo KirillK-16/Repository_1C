@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8d75d5d-7671-4799-9cd8-cbdc9aecbec6">
+  <producedTypes>
+    <objectType typeId="130f3cd7-82fe-4525-98c6-52ca590f500f" valueTypeId="ce2ca589-991a-4ceb-bab9-b09ca463f837"/>
+    <managerType typeId="26da8eb3-8488-4fb0-878f-ec2343f6311f" valueTypeId="096e7ab9-deb9-4830-ba75-45629716c83e"/>
+  </producedTypes>
+  <name>ОбновлениеИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление информационной базы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбновлениеИнформационнойБазы.Form.Форма</defaultForm>
+  <attributes uuid="d830ab47-ff88-4d06-96a2-e54fce303e9c">
+    <name>ТекущаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущая информация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8e4656d2-a71e-4f2e-99e3-9d434cce6d4b">
+    <name>ТекущееЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущее значение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="59144155-d5d5-46d6-b1b9-1afd24c9ef0f">
+    <name>ХодВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ход выполнения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f05f0511-8ebe-4f46-82c0-dd6013b8542b">
+    <name>ПроверятьТекущееСостояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять текущее состояние</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4feab52f-f5fd-4d68-b250-ba5d09bf0357">
+    <name>ЭтоПервыйЗапуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это первый запуск</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e0bf8977-f07f-42ce-9abf-e6dcfd3fe0da">
+    <name>ЧислоПотоковОбновленияИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число потоков обновления ИБ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="034fb656-a818-46e9-9ca4-ee2972bd47da">
+    <name>КрайняяВерсияОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Крайняя версия обновления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="760e0623-28ed-4dc8-bbb1-0e3c1014eec7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4a022a8-a25b-4e9b-92c7-5232cf87a668">
+  <name>Ошибки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ОшибкиЦентрМониторинга</content>
+  <content>Catalog.ТипыОшибокЦентрМониторинга</content>
+  <content>Catalog.КлассыОшибокЦентрМониторинга</content>
+  <content>Catalog.СтекиОшибокЦентрМониторинга</content>
+  <content>Report.ОшибкиЦентрМониторинга</content>
+  <parentSubsystem>Subsystem.ЦентрМониторингаИмпорт</parentSubsystem>
+</mdclass:Subsystem>

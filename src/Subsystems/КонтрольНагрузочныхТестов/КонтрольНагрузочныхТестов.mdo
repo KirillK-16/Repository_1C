@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6702c1ce-d402-4b30-b52a-0d2f1606802a">
+  <name>КонтрольНагрузочныхТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль нагрузочных тестов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>BusinessProcess.КонтрольНагрузочныхТестов</content>
+  <content>InformationRegister.НастройкиКонтрольНагрузочныхТестов</content>
+  <content>Catalog.ТипыЗадачКонтрольНагрузочныхТестов</content>
+  <content>Catalog.ТипыИсполнителейКонтрольНагрузочныхТестов</content>
+  <content>Catalog.ЗапускиНагрузочногоТестирования</content>
+</mdclass:Subsystem>

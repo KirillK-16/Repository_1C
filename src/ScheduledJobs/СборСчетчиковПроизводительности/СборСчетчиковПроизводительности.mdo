@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b84db9a3-60de-4388-87e0-79e4683f3918">
+  <name>СборСчетчиковПроизводительности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сбор счетчиков производительности</value>
+  </synonym>
+  <methodName>CommonModule.КипВнешнийКомпонент.СтартСбораПроизводительности</methodName>
+  <description>СборСчетчиковПроизводительности</description>
+  <key>0e00ee10-d707-4a36-a988-3e232dac9925</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

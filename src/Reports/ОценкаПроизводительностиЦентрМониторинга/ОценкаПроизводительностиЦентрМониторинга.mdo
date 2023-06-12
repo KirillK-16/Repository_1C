@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01ece472-a0c8-46d4-a578-ffd4953baec9">
+  <producedTypes>
+    <objectType typeId="8f8a76a5-d2f7-4716-a71c-c237fb85419d" valueTypeId="2fe685e9-eaed-42d9-b2b4-ab36a3781ec9"/>
+    <managerType typeId="dcc435f0-4b66-4cba-8fcb-0f13a895c7c2" valueTypeId="423747b5-6231-40cb-ab41-e59778373fc8"/>
+  </producedTypes>
+  <name>ОценкаПроизводительностиЦентрМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка производительности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОценкаПроизводительностиЦентрМониторинга.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОценкаПроизводительностиЦентрМониторинга.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="1cc94046-3956-439b-82d2-cfca1df84a12">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="70f57cef-ce0a-4a0c-a1d5-6a9d27f5e883">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="db7032ad-f71e-494b-9d24-1997b4fad15e">
+    <name>ОценкаПроизводительностиЦентрМониторинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка производительности</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

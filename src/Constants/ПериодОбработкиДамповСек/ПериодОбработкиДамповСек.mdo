@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b26c63f4-3947-404a-96aa-c9607dac0042">
+  <producedTypes>
+    <managerType typeId="65e57794-47d8-43e1-a950-b93f002b4c04" valueTypeId="2a676bed-0eec-4e19-953c-add0c4e01006"/>
+    <valueManagerType typeId="fabc3898-ce4f-44fd-9ec9-5c9cb19e5d1d" valueTypeId="b30c6878-ec04-41ba-b89d-15d4c6ca5c67"/>
+    <valueKeyType typeId="9d97a45b-c9c0-5d85-9551-617d1eeb5ff9" valueTypeId="ac82f5d7-9ae7-588c-878f-bfa471b994a8"/>
+  </producedTypes>
+  <name>ПериодОбработкиДамповСек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период обработки дампов в секундах</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

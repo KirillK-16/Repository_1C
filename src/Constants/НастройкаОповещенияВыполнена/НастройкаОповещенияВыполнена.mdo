@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f69aea00-07ed-4ad1-8b17-eb7d613258b4">
+  <producedTypes>
+    <managerType typeId="6f950abe-25d1-4100-8e60-d8c66d462155" valueTypeId="20bad199-5708-4506-ab9f-6db98f7465ea"/>
+    <valueManagerType typeId="fd20e333-c1a0-46d3-88c0-69ea934c803a" valueTypeId="d6f8f958-a24d-461c-b388-7f63cf69b726"/>
+    <valueKeyType typeId="8c4daa90-3534-5b42-8d19-3b7251fa3b73" valueTypeId="1a69f33d-085c-59a3-bf34-283939b402db"/>
+  </producedTypes>
+  <name>НастройкаОповещенияВыполнена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка оповещения была выполнена</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

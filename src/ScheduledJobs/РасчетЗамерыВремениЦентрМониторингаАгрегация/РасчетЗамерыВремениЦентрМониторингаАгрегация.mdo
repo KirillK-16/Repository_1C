@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="379b8e85-87c7-4da9-98ca-b9dec6a4563b">
+  <name>РасчетЗамерыВремениЦентрМониторингаАгрегация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет замеры времени центр мониторинга агрегация</value>
+  </synonym>
+  <methodName>CommonModule.ЦентрМониторингаИмпортСлужебный.РассчитатьЗамерыВремениЦентрМониторингаАгрегация</methodName>
+  <description>Расчет замеры времени центр мониторинга агрегация</description>
+  <key>fd94babb-e420-4cd0-87f7-4060ec68f2e3</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

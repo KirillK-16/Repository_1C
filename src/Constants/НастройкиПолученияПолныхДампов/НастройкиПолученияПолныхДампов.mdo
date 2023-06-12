@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1db62070-af33-4e02-9901-dd7289de74ca">
+  <producedTypes>
+    <managerType typeId="e96fcb0a-b9f3-441a-aa48-acf5ddb18f4b" valueTypeId="eed4f651-ce9d-4765-a131-4b9929fbaeb6"/>
+    <valueManagerType typeId="2dc6fc16-0f95-43b5-81de-021c04199908" valueTypeId="7fc55fc1-900b-46d8-8290-7f4f93bc5c18"/>
+    <valueKeyType typeId="7fb18a27-eee2-5de5-9296-49796bc6d6b7" valueTypeId="f64be027-0f70-591e-9eca-ab969f95f421"/>
+  </producedTypes>
+  <name>НастройкиПолученияПолныхДампов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки получения полных дампов</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

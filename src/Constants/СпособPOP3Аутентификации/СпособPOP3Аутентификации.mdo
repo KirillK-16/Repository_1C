@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c8caf16-dcc9-4abc-8072-79a1c961301e">
+  <producedTypes>
+    <managerType typeId="5cd240c6-c2bd-46ec-b149-fc1e7b4eaa15" valueTypeId="80870232-6d28-4e3e-a067-623750a9de0e"/>
+    <valueManagerType typeId="8e2126c3-6082-4847-9473-176426f43d72" valueTypeId="bacc9a16-fbef-4f53-8ad3-542f81564187"/>
+    <valueKeyType typeId="fbbc2e07-8533-5d32-ba57-d860820c0775" valueTypeId="71c5e86f-b335-50c8-a4a2-a87349119700"/>
+  </producedTypes>
+  <name>СпособPOP3Аутентификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ POP3 аутентификации</value>
+  </synonym>
+  <type>
+    <types>EnumRef.СпособыPOP3Аутентификации</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Способ аутентификации на POP3 сервере</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

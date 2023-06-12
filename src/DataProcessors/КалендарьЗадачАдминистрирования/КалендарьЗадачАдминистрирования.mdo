@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="595f507a-8e8c-4497-8695-a1d637a4ec67">
+  <producedTypes>
+    <objectType typeId="ae8549fc-473f-48a7-b3a1-f20e89a42e6c" valueTypeId="78d5467d-5e6e-448f-a592-8ea025acdd77"/>
+    <managerType typeId="8df5687f-8b20-46ad-882a-a1b509ef8c89" valueTypeId="ad70e1b4-1584-46c2-af79-c26c9f1306c3"/>
+  </producedTypes>
+  <name>КалендарьЗадачАдминистрирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Календарь задач администрирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КалендарьЗадачАдминистрирования.Form.КалендарьЗадачАдминистрирования</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="2e5d3dfe-51b2-4a82-be1c-e8a9d694b860">
+    <name>КалендарьЗадачАдминистрирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Календарь задач администрирования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e894c7bc-aae5-4977-bee9-ed3c50384eb2">
+    <name>ФормаРасписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма расписания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7f151761-c8af-4e8e-8546-53a34e2cf157">
+    <name>ФормаУдаления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма удаления</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

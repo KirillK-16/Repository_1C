@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca7ddc03-fac7-4d16-8589-0bf07f3ebea1">
+  <producedTypes>
+    <selectionType typeId="fe317d60-70bc-4859-b0db-dc247a14bae9" valueTypeId="d50bb01a-74c2-485c-98fc-f6265962cd40"/>
+    <listType typeId="a506a763-4491-44b5-8e37-fef90b71938b" valueTypeId="672f9d60-79e7-4e4c-a2de-d6be1498ca90"/>
+    <managerType typeId="22a89e3e-6e74-4de8-85e1-4e983d9f2768" valueTypeId="8366b2f2-c500-4446-9e80-e0732101fe3b"/>
+    <recordSetType typeId="61990df0-ab21-47cd-9173-2d0a78bfeada" valueTypeId="234843ec-8315-49bf-a4e3-941027a11ac2"/>
+    <recordKeyType typeId="925888a3-f747-4d20-9c92-f8de61fabf79" valueTypeId="589aadc5-4d8f-4082-9225-0b9dd15e7a35"/>
+    <recordType typeId="23a46ab4-df01-48d5-aa6d-d70e2d0f5f48" valueTypeId="28e6e011-5af3-4f95-ba84-cd4d2ef2941f"/>
+    <recordManagerType typeId="982f3ddc-c660-4045-a948-19ad9e26ae65" valueTypeId="06ccc2ca-3bf3-43cd-95cf-f40f873a18e0"/>
+  </producedTypes>
+  <name>КомментарииБизнесСтатистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комментарии прикладной статистики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3d31f12e-6274-4bdb-82bf-abadb7cb23c4">
+    <name>КоличествоЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество значений</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="18a02b58-2b3a-426f-8764-839c84e9d16e">
+    <name>ОперацияБизнесСтатистики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция бизнес статистики</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОперацииБизнесСтатистики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="d5674dfa-a6a3-47a3-90dc-f06495607109">
+    <name>КомментарийБизнесСтатистики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий бизнес статистики</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КомментарииБизнесСтатистики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="985bea74-1826-43e0-adf9-a58083ff6669">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

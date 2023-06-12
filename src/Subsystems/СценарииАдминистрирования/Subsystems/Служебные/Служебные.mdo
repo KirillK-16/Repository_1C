@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e17959a-33f4-4dc0-bb81-773890cb9e2d">
+  <name>Служебные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.ОформлениеЗадачАвтоматизацииВКалендаре</content>
+  <content>Catalog.ХранилищеКонфиденциальнойИнформации</content>
+  <content>InformationRegister.ПараметрыОтладкиСкриптов</content>
+  <content>Catalog.ШагиАвтоматизации</content>
+  <content>InformationRegister.ПрограммныйИнтерфейсАвтоматизации</content>
+  <content>InformationRegister.АсинхронноеВыполнениеСценариев</content>
+  <content>InformationRegister.ПараметрыШаговАвтоматизации</content>
+  <content>InformationRegister.ПланЗапускаСценариевАвтоматизации</content>
+  <content>InformationRegister.СтруктураШаговСценария</content>
+  <content>InformationRegister.ШаблоныЗаполненияПараметровСценариев</content>
+  <content>InformationRegister.ЗадачиОбновленияСценариевАдминистрирования</content>
+  <content>InformationRegister.ВерсииПоставки</content>
+  <content>InformationRegister.ПрограммныйИнтерфейсАвтоматизацииПараметры</content>
+  <content>InformationRegister.ОповещенияОЗавершенииСценариев</content>
+  <content>InformationRegister.ИсторияСостоянийСценариев</content>
+  <content>InformationRegister.БезопасноеХранилище</content>
+  <parentSubsystem>Subsystem.СценарииАдминистрирования</parentSubsystem>
+</mdclass:Subsystem>

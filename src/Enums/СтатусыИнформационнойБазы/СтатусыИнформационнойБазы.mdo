@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d126a6b-903a-4ff7-b1d3-e33fd81d4c3f">
+  <producedTypes>
+    <refType typeId="ee6f23f6-be21-4eb8-8cd3-48d1c5535c21" valueTypeId="21b813c7-b4a8-47e0-a0db-8c000f449310"/>
+    <listType typeId="4b969b3b-1437-454c-b984-032015adf7cd" valueTypeId="428248f4-b457-4154-ab2e-9429ade531b8"/>
+    <managerType typeId="279af7f5-c044-494b-951c-850fe4fb8e24" valueTypeId="cdabfbd1-c4c8-4848-b720-c1781bdc0ca9"/>
+  </producedTypes>
+  <name>СтатусыИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы информационной базы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f0efc5a6-7d56-4b0b-8743-daca19e47673">
+    <name>СтатусНеустановлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус неустановлен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f346a62-0f31-4a0b-ae31-0e639afec62e">
+    <name>Продуктивная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продуктивная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55d05eb2-4ef8-4a77-8b7f-184f5aa6208c">
+    <name>ПродуктивнаяПоАктивности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продуктивная (по активности пользователей)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="28387787-c22f-4b2c-82a9-02cb30cde9b0">
+    <name>ПродуктивнаяПоПриросту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продуктивная (по приросту данных)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="821b645d-09ea-412c-b650-d883f3602a46">
+    <name>ТестоваяДемо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестовая (демо)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="703a35d7-be04-4501-b6dc-6d36878b9e42">
+    <name>Тестовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестовая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

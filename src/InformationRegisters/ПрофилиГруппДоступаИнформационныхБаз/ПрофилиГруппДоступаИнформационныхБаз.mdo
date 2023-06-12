@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24db3673-1e9d-4d0e-86e2-f07d9f226223">
+  <producedTypes>
+    <selectionType typeId="8d636a44-ae40-444b-bfec-131604c263bf" valueTypeId="25c3228f-75c0-452c-ae4e-eee2040c5478"/>
+    <listType typeId="bdede622-d3da-470b-8df4-34dec2d6509c" valueTypeId="dcf8d0ba-f3db-4c69-82c0-c4a72a2c5d12"/>
+    <managerType typeId="f4dead3a-d260-429c-8813-facee3d391ff" valueTypeId="38082db0-9344-4a07-a610-59a4ece4d043"/>
+    <recordSetType typeId="c6e58a69-3259-4725-80c6-a6ddc265247d" valueTypeId="4ad21877-6dca-4dea-bf40-acb2a2c6b112"/>
+    <recordKeyType typeId="53b3245a-244a-4ab3-9233-054cda65c172" valueTypeId="a6dc69c4-ee93-4186-8771-d75294fd2282"/>
+    <recordType typeId="71b08f61-c9b1-4cc3-9fa9-94505298db23" valueTypeId="4809bc92-57ca-4bad-92aa-d8de9f0043dd"/>
+    <recordManagerType typeId="43fe9f05-1c40-4bbd-873f-2b8421b05ad4" valueTypeId="d91ce340-536c-41fb-bcd0-da583d782ae1"/>
+  </producedTypes>
+  <name>ПрофилиГруппДоступаИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профили групп доступа информационных баз (центр мониторинга)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1e8979ee-4bb7-41ab-bf92-5d8c9c3dba58">
+    <name>ДействительныхПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действительных пользователей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="653a5292-15a3-43eb-b767-37d3fcd72de5">
+    <name>ДействительныхГруппПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действительных групп пользователей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1d02a59d-3fa6-4c94-85a2-a5a91ce2ef77">
+    <name>ДействительныхВнешнихПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действительных внешних пользователей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f6f5a53a-e5b0-4158-b62e-a726af43a8df">
+    <name>ДействительныхВнешнихГруппПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действительных внешних групп пользователей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cc71d7c6-bf45-4f3f-94e9-78f26fd0afd7">
+    <name>ВидовДоступаОбщее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Видов доступа (общее)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="be531374-5bdc-4454-800f-31cde5273873">
+    <name>ВидовДоступаПредустановленных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Видов доступа (предустановленные)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8085d019-8b00-4950-a298-43345c98fbb1">
+    <name>ГруппДоступаОбщее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групп доступа (общее)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3ff6a058-69b0-4c3b-b096-2baef5590b01">
+    <name>ГруппДоступаПерсональных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групп доступа (персональные)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="890712eb-927c-45d9-8956-167dd2afb6b7">
+    <name>Поставляемый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставляемый</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bae71a32-d2cb-49ea-a6ca-0166d5ba3e1d">
+    <name>ПоставляемыйИзменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставляемый изменен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="979d7b73-c03b-4c91-bbe6-7b77be0407c7">
+    <name>АктивныхЗаНеделю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активных за неделю</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d54008bd-63a9-4b01-8380-384115164a02">
+    <name>АктивныхЗаМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активных за месяц</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b45ce8e3-d3d7-4b27-acb3-a157d10e58cb">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="0c2e99eb-7da0-493b-9b1f-2eed71e37018">
+    <name>ПрофильГруппДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль групп доступа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрофилиГруппДоступаЦентрМониторинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

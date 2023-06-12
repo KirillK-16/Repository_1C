@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1631069a-3900-4780-af75-3492874e51ba">
+  <producedTypes>
+    <managerType typeId="eb0f2efb-e327-46be-b657-a35293e09fca" valueTypeId="cb52003b-bce5-4c0d-9348-b407039ed622"/>
+    <valueManagerType typeId="859eb37b-0a12-4cd4-b9fb-3ec55022529f" valueTypeId="40c0a167-6165-4de8-a0e3-87480b7ad34e"/>
+    <valueKeyType typeId="dacd0d0f-f570-5fcd-968a-1298011568e3" valueTypeId="19b720cc-2912-5dc1-a438-15a4a3833d63"/>
+  </producedTypes>
+  <name>ЗадержкаПолученияДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задержка получения данных, дней</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

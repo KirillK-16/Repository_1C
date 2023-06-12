@@ -1,0 +1,12 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="www.v8.1c.ru/qmc/performace-analyze/ErrorApdexExport">
+	<property xmlns:d2p1="www.v8.1c.ru/qmc/performace-analyze/ErrorApdexExport" name="AnalysisData" type="d2p1:PerformanceErrors"/>
+	<objectType name="Error">
+		<property name="NameOfKeyOperation" type="xs:string"/>
+		<property name="Configuration" type="xs:string"/>
+		<property name="Version" type="xs:string"/>
+		<property name="APDEX" type="xs:double"/>
+	</objectType>
+	<objectType name="PerformanceErrors">
+		<property xmlns:d3p1="www.v8.1c.ru/qmc/performace-analyze/ErrorApdexExport" name="Errors" type="d3p1:Error" upperBound="-1"/>
+	</objectType>
+</package>

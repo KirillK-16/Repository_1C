@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07f6005f-799c-4cb2-9452-ad11fb2509fc">
+  <producedTypes>
+    <managerType typeId="ab08a3e3-d54e-4009-824a-b49515440e77" valueTypeId="8e44cf1b-3ca5-46c6-96b2-4ad146fa0cff"/>
+    <valueManagerType typeId="623bddfc-c486-472b-860f-202a3336666c" valueTypeId="e329a691-78e7-4a7a-86b2-ec7415e2dc7d"/>
+    <valueKeyType typeId="ce6dadaa-5e5c-5cbc-a250-ac7a0123624d" valueTypeId="478fa44e-150f-5c2b-8722-b40f7ffba8b1"/>
+  </producedTypes>
+  <name>КоличествоДамповНовогоВарианта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество дампов нового варианта</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

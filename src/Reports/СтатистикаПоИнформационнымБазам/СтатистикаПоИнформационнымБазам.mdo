@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d9ff526-5d3e-4044-95c5-c7b8a5b2184c">
+  <producedTypes>
+    <objectType typeId="19df6748-5d05-4c6b-af0b-f0552085a228" valueTypeId="d4b96bc4-c7c3-4924-8e99-38e0fe971e99"/>
+    <managerType typeId="1e3ca664-d524-4505-850b-a931965cee62" valueTypeId="c49b74e9-b9b9-4622-97cd-2c91a238fa4d"/>
+  </producedTypes>
+  <name>СтатистикаПоИнформационнымБазам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика по информационным базам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СтатистикаПоИнформационнымБазам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="c1b67977-2906-43db-863c-904601c34cf8">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="a93f1838-5578-4d4d-92fd-a55b8973d64d">
+    <name>СтатистикаПоИнформационнымБазам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статистика по информационным базам</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

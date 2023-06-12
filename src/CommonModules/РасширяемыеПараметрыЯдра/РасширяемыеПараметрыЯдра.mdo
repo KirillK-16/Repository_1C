@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9337ce72-61dd-4ff9-81dc-5bce05ec4a9d">
+  <name>РасширяемыеПараметрыЯдра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширяемые параметры ядра</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

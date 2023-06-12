@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19f1874a-72b3-40fb-b3a9-c62b87074de0">
+  <name>ТехнологическийЖурнал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Технологический журнал</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

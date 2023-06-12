@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b98a7ec3-a06b-4e45-a518-15979be1eca3">
+  <producedTypes>
+    <managerType typeId="727c0585-b68e-40f3-a2ed-36beaca6fe0e" valueTypeId="9cb5b954-a43c-4883-9200-06c615efbfda"/>
+    <valueManagerType typeId="bd9eb72d-c30b-4d67-9038-69a06c989797" valueTypeId="6023f1aa-90c8-409a-82b0-470f899307c8"/>
+    <valueKeyType typeId="f56a3f06-468c-5877-a059-4399afd70a50" valueTypeId="178f80b3-35bd-5afd-9dc9-e159f29f3658"/>
+  </producedTypes>
+  <name>ИспользоватьЗащищенноеСоединениеСSMSПровайдером</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать защищенное соединение с SMS провайдером</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

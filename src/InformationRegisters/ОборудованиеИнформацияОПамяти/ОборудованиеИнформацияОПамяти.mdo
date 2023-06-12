@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f104104-728a-48f9-b21a-6f36e1339564">
+  <producedTypes>
+    <selectionType typeId="eda0993d-6f85-4034-b433-d296d1de46b9" valueTypeId="48c4ca17-aec0-4160-b8fb-f83bc42e6634"/>
+    <listType typeId="34555b8a-b542-4849-ac99-d85e1557d9db" valueTypeId="35a8ccfd-6746-4473-8184-34b2eafa94d4"/>
+    <managerType typeId="dd1b56a5-f296-478f-9f43-8822dda3b5e0" valueTypeId="19846474-27f8-4b0b-83ed-9255061cf576"/>
+    <recordSetType typeId="bea80281-f2b8-4176-ac52-b4b0716017df" valueTypeId="8c8ffa75-ca3b-4157-9835-7158fe8635b0"/>
+    <recordKeyType typeId="59f31856-6e20-4eef-baf7-05211f757460" valueTypeId="f203b590-d966-4bd0-8893-a9ca7f988366"/>
+    <recordType typeId="d594ebcf-23cf-411b-88c6-266c0eef7b52" valueTypeId="f1e846ab-c12f-40c1-a72c-378fc45b632d"/>
+    <recordManagerType typeId="6b1fd62c-419c-477d-af7a-21d4837cc803" valueTypeId="253a343d-01a7-4649-9b31-e81b17145e66"/>
+  </producedTypes>
+  <name>ОборудованиеИнформацияОПамяти</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудование информация о памяти</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6f96ea8b-8b2c-41c9-936c-d3c1f0dbaa0c">
+    <name>ВсегоПамяти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Всего памяти, байт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="25819938-cbd3-4918-bf15-101c4c498ff9">
+    <name>ПамятиСвободно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Памяти свободно, байт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="8f773e18-caaa-47aa-ab1f-94b078980b6c">
+    <name>ДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи, UTC</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="24b61992-0e0a-458d-a4f9-00a666095ee6">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Оборудование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+  </dimensions>
+</mdclass:InformationRegister>

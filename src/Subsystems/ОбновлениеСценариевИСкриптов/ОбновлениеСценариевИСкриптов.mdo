@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71753c2a-cb15-4192-b785-17cf350df4a6">
+  <name>ОбновлениеСценариевИСкриптов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление сценариев и скриптов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбновлениеСценариев</picture>
+  </picture>
+  <content>DataProcessor.ЗагрузкаПоставляемыхСценариевАвтоматизацииXML</content>
+  <content>DataProcessor.ЗаданияНаОбновлениеИсполняющейЧасти</content>
+</mdclass:Subsystem>

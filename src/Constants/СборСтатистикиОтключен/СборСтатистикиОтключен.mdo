@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee3d29ed-007e-4f56-9646-e59b1d0d23cb">
+  <producedTypes>
+    <managerType typeId="b3a16942-2e64-4f85-bd56-c442bac89f01" valueTypeId="56d32cc1-a278-499f-a18c-19fbdfd09535"/>
+    <valueManagerType typeId="35c43dbe-56a2-4a12-bc17-75d01298e449" valueTypeId="b02696f9-ae24-4fd5-86fd-3b1dc3340faa"/>
+    <valueKeyType typeId="fbdaf95e-dd43-56ec-ab2d-9de0af20ca3c" valueTypeId="c32bbbdc-f801-52ab-84a9-1bb3077c10f2"/>
+  </producedTypes>
+  <name>СборСтатистикиОтключен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сбор статистики отключен</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

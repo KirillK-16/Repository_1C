@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b16a374-07b8-40bb-812c-06fe60b608c4">
+  <producedTypes>
+    <objectType typeId="2a56f4cb-639d-4580-9d26-71c4346c6c28" valueTypeId="b3d22fec-8aee-4bce-bfe4-9e5baebb68b1"/>
+    <managerType typeId="91a8ac66-3ac2-494f-a4bb-e4815ee7aae9" valueTypeId="fdf7f006-6b33-4b25-8a24-43a934298a31"/>
+  </producedTypes>
+  <name>МастерСозданияЭкземпляровСценария</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мастер создания экземпляров сценария</value>
+  </synonym>
+  <comment>Используется в качестве инструмента создания набора однотипных сценариев</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МастерСозданияЭкземпляровСценария.Form.ФормаОсновная</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Используется в качестве инструмента создания набора однотипных сценариев (например, для обновления сразу многих баз)</value>
+  </explanation>
+  <forms uuid="a4afe65d-0f71-4403-85be-317fd6831109">
+    <name>ФормаОсновная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма основная</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="48aa6878-0558-4b77-8746-9e5f2e1cd5b7">
+    <name>ФормаГрупповогоЗаполненияПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группового заполнения параметров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0b1e83c2-5a0a-4665-b702-935a3a40c4b6">
+    <name>ФормаВводаСписком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода списком</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="319e5692-ccd0-41c3-a376-f92d29349a14">
+    <name>МастерСозданияЭкземпляровСценария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мастер создания экземпляров сценария</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Магия</picture>
+    </picture>
+  </commands>
+</mdclass:DataProcessor>

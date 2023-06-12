@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30d66679-2770-428d-b39b-8ded9cdd8625">
+  <producedTypes>
+    <selectionType typeId="77cc0f23-14c6-429e-b3a6-e41e78be44f9" valueTypeId="586f9fa7-ab6d-40a0-9751-4c5aa622a262"/>
+    <listType typeId="66069088-dc3a-40f7-97c3-9f9ccd12d7bb" valueTypeId="eb43ec3c-df28-4c7c-9f0c-7942eb657f2c"/>
+    <managerType typeId="4b181baf-183e-4cfa-a56f-c6a79560083a" valueTypeId="b4ac2edd-7779-4f3d-8d73-70823db9a3ad"/>
+    <recordSetType typeId="70c6a353-b442-46bd-b857-ddbf102b55ab" valueTypeId="c31ffa62-a103-4d83-9cd1-d2ca451f5a55"/>
+    <recordKeyType typeId="d24c08d4-0822-4808-b74a-abbda697b8c7" valueTypeId="8014aade-6300-419c-ac7b-c1e335ce2884"/>
+    <recordType typeId="1ab9fa7a-eff7-4cde-bd74-b8b3a889d4b5" valueTypeId="a169691f-1fb0-4f8f-b96e-1d6b0efa081d"/>
+    <recordManagerType typeId="45dee05b-546c-4b92-af2b-e04edb9b3dfd" valueTypeId="5df60ffd-e0e2-4e70-92ae-0afb499a3594"/>
+  </producedTypes>
+  <name>СостоянияКонтрольныхПроцедур</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние контрольных процедур</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cc69a259-a79b-4b9c-a1b4-c2cb2f68a0f8">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияКонтрольныхПроцедур</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="42107b44-992c-4273-9eaa-c45cfadd4259">
+    <name>КонтрольнаяПроцедура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная процедура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольныеПроцедуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

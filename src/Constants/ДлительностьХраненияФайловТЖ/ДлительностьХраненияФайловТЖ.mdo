@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01a7a06e-8ec0-4836-85d6-0fee62846eca">
+  <producedTypes>
+    <managerType typeId="ab6f4872-6bad-43e9-8a3a-18d802250431" valueTypeId="bbf3d196-f7ce-45fb-bb75-51f742363c2b"/>
+    <valueManagerType typeId="81877edb-09ed-45a4-942b-9ff9ac61021b" valueTypeId="5f7b522b-495b-4623-87cf-5a7bfbd0fb91"/>
+    <valueKeyType typeId="9885cf58-514c-5242-bc7b-79303fe1e59d" valueTypeId="aeb8871c-e36b-53fb-a244-638916527e63"/>
+  </producedTypes>
+  <name>ДлительностьХраненияФайловТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Длительность хранения файлов ТЖ (часов)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

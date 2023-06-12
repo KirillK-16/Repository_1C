@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4f75cb5-bb8f-4fb0-aef2-363367849541">
+  <name>КонвертацияМониторингСеансов_2_1_3_5</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конвертация мониторинг сеансов 2 1 3 5</value>
+  </synonym>
+  <methodName>CommonModule.Общий.КонвертацияМониторингСеансов_2_1_3_5</methodName>
+  <description>Конвертация регистра сведений &quot;Мониторинг сеансов&quot; 2.1.3.5</description>
+  <key>794c155d-854d-4c16-b761-ca264d944e55</key>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

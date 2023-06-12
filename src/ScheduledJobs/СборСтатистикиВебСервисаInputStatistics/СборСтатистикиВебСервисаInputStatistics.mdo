@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3030aabd-7d72-4727-a521-6bb76865d181">
+  <name>СборСтатистикиВебСервисаInputStatistics</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сбор статистики  Web-сервиса InputStatistics</value>
+  </synonym>
+  <methodName>CommonModule.СтатистикаГруппыСчетчиков.ЗапуститьРегламентноеЗадание</methodName>
+  <description>Обработка регистров сведений &quot;Статистика буфер&quot; и &quot;Статистика буфер дата&quot;.</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

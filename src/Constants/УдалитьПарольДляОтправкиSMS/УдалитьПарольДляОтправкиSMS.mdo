@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58f951f9-0647-4d06-a1de-6e44a304f0aa">
+  <producedTypes>
+    <managerType typeId="eaa1686d-fe2e-4ae1-9d1a-1be78e44d254" valueTypeId="bb884a21-bd94-4a72-b1f3-06f89c6272a6"/>
+    <valueManagerType typeId="59a44c8f-142a-4c8f-ba4e-4193608707e4" valueTypeId="dba6cce9-db4a-4dc0-8d11-eb41076bdf5a"/>
+    <valueKeyType typeId="ea84e24c-c662-562e-8bf7-26ae1df15c9c" valueTypeId="f2972332-0fcf-5ab9-b353-ec690768612f"/>
+  </producedTypes>
+  <name>УдалитьПарольДляОтправкиSMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить пароль для отправки SMS</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>64</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <passwordMode>true</passwordMode>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

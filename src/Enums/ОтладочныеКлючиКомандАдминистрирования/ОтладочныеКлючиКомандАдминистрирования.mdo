@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fe46c0c-a4d3-4e5e-bc20-927bd92203af">
+  <producedTypes>
+    <refType typeId="3918f556-cb7d-4d5b-8766-4a2c6bddabd6" valueTypeId="a879f188-263b-48da-b4bc-fd6fa41674a9"/>
+    <listType typeId="b22dac44-eb4b-448f-9287-4b1e927067b6" valueTypeId="264a7678-03f5-47ee-b87b-e61a1bbecbac"/>
+    <managerType typeId="e238b045-ef4d-413a-ad4e-f54016717d1a" valueTypeId="ef39d4be-b12c-40a8-914f-22ab4f44cef8"/>
+  </producedTypes>
+  <name>ОтладочныеКлючиКомандАдминистрирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отладочные ключи команд администрирования</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1c46d00a-ddd4-46e9-b50c-47591cadf578">
+    <name>debug</name>
+    <synonym>
+      <key>ru</key>
+      <value>debug</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1e9f618e-70b6-4117-ba1f-ec45e0d0e7d0">
+    <name>printBegin</name>
+    <synonym>
+      <key>ru</key>
+      <value>print-begin</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71e8631e-9873-4fa8-ad2f-90ecd553754f">
+    <name>printFunction</name>
+    <synonym>
+      <key>ru</key>
+      <value>print-function</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b64adbe4-2b16-452d-b1fe-c4cf5cf3b453">
+    <name>printUuid</name>
+    <synonym>
+      <key>ru</key>
+      <value>print-uuid</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7a0601ad-fdcc-45c0-95ad-79e402d06776">
+    <name>collapseTraceback</name>
+    <synonym>
+      <key>ru</key>
+      <value>collapse-traceback</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bf6bbd1e-7b7b-4dcd-a0c1-77deabdc18a2">
+    <name>escapeStrings</name>
+    <synonym>
+      <key>ru</key>
+      <value>escape-strings</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7009ec9-6854-475b-9d9b-32c6e7773a9b">
+  <producedTypes>
+    <refType typeId="7f46e273-ae78-4afa-89d7-bef201827ecc" valueTypeId="c497048d-d54e-499e-99fd-41af9d554ead"/>
+    <listType typeId="a1324e2c-2875-45ca-bc0e-30189a7b667e" valueTypeId="caeaffc5-dfe3-46f7-9490-a6db50da9cc4"/>
+    <managerType typeId="27628fd5-5b1f-4fe1-8f68-bd68359016aa" valueTypeId="5c9692c3-972e-4944-9fd1-10e7703e502b"/>
+  </producedTypes>
+  <name>ТипыПараметровКластер1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы параметров кластер1 С</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5f239d47-d762-4e86-8e05-4d63e968a298">
+    <name>RAS</name>
+    <synonym>
+      <key>ru</key>
+      <value>RAS</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7f6351d9-6cb6-4212-8ebf-68cf96584cf6">
+    <name>COM</name>
+    <synonym>
+      <key>ru</key>
+      <value>COM</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c48ae450-6317-4dc1-9135-b1d56dfe4dbd">
+    <name>АгентКИП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агент КИП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d2a4e853-d13d-4e71-aff2-3bb80e467ffa">
+    <name>Нода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71e159a5-2165-4e2f-aaeb-32c61927ab26">
+    <name>ЦКК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЦКК</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

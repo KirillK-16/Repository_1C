@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f03d7659-d5a8-477a-9005-56f74f45efee">
+  <name>PultQMC</name>
+  <synonym>
+    <key>ru</key>
+    <value>Pult QMC</value>
+  </synonym>
+  <rootURL>PultQMC</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="032acda1-7739-4d61-a51c-8bc42d132424">
+    <name>v1</name>
+    <synonym>
+      <key>ru</key>
+      <value>V1</value>
+    </synonym>
+    <template>/v1/packet/*</template>
+    <methods uuid="95926fce-e9ba-42ac-9224-3baa2760a234">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>v1POST</handler>
+    </methods>
+    <methods uuid="0cba420c-e34d-4992-9841-bb538b5bf834">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>v1GET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="9d4e8dea-7af2-48ae-97e2-85f9b1b36b3e">
+    <name>DumpsInfo</name>
+    <synonym>
+      <key>ru</key>
+      <value>Dumps info</value>
+    </synonym>
+    <template>/DumpsInfo/*</template>
+    <methods uuid="9ee70966-e2d2-47a1-ad56-be615589ca85">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>DumpsInfoGET</handler>
+    </methods>
+    <methods uuid="c65dc708-0770-412f-8a6f-bf19fb7970d7">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>DumpsInfoPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

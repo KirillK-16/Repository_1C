@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93469397-890a-4480-8700-29d3e732f1f0">
+  <producedTypes>
+    <managerType typeId="7f630847-6e1b-4d50-8030-354f3ba728af" valueTypeId="1ca09f80-311f-4e9c-8ae9-22a56b9a8e5e"/>
+    <valueManagerType typeId="61e11b7d-f0b3-4ee4-bc27-7d2e477369b6" valueTypeId="09fcdfdd-6340-4061-a9e1-ea249e6e1f37"/>
+    <valueKeyType typeId="f335a4b3-f798-5e0a-b38f-4a47bbdf668c" valueTypeId="8bb6be3d-770f-5fba-b2ad-a3759bdbdfbb"/>
+  </producedTypes>
+  <name>FTPКаталогВыгрузкиДампов</name>
+  <synonym>
+    <key>ru</key>
+    <value>FTPКаталог выгрузки дампов</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

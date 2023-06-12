@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6535c74c-0e70-4dbb-89f2-3d09f2d1595f">
+  <producedTypes>
+    <managerType typeId="b0108ac9-77b6-48f4-b0cc-797b37db190d" valueTypeId="b1f0412e-e752-4891-b9c8-9c44daed9adb"/>
+    <valueManagerType typeId="2bdecc6d-372f-423d-9774-c4b88a5d7163" valueTypeId="c2ec1915-2932-4b01-94c1-d65b4730ec14"/>
+    <valueKeyType typeId="26bc60b1-ec55-56eb-aec4-d8ab359fd796" valueTypeId="b4af07ae-734e-5a0f-8800-767cb18fbdd7"/>
+  </producedTypes>
+  <name>УдалитьПользовательSMTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить пользователь SMTP</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Имя пользователя для дополнительной аутентификации на SMTP сервере</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

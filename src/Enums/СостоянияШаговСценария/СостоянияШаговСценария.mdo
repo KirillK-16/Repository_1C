@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74b121e5-a135-40b9-88f8-3119a5faac39">
+  <producedTypes>
+    <refType typeId="25f1510d-6abe-4b93-81ca-ad016bd7a56d" valueTypeId="fe3102ca-3263-49ea-8684-08e994d7fc57"/>
+    <listType typeId="719532a5-9453-4a90-b256-1063a9a17a66" valueTypeId="88c2e33a-8a70-4d81-82a8-b2a0785a33e2"/>
+    <managerType typeId="5f9e290b-450d-4cec-9190-604cb86a1efb" valueTypeId="0e6e69fd-6856-4c5d-b159-52d0cd6aafe0"/>
+  </producedTypes>
+  <name>СостоянияШаговСценария</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния шагов сценария</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="915a88d4-01e7-484a-8d22-cd505c83f721">
+    <name>НеВыполнялся</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выполнялся</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43ecfdcb-e4f5-4318-945b-ce4cf859985b">
+    <name>Выполняется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c7e0284-ec08-444e-afb1-f937bd2b3a3d">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="65705344-ee31-4063-a09b-63afe6eecf82">
+    <name>ВыполненОткат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен откат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1b8cfca-4805-4b5f-ac81-f68bda410818">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b4368686-505a-452a-8c80-17b358e80fef">
+    <name>ФатальнаяОшибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фатальная ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e007be1-74a9-44e7-833a-d07a4190bb00">
+    <name>НеВыполнялсяВследствиеОтката</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выполнялся вследствие отката</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2462192c-deec-4591-891d-4b1caf43a201">
+    <name>НеВыполнялсяВследствиеОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выполнялся вследствие ошибки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e54325b-69af-4ed6-a0fc-9c13a65a17d5">
+    <name>ВыполнениеПрервано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение прервано</value>
+    </synonym>
+    <comment>Фактически фатальная ошибка, но выделено отдельно для идентификации &quot;неопределенных&quot; состояний контура</comment>
+  </enumValues>
+  <enumValues uuid="96e1cc28-0061-4138-9855-ad3d1dc6fc14">
+    <name>ОшибкаБезПрерыванияВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка (без прерывания выполнения)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

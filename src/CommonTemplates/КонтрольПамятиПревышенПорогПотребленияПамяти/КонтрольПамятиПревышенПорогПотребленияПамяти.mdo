@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="728fa540-3679-4978-8ff2-07993a8a722c">
+  <name>КонтрольПамятиПревышенПорогПотребленияПамяти</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль памяти, превышен порог потребления памяти</value>
+  </synonym>
+  <templateType>HTMLDocument</templateType>
+</mdclass:CommonTemplate>

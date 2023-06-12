@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0b6a070-ccba-4fc5-bfa4-a4829b88c55b">
+  <name>ОткрытьМониторСчетчиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор счетчиков</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

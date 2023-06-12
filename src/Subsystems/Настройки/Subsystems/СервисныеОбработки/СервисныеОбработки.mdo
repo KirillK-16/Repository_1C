@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75a372a2-f593-464e-9cf4-f299d985c848">
+  <name>СервисныеОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервисные обработки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.КонсольЗапросов</content>
+  <content>DataProcessor.ПроверкаРегулярныхВыражений</content>
+  <content>DataProcessor.РегламентныеИФоновыеЗадания</content>
+  <content>DataProcessor.ПомощникПерехода_2_1_3</content>
+  <parentSubsystem>Subsystem.Настройки</parentSubsystem>
+</mdclass:Subsystem>

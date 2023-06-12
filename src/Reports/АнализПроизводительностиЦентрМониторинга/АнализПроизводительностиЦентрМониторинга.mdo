@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="594ef1a7-140e-4048-b738-8102cd87cccd">
+  <producedTypes>
+    <objectType typeId="b19cb063-be4a-4e49-99be-31e1ac03ed77" valueTypeId="de2c3e51-1573-40ef-bb91-7e3c876bd705"/>
+    <managerType typeId="4951f06c-df12-4747-9f2d-2142dd97ff52" valueTypeId="95787fff-3115-4bc3-aafe-a086008841f8"/>
+  </producedTypes>
+  <name>АнализПроизводительностиЦентрМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ производительности центр мониторинга</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.АнализПроизводительностиЦентрМониторинга.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.АнализПроизводительностиЦентрМониторинга.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.АнализПроизводительностиЦентрМониторинга.Form.ФормаНастроек</defaultSettingsForm>
+  <attributes uuid="d085ca2e-e68f-4ae9-b140-c89a19094e15">
+    <name>АдресХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес хранилища</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="beaa1e1b-8ea5-4fc0-af0f-8e5422a7a0d5">
+    <name>ИдентификаторФоновогоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор фонового задания</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="1089cb82-cae9-495e-be23-d9f1cf773c30">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5a044f1f-f61e-40cf-bad9-d054cafb7e87">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ede7970f-ac8d-42b6-ab07-bd10081f1933">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="3bcf552a-a2b2-4b39-b511-edf39910caa5">
+    <name>АнализПроизводительностиЦентрМониторингаОткрыть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ производительности</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

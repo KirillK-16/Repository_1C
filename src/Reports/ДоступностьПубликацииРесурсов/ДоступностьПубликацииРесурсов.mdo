@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5bcae83-57a1-412e-87d3-99c36b08c783">
+  <producedTypes>
+    <objectType typeId="be658d35-6a59-40ca-8afd-45309e13b1ac" valueTypeId="7c31d62c-4d18-436d-97c8-b87ebe912b2c"/>
+    <managerType typeId="44600eec-1cd3-4777-9fe5-63706d633483" valueTypeId="a8553f5d-9516-474c-8969-17b60ce541d1"/>
+  </producedTypes>
+  <name>ДоступностьПубликацииРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступность публикации ресурсов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ДоступностьПубликацииРесурсов.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ДоступностьПубликацииРесурсов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="963e955b-d949-4b86-a4df-ac7c1297a7d4">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6c18e659-fc41-42f8-9bd0-bc7c8ed94f56">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="06a66432-3aec-4b1a-b0e6-e0fabb79badf">
+    <name>ОткрытьДоступностьПубликаций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступность публикаций</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

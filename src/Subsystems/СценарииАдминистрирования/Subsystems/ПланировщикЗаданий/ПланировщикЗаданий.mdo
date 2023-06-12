@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="465fe02e-cc3d-4a30-8524-c42452d88dda">
+  <name>ПланировщикЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планировщик заданий</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Планировщик48</picture>
+  </picture>
+  <content>Catalog.ДействияПланировщика</content>
+  <content>CommonPicture.Планировщик48</content>
+  <content>InformationRegister.ЖурналВыполненияЗаданийПланировщика</content>
+  <content>CommonPicture.Планировщик16</content>
+  <content>Catalog.ЗаданияПланировщика</content>
+  <parentSubsystem>Subsystem.СценарииАдминистрирования</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c887d81-10a9-411b-8fcc-dac2c58bf7a6">
+  <producedTypes>
+    <selectionType typeId="60c791d4-73b2-4da7-af38-eb0ca62340c7" valueTypeId="8fff8ee8-614c-482c-a524-4b49ba10de98"/>
+    <listType typeId="fe21539b-2162-4350-b6f6-e9408a592f58" valueTypeId="21b2ebb6-0296-40d2-b0a8-4d291094fb25"/>
+    <managerType typeId="fe84bc59-a23d-454c-9717-d876f5966695" valueTypeId="2715496d-3b8a-4160-89eb-9d0db89fd1b1"/>
+    <recordSetType typeId="d5d72fe1-0859-4ed9-b3f0-a1df96630486" valueTypeId="d3d6fa73-67d0-4df3-8241-7fef65c288b3"/>
+    <recordKeyType typeId="c60e0a68-57ce-4048-a969-6b15f1e16a80" valueTypeId="72750bd7-8f91-4649-b5c3-919a65325f8f"/>
+    <recordType typeId="0ca8d08d-7e1d-4c3b-8771-9e7cc04176cb" valueTypeId="4c51d33c-928f-4033-8f90-222d2eb6b6ab"/>
+    <recordManagerType typeId="0b7ca683-3fae-43f2-ad78-66491a6b07c0" valueTypeId="8b3f8bb1-e3ce-4cc9-8a98-7ae159a6546b"/>
+  </producedTypes>
+  <name>ОтветственныеЗаНастройкуПроцедур</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственные за настройку процедур</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1fe13e94-4105-426f-aed4-c4825ef62e63">
+    <name>РольПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль пользователя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РолиПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="f18d4dc6-449c-4e34-9610-7a2c22ea77d9">
+    <name>ОбъектКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект контроля</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыОбъектовКонтроля</types>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f7c195ee-3965-49dc-b23c-9fece4b18140">
+    <name>ВидКонтрольнойПроцедуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид контрольной процедуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКонтрольныхПроцедур</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

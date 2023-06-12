@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02289f9b-aa33-4f50-9591-e37cc0b5c8d6">
+  <producedTypes>
+    <managerType typeId="56c3668a-5f30-4864-b04b-c5134090f189" valueTypeId="0e6719c0-af72-4831-89fa-721c46c21e0a"/>
+    <valueManagerType typeId="6a4d6e79-d38a-4dda-89b1-4b9be37d47d8" valueTypeId="a5a0371a-cf1a-40b2-a964-9c763b1d5f72"/>
+    <valueKeyType typeId="0e0d7fed-7280-55fc-a620-c4f6730419f2" valueTypeId="c84f5f68-5714-5cb8-830b-51c33efd47e9"/>
+  </producedTypes>
+  <name>ОтображатьВнутренниеЗамерыПроизводительности</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Не используется) внутренние замеры производительности</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

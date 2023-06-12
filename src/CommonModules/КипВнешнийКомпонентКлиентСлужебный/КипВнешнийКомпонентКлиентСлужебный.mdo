@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71c0f054-f105-4273-9521-3ad32262a914">
+  <name>КипВнешнийКомпонентКлиентСлужебный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кип внешний компонент клиент служебный</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0d7ef00-1896-4c46-8827-d0dc16faac8c">
+  <producedTypes>
+    <refType typeId="ebd7ee69-ea13-4273-a666-31e0419d5962" valueTypeId="92138481-477c-4d9a-9a58-65ba3a35210c"/>
+    <listType typeId="f38f79be-6f4f-4c44-a446-478300254746" valueTypeId="0feac017-24d5-48d1-bbc4-3aefc0286773"/>
+    <managerType typeId="f8b426cd-0e81-4f41-a775-b2fb18b473ac" valueTypeId="48b3c43e-33b8-42a6-8cc2-373b3413960b"/>
+  </producedTypes>
+  <name>РезультатыАнализаДампов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты анализа дампов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="025e624a-77ba-44e2-bcb9-c14ae99062e6">
+    <name>НовыйВариантДампа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый вариант дампа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71469c3d-e04a-4b31-8c63-0ce374206f01">
+    <name>ДубльИсправленногоДампа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дубль исправленного дампа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c0fd673-cd1e-46e2-873e-a05a70b09292">
+    <name>ДубльНеисправленногоДампа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дубль неисправленного дампа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

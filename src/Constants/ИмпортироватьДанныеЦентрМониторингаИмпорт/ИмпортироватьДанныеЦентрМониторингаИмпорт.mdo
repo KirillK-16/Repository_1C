@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4eaca087-95c3-4294-aa79-05c4aeba510c">
+  <producedTypes>
+    <managerType typeId="8c3c7462-2742-46c6-a065-d4b2b88bddcf" valueTypeId="3e5d1a11-d522-41fc-b864-7fbb1e984e3e"/>
+    <valueManagerType typeId="f6f2b2a5-114d-4336-9ebb-9f5ae3257003" valueTypeId="643b9b18-b23b-47ba-8c8d-d526eafd5ef4"/>
+    <valueKeyType typeId="10a20b8c-c0a4-5c3a-b3b9-3fd0c293ebcf" valueTypeId="fee399d3-9c79-55ec-a5fa-710179cabe9d"/>
+  </producedTypes>
+  <name>ИмпортироватьДанныеЦентрМониторингаИмпорт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Импортировать данные центр мониторинга импорт</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

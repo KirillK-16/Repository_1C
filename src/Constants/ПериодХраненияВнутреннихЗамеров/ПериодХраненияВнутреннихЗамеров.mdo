@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="452ba830-6a71-42aa-98f8-c7b65b1b62b1">
+  <producedTypes>
+    <managerType typeId="b285231f-abfc-4d4e-afb6-eb725d484643" valueTypeId="991b08f7-d5d4-4c33-a03e-d91b50431a1b"/>
+    <valueManagerType typeId="509b55fa-b47a-4b23-a196-49f1176b1f54" valueTypeId="718a8229-9129-4346-af56-4a4da4bbcae5"/>
+    <valueKeyType typeId="65e54d6c-cadc-5b01-984c-27c462e79f51" valueTypeId="4c036f81-d307-586d-b5e4-f84210f71b4a"/>
+  </producedTypes>
+  <name>ПериодХраненияВнутреннихЗамеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период хранения внутренних замеров</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Период хранения в днях данных регистра сведений &quot;Замеры производительности (оценка производительности)&quot; для объектов контроля &quot;Центр контроля качества&quot; и &quot;Центр мониторинга&quot;. Если равен нулю, то удаление данных не выполняется.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

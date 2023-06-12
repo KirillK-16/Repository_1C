@@ -1,0 +1,35 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/eventLog">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<objectType name="EventLog">
+		<property xmlns:d3p1="http://v8.1c.ru/eventLog" name="Event" type="d3p1:Event" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Event">
+		<property name="Level" type="xs:string" lowerBound="0"/>
+		<property name="Date" type="xs:dateTime" lowerBound="0"/>
+		<property name="ApplicationName" type="xs:string" lowerBound="0"/>
+		<property name="ApplicationPresentation" type="xs:string" lowerBound="0"/>
+		<property name="Event" type="xs:string" lowerBound="0"/>
+		<property name="EventPresentation" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="User" type="d3p1:UUID" lowerBound="0"/>
+		<property name="UserName" type="xs:string" lowerBound="0"/>
+		<property name="Computer" type="xs:string" lowerBound="0"/>
+		<property name="Metadata" type="xs:anyType" lowerBound="0"/>
+		<property name="MetadataPresentation" type="xs:anyType" lowerBound="0"/>
+		<property name="Comment" type="xs:string" lowerBound="0"/>
+		<property name="Data" type="xs:anyType" lowerBound="0" nillable="true"/>
+		<property name="DataPresentation" type="xs:string" lowerBound="0"/>
+		<property name="TransactionStatus" type="xs:string" lowerBound="0"/>
+		<property name="TransactionID" type="xs:string" lowerBound="0"/>
+		<property name="Connection" type="xs:decimal" lowerBound="0"/>
+		<property name="Session" type="xs:decimal" lowerBound="0"/>
+		<property name="ServerName" type="xs:string" lowerBound="0"/>
+		<property name="Port" type="xs:decimal" lowerBound="0"/>
+		<property name="SyncPort" type="xs:decimal" lowerBound="0"/>
+		<property name="SessionDataSeparation" type="xs:anyType" lowerBound="0"/>
+		<property name="SessionDataSeparationPresentation" lowerBound="0">
+			<typeDef xsi:type="ObjectType">
+				<property name="Item" type="xs:string" lowerBound="0" upperBound="-1"/>
+			</typeDef>
+		</property>
+	</objectType>
+</package>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdbf8b76-6aed-4b17-a4a4-32bacb314451">
+  <producedTypes>
+    <managerType typeId="eb709177-6ae7-471f-8b5c-1b1838d44bed" valueTypeId="f93f39f4-8acb-4e81-abad-8882f909c85b"/>
+    <valueManagerType typeId="cb9ba270-33be-485d-83f1-1cc123e31cdf" valueTypeId="0eae0f14-99e8-4405-83fd-68787218bd45"/>
+    <valueKeyType typeId="1d986e41-bb89-5096-841c-a8f5e7d59b12" valueTypeId="7c6e42da-362f-5044-9649-cc00df7e4bc5"/>
+  </producedTypes>
+  <name>РазмерПулаПроверкиПубликаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер пула проверки публикаций</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

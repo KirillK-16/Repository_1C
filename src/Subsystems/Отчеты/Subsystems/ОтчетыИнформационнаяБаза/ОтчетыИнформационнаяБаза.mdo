@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56c03700-1991-479b-867f-f64d50e57fd9">
+  <name>ОтчетыИнформационнаяБаза</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информационная база</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.ДоступностьИнформационныхБаз</content>
+  <content>CommonForm.ПроцентДоступностиБазПоКалендарнымДням</content>
+  <content>CommonCommand.ПроцентДоступностиПоКалендарнымДням</content>
+  <content>Report.ДоступностьПубликацииРесурсов</content>
+  <parentSubsystem>Subsystem.Отчеты</parentSubsystem>
+</mdclass:Subsystem>

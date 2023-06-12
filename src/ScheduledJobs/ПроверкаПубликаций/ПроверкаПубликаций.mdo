@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28b7506b-6d84-4e8e-85c0-52f6f45d0cb4">
+  <name>ПроверкаПубликаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка публикаций</value>
+  </synonym>
+  <methodName>CommonModule.ПубликацииКонтрольДоступности.ВыполнитьПроверкуПубликаций</methodName>
+  <description>ПубликацииКонтрольДоступности.ВыполнитьПроверкуПубликаций</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.ТестInputIncidentTickets.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ТестInputStatistics.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>DataProcessor.ТестInputStatistics.Command.ТестInputStatistics</commands>
+      <commands>DataProcessor.ТестInputStatistics.Command.ТестInputStatisticsDate</commands>
+      <commands>DataProcessor.ТестInputIncidentTickets.Command.ТестInputIncidentTickets</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

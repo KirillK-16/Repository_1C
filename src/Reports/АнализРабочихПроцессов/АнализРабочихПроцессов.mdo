@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="979698dd-47f7-4d17-81db-548a8f88d41b">
+  <producedTypes>
+    <objectType typeId="a06c35de-9c90-42a7-bc18-96aa44437a03" valueTypeId="759b813a-08b5-4c02-9b97-dce3650bcf3d"/>
+    <managerType typeId="463a3eab-c7fa-4314-ae51-dee99e7d3d8b" valueTypeId="b257336d-c0b9-42ac-9620-c6b8caf8462e"/>
+  </producedTypes>
+  <name>АнализРабочихПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ рабочих процессов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.АнализРабочихПроцессов.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.АнализРабочихПроцессов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="498d5391-502c-4002-86b0-2e4a4ca61b21">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a93c3714-4f5b-43d6-9a50-e5359353399c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="94847b50-38d2-4e3c-a777-4fd6ce9649f4">
+    <name>КомандаАнализРабочихПроцессов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ рабочих процессов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

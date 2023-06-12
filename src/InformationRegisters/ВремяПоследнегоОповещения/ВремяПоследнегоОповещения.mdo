@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fae9683d-c70f-40c2-8bd8-b5afa794042b">
+  <producedTypes>
+    <selectionType typeId="856586db-dec0-47f1-92c4-a935bb4f694c" valueTypeId="b8bf561d-e35d-4c46-a164-ca11b9806985"/>
+    <listType typeId="25d71fbb-d277-43f9-a504-14ea5d422572" valueTypeId="dbf6537d-5e73-460a-9e30-c6c24acad1ba"/>
+    <managerType typeId="2d639dc4-fe5e-4d19-a0f6-696a909f28b9" valueTypeId="71315b10-bcb1-4eee-8c37-e88e34c16cfc"/>
+    <recordSetType typeId="89922ce5-9923-412d-9c5a-34219bf04296" valueTypeId="ca88128f-cd5d-4303-b4c4-56bd0151d875"/>
+    <recordKeyType typeId="7e9e23fc-01c2-4365-8cfd-f2e1e3a233c8" valueTypeId="583e459d-cdf6-4bd7-8b1d-5adc9400ddbb"/>
+    <recordType typeId="e692a063-6faf-491f-a3c7-bbba4656640f" valueTypeId="ca42ccc7-7bbb-4097-8b7e-7c0705285207"/>
+    <recordManagerType typeId="7576d8b7-77fc-4ad4-8b41-310f29fa9d7f" valueTypeId="181f7551-6ef2-42a4-b516-5ccee9725993"/>
+  </producedTypes>
+  <name>ВремяПоследнегоОповещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время последнего оповещения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="badc4962-f685-46fa-9151-41900b69fa1f">
+    <name>Время</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0d41297a-1f90-446b-9d7b-dce1f4d2f592">
+    <name>КонтрольнаяПроцедура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная процедура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольныеПроцедуры</types>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8902a870-b270-4a28-9c6c-0cf5e0f3be54">
+    <name>ТипЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип задачи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыЗадачКонтрольМониторингСистемныхОшибок</types>
+      <types>CatalogRef.ТипыЗадачСборДампов</types>
+      <types>CatalogRef.ТипыЗадач</types>
+      <types>CatalogRef.ТипыЗадачОценкаПользователей</types>
+      <types>CatalogRef.ТипыЗадачКонтрольПроизводительности</types>
+      <types>String</types>
+      <types>CatalogRef.ТипыЗадачКонтрольПамяти</types>
+      <types>CatalogRef.ТипыЗадачКонтрольНагрузочныхТестов</types>
+      <types>CatalogRef.ТипыЗадачКонтрольПодключений</types>
+      <types>CatalogRef.ТипыЗадачВнешнийКонтрольЦКК</types>
+      <types>CatalogRef.ТипыЗадачКонтрольРегламентныхЗаданий</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4a9e8026-1f46-4e1f-bbca-c66f60630abd">
+    <name>ДоступностьРесурсов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступность ресурсов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

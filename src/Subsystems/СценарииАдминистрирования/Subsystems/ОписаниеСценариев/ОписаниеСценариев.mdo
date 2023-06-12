@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d788c68-167d-4433-b26d-f5ed0ec58d0e">
+  <name>ОписаниеСценариев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описание сценариев</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.КомандыАвтоматизации</content>
+  <content>Catalog.СценарииАвтоматизации</content>
+  <content>Catalog.ШаблоныЕдиницАвтоматизации</content>
+  <content>Catalog.КонтурыАдминистрирования</content>
+  <content>Catalog.УсловияВыполненияШаговАвтоматизации</content>
+  <content>Catalog.ОграниченияДоступаККонтурамАдминистрирования</content>
+  <content>Catalog.ЭкземплярыСценариевАвтоматизации</content>
+  <parentSubsystem>Subsystem.СценарииАдминистрирования</parentSubsystem>
+</mdclass:Subsystem>

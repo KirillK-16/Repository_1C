@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64a1d7e7-b2f0-4278-a175-a2a92edc68a4">
+  <producedTypes>
+    <managerType typeId="d3ad189a-c74a-4bb5-a6f3-8f1d4e85c4a2" valueTypeId="2b24558f-78c9-46a7-8e7b-1aa6bc72530c"/>
+    <valueManagerType typeId="6cc6ed93-cd99-4954-8934-281f60662b8c" valueTypeId="97779979-c682-4e50-acdc-d991637e57e7"/>
+    <valueKeyType typeId="ae9b12dd-d3b0-5f47-aba9-7b0f15d22102" valueTypeId="94c01921-8592-5c48-8ca1-b552c502f7d7"/>
+  </producedTypes>
+  <name>ВыполнятьОповещениеПоSkype</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнять оповещение по skype</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="514f0d9a-b80d-4d0b-a8d2-891caa4fd8fb">
+  <producedTypes>
+    <managerType typeId="23aa52c4-557b-474c-97fb-ee4a1723a28f" valueTypeId="13336853-c021-4db9-86f4-a2e334d6c724"/>
+    <valueManagerType typeId="6d24e265-dbe5-4e9a-864b-6dcfca0e3290" valueTypeId="2dc03e13-208c-450b-97eb-ab9d08988406"/>
+    <valueKeyType typeId="24defca2-74ae-5f2c-ba98-504a7e9daf1d" valueTypeId="433642e1-24fa-5e2d-924a-539aabdaa7f0"/>
+  </producedTypes>
+  <name>ПериодСбораСтатистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период сбора статистики (в секундах)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <fillChecking>ShowError</fillChecking>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e7805ac-aac1-4b19-969d-1638a0b6d191">
+  <name>НеВыделятьПоказатель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не выделять показатель</value>
+  </synonym>
+  <transparentPixel>
+    <x>14</x>
+    <y>2</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66106682-a62b-43de-8682-c29d97b4b49a">
+  <producedTypes>
+    <objectType typeId="c60123a0-ad2e-45fb-afae-3aa2610a8ca1" valueTypeId="2fa7c323-a659-4a2c-8ec6-36f031b95454"/>
+    <managerType typeId="06e8de62-7c2b-470f-95b9-2b95c4e515a9" valueTypeId="7e79f938-73d4-4fd8-a699-64bc1bcab05a"/>
+  </producedTypes>
+  <name>ОценкаПроизводительностиСКД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка производительности СКД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОценкаПроизводительностиСКД.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОценкаПроизводительностиСКД.Template.МакетЗаглушка</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.ОценкаПроизводительностиСКД.Form.ФормаНастроек</defaultSettingsForm>
+  <forms uuid="e6f39699-51cd-4b2c-9b25-14ded7b04ebf">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3b8f7470-d2aa-4c2a-9d30-f54ae31be4d7">
+    <name>ФормаОтчетаПоПользователям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета по пользователям</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d62faf08-a7d9-4d42-a8b9-5d117127a481">
+    <name>ФормаОтчетаЗамеры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета замеры</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f02903e2-4013-46c4-aea2-226e157be242">
+    <name>ФормаПериодДляСравнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма период для сравнения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="11810512-5c5f-44a4-9e64-eae53b5bbcbf">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="86324aba-1f62-4887-822b-54d9d534e918">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="c0e62e38-47b3-4b7c-81aa-8e27252955d6">
+    <name>СхемаКомпоновкиДанныхПоПользователям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных по пользователям</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="6c2605f6-a294-47b3-864c-b553a5e8fb21">
+    <name>СхемаКомпоновкиДанныхПоКлючевымОперациям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных по ключевым операциям</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="5a37844f-fc39-4e39-ae0f-f2c67b17ca50">
+    <name>СхемаКомпоновкиДанныхЗамеры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных замеры</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="00809e43-030a-4ff7-b56e-512e53dffc31">
+    <name>МакетЗаглушка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет заглушка</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="d95f5ffc-7970-46a3-bb0b-3d7ae75fb4b7">
+    <name>ОткрытьОценкуПроизводительностиСКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проблемы производительности</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="bedc68a5-b56f-43e5-b1bf-fa4ca33194f6">
+    <name>ОткрытьОценкуПроизводительностиСКДПоПользователям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка по пользователям</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="d17ff2c1-f0ca-4ce1-8898-d1a20c7b1aa3">
+    <name>ОткрытьОценкуПроизводительностиСКДПоКлючевымОперациям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка по операциям</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="b861c51d-6ab9-4001-a97e-9544666f8012">
+    <name>ОткрытьОценкуПроизводительностиСКДЗамеры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замеры производительности</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

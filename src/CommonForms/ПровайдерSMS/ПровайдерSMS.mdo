@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a010ade-032d-4c73-9b83-5fc3d463a05c">
+  <name>ПровайдерSMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Провайдер SMS</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

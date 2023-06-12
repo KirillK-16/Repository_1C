@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f77cab05-30d5-44fa-81ec-fe5d32c08aed">
+  <producedTypes>
+    <objectType typeId="3cff43d8-7331-482f-9301-a52742b3780d" valueTypeId="68a60673-168a-4f57-b117-981c993a7b78"/>
+    <managerType typeId="b362b801-c2a0-475f-8d35-a0451c8e1c86" valueTypeId="8b729c35-8221-4a54-ab53-a6e2d8ef9831"/>
+  </producedTypes>
+  <name>ИспользуемыеРазрешенияИМониторы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используемые разрешения и мониторы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИспользуемыеРазрешенияИМониторы.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="fa225527-8ea6-495b-b76d-4d187c591a87">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="0f839a9e-4f67-444a-9e16-2df4a1a72276">
+    <name>ИспользуемыеРазрешенияИМониторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используемые разрешения и количество мониторов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

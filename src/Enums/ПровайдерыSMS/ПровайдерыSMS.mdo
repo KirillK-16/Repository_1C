@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bba3bd96-31f0-4c97-8114-65224700c603">
+  <producedTypes>
+    <refType typeId="c6f9b2ae-782c-4097-afc7-da325c9376b3" valueTypeId="3f29f662-293b-4dfb-b059-5c9d1e982c72"/>
+    <listType typeId="1ada6420-f07c-43e1-bb29-55d695854d4f" valueTypeId="eadd087d-7cb3-4a34-9d00-2a26b7a4a46a"/>
+    <managerType typeId="e27a73cc-165e-4276-9587-2cbe4f65dac1" valueTypeId="07085060-4ef9-4ff6-af4b-2e1706cbab06"/>
+  </producedTypes>
+  <name>ПровайдерыSMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Провайдеры SMS</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9597e7f8-c9db-4d3d-a009-8dd9e070a0f6">
+    <name>Билайн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Билайн</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12002a56-a5b4-4c08-b507-9b9ad419bfbb">
+    <name>МТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>МТС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="598f8284-e4b1-46a4-a747-880b63177230">
+    <name>SMSЦентр</name>
+    <synonym>
+      <key>ru</key>
+      <value>SMSЦентр</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

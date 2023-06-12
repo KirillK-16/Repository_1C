@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83a186b1-8216-441b-8390-3ba7127db97f">
+  <name>АнализДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.СтатистикаПоОборудованию</content>
+  <content>Report.СтатистикаПоИнформационнымБазам</content>
+  <content>Report.ОценкаПроизводительностиЦентрМониторинга</content>
+  <content>Report.СтатистикаЗаполненияИнформационныхБаз</content>
+  <content>Report.СтатистикаПоСостояниюИнформационныхБаз</content>
+  <content>Report.ОписаниеРасширений</content>
+  <content>Report.ИспользованиеРасширенийПоОбъектамМетаданных</content>
+  <content>Catalog.НастройкиАнализаПроблемПроизводительности</content>
+  <content>InformationRegister.РезультатАвтоматическогоАнализаПроизводительности</content>
+  <content>Report.ИспользуемыеРазрешенияПоКлиентам</content>
+  <content>Report.ИспользуемыеРазрешенияИМониторы</content>
+  <content>InformationRegister.НастройкиРасчетаПроизводительностиПлатформы</content>
+  <content>InformationRegister.ПроизводительностьПлатформы</content>
+  <content>Constant.КоличествоФоновыхПроизводительностьПлатформы</content>
+  <content>Report.СтатистикаДамповЦентрМониторинга</content>
+  <content>DataProcessor.ТипичнаяИнформационнаяБаза</content>
+  <parentSubsystem>Subsystem.ЦентрМониторингаИмпорт</parentSubsystem>
+</mdclass:Subsystem>

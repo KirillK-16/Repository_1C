@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Поставляемый</dataPath>
+			<field>Поставляемый</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидовДоступаПредустановленных</dataPath>
+			<field>ВидовДоступаПредустановленных</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Конфигурация</dataPath>
+			<field>Конфигурация</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПрофильГруппДоступа</dataPath>
+			<field>ПрофильГруппДоступа</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоставляемыйИзменен</dataPath>
+			<field>ПоставляемыйИзменен</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГруппДоступаПерсональных</dataPath>
+			<field>ГруппДоступаПерсональных</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияКонфигурации</dataPath>
+			<field>ВерсияКонфигурации</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДействительныхВнешнихПользователей</dataPath>
+			<field>ДействительныхВнешнихПользователей</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДействительныхПользователей</dataPath>
+			<field>ДействительныхПользователей</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидовДоступаОбщее</dataPath>
+			<field>ВидовДоступаОбщее</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГруппДоступаОбщее</dataPath>
+			<field>ГруппДоступаОбщее</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДействительныхВнешнихГруппПользователей</dataPath>
+			<field>ДействительныхВнешнихГруппПользователей</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДействительныхГруппПользователей</dataPath>
+			<field>ДействительныхГруппПользователей</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИнформационнаяБаза</dataPath>
+			<field>ИнформационнаяБаза</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АктивныхЗаНеделю</dataPath>
+			<field>АктивныхЗаНеделю</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АктивныхЗаМесяц</dataPath>
+			<field>АктивныхЗаМесяц</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ИнформацияСрезПоследних.Конфигурация КАК Конфигурация,
+	ИнформацияСрезПоследних.ВерсияКонфигурации КАК ВерсияКонфигурации,
+	ПрофилиГруппДоступаИнформационныхБаз.ПрофильГруппДоступа КАК ПрофильГруппДоступа,
+	ПрофилиГруппДоступаИнформационныхБаз.ИнформационнаяБаза КАК ИнформационнаяБаза,
+	ПрофилиГруппДоступаИнформационныхБаз.ДействительныхПользователей КАК ДействительныхПользователей,
+	ПрофилиГруппДоступаИнформационныхБаз.ДействительныхГруппПользователей КАК ДействительныхГруппПользователей,
+	ПрофилиГруппДоступаИнформационныхБаз.ДействительныхВнешнихПользователей КАК ДействительныхВнешнихПользователей,
+	ПрофилиГруппДоступаИнформационныхБаз.ДействительныхВнешнихГруппПользователей КАК ДействительныхВнешнихГруппПользователей,
+	ПрофилиГруппДоступаИнформационныхБаз.ВидовДоступаОбщее КАК ВидовДоступаОбщее,
+	ПрофилиГруппДоступаИнформационныхБаз.ВидовДоступаПредустановленных КАК ВидовДоступаПредустановленных,
+	ПрофилиГруппДоступаИнформационныхБаз.ГруппДоступаОбщее КАК ГруппДоступаОбщее,
+	ПрофилиГруппДоступаИнформационныхБаз.ГруппДоступаПерсональных КАК ГруппДоступаПерсональных,
+	ПрофилиГруппДоступаИнформационныхБаз.Поставляемый КАК Поставляемый,
+	ПрофилиГруппДоступаИнформационныхБаз.ПоставляемыйИзменен КАК ПоставляемыйИзменен,
+	ПрофилиГруппДоступаИнформационныхБаз.АктивныхЗаНеделю КАК АктивныхЗаНеделю,
+	ПрофилиГруппДоступаИнформационныхБаз.АктивныхЗаМесяц КАК АктивныхЗаМесяц
+ИЗ
+	РегистрСведений.ПрофилиГруппДоступаИнформационныхБаз КАК ПрофилиГруппДоступаИнформационныхБаз
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ИнформацияСрезПоследних КАК ИнформацияСрезПоследних
+		ПО ПрофилиГруппДоступаИнформационныхБаз.ИнформационнаяБаза = ИнформацияСрезПоследних.ИнформационнаяБаза</query>
+	</dataSet>
+	<totalField>
+		<dataPath>ВидовДоступаОбщее</dataPath>
+		<expression>Сумма(ВидовДоступаОбщее)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ВидовДоступаПредустановленных</dataPath>
+		<expression>Сумма(ВидовДоступаПредустановленных)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ГруппДоступаОбщее</dataPath>
+		<expression>Сумма(ГруппДоступаОбщее)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ГруппДоступаПерсональных</dataPath>
+		<expression>Сумма(ГруппДоступаПерсональных)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДействительныхВнешнихГруппПользователей</dataPath>
+		<expression>Сумма(ДействительныхВнешнихГруппПользователей)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДействительныхВнешнихПользователей</dataPath>
+		<expression>Сумма(ДействительныхВнешнихПользователей)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДействительныхГруппПользователей</dataPath>
+		<expression>Сумма(ДействительныхГруппПользователей)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДействительныхПользователей</dataPath>
+		<expression>Сумма(ДействительныхПользователей)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ИнформационнаяБаза</dataPath>
+		<expression>Количество(Различные ИнформационнаяБаза)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>АктивныхЗаМесяц</dataPath>
+		<expression>Сумма(АктивныхЗаМесяц)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>АктивныхЗаНеделю</dataPath>
+		<expression>Сумма(АктивныхЗаНеделю)</expression>
+	</totalField>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Конфигурация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ВерсияКонфигурации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПрофильГруппДоступа</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Поставляемый</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ПоставляемыйИзменен</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДействительныхПользователей</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДействительныхГруппПользователей</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДействительныхВнешнихПользователей</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДействительныхВнешнихГруппПользователей</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидовДоступаОбщее</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидовДоступаПредустановленных</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ГруппДоступаОбщее</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ГруппДоступаПерсональных</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИнформационнаяБаза</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АктивныхЗаНеделю</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АктивныхЗаМесяц</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Поставляемый</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+				</dcsset:item>
+				<dcsset:userSettingID>2a4c6c6b-bf0c-438b-8830-39b165b70ff8</dcsset:userSettingID>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Конфигурация</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ПрофильГруппДоступа</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+			<dcsset:itemsUserSettingID>85307ff3-f039-4b70-a8cb-ec346cf9f86b</dcsset:itemsUserSettingID>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

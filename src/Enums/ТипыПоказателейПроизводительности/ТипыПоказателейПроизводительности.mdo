@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31d42f25-85f2-426f-adef-9b85bae4f821">
+  <producedTypes>
+    <refType typeId="94823f82-2012-4153-814c-07b062916114" valueTypeId="9085f49b-464d-4296-9024-30fef6a5a587"/>
+    <listType typeId="627a78be-b489-4a09-b714-f4d974183719" valueTypeId="0c135d16-39cd-4f20-83c8-5be28241dce7"/>
+    <managerType typeId="cc069458-d9d0-4eb0-8067-febaa69cfa6f" valueTypeId="ce8f1ca1-eb69-4594-9bfb-44ce591cbfeb"/>
+  </producedTypes>
+  <name>ТипыПоказателейПроизводительности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы показателей производительности</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ef75d68d-8989-4da4-adfa-15ba6650abdd">
+    <name>APDEX</name>
+    <synonym>
+      <key>ru</key>
+      <value>APDEX</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1f0c17a-b500-4503-a1bf-a25f5ebb3edb">
+    <name>СреднееВремяХудшихЗамеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среднее время худших замеров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4203e8d3-cd99-497b-b801-2dd658340529">
+    <name>КоличествоОперацийПревышенияЦелевогоВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество операций превышения целевого времени</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cabe057e-66c0-4aa2-a4db-6d4ee838161a">
+    <name>ПроцентПользователейПревышенияЦелевогоВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент пользователей превышения целевого времени</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7aaed7cb-69de-4b02-8e96-048efe5a02cf">
+    <name>ПроцентПользователейИзмененияЦелевогоВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент пользователей изменения целевого времени</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

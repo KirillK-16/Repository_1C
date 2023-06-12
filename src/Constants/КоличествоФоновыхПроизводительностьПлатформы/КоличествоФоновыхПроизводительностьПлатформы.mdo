@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9401fd8b-54cc-45af-8d0b-902354a8ce4b">
+  <producedTypes>
+    <managerType typeId="ebf82204-446f-4f8c-9e82-a36bf5094871" valueTypeId="02aefb91-3e5a-44c1-87ff-39e3a88b7f98"/>
+    <valueManagerType typeId="39713366-d23d-4c73-ac53-e52efa73e599" valueTypeId="ccfa2f5b-1b15-4612-b895-71c0f885a328"/>
+    <valueKeyType typeId="a8f92f41-d926-59b0-aed3-417ef88672b0" valueTypeId="a1639985-1b90-5b53-8b02-262ea4975deb"/>
+  </producedTypes>
+  <name>КоличествоФоновыхПроизводительностьПлатформы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество фоновых производительность платформы</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

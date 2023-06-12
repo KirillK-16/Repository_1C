@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db45b75f-d00c-4ce2-9677-7326cc2bf138">
+  <producedTypes>
+    <selectionType typeId="848aaabe-fa15-4f49-b67d-d7db0b6ed6ff" valueTypeId="3bf7f3c2-25f9-4cc9-88f3-a984dc886961"/>
+    <listType typeId="d2bdf471-d4eb-49d8-a0c8-9319acf15835" valueTypeId="9217650b-41f7-43d8-a86e-a1826dfa2394"/>
+    <managerType typeId="923c663f-dbfc-4191-b271-39e5f6d08fd6" valueTypeId="b44efc81-dabf-411e-bb9a-4a58da2c52f0"/>
+    <recordSetType typeId="62ed1c55-ebf2-4de6-8a04-fd403705e30a" valueTypeId="88d837ab-2ec9-4ad1-adaa-8c891297e26a"/>
+    <recordKeyType typeId="349efd96-eb86-4013-ae83-a2a385f4a407" valueTypeId="29b7ad42-dfb8-415d-9a5c-1e7b478d51b4"/>
+    <recordType typeId="20d3bd65-1000-48c8-b4eb-255cfbab6a8e" valueTypeId="488ec690-0326-4d24-a9fc-2008c6dad881"/>
+    <recordManagerType typeId="fe936f4c-6ba1-4b6d-b25e-cc6a42792dd8" valueTypeId="06dd5dad-37e8-4eb6-a43e-a2f13472297d"/>
+  </producedTypes>
+  <name>НастройкиКонтрольРегламентныхЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки &quot;Контроль регламентных заданий&quot;</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="18ee3cde-4947-41b0-bb0f-be9acced8a5e">
+    <name>МаксимальнаяДатаПрочитанныхЗаписейСкрыто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущая граница дат прочитанных записей журнала регистрации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f9689736-20fb-4da9-8a94-c2ef820b1a93">
+    <name>ДопустимаяДлительностьВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимально допустимое время выполнения регламентных заданий в секундах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2c57f0d9-f040-4f70-9d7f-d2f2bf080a13">
+    <name>КаталогЗапускаКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог запуска клиента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="f1f56c9c-6b77-4630-9775-52735ac55b14">
+    <name>Расписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расписание</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="caf0e4f5-0647-410e-b928-ee253faff789">
+    <name>КонтрольнаяПроцедура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная процедура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольныеПроцедуры</types>
+      <types>CatalogRef.ВидыКонтрольныхПроцедур</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

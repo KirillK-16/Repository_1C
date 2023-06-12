@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37c47764-1bbe-4922-ac83-5fd80972fd66">
+  <name>КонтрольНагрузочныхТестовСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль нагрузочных тестов сервер</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

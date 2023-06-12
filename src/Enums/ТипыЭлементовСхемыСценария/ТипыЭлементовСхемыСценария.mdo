@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23657d8d-2b33-4085-b210-382803d5ddcf">
+  <producedTypes>
+    <refType typeId="b75766e3-5946-46f4-af88-3179eae59939" valueTypeId="8d216bfc-7d31-48d8-b98e-8318374174ac"/>
+    <listType typeId="6bd0cac5-dd3f-43eb-9be3-5a871d82b923" valueTypeId="c19955e6-71bc-47b9-a8ef-9b9e53f23095"/>
+    <managerType typeId="310f72ba-8276-4c63-ab99-15e9d59b0e47" valueTypeId="96b69c97-d9fe-4c66-820f-d369dbcd703b"/>
+  </producedTypes>
+  <name>ТипыЭлементовСхемыСценария</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы элементов схемы сценария</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e5b9ec72-4d9e-46d5-863b-cefc8f0a7a80">
+    <name>Ветка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ветка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2d02d51-de3e-4d21-bba2-645dfd4048af">
+    <name>ВспомогательныеШаги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вспомогательные шаги</value>
+    </synonym>
+    <comment>Шаги из данного блока не влияют на успех сценария, не меняют состояние системы, выполняются как фоновые без учета основного режима выполнения сценария</comment>
+  </enumValues>
+  <enumValues uuid="6a1d5a53-6d96-4bc6-aeb2-15be59094251">
+    <name>Шаг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаг сценария</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a203833d-3b32-4846-904c-fba72a265b1f">
+    <name>Разделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параллельное выполнение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7d94dd8-d5a8-460e-bd86-1a5a7261e43f">
+    <name>Старт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ae7d2a4f-5596-40d8-bef6-e5505380db58">
+    <name>Условие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e829bd3-02d6-4623-9b45-1bffbfa63d07">
+    <name>Цикл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цикл</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2da594f0-b126-4633-bc07-f59828a605da">
+    <name>Вариант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

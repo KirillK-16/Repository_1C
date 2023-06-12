@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da587ab5-421a-4dc6-8988-66d7572d3209">
+  <producedTypes>
+    <selectionType typeId="f778197c-ff7c-41fa-99ad-1270b688b246" valueTypeId="ec19507b-3c1e-4bcb-90dd-54d77f58c8ed"/>
+    <listType typeId="2075863c-c2f3-4690-8c9b-e2db70383064" valueTypeId="12f82276-ac44-4e6d-b515-b3f680176952"/>
+    <managerType typeId="c200b9a7-63c6-4cde-87b4-7f3c47115ffa" valueTypeId="06b1a9c4-495c-4b3d-a34f-c676072dab2f"/>
+    <recordSetType typeId="85be95f0-c379-4eec-8d72-3a0d3940f107" valueTypeId="2a93e9ca-2def-46f6-918d-fd1644103890"/>
+    <recordKeyType typeId="42e23b0d-8e0f-414b-b942-c30707c9d208" valueTypeId="5fdc1153-cea9-4a0e-9812-702d14f75aa6"/>
+    <recordType typeId="86d57ead-3183-44c7-843b-c65322c09143" valueTypeId="1bc951eb-23a4-478c-b98f-2b0ccb7ad322"/>
+    <recordManagerType typeId="ad92c4e8-0c68-4859-b299-9b1d2f8ce966" valueTypeId="e260775f-6632-469b-a400-d4cdc92c0004"/>
+  </producedTypes>
+  <name>ИнцидентыАктивные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инциденты активные</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f2ca8a73-6b5e-415e-8bc7-b957c2039c1f">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыИнцидентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8ca9984b-0657-4d81-b368-6fefb9afc7cb">
+    <name>ТипИнцидента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип инцидента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыИнцидентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="e7f9b21d-1966-4c8a-9f5c-57daa7a9858f">
+    <name>Инцидент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инцидент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Инциденты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d720be0c-4444-4bc6-ae8f-2fc2791736bd">
+  <producedTypes>
+    <refType typeId="76da2dde-20b0-4efe-9f0d-8c15660113a7" valueTypeId="f0b3ccb2-d0cb-4176-af32-e3187d6fc4c8"/>
+    <listType typeId="99983dd9-f1e3-4e11-a851-689839fbae99" valueTypeId="22545ad1-d655-443f-9cb9-f17e4468984a"/>
+    <managerType typeId="9719faec-aef6-4326-9edd-d6353066d294" valueTypeId="b9e9ee8c-6a2c-4a12-9e72-ce85d03a696d"/>
+  </producedTypes>
+  <name>ТипОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип ОС</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="805bae55-da00-453f-adca-7d3f972b9838">
+    <name>Windows</name>
+    <synonym>
+      <key>ru</key>
+      <value>Windows</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="928386e4-030b-4b0c-ae58-e98b3c05bb32">
+    <name>Linux</name>
+    <synonym>
+      <key>ru</key>
+      <value>Linux</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

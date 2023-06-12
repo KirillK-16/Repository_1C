@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d1ee62c-6f5d-4f76-bddd-5318f7ef17e2">
+  <name>КонтрольПамяти</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль памяти</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.НастройкиКонтрольПамяти</content>
+  <content>Catalog.ТипыИсполнителейКонтрольПамяти</content>
+  <content>CommonTemplate.КонтрольПамяти</content>
+  <content>CommonTemplate.КонтрольПамятиПревышенПорогПотребленияПамяти</content>
+  <content>CommonTemplate.КонтрольПамятиНеизвестнаяОшибка</content>
+  <content>Catalog.ТипыЗадачКонтрольПамяти</content>
+  <content>CommonModule.КонтрольПамятиСервер</content>
+  <content>Constant.ОповещатьОЗависшихСеансах</content>
+  <content>Constant.МаксимальнаяДлительностьНеактивностиСеансов</content>
+  <content>Constant.РольДляОповещенияОЗависшихПроцессах</content>
+  <content>InformationRegister.ЧислоВызововСервера</content>
+  <content>Constant.МаксимальноеВремяОжиданияВыполненияRacWindows</content>
+  <content>InformationRegister.ЧислоСеансов</content>
+  <content>InformationRegister.МониторингСеансов</content>
+</mdclass:Subsystem>

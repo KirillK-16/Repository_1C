@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9defb6cd-3238-42c2-b551-6d3db01a740f">
+  <producedTypes>
+    <managerType typeId="25333117-d7fa-4a46-9d98-f207b51f6fda" valueTypeId="65a19436-4b57-41a2-a486-55c70d7a58d1"/>
+    <valueManagerType typeId="6e117b50-7c1c-4001-af39-59f7a2301912" valueTypeId="67f345bd-5f15-452a-9065-c04c593cda1f"/>
+    <valueKeyType typeId="7c8c6719-65f6-5b6d-83b4-f70f0fa40bb5" valueTypeId="52419fdd-5a56-5e8b-aa4a-00a09f723143"/>
+  </producedTypes>
+  <name>КонтрольПодключенийДопустимаяНедоступность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль подключений допустимая недоступность</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:StringValue">
+    <value>10</value>
+  </minValue>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <fillChecking>ShowError</fillChecking>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

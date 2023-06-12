@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c218a26-ca98-45bd-a9d0-46aba8122fa9">
+  <name>ОткрытьАнализПотребленияПамяти</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ потребления памяти</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

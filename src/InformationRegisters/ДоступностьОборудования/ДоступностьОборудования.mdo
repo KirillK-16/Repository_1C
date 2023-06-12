@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a3cff6b-7812-4979-bea7-3cf08897f329">
+  <producedTypes>
+    <selectionType typeId="3b2026a6-1206-48e4-9c8a-40a5fe89ed33" valueTypeId="aafd06ab-458a-40b7-8a17-393c961c3c74"/>
+    <listType typeId="b399e137-37fd-4c4d-b19c-4aaacf578b25" valueTypeId="b72c4a0b-efba-4d85-b4f6-18dd50994edc"/>
+    <managerType typeId="bfae641b-9c64-4f9b-98c3-6fa657d0e02c" valueTypeId="3c58607f-64dc-464a-926e-8d423c02f5c0"/>
+    <recordSetType typeId="f366caf0-ca5b-44f7-805d-897b4cb30d38" valueTypeId="bd69f018-31c4-4484-8f0a-eb798562d95f"/>
+    <recordKeyType typeId="6667369b-dd49-43c1-903e-e6a928d8d5f4" valueTypeId="281ea4d4-4718-4c09-85c8-7984d081d8d8"/>
+    <recordType typeId="eb3377f6-7814-46b7-8efb-8a196c0145c1" valueTypeId="00b2f677-b4fe-448b-b069-bd73c82e4468"/>
+    <recordManagerType typeId="944c103d-a507-46b1-a82f-8a9c8c41df9c" valueTypeId="4a91f329-9e7a-4a66-a6f1-8428dda773cd"/>
+  </producedTypes>
+  <name>ДоступностьОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступность оборудования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ДоступностьОборудования.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4999dfdf-7e56-4bab-b08c-e5603fc54d53">
+    <name>Доступность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bbf13c62-4821-4610-a4c7-f63c9ba7695c">
+    <name>РабочийСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий сервер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Оборудование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="eeebfd03-2d35-4931-98fe-e37d1326ebc3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

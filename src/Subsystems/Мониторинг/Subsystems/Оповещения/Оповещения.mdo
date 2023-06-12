@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a43fea54-ab65-41d8-98fe-0f464d8e19fd">
+  <name>Оповещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Оповещения</content>
+  <content>Catalog.ОповещенияОперативные</content>
+  <parentSubsystem>Subsystem.Мониторинг</parentSubsystem>
+</mdclass:Subsystem>

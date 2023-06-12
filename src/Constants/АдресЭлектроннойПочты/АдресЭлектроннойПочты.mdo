@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6711824-7645-4257-b396-b98dac3f0e51">
+  <producedTypes>
+    <managerType typeId="4454feda-ec25-4ac7-84f7-ead44ee2706e" valueTypeId="210ee3de-3505-47c1-b0dc-55d0d8d8cf20"/>
+    <valueManagerType typeId="7bf45944-06e1-4173-a796-ea971c382b29" valueTypeId="f4c4acfe-f3c7-44ca-a518-c9a48fa33ac9"/>
+    <valueKeyType typeId="bace1505-ec7c-5f37-a795-58d5b769aac8" valueTypeId="6c3ac5e2-7299-5d8b-b82b-c5798252f713"/>
+  </producedTypes>
+  <name>АдресЭлектроннойПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес электронной почты</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Адрес электронной почты в формате пользователь@сервер</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

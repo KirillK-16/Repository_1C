@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c7baee8-ee4a-42f2-ae93-0e742cf7c8c3">
+  <producedTypes>
+    <managerType typeId="9950424e-82c6-4c2e-bed1-69adc2d19ca5" valueTypeId="0768d702-0a77-4e07-845a-67330b1ba944"/>
+    <valueManagerType typeId="00ee4746-8e28-4376-9965-2be9f6bc4523" valueTypeId="1e1ea415-7f44-4ce7-b9ba-96d7bd84ce2a"/>
+    <valueKeyType typeId="01cd246c-deef-58a2-8c2e-fbf9676b4117" valueTypeId="19367948-b104-5996-a469-9e269930743e"/>
+  </producedTypes>
+  <name>Кластер1СВремяАктуальностиКеша</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кластер1 с время актуальности кеша</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0c3e200-4a2f-42a2-94de-564f53e54e00">
+  <name>ПоказателиМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели мониторинга</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ИспользованиеОперативнойПамятиПроцессамиКластера</content>
+  <content>Catalog.ОценкаПользователей</content>
+  <content>Catalog.ПоказателиAPDEX</content>
+  <content>Catalog.ПоказателиСкоростиВыполненияТипичныхОпераций</content>
+  <content>Catalog.СкоростьРазбораПроблем</content>
+  <content>Catalog.СформированоОтчетов</content>
+  <content>Catalog.ТекущееЧислоВызововСервера</content>
+  <content>Catalog.ЧислоИсключенийПоТехнологическомуЖурналу</content>
+  <content>Catalog.ЧислоНерешенныхПроблем</content>
+  <content>Catalog.ЧислоНовыхОбъектов</content>
+  <content>Catalog.ЧислоПаденийРабочихПроцессов</content>
+  <content>Catalog.ЧислоСеансовПользователей</content>
+  <parentSubsystem>Subsystem.Мониторинг</parentSubsystem>
+</mdclass:Subsystem>

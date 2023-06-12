@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b591305-65a2-4968-9fb0-d681c54e4b85">
+  <producedTypes>
+    <refType typeId="d20433d8-d5cc-4f9a-a900-a817462909a7" valueTypeId="9b6b6192-3ca9-4da4-82f7-fc17dea36bf7"/>
+    <listType typeId="4b4007c6-e396-40ec-b0bf-85338476c8b7" valueTypeId="9c80ab64-da44-4355-bf00-f46c033824cc"/>
+    <managerType typeId="57e7f7e9-7007-4c0d-9122-7f4ff4c68eb3" valueTypeId="52c2193d-e977-45c6-bcff-9d880aa75620"/>
+  </producedTypes>
+  <name>ТипыПаденияРабочегоПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы падения рабочего процесса</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2863539f-7db3-40cc-b2a3-06da72352afa">
+    <name>СОбразованиемДампа</name>
+    <synonym>
+      <key>ru</key>
+      <value>С образованием дампа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f51ca94c-0f36-44ff-a494-5ae0b80a1c7a">
+    <name>БезОбразованияДампа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без образования дампа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a4e91fe-f08e-421f-9fd0-c644f36157ec">
+    <name>СОбразованиемИБезОбразованияДампа</name>
+    <synonym>
+      <key>ru</key>
+      <value>С образованием и без образования дампа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a22d4706-6a71-47b9-a568-42acb3bbd7e2">
+  <name>ВидимостьПомощникПерехода_2_1_3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Видимость помощник перехода 2 1 3</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f3faa82-eda2-4ab2-bdd5-01976f154810">
+  <producedTypes>
+    <refType typeId="52828773-0fe2-46f2-a654-5ccf91bf35cd" valueTypeId="10680c8c-fdf6-4604-a0b4-a88aecb00fe0"/>
+    <listType typeId="bab62ca6-4830-413a-9788-79ff7f80f615" valueTypeId="9f7abe8e-3b7d-4cf7-950a-a50342676f92"/>
+    <managerType typeId="71a6dfa0-62c9-4e0c-bf80-44dd64fcf2e9" valueTypeId="7948638b-787b-47a9-b4b8-0acc432e0f5f"/>
+  </producedTypes>
+  <name>ЗаголовкиЖурналаКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заголовки журнала контроля</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8908b72c-3a93-4916-b0f7-001804af4310">
+    <name>СформированаЗадача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформирована задача</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26d93aca-f9b9-4b2a-a671-d42d4ebb4a75">
+    <name>Старт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5006a824-d487-4b08-a845-d74cfe5f533a">
+    <name>ВыполненаЗадача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена задача</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b643d796-212c-498f-bce7-dcc6597b092e">
+    <name>ОбнаруженаПроблема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обнаружена проблема</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ce6e07d-0ff4-4fdd-8f2c-3cbbaaee33ff">
+    <name>Предупреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

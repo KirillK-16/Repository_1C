@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86a4857e-ff8a-451b-88cf-d234e08bea49">
+  <producedTypes>
+    <selectionType typeId="ae4b13bc-1a3b-44fa-86c9-25c04d719420" valueTypeId="260e9771-caea-41a0-bea5-beacb1809855"/>
+    <listType typeId="23e86d2b-d4b0-45dd-bac7-51ed7b2c50ae" valueTypeId="c9d7fa07-3662-44af-9ef0-1190ef8b03c0"/>
+    <managerType typeId="75737f74-7fdd-4b76-82a9-9257d2699000" valueTypeId="0c3e461b-5915-4e54-a354-1c319c9c0544"/>
+    <recordSetType typeId="3d986c8f-472a-4045-a939-16754519e49b" valueTypeId="599958dd-79e3-4457-bcdd-19f22a3576bf"/>
+    <recordKeyType typeId="850aafe5-62e0-424b-9930-dd04d4539289" valueTypeId="caa0db49-eca9-4a07-9bfa-34b8e2d7bb53"/>
+    <recordType typeId="d028f158-c230-4c50-bc99-452134bc51a9" valueTypeId="cf60674f-f5f2-4e85-8f8b-ea23ca0342ad"/>
+    <recordManagerType typeId="aa3ce80c-a6f3-4cdc-bbff-7e3af2de7378" valueTypeId="c65306d8-000e-4ff2-81f9-5e30e916d34c"/>
+  </producedTypes>
+  <name>ЗапрошенныеДампы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрошенные дампы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ЗапрошенныеДампы.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="09aae1b3-9320-44d6-9649-1f79b428eac3">
+    <name>ДатаЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата запроса</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="e394ee3c-f28c-41b5-a5e2-130084aeecee">
+    <name>Запрошен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрошен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="66b9aac3-4f0c-48a5-a985-e7d1798d4314">
+    <name>Получен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="b5edf2fc-34ba-473c-91d3-da42602b8808">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="99b04a9a-8ba3-4551-93c9-1e0884a449ad">
+    <name>ВариантДампа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант дампа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВариантыДамповЦентрМониторинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="237a0268-b440-47c5-a84a-abcfc202872c">
+    <name>ТипДампа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип дампа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a75afb35-6d52-4050-a154-554cdd1bbf94">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9c1201a1-1e6f-4055-b017-91a9d0d7df29">
+    <name>ЗаполнениеВариантов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение вариантов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

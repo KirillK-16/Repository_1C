@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f1ff681-36fc-49db-9a43-126e3c1fda21">
+  <producedTypes>
+    <managerType typeId="a91de779-2b0d-46b9-b7af-d0c42d7d6011" valueTypeId="e7a49e87-cb71-4bc4-937b-174777fdc383"/>
+    <valueManagerType typeId="dfbb680e-bf94-4a39-8a89-ea84acc6c4c3" valueTypeId="8b351190-10b6-4395-8336-64ac4f05bf70"/>
+    <valueKeyType typeId="51e52b4f-f321-5edd-bccf-9b5a85dde68a" valueTypeId="b628c62a-c09b-58db-b95e-ffd3700e8e29"/>
+  </producedTypes>
+  <name>БлокировкаСтартаЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блокировка старта задания</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

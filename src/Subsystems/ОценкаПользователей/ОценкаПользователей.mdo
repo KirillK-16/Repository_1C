@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bbae88e-f230-47cd-ae6f-514902855424">
+  <name>ОценкаПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка пользователей</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ТипыЗадачОценкаПользователей</content>
+  <content>Catalog.ТипыИсполнителейОценкаПользователей</content>
+  <content>Enum.ОценкаПользователей</content>
+  <content>CommonTemplate.ОценкаПользователейДатьОценку</content>
+  <content>CommonTemplate.ОценкаПользователей</content>
+  <content>Catalog.ОценкаПользователей</content>
+  <content>CommonModule.ОценкаПользователейСервер</content>
+</mdclass:Subsystem>

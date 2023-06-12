@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="827acf2c-783c-46e1-ad72-3eba2fb68e91">
+  <producedTypes>
+    <selectionType typeId="a871d34e-efe6-4fbd-a459-de52a2150473" valueTypeId="e7767175-eed1-4c4f-8b3f-1e989bf3a56f"/>
+    <listType typeId="cbb22de5-4c6a-4913-9bf6-89bdf9b634be" valueTypeId="64389f3d-5bae-4a7d-a8c1-35d1a741663e"/>
+    <managerType typeId="42215fa8-ced5-4a37-8aa2-79bbc12b8564" valueTypeId="55961c8a-8a06-4d72-9e42-2bb316900537"/>
+    <recordSetType typeId="2add9eee-8171-4a9c-82c6-d7eb7bff3d28" valueTypeId="5ac2bdff-9d04-4af5-883e-1f825fccd466"/>
+    <recordKeyType typeId="55f7b477-a21f-4b13-b0e9-89264e39f3bd" valueTypeId="04775eb1-1cea-44bd-bb45-a3c788991ee9"/>
+    <recordType typeId="c9d9c95e-d1df-4b3a-b27d-9d57fef87bd2" valueTypeId="fdadbc31-77d3-482f-927c-498f87121cee"/>
+    <recordManagerType typeId="094bfd42-0328-44b6-8bfe-e6a9cb881c3c" valueTypeId="46a5199d-8064-47e5-be0e-cae9a709b447"/>
+  </producedTypes>
+  <name>УдаленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаленные объекты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="a72c9dc4-5b6e-40ef-b72e-20f1a90afc3e">
+    <name>ДополнительнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная информация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="d65cd7c7-e457-4e3c-a850-d9714b63f3ca">
+    <name>ПериодУдаления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период удаления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="9bead4e6-7caa-47d7-9e67-1f4fa438128e">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

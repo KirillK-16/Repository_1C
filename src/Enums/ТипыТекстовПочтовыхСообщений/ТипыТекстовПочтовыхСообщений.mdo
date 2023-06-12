@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de96c8fe-4f96-4e1f-8cf3-268c8eff9fca">
+  <producedTypes>
+    <refType typeId="8f69998c-ffc0-47f9-bd59-7ec73ee140aa" valueTypeId="db916561-d720-494f-98f1-70465ebf789a"/>
+    <listType typeId="b11f6984-af2f-4891-8073-7d54361728d9" valueTypeId="2fe576ea-b6b5-423d-a3ee-a8a0f2ad256f"/>
+    <managerType typeId="b93530cc-6470-43ff-ae41-2b69de25726f" valueTypeId="ee86c784-b865-46c9-9619-96829d26b97d"/>
+  </producedTypes>
+  <name>ТипыТекстовПочтовыхСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы текстов почтовых сообщений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a4637f4e-26c3-407d-a4bd-01690165531b">
+    <name>HTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTML</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bdb2532c-a6a7-420f-8233-5394a8510463">
+    <name>ПростойТекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простой текст</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d53b650-931a-4e66-8f89-97b804b0bac5">
+    <name>РазмеченныйТекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размеченный текст</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

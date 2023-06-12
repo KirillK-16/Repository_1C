@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e4858da-2b4e-4106-9c47-b46d0d8ce2e3">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки и администрирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Сервис</picture>
+  </picture>
+  <content>Catalog.ВидыКонтрольныхПроцедур</content>
+  <content>Enum.ВозможныеСостояния</content>
+  <content>Enum.Процессы</content>
+  <content>Enum.СостоянияВариантаДампа</content>
+  <content>Enum.ЗаголовкиЖурналаКонтроля</content>
+  <content>Enum.СпособыSMTPАутентификации</content>
+  <content>Enum.ПровайдерыSMS</content>
+  <content>Enum.СтатусыДоставкиSMS</content>
+  <content>SessionParameter.ТекущийПользователь</content>
+  <content>Role.ПолныеПрава</content>
+  <content>ScheduledJob.ЗапускКонтрольнойПроцедуры</content>
+  <content>CommonTemplate.КипВнешнийКомпонент</content>
+  <content>WSReference.ОтправкаSMSМТС</content>
+  <content>ScheduledJob.ОтправкаОтчета</content>
+  <content>CommonForm.ФормаКонстантСтатистика</content>
+  <subsystems>НастройкиТехнологическихЖурналов</subsystems>
+  <subsystems>НастройкиОбщие</subsystems>
+  <subsystems>НастройкиПрочее</subsystems>
+  <subsystems>НастройкиОповещения</subsystems>
+  <subsystems>СервисныеОбработки</subsystems>
+  <subsystems>Доступ</subsystems>
+  <subsystems>ТестированиеСервисов</subsystems>
+</mdclass:Subsystem>

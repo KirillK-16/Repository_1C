@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4e06632-3817-46d5-978a-583123d89b38">
+  <producedTypes>
+    <objectType typeId="38ef17b6-0470-4624-8ec1-53e701614171" valueTypeId="49d540eb-a0dd-4460-ba7a-3c1cb5fb6692"/>
+    <managerType typeId="137560c8-ce93-49d9-a215-6af1d4d527f0" valueTypeId="1a73e218-e23a-4a8f-99f2-64b152740aa3"/>
+  </producedTypes>
+  <name>ЗаданияНаОбновлениеИсполняющейЧасти</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задания на обновление исполняющей части</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗаданияНаОбновлениеИсполняющейЧасти.Form.ФормаСпискаЕдиницАдминистрирования</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="62f9016b-adb7-4019-965b-ff50c08ba61e">
+    <name>ФормаСпискаЕдиницАдминистрирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка единиц администрирования</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2b64a47b-cc1a-433c-b801-56ed067280b0">
+    <name>ФормаВыбораПараметровОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора параметров обновления</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="2cd03c68-b35d-4e5d-a846-f5de46623339">
+    <name>ЗаданияНаОбновлениеИсполняющейЧасти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задания на обновление исполняющей части</value>
+    </synonym>
+    <comment>Задания на обновление скриптов на машинах</comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

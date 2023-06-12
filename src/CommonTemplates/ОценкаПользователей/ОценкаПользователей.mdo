@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb2a1597-50a9-4437-a193-ecc21796aea2">
+  <name>ОценкаПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка пользователей</value>
+  </synonym>
+  <templateType>HTMLDocument</templateType>
+</mdclass:CommonTemplate>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95a092c8-062b-47ea-9060-ed29b5ee5cad">
+  <name>ОбработкаПараметрыКластераБуфер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка регистра сведений &quot;Параметры кластера буфер&quot;</value>
+  </synonym>
+  <methodName>CommonModule.Кластер_1С.ОбработкаПараметрыКластераБуфер</methodName>
+  <description>Обработка регистра сведений &quot;Параметры кластера буфер&quot;</description>
+  <key>0ef3bb81-f108-45a6-917a-564294b036e8</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

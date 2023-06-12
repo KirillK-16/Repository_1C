@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a94152b6-94f7-4db9-ba84-e47e67e41f18">
+  <name>РасчетИсторииПодробно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет истории подробно</value>
+  </synonym>
+  <methodName>CommonModule.ЦентрМониторингаИмпортСлужебный.РасчетИсторииПодробно</methodName>
+  <description>Центр мониторинга: расчет истории подробно</description>
+  <key>ae0e5f31-e2fb-42fa-9052-34ec1587add4</key>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c59f99f5-a38e-4ced-95f6-901d012b0e14">
+  <name>ОценкаПроизводительностиПоПользователям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка производительности по пользователям</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

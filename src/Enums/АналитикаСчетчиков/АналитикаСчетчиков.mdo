@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a586fcb8-eaee-46ac-bad5-c2c569298708">
+  <producedTypes>
+    <refType typeId="f1a76e0d-4b12-43f1-b010-498ac8de5685" valueTypeId="4bc1402f-c6a3-4e46-9faf-7c150987d4f2"/>
+    <listType typeId="28347605-5e93-4c73-b64d-6425c9af2f53" valueTypeId="a9dc4a3d-756c-49d9-9f79-525421f16ef6"/>
+    <managerType typeId="41c466f4-5bb4-4a6f-b158-919c7695ac2f" valueTypeId="31ad0b96-98f4-4717-86f4-7416838b54e7"/>
+  </producedTypes>
+  <name>АналитикаСчетчиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитика счетчиков</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="02be1392-462e-4623-b828-0d00d7ba73b0">
+    <name>СреднееЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среднее значение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2932ca0-f99b-4438-8405-289f286baa8b">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2565d553-ccc2-40a2-b11e-2d99e2c4fe7b">
+    <name>ЧислоСрабатываний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число срабатываний</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

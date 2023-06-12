@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70081311-3617-41a2-932d-f287b52522a0">
+  <producedTypes>
+    <objectType typeId="ff8cf6f7-8d67-4296-9df9-082b91633506" valueTypeId="d89fead5-5d49-43d6-a787-13fd42a45f4e"/>
+    <managerType typeId="e7cb3534-a7f8-41f4-be94-9444ef63cb57" valueTypeId="f955da96-42e1-4018-9488-392604d8bc16"/>
+  </producedTypes>
+  <name>ТестInputStatistics</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестирование веб-сервиса &quot;InputStatistics&quot;</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ТестInputStatistics.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="c10e013b-b07f-4a3f-8ec2-b1ab3a258e26">
+    <name>WSСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>WS Ссылка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="75a894a3-dae6-4898-97a9-da4f02720b19">
+    <name>ЗначениеДляПередачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение для передачи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a74fc8b3-23ca-45f5-a0a9-eb20ec36a1e1">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="db7deee4-60db-454c-bd65-54dd0cd18316">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7bc37af8-5e96-414c-b627-6a1315816dc5">
+    <name>ДатаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9e5aa295-2a45-4035-b1e6-3b593a1d0b2a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d6a933f9-e392-4c14-a48c-9f5f892456f4">
+    <name>ФормаСДатой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма с датой</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="b1fbeed6-1eb5-4235-8f87-c21344ef0524">
+    <name>ТестInputStatistics</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест веб-сервиса &quot;Input statistics&quot;</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="b41aa0ea-3b16-47f9-9df9-61c8d21884db">
+    <name>ТестInputStatisticsDate</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест веб-сервиса &quot;Input statistics date&quot;</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

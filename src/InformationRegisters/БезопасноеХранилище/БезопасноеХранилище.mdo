@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7e3227e-ca98-4f12-8c77-7d843263a69b">
+  <producedTypes>
+    <selectionType typeId="f94af539-4a3f-46ec-8f6b-a38450780b19" valueTypeId="faadaecb-794e-4afa-a1d6-dd1195fc66d3"/>
+    <listType typeId="cf0b3bae-cecf-425c-82c8-b8886e96bf63" valueTypeId="cbac6687-7ff7-4f1a-8715-a914c0418260"/>
+    <managerType typeId="f6af365b-a501-4976-8cd9-7d8f5c4e79b8" valueTypeId="ce409176-2bcd-4925-b8ea-6cb01f92c2ea"/>
+    <recordSetType typeId="13159e95-1ef8-4c41-9f18-79c693ed46a8" valueTypeId="6eaed050-1b60-42d8-8b3a-9f86f98a447f"/>
+    <recordKeyType typeId="080209e9-9ce3-4b3d-961b-d498a88612a8" valueTypeId="e969f280-b73d-4f78-89ef-beaf0e90f747"/>
+    <recordType typeId="b835a58b-8b3f-4c69-9f38-9b3647131579" valueTypeId="a2b589d9-7fea-42e5-b250-d987b6c0ecf0"/>
+    <recordManagerType typeId="a543546f-1f43-4e95-870f-9ff8bc302587" valueTypeId="a07af835-2194-4238-a675-eab082b04f69"/>
+  </producedTypes>
+  <name>БезопасноеХранилище</name>
+  <synonym>
+    <key>ru</key>
+    <value>Безопасное хранилище</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e1fbf05d-24f9-4ad3-ac38-a416914347c6">
+    <name>ДанныеХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные хранилища</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="37d83b2c-ae2d-4215-b346-89d313746ff2">
+    <name>ВладелецХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец хранилища</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НастройкиАнализаПроблемПроизводительности</types>
+      <types>CatalogRef.КонтрольныеПроцедуры</types>
+      <types>CatalogRef.Публикации</types>
+      <types>CatalogRef.ВидыКонтрольныхПроцедур</types>
+      <types>CatalogRef.ВидыОбъектовКонтроля</types>
+      <types>String</types>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </dimensions>
+</mdclass:InformationRegister>

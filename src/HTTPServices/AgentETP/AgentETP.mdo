@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddb688bf-742c-4a40-8bb8-3edc6190db89">
+  <name>AgentETP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Agent ETP</value>
+  </synonym>
+  <rootURL>AgentETP</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="aa2033df-0e54-46be-9899-acf8890441f7">
+    <name>Handshake</name>
+    <synonym>
+      <key>ru</key>
+      <value>Handshake</value>
+    </synonym>
+    <template>/Handshake</template>
+    <methods uuid="a733091a-2be5-4afa-bf95-f8419a28e558">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>HandshakePOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="5d1783ce-4fac-456a-aa0e-2581ff9f3270">
+    <name>InputData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Input data</value>
+    </synonym>
+    <template>/InputData</template>
+    <methods uuid="f4b83675-1a2e-43f1-9287-976655b584c4">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>InputDataPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

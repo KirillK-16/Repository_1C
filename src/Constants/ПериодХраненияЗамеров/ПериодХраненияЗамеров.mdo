@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59585380-f264-4579-b858-d9757ad49f0d">
+  <producedTypes>
+    <managerType typeId="b09aada1-193b-4934-95bb-8cc1e513f288" valueTypeId="bd620dee-a7c4-41bc-bb52-b4ad1d153236"/>
+    <valueManagerType typeId="6652b8c4-8ce2-400a-8ab6-8536bee47b93" valueTypeId="0f5171f4-cdf4-4a2a-b212-9efb73e1e5ca"/>
+    <valueKeyType typeId="cdf12e12-8c1b-5378-a9b9-01e547540613" valueTypeId="e0c034e2-ea2a-524f-9e1d-cc07b7076e8d"/>
+  </producedTypes>
+  <name>ПериодХраненияЗамеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период хранения замеров</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Период хранения в днях данных регистра сведений &quot;Замеры производительности (оценка производительности)&quot;. Если равен нулю, то удаление данных не выполняется.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

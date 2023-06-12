@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90c06c8a-7b34-4ab5-be81-a740009d46c3">
+  <name>ВнутренниеЗамерыГлобальный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внутренние замеры глобальный</value>
+  </synonym>
+  <global>true</global>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

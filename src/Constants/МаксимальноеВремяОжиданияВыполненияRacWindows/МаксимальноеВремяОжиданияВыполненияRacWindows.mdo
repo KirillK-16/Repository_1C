@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc0fa510-b3de-4f4d-bef2-eef50709ddab">
+  <producedTypes>
+    <managerType typeId="744326e7-3e03-4833-9b40-55b8210a0ec3" valueTypeId="f59950e9-2581-49bb-98ac-8a0f4c1330f8"/>
+    <valueManagerType typeId="cbd90012-06cf-4c16-8b4b-ddb87321ba03" valueTypeId="795590ce-f5d6-4fe9-abb7-9a9f503097cc"/>
+    <valueKeyType typeId="953607a9-c7ff-5356-a100-88949a972358" valueTypeId="aaf5ba88-8569-5ffb-abb1-c3d722ba2735"/>
+  </producedTypes>
+  <name>МаксимальноеВремяОжиданияВыполненияRacWindows</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальное время ожидания выполнения rac windows</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

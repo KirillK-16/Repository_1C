@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5ac10c3-bc65-4c02-b245-529f81b0cf3f">
+  <producedTypes>
+    <selectionType typeId="5a377903-b669-43c3-bb8b-c769ec125ca2" valueTypeId="93ee1144-454b-4c30-9fd0-7c7de0d9b3ae"/>
+    <listType typeId="a67f0184-da11-491b-aa52-bdc65aca090b" valueTypeId="0865d322-9bd9-4ea0-a886-e4a07274d20f"/>
+    <managerType typeId="d0a0bbb8-a177-431d-848c-a60ec1cdb2cf" valueTypeId="46914987-1bb1-45e9-8269-961761971fa9"/>
+    <recordSetType typeId="f2320bc7-202b-4836-86c7-1d1250e96d0b" valueTypeId="a0c97d6b-ac7d-40fd-8903-bd3760c2474c"/>
+    <recordKeyType typeId="ed1209c4-9b88-45dd-9189-b3c1eb7a9123" valueTypeId="39e8235d-29c9-4741-beee-cccecddcdb8b"/>
+    <recordType typeId="79152e3a-0dc8-45f3-b966-b3c7492e3a98" valueTypeId="67636af5-d86f-4355-a789-a3309304b182"/>
+    <recordManagerType typeId="6ac68410-acbc-4109-ad32-fea8748c2578" valueTypeId="69b5d699-e2c8-4b2b-8681-1a1ad87ba27b"/>
+  </producedTypes>
+  <name>РолиПрофилейЦентрМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли профилей (центр мониторинга)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="0616f12c-7843-4bae-bcbb-f30fb8967676">
+    <name>ПрофильГруппДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль групп доступа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрофилиГруппДоступаЦентрМониторинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="83760927-06c6-4113-887c-d123c73d563f">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РолиЦентрМониторинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

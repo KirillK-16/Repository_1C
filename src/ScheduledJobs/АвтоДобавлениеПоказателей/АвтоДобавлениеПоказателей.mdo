@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01809880-f4a1-4d36-b694-59c4b3ae5fbe">
+  <name>АвтоДобавлениеПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Авто добавление показателей</value>
+  </synonym>
+  <methodName>CommonModule.ИнцидентыСерверСлужебный.АвтоДобавлениеПоказателейВОбнаружение</methodName>
+  <description>Автоматическое добавление показателей в обнаружения</description>
+  <key>31a2ac00-9472-48d8-8828-ce6954238306</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

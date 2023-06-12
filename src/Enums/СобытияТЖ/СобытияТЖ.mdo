@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d519a9a1-efc2-4985-b3fa-6ff5d2fec0ce">
+  <producedTypes>
+    <refType typeId="4927dbee-e581-45fb-b4ef-d82ff77c1242" valueTypeId="48d9a62e-084e-4493-a40e-dacb10b9438a"/>
+    <listType typeId="0a41280f-032f-48c2-a4b9-193748f17e10" valueTypeId="69568655-1a47-40e2-92e8-a671a198e957"/>
+    <managerType typeId="e02de1de-e0bb-496f-8f5c-3222a53ba4c7" valueTypeId="13494f4f-fa8b-445d-878c-4ba5f287a841"/>
+  </producedTypes>
+  <name>СобытияТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>События ТЖ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a0e03509-39da-45f8-948a-61c869206d89">
+    <name>ОшибкаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка выполнения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43f0eec0-d098-4b6d-98a9-4cf7c7bd9ebf">
+    <name>ОшибкаБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка блокировки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f9bf469-5143-4ba8-963c-3522eed11f0d">
+    <name>ВызовКластера1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вызов кластера 1С</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

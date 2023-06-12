@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75247128-bdac-4025-a76f-9e21f92b867d">
+  <producedTypes>
+    <refType typeId="14d914ee-a076-40f1-a127-2b014f8a4bdf" valueTypeId="48512d75-bd28-43ba-80a3-9e92dea8d312"/>
+    <listType typeId="c36f798a-bf11-4220-9d00-17064c18ddac" valueTypeId="f23f9686-02ff-4141-9d76-a3c43646c3e0"/>
+    <managerType typeId="d2021479-3af8-4ea1-bc12-ecc1e4d56fdf" valueTypeId="3ae20771-3a3e-4c87-a63f-0bb991e7bc34"/>
+  </producedTypes>
+  <name>ВидыБлокировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды блокировок</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ae8ed1fd-c556-4038-9e31-f4298a327562">
+    <name>ТаймаутСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таймаут СУБД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c2e5315-6141-436a-8e19-302fe25c6c2e">
+    <name>Таймаут1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таймаут 1С</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="99ee4d8f-91d3-4820-93e6-5314b55bca68">
+    <name>ВзаимоблокировкаСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаимоблокировка СУБД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6c5d52bb-ac9b-4367-8d12-ba392206b3d7">
+    <name>Взаимоблокировка1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаимоблокировка 1С</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

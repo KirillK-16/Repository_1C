@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="541c1eec-d68b-44e4-921a-e400e2df0f16">
+  <producedTypes>
+    <selectionType typeId="b8e3efa0-740b-420c-90cd-b4b7b1ce01a7" valueTypeId="e95d9f02-e3a6-4fb5-b529-1dfebdf76a8f"/>
+    <listType typeId="2dfb51ce-1067-4a1b-98c7-ee374e05a78c" valueTypeId="8234fffc-cd96-4825-9571-0e2f77683386"/>
+    <managerType typeId="7e39e4b8-c311-4375-ab28-61696d2e092d" valueTypeId="9cbd629f-11dc-4d6f-91fe-39f7fab65522"/>
+    <recordSetType typeId="eb83d3c1-ea00-48d7-8870-df59cef5b78d" valueTypeId="0bb7447e-518e-49f0-8fa8-f96ae4d67ef2"/>
+    <recordKeyType typeId="84e437f2-d975-4b00-a55b-c8e3ccbb44f4" valueTypeId="3609e413-aa15-49fe-91c1-449482d0ddc3"/>
+    <recordType typeId="85ef12b8-326f-4176-9444-8d3740f9a834" valueTypeId="1d51b665-692b-432f-8703-4e601e97a904"/>
+    <recordManagerType typeId="2341c3a1-9283-4699-a2a2-4b78cea61625" valueTypeId="5b32f3af-996f-496c-ba65-4b9bc238edbe"/>
+  </producedTypes>
+  <name>ОшибкиЦентрМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки центр мониторинга</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2e7804b1-474e-4cf7-a648-f619f8ec5e90">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f853fd0c-2d89-4674-b429-8b5946236279">
+    <name>ТипОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ошибки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыОшибокЦентрМониторинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="344da3ed-a430-438b-b859-f32c0be3eb00">
+    <name>КлассОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс ошибки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлассыОшибокЦентрМониторинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="15b0c9b1-ea8d-4283-8b40-d0bf5739bdfc">
+    <name>СтекОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стек ошибки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтекиОшибокЦентрМониторинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="be7ce21c-7350-4261-bf23-66f3bea0dc25">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4e7cfe88-90c1-4b06-81e9-d49d6a9ee7d1">
+    <name>ПакетЦентраМониторинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пакет центра мониторинга</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПакетЦентраМониторинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

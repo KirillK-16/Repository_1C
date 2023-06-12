@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6350d842-0cc1-4999-928d-de429a1e7ee7">
+  <producedTypes>
+    <managerType typeId="ca5c1e43-7a50-413c-8362-486a4b5163d0" valueTypeId="91bb9d74-7bc1-4fac-9650-c11fd7702596"/>
+    <valueManagerType typeId="5c8a86a0-2bdf-4c5e-82fa-3bacbb691502" valueTypeId="e4e1eccc-f007-4a7b-983f-5123bb6aeb02"/>
+    <valueKeyType typeId="f996beab-07c3-5ed9-8a1d-56b40abcaab8" valueTypeId="e6f35a65-8fb9-57b6-83ac-e5c8b1ebee5d"/>
+  </producedTypes>
+  <name>МаксимальнаяДлительностьНеактивностиСеансов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальная длительность неактивности сеансов (в минутах)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

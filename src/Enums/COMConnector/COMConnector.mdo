@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ec0e282-77c6-4916-8971-3f7a563aba6a">
+  <producedTypes>
+    <refType typeId="2db1a832-d235-449a-acf0-4fba491d4f18" valueTypeId="dc5d0382-68a9-4c5c-8d01-27da4f1ac33e"/>
+    <listType typeId="d3348a7c-6ad3-40de-bd19-08812a611a12" valueTypeId="7d201d22-f1c0-4eb0-96ab-08b5a63de1bc"/>
+    <managerType typeId="a00336ba-4196-4801-8491-412f3f5c3489" valueTypeId="95531fd2-d84a-45ba-b54b-d6e3b368fd0e"/>
+  </producedTypes>
+  <name>COMConnector</name>
+  <synonym>
+    <key>ru</key>
+    <value>COMConnector</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ba174fe8-2828-477c-bfd8-e0922d2d8e9d">
+    <name>V83_COMConnector</name>
+    <synonym>
+      <key>ru</key>
+      <value>V83.COMConnector</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6628f127-5d4a-4cb5-ba19-925356d9a3cb">
+    <name>V82_COMConnector</name>
+    <synonym>
+      <key>ru</key>
+      <value>V82.COMConnector</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

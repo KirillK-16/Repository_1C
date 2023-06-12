@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f0f7ab5-e4dc-443a-a043-59935ba77fd4">
+  <producedTypes>
+    <selectionType typeId="81c3d8ed-ed16-44b3-844f-da9a0ed2d4f3" valueTypeId="7a869ee2-507d-4ee1-9590-4f1cf568e00e"/>
+    <listType typeId="3e3fb4e2-5124-43fd-a847-2eb83380a499" valueTypeId="877146a2-3129-4727-b0fd-8e4675be4d83"/>
+    <managerType typeId="86068c22-e9da-43ac-8ccb-cc23eef6569a" valueTypeId="12a713c9-e6e9-48a8-8e89-a1efc9bcedb0"/>
+    <recordSetType typeId="a54d943d-a5b5-443e-939c-c8e4c6a2bf0b" valueTypeId="cb62d5ec-fc53-4a89-ad22-ede2dfdf13f8"/>
+    <recordKeyType typeId="39ccf030-adc6-42ad-8718-c59c050311ad" valueTypeId="628a69ec-3896-41ba-8b75-95606c3535b3"/>
+    <recordType typeId="acda5476-d830-4208-b3b9-6313e0c2b719" valueTypeId="b69a4e9e-4475-4639-acdf-b89c94ca8854"/>
+    <recordManagerType typeId="18fce33a-a62d-4963-8aad-e8f60c10e6e5" valueTypeId="4352d806-9ede-40db-9a86-e0cf1d0600fd"/>
+  </producedTypes>
+  <name>ОборудованиеЛогическиеДиски</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудование логические диски</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="bbe5d6ea-e15f-498e-b7e7-2ecdc66149fb">
+    <name>Объем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем, байт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f5883efe-70f3-4b68-a0a6-5453969f584f">
+    <name>Свободно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свободно, байт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="06342196-39d6-4263-a22e-cdb95f9f2836">
+    <name>ДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи, UTC</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="1b6b46c9-66cd-47f7-b19f-cce069f2b7c3">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Оборудование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+  </dimensions>
+  <dimensions uuid="81cc357d-1270-4a06-a864-534cd2294f8f">
+    <name>ЛогическийДиск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логический диск</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </dimensions>
+</mdclass:InformationRegister>

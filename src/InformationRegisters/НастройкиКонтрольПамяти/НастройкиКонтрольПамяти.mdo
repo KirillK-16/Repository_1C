@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d217662-4a97-4ec1-8a4a-df55724425f8">
+  <producedTypes>
+    <selectionType typeId="bd01608e-405a-4d24-9f61-9b8c97bf9c89" valueTypeId="03b6aaae-af2d-4419-a7aa-081de8a322bf"/>
+    <listType typeId="e390147d-ea37-4fd4-ab89-2edc8fdb402a" valueTypeId="729a55d3-19f6-4855-9fdb-57454621cfda"/>
+    <managerType typeId="374d09cc-37ea-41d2-ba9c-86a3d8d78e26" valueTypeId="4e72b2fa-d445-489f-ade5-686fde04e295"/>
+    <recordSetType typeId="c4f44c2c-4d2f-412f-bbc0-7de8051190b2" valueTypeId="c41c2b4e-78bd-4119-9b3b-1cf3081cbdab"/>
+    <recordKeyType typeId="d87e6d4a-9ccc-4308-b535-e4e1b99fef38" valueTypeId="7fa53458-31f6-461f-9096-0a52a2eff050"/>
+    <recordType typeId="c64abf96-0de9-47bd-9882-997ab579ffd6" valueTypeId="09a56351-85a1-4556-8daf-d4ff5888fa9b"/>
+    <recordManagerType typeId="ccc6c5fc-474c-47f3-86d2-9b897d03a8d9" valueTypeId="b3f7e3b3-9ed2-4dc5-9cec-23fe186a0862"/>
+  </producedTypes>
+  <name>НастройкиКонтрольПамяти</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки &quot;Контроль памяти&quot;</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="69bf609d-fa7c-4970-a23a-48eb65324de9">
+    <name>ПороговаяПамятьМБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пороговое значение потребления оперативной памяти рабочим процессом (Мб)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="03c7350e-1b1a-429a-9e6c-1f92e7d0fdb2">
+    <name>ДатаОповещенияОЗависшихСеансахСкрыто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата, когда было произведено оповещение о зависших сеансах</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="00fabae7-6216-4d62-9d98-a4e8544083e6">
+    <name>СрокХраненияДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов, через которое записи о сеансах и потреблении памяти будут удаляться из ЦКК</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="53704ede-2454-481f-82dc-b49b69fd6230">
+    <name>АвтоматическиУдалятьЗаписиСеансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически удалять сохраненные в ЦКК данные по превышению порога времени</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3e477edd-cc0b-4e01-843b-44dae4c293e3">
+    <name>Расписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расписание</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="debcbadf-9d43-448a-8d16-a928be8ffd17">
+    <name>Мониторинг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мониторинг</value>
+    </synonym>
+    <comment>0 - Не мониторить, 1 - мониторить при превышении, 2 - мониторить всегда</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="30617d77-71f9-4e51-9e3e-39a5d7e91f2d">
+    <name>КонтрольнаяПроцедура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная процедура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольныеПроцедуры</types>
+      <types>CatalogRef.ВидыКонтрольныхПроцедур</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8e829242-7274-4bdc-a9d2-6faad444489d">
+    <name>ФормаЗначенияПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма значения по умолчанию</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="b87bdeeb-024c-47e1-98ff-a310f7cc127f">
+    <name>КонтрольПамятиПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль потребления памяти</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

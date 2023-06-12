@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="025e77e0-36c1-4fce-b742-1ed1fea22e50">
+  <producedTypes>
+    <selectionType typeId="6eff55e2-e596-4c27-9704-8648fd0fafd8" valueTypeId="cfde9357-c9e5-403d-afb7-1c708048787d"/>
+    <listType typeId="c1608cd7-a78b-4758-adb2-d1fb16c1455c" valueTypeId="3991ebd4-5c08-40a3-9c17-c8d782f7dda6"/>
+    <managerType typeId="948dda50-4581-41b8-8d17-8d3425df7b36" valueTypeId="bde42c5e-cabb-4a66-8f10-0c3582fbf787"/>
+    <recordSetType typeId="f02a53dd-0a25-46f2-8216-c7d42f16d139" valueTypeId="b420fc61-6818-4417-b2b1-7e1d668e64f4"/>
+    <recordKeyType typeId="2285e31a-75ae-41b7-87d1-060bba25df55" valueTypeId="3d7105f4-0ddd-4bee-a593-e726fc183eb1"/>
+    <recordType typeId="9f16a3b5-9dda-4714-9509-b9f2bdae7f52" valueTypeId="ae4729e3-ea01-4968-ab09-18b9d5469b9f"/>
+    <recordManagerType typeId="a97447c0-d190-4c45-841a-7421d21bd2ca" valueTypeId="b7b1dde6-1854-4cfb-9f4f-c777a3ddfffa"/>
+  </producedTypes>
+  <name>ОценкаПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценки пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a5aa0fc1-84b7-4ed9-b81c-b876189b1099">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="1bc1c566-3e38-4666-b139-1a19337489c8">
+    <name>ОбщаяОценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая оценка</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ОценкаПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ОценкаПользователей.EnumValue.Отлично</value>
+    </fillValue>
+  </resources>
+  <resources uuid="a6e28f2f-7d61-479d-b3c0-3900f69e9180">
+    <name>СкоростьВыполненияОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скорость выполнения операций</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ОценкаПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ОценкаПользователей.EnumValue.Отлично</value>
+    </fillValue>
+  </resources>
+  <resources uuid="1a3fb84a-6177-4d04-bd40-b1c7a974f414">
+    <name>ОтсутствиеОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие ошибок</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ОценкаПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ОценкаПользователей.EnumValue.Отлично</value>
+    </fillValue>
+  </resources>
+  <resources uuid="0fe50749-6bf2-45a7-b726-18367f87d823">
+    <name>Доступность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступность</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ОценкаПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ОценкаПользователей.EnumValue.Отлично</value>
+    </fillValue>
+  </resources>
+  <resources uuid="522ce54f-78e5-4d4c-9843-c436897702e4">
+    <name>Функционал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функционал</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ОценкаПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b7e6154d-078f-4c41-ae16-76bd3c9c7db6">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПользователиЗамерПроизводительности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b7b35107-fd94-4816-999b-d537ec668dc8">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c354975f-cf06-4b93-9f53-4cd2e944e560">
+    <name>ФормаЗаписиОтветственным</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи ответственным</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

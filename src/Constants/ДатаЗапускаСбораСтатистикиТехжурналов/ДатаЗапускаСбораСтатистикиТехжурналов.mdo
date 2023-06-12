@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fe90182-f265-4745-9c67-bd4e909854ff">
+  <producedTypes>
+    <managerType typeId="6b5b9012-163c-4331-bd36-b0fd7d7038d0" valueTypeId="ccd5a533-0901-494b-8bb5-a319364632ec"/>
+    <valueManagerType typeId="f3df45b2-0d60-41a7-9f2d-7c7bde932980" valueTypeId="6b4e313a-f51b-4a14-b213-8b5d5db14757"/>
+    <valueKeyType typeId="f0da8cc6-2550-5fcc-a24e-c73c0182ea41" valueTypeId="abe0f633-7b06-5cb5-b5ce-98c38c6f8569"/>
+  </producedTypes>
+  <name>ДатаЗапускаСбораСтатистикиТехжурналов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата запуска сбора статистики техжурналов</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

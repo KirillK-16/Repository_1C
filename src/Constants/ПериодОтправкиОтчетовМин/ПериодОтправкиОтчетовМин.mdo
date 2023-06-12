@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa9c3b67-4d51-47e8-888d-61053391593c">
+  <producedTypes>
+    <managerType typeId="76177681-38cf-4af1-b3e2-dcf90c631e38" valueTypeId="bd94f8fa-2be0-4bd5-9d02-c61bb784aacc"/>
+    <valueManagerType typeId="4d073feb-f372-47f1-8e9b-e242e893e34f" valueTypeId="cb85bc74-3082-4bd1-b759-3ef94266fa4c"/>
+    <valueKeyType typeId="2fa478f4-4a07-5e8a-8ce8-ab26d969ac90" valueTypeId="a5a0e9b6-0232-51b2-ae34-27f1bb9b096d"/>
+  </producedTypes>
+  <name>ПериодОтправкиОтчетовМин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период отправки отчетов (в минутах)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

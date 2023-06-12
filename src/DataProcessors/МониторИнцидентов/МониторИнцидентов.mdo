@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c17fb1c1-a163-4a12-ac95-5ab35973e370">
+  <producedTypes>
+    <objectType typeId="16560e30-7a36-4b23-8072-fed2ec1e4773" valueTypeId="55fc0851-38c0-45cd-bca8-33f48b63abb3"/>
+    <managerType typeId="e92513b4-63f8-4518-b78a-8fd958b76f36" valueTypeId="c6c510dc-c5fb-4432-8abb-6cdffcc5045d"/>
+  </producedTypes>
+  <name>МониторИнцидентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор инцидентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МониторИнцидентов.Form.Форма</defaultForm>
+  <forms uuid="fdfcf68b-b268-4eb6-bccb-893502f56fed">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="703760ff-b9c1-420f-9d20-b0f4891e48aa">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

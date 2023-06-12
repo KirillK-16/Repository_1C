@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b107c0b-82b9-495d-8542-afbe6da464f0">
+  <producedTypes>
+    <refType typeId="be8714c7-5f8d-432c-b49a-43d6418e8bf4" valueTypeId="a5cb0d16-8300-4d6a-b28a-48ec24e83ac9"/>
+    <listType typeId="3cf16cbe-b7e3-4229-bbbb-18839da53a33" valueTypeId="b5dbb211-0860-40a2-90b9-d85e4ddaa5c7"/>
+    <managerType typeId="1aeed897-e77a-4901-bd97-b4d1e2c0de07" valueTypeId="c5b2ceaa-06f3-4ea2-82bd-9953f5a1e745"/>
+  </producedTypes>
+  <name>ФункцииОповещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функции оповещений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ad5d60cb-ffc3-4407-af2d-d64ec0c2ef9a">
+    <name>Минимум</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимум</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c7054ea-9f67-4a12-9313-6a9f4c9b71c2">
+    <name>Максимум</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимум</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b86cfca1-698f-4d2b-80b1-1ae3805f61aa">
+    <name>Среднее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среднее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5931a520-aeb8-410d-970c-7dc53e881664">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37db3122-30cb-4444-a971-8443eac93515">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

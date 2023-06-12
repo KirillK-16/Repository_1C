@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8222fff4-e9ee-401c-9721-2cebca4b6e91">
+  <name>ЦентрМониторингаПолучениеДампов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр мониторинга: получение дампов</value>
+  </synonym>
+  <methodName>CommonModule.ЦентрМониторингаПолучениеДампов.ПолучитьИнформациюОЗапрошенныхДампахРегламентноеЗадание</methodName>
+  <description>Центр мониторинга: получение дампов</description>
+  <key>47c9c597-d57d-4009-b458-b8d1f1893eee</key>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

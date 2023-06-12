@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c18ca12f-2740-46da-8433-36ada37fd18e">
+  <producedTypes>
+    <selectionType typeId="e57e2c99-8fb8-488b-96b1-5bb188080b71" valueTypeId="aa83fbe9-aa1b-419d-bdd9-4a0223ae8a52"/>
+    <listType typeId="41588b98-7c6a-41bb-b5ea-453ec047831f" valueTypeId="85512711-bc23-47ff-a142-eb005e664988"/>
+    <managerType typeId="3375159d-d952-4fd6-b45e-fae51b440692" valueTypeId="4bd1d4ee-cbdc-431f-9c4d-d28d90fcad42"/>
+    <recordSetType typeId="a1898343-7dd7-49cb-bb0d-217cf378667c" valueTypeId="a803f72e-743b-4b1c-8e14-8951ee06c8f4"/>
+    <recordKeyType typeId="d4b60fea-4cf8-41aa-a66b-cd9db623c9d7" valueTypeId="e949581b-8342-4627-820a-25ac04d7d821"/>
+    <recordType typeId="f62d112f-a73c-408c-8392-b0d9fe510d86" valueTypeId="791c1b11-5cbf-4025-a0a4-c227f2c0cd47"/>
+    <recordManagerType typeId="cf28c04b-14e4-459a-9030-b0b72de1b050" valueTypeId="5867ccaf-8d15-422f-8564-e2ca3bca8f02"/>
+  </producedTypes>
+  <name>АсинхронныеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Асинхронные задачи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9b1175e2-82e3-4c71-8bb8-7377a73ed5a6">
+    <name>НомерЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер задачи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>32</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c1236312-5f0d-417d-af14-bc8f71ad8376">
+    <name>ХранилищеПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище параметров</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="c572cf9f-a969-40cc-ba3c-051572888383">
+    <name>Исполняется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполняется</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="303b51ca-b053-4ea5-9cc7-52fc7fb3e466">
+    <name>ИдентификаторСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сеанса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </dimensions>
+  <dimensions uuid="538c55f9-507e-42a8-89dc-22a15ce0a2f4">
+    <name>ИдентификаторНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор настройки</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="d74b95eb-2407-43a5-a560-911afdbbfcaa">
+    <name>ТипЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип задачи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1ab42708-be27-4549-86fc-31de641060c8">
+    <name>ИдентификаторЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор записи</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c620cdb-2d56-4b8a-9eae-ac0e09e9ccfb">
+  <producedTypes>
+    <managerType typeId="217e9cd1-5e60-48c5-8bee-1838d4ef4c60" valueTypeId="3faaef35-7ce3-49a1-a9c5-b406869335a6"/>
+    <valueManagerType typeId="4f072eb5-f645-43f3-83c9-46612c283f02" valueTypeId="a8acd7a4-bb35-4db2-af88-b0881429356f"/>
+    <valueKeyType typeId="eed2551b-0915-593d-970f-93579874d80a" valueTypeId="45e0a558-0746-5efb-bd7d-c90d5aba8867"/>
+  </producedTypes>
+  <name>НастройкиЗащищенногоСоединенияСSMSПровайдером</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки защищенного соединения с SMS провайдером</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.НастройкиЗащищенногоСоединения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

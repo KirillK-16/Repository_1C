@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29c7920c-14f8-4f44-a866-c3b4c007c997">
+  <name>ВернутьсяКПервоначальномуСостоянию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вернуться к первоначальному состоянию</value>
+  </synonym>
+</mdclass:CommonPicture>

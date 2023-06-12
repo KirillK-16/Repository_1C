@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abfd624d-a069-47e7-a58c-cd1dba914c1e">
+  <producedTypes>
+    <managerType typeId="852a4645-a68d-4240-ba3f-19216fc9ab31" valueTypeId="9574b531-ff47-4014-b05e-eb3a8b893008"/>
+    <valueManagerType typeId="159a6f00-578c-497b-8627-e810ac8b67bd" valueTypeId="afba39c5-51cd-4db9-9063-e615ad2ee30a"/>
+    <valueKeyType typeId="7ffeafb3-7ec2-420f-8088-9d5b471294df" valueTypeId="686b9f46-acf3-4e95-87d0-54ebe6eab00c"/>
+  </producedTypes>
+  <name>ВидимостьПомощникПерехода_2_1_3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ппомощник перехода 2.1.3</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ВидимостьПомощникПерехода_2_1_3</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

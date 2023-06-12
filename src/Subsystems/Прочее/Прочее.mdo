@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af5c3381-e6cb-4439-b92b-f0b97077b2ad">
+  <name>Прочее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочее</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>ScheduledJob.ОтправкаОтчета</content>
+  <content>Enum.ТипыТекстовПочтовыхСообщений</content>
+  <content>CommonTemplate.КонтрольПамятиНеизвестнаяОшибка</content>
+  <content>Constant.SMTPНастройкиАктуальны</content>
+  <content>Constant.POP3НастройкиАктуальны</content>
+  <content>InformationRegister.СостоянияКонтрольныхПроцедур</content>
+  <content>InformationRegister.НастройкиКонтрольРегламентныхЗаданий</content>
+  <content>InformationRegister.ВременаРегламентныхЗаданий</content>
+  <content>Constant.ОбратныйАдресЭлектроннойПочты</content>
+  <content>Constant.ВыполнятьКонтрольныеПодключенияВнешнимиСредствами</content>
+  <content>Constant.ТаймаутУстановкиСоединенияСПубликациейСек</content>
+  <content>Constant.ВыполнятьПроверкуПубликаций</content>
+  <content>ScheduledJob.ПроверкаПубликаций</content>
+  <content>InformationRegister.ДоступностьСайта</content>
+  <content>Catalog.ПроцентДоступностиСервисаВсеРесурсы</content>
+</mdclass:Subsystem>

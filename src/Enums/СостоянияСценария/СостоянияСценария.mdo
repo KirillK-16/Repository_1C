@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a44b1502-b8c9-4174-9400-a735c082133d">
+  <producedTypes>
+    <refType typeId="4de74b7f-210b-4525-b163-4a696a3ae26b" valueTypeId="8b73f98d-c878-4775-9a98-a700b4b82dc9"/>
+    <listType typeId="d821967c-a88e-4878-a38a-db46f45cd7de" valueTypeId="81491056-bcbd-4ff0-8d44-55b4bb6456c3"/>
+    <managerType typeId="18f64a9b-3cf6-4498-8b68-80033ce4c2c1" valueTypeId="aefc1489-5369-4683-a151-34679d1e44a0"/>
+  </producedTypes>
+  <name>СостоянияСценария</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния сценария</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="683642a9-f1c9-443f-bcb7-c432f80ef453">
+    <name>НеЗапланирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не запланирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e887c64-f378-4e87-9e95-7f152b2ca89f">
+    <name>Запланирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd53d644-0824-4266-8e6e-4a8cfd66863c">
+    <name>Стартован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стартован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ead325c-a6a9-4080-85c5-45183341e757">
+    <name>ЗавершенУспешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен успешно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e96d7d70-7a7b-448b-9649-7325ed14118f">
+    <name>ЗавершенУсловноУспешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен успешно (с оговорками)</value>
+    </synonym>
+    <comment>Не выполнена успешно часть шагов в блоке вспомогательных шагов</comment>
+  </enumValues>
+  <enumValues uuid="a7a66e61-80df-4d89-aa75-46f4ae19d775">
+    <name>ЗавершенНеуспешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен неуспешно</value>
+    </synonym>
+    <comment>Состояние системы не изменено</comment>
+  </enumValues>
+  <enumValues uuid="c3b9f49a-16a7-4104-b126-979054b625b1">
+    <name>ЗавершенФатально</name>
+    <synonym>
+      <key>ru</key>
+      <value>Катастрофа!</value>
+    </synonym>
+    <comment>Состояние системы  изменено и не восстановлено</comment>
+  </enumValues>
+  <enumValues uuid="35248e58-7be0-4a2c-9bf3-7bdbc47e81f2">
+    <name>Прерван</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прерван</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="936ca0de-b28f-4892-bc48-9bef39472412">
+    <name>ТестСтартован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест стартован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb15cb52-1065-4424-946e-76ed8f7f20e7">
+    <name>ТестЗавершенУспешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест завершен успешно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="676d5973-4493-44e6-9ef2-ff10778573cd">
+    <name>ТестЗавершенНеуспешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест завершен неуспешно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0fa0db1d-9853-4544-b36f-3094175401c1">
+    <name>ВПроцессеОтката</name>
+    <synonym>
+      <key>ru</key>
+      <value>В процессе отката</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
